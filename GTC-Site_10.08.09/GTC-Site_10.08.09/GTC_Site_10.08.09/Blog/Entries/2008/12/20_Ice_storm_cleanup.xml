@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="04B0D5A4-7700-4006-8159-30A2E3EB9756">
+  <lastEdited clientType="local-build-20091009" date="2009-10-09 09:13:47 -0400"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Blog</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="20_Ice_storm_cleanup_files/shapeimage_1.png" left="0px" top="0px" width="395px" height="210px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>A hearty group of 8 trail enthusiasts met at Williams Barn to commence work on cleaning up the trails from last week&#x2019;s ice storm.  The foot of snow from last evening made work difficult but offered a tranquil setting.  &#xD;&#xD;It will take months to clean up all the trails so if you go for a hike please pick up debris and toss it to the side of the trail. </richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Ice storm cleanup</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;12/20/08&lt;/b&gt;</richText>
+  </textBox>
+</content>

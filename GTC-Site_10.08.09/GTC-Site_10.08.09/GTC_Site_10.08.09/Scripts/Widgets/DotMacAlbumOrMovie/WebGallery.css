@@ -1,0 +1,71 @@
+/*  The main widget <div> element.
+*/
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie {
+}
+
+/*  Root <div> for all widget views.
+*/
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .WebGallery {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*  Snippet View.
+*/
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie div.WebGallerySnippetView {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*  The Status View.
+*/
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .WebGalleryStatusView {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(206,206,206);
+    overflow: hidden;
+}
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .StatusMessageBlock {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 147px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(52,52,52);
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .StatusUpperRightBadge {
+    float: right;                                                                               
+    margin-right: 5px;                                                                                       
+    margin-top: 5px;                                                                                         
+}                                                                                                     
+
+/*  Status View table.
+*/
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .StatusMessageTable {
+    position: absolute;
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.com-apple-iweb-widget-DotMacAlbumOrMovie .StatusMessageTable td {
+    vertical-align: middle;
+    text-align: center;
+}
+

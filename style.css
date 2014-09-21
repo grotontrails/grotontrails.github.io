@@ -1,0 +1,81 @@
+a:link {
+	color: #84414A;
+	text-decoration: underline;
+	}
+a:visited { 
+	color: #84414A;
+	text-decoration: underline; 
+	}
+a:hover {
+	color: #666666;
+	text-decoration: underline;
+	}
+a:active { 
+	color: #84414A;
+	text-decoration: underline; 
+	}
+	
+.textVerd { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#000000;
+	line-height:14px;
+	}
+	
+.textVerdBold { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color:#112269;
+	line-height:14px;
+	font-weight: bold;
+	}
+	
+.textVerdBold2 { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color:#112269;
+	line-height:14px;
+	font-weight: bold;
+	}
+
+td.box4grey
+{
+	border-style: solid;
+	background-color:#FFFFFF;
+	border-top-width: 1px;
+	border-top-color: #D5D5D5;
+	border-right-width: 1px;
+	border-right-color: #D5D5D5;
+	border-left-width: 1px;
+	border-left-color: #D5D5D5;
+	border-bottom-width: 1px;
+	border-bottom-color: #D5D5D5;
+}
+
+td.box4green
+{
+	border-style: solid;
+	background-color:#D7E8A1;
+	border-top-width: 1px;
+	border-top-color: #B0D144;
+	border-right-width: 1px;
+	border-right-color: #B0D144;
+	border-left-width: 1px;
+	border-left-color: #B0D144;
+	border-bottom-width: 1px;
+	border-bottom-color: #B0D144;
+}
+
+td.boxBlack
+{
+	border-style: solid;
+	background-color:#EEF7D0;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+}
