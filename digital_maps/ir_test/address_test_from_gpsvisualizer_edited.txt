@@ -1,0 +1,839 @@
+// This section identifies waypoint images
+symbol=http://dl.dropbox.com/u/68002325/digital_maps/ir_test/grn-circle-lv.png name=green
+symbol=http://dl.dropbox.com/u/68002325/digital_maps/ir_test/red-circle-lv.png name=red
+// This section lists the waypoint locations and related information
+
+40.866147,-73.094015;Centereach, NY;Centereach, NY;green
+22.58174,-102.185738;Bubbletown, QZ;Bubbletown, QZ;green
+22.58174,-102.185738;Bubbletown, QZ;Bubbletown, QZ;green
+42.885445,-71.49527;Merrimack, NH;Merrimack, NH;green
+42.885445,-71.49527;Merrimack, NH;Merrimack, NH;green
+42.885445,-71.49527;Merrimack, NH;Merrimack, NH;green
+38.20445,-79.017938;verona, VA;verona, VA;green
+38.20445,-79.017938;APO, AA;APO, AA;green
+42.94751,-71.163567;Sandown, NH;Sandown, NH;green
+43.833768,-87.826145;howards grove, WI;howards grove, WI;green
+42.920521,-73.999527;Scotia, NY;Scotia, NY;green
+47.19011,-122.447756;Tacoma, WA;Tacoma, WA;green
+39.91531,-87.933027;Allerton, IL;Allerton, IL;green
+26.331998,-80.208837;Boca Raton, FL;Boca Raton, FL;green
+38.447479,-81.968235;Hurricane, WV;Hurricane, WV;green
+35.440486,-78.069698;Goldsboro, NC;Goldsboro, NC;green
+29.638878,-95.595368;Stafford, TX;Stafford, TX;green
+26.666472,-81.782932;Fort Myers, FL;Fort Myers, FL;green
+35.332422,-81.334819;Bessemer City, NC;Bessemer City, NC;green
+42.323315,-71.339249;Wayland, MA;Wayland, MA;green
+39.591402,-84.243257;Miamisburg, Oh;Miamisburg, Oh;green
+26.313345,-80.268331;Parkland, FL;Parkland, FL;green
+26.313345,-80.268331;Parkland, FL;Parkland, FL;green
+29.628887,-81.473953;hastings, FL;hastings, FL;green
+40.697848,-80.31441;Beaver, PA;Beaver, PA;green
+41.568577,-87.610113;Thornton, IL;Thornton, IL;green
+35.66534,-80.794298;Mooresville, NC;Mooresville, NC;green
+35.66534,-80.794298;Mooresville, NC;Mooresville, NC;green
+35.71562,-91.212382;tuckerman, ar;tuckerman, ar;green
+35.352111,-81.101819;Stanley, NC;Stanley, NC;green
+30.45115,-97.811165;Austin, Tx;Austin, Tx;green
+39.18619,-85.967039;Columbus, IN;Columbus, IN;green
+34.456845,-82.768474;Anderson, SC;Anderson, SC;green
+40.793408,-77.862481;State College, PA;State College, PA;green
+42.972103,-71.515732;Bedford, NH;Bedford, NH;green
+41.022906,-75.900356;Freeland, PA;Freeland, PA;green
+29.609797,-95.582433;Stafford, TX;Stafford, TX;green
+26.615686,-80.049671;Lake Worth, FL;Lake Worth, FL;green
+33.552174,-81.953824;North Augusta, SC;North Augusta, SC;green
+42.421179,-89.046952;roscoe, IL;roscoe, IL;green
+41.930729,-87.656728;Chicago, IL;Chicago, IL;green
+37.375237,-79.623327;Bedford, VA;Bedford, VA;green
+33.461592,-117.574976;San Clemente, CA;San Clemente, CA;green
+33.461592,-117.574976;San Clemente, CA;San Clemente, CA;green
+35.594991,-80.434814;Salisbury, NC;Salisbury, NC;green
+41.57085,-73.004921;Waterbury, CT;Waterbury, CT;green
+33.851322,-117.740041;Anaheim, CA;Anaheim, CA;green
+45.51144,-122.887135;Beaverton, OR;Beaverton, OR;green
+43.031168,-88.004759;Milwaukee, WI;Milwaukee, WI;green
+43.031168,-88.004759;Milwaukee, WI;Milwaukee, WI;green
+38.181762,-122.139759;Fairfield, CA;Fairfield, CA;green
+38.181762,-122.139759;Fairfield, CA;Fairfield, CA;green
+42.003383,-91.634458;Cedar Rapids, ia;Cedar Rapids, ia;green
+39.735174,-77.531549;Waynesboro, PA;Waynesboro, PA;green
+39.93871,-86.276099;Zionsville, IN;Zionsville, IN;green
+41.324154,-75.744552;Dupont, PA;Dupont, PA;green
+40.053389,-77.519903;Shippensburg, PA;Shippensburg, PA;green
+40.104513,-111.648689;Spanish Fork, UT;Spanish Fork, UT;green
+35.46735,-81.253299;Lincolnton, nc;Lincolnton, nc;green
+33.431725,-84.388242;Fayetteville, GA;Fayetteville, GA;green
+27.880632,-82.647137;ST PETERSBURG, FL;ST PETERSBURG, FL;green
+37.96307,-84.89351;Lawrenceburg, KY;Lawrenceburg, KY;green
+44.304413,-96.803296;Brookings, SD;Brookings, SD;green
+32.636628,-83.677151;Warner Robins, GA;Warner Robins, GA;green
+35.665002,-80.794069;mooresville, NC;mooresville, NC;green
+35.665002,-80.794069;mooresville, NC;mooresville, NC;green
+40.789816,-73.817862;Whitestone, NY;Whitestone, NY;green
+44.012564,-90.066794;necedah, WI;necedah, WI;green
+44.012564,-90.066794;necedah, WI;necedah, WI;green
+35.799933,-78.772903;Cary, NC;Cary, NC;green
+35.799933,-78.772903;Cary, NC;Cary, NC;green
+35.799933,-78.772903;Cary, NC;Cary, NC;green
+38.520235,-81.491491;Elkview, wv;Elkview, wv;green
+35.25729,-79.022417;Cameron, NC;Cameron, NC;green
+44.797074,-93.588631;Chaska, MN;Chaska, MN;green
+44.797074,-93.588631;Chaska, MN;Chaska, MN;green
+44.797074,-93.588631;Chaska, MN;Chaska, MN;green
+43.089855,-78.950591;Niagara Falls, NY;Niagara Falls, NY;green
+39.600588,-76.951313;Westminster, MD;Westminster, MD;green
+27.249008,-80.385833;port st lucie, FL;port st lucie, FL;green
+44.012498,-116.982266;Ontario, OR;Ontario, OR;green
+27.964656,-82.28664;Brandon, FL;Brandon, FL;green
+26.35049,-80.089004;Boca Raton, FL;Boca Raton, FL;green
+42.413361,-71.162285;Bedford, MA;Bedford, MA;green
+42.413361,-71.162285;Bedford, MA;Bedford, MA;green
+42.062449,-71.718185;City, MA;City, MA;green
+38.997921,-105.550964;city, CO;city, CO;green
+42.062449,-71.718185;iracing, MA;iracing, MA;green
+32.362243,-86.250883;Montgomery, AL;Montgomery, AL;green
+33.421684,-82.234042;Grovetown, GA;Grovetown, GA;green
+40.711497,-73.317559;Babylon, NY;Babylon, NY;green
+30.446964,-88.825882;Ocean Springs, MS;Ocean Springs, MS;green
+43.837471,-70.408005;Windham, ME;Windham, ME;green
+39.322564,-77.623336;Brunswick, MD;Brunswick, MD;green
+38.520889,-81.492132;Elkview, WV;Elkview, WV;green
+37.763919,-87.111245;Owensboro, KY;Owensboro, KY;green
+34.181623,-79.826851;Florence, SC;Florence, SC;green
+38.439037,-82.12978;Milton, WV;Milton, WV;green
+45.43459,-122.813967;tigard, or;tigard, or;green
+33.655785,-112.088939;phoenix, AZ;phoenix, AZ;green
+39.322085,-85.970855;Edinburgh, IN;Edinburgh, IN;green
+37.071887,-121.662883;Morgan Hill, CA;Morgan Hill, CA;green
+39.464552,-87.342815;Terre Haute, IN;Terre Haute, IN;green
+39.17286,-77.282121;Germantown, MD;Germantown, MD;green
+39.17286,-77.282121;Germantown, MD;Germantown, MD;green
+39.17286,-77.282121;Germantown, MD;Germantown, MD;green
+34.103204,-83.7841;Braselton, GA;Braselton, GA;green
+40.719195,-73.440032;Farmingdale, NY;Farmingdale, NY;green
+32.040226,-81.002621;Savannah, Ga;Savannah, Ga;green
+40.827641,-96.708287;Lincoln, NE;Lincoln, NE;green
+44.512689,-88.06244;green bay, WI;green bay, WI;green
+44.512689,-88.06244;green bay, WI;green bay, WI;green
+27.785759,-82.715033;Saint Petersburg, FL;Saint Petersburg, FL;green
+42.496384,-83.170093;Berkley, MI;Berkley, MI;green
+42.478467,-83.132059;Royal Oak, MI;Royal Oak, MI;green
+38.115319,-122.215162;Vallejo, CA;Vallejo, CA;green
+33.071499,-87.578948;Tuscaloosa, AL;Tuscaloosa, AL;green
+37.338116,-120.453058;MERCED, CA;MERCED, CA;green
+41.714977,-72.914253;Bristol, CT;Bristol, CT;green
+39.631548,-76.069769;Port Deposit, MD;Port Deposit, MD;green
+39.631548,-76.069769;Port Deposit, MD;Port Deposit, MD;green
+41.343376,-75.984426;Dallas, PA;Dallas, PA;green
+41.343376,-75.984426;Dallas, PA;Dallas, PA;green
+40.252548,-74.686958;Mercerville, NJ;Mercerville, NJ;green
+40.252548,-74.686958;Mercerville, NJ;Mercerville, NJ;green
+28.612773,-81.226649;Oviedo, FL;Oviedo, FL;green
+35.868874,-80.296504;Elmont, NC;Elmont, NC;green
+40.710835,-73.695182;Elmont, NY;Elmont, NY;green
+33.585498,-82.197604;Evans, GA;Evans, GA;green
+37.147122,-122.128154;Boulder Creek, CA;Boulder Creek, CA;green
+37.147122,-122.128154;Boulder Creek, CA;Boulder Creek, CA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+47.775464,-122.140255;Woodinville, WA;Woodinville, WA;green
+44.000852,-92.373288;Rochester, MN;Rochester, MN;green
+35.664527,-80.793355;Cleveland, NC;Cleveland, NC;green
+44.115078,-88.473594;Neenah, WI;Neenah, WI;green
+45.013012,-123.011729;keizer, OR;keizer, OR;green
+45.013012,-123.011729;keizer, OR;keizer, OR;green
+28.999564,-80.913663;Edgewater, Fl;Edgewater, Fl;green
+39.341193,-94.758641;Platte City, MO;Platte City, MO;green
+39.341193,-94.758641;Platte City, MO;Platte City, MO;green
+39.341193,-94.758641;Platte City, MO;Platte City, MO;green
+41.462357,-71.308502;Newport, RI;Newport, RI;green
+43.167955,-77.446383;Penfield, NY;Penfield, NY;green
+42.850642,-73.994443;Scotia, NY;Scotia, NY;green
+40.423158,-76.475081;Jonestown, PA;Jonestown, PA;green
+37.291056,-121.799621;San Jose, CA;San Jose, CA;green
+42.549183,-71.278427;Billerica, MA;Billerica, MA;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+43.759395,-88.427323;Fond du Lac, WI;Fond du Lac, WI;green
+39.993857,-83.012234;Columbus, OH;Columbus, OH;green
+40.772091,-74.019974;Weehawken, NJ;Weehawken, NJ;green
+39.436464,-75.638545;Townsend, DE;Townsend, DE;green
+42.639069,-71.489449;Tyngsboro, MA;Tyngsboro, MA;green
+25.919301,-80.33607;Miami Lakes, FL;Miami Lakes, FL;green
+33.791454,-117.836669;Orange, CA;Orange, CA;green
+30.287962,-89.755955;Slidell, LA;Slidell, LA;green
+36.605315,-88.325828;Murray, KY;Murray, KY;green
+40.660513,-73.842666;Howard Beach, NY;Howard Beach, NY;green
+37.14713,-76.396424;poquoson, VA;poquoson, VA;green
+47.74937,-122.282155;Lake Forest Park, Wa;Lake Forest Park, Wa;green
+32.797087,-117.238853;San Diego, CA;San Diego, CA;green
+43.832207,-90.621994;Norwalk, CT;Norwalk, CT;green
+35.108464,-114.594166;Bullhead City, AZ;Bullhead City, AZ;green
+30.056966,-94.155415;Beaumont, TX;Beaumont, TX;green
+45.447077,-122.644345;Milwaukie, OR;Milwaukie, OR;green
+43.853439,-72.368225;South Strafford, VT;South Strafford, VT;green
+34.175827,-81.005893;Blythewood, SC;Blythewood, SC;green
+41.266743,-70.09256;NANTUCKET, MA;NANTUCKET, MA;green
+35.662804,-97.506869;Edmond, OK;Edmond, OK;green
+37.09977,-76.533094;Newport News, Va;Newport News, Va;green
+44.322369,-74.13955;Saranac Lake, ny;Saranac Lake, ny;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+44.322369,-74.13955;Saranac Lake, NY;Saranac Lake, NY;green
+35.64947,-80.903463;Mooresville, NC;Mooresville, NC;green
+34.981425,-81.000358;Rock Hill, SC;Rock Hill, SC;green
+34.981425,-81.000358;Rock Hill, SC;Rock Hill, SC;green
+34.981425,-81.000358;Rock Hill, SC;Rock Hill, SC;green
+32.754166,-79.973504;Charleston, SC;Charleston, SC;green
+36.161087,-86.647308;Nashville, TN;Nashville, TN;green
+35.215488,-80.573663;Midland, NC;Midland, NC;green
+30.597374,-88.081427;Mobile, AL;Mobile, AL;green
+47.840369,-122.28873;Lynnwood, WA;Lynnwood, WA;green
+42.522209,-71.250481;Bedford, MA;Bedford, MA;green
+42.522209,-71.250481;Bedford, MA;Bedford, MA;green
+42.522209,-71.250481;Bedford, MA;Bedford, MA;green
+42.49333,-71.276573;Bedford, MA;Bedford, MA;green
+42.46085,-71.348717;Bedford, MA;Bedford, MA;green
+42.46085,-71.348717;Bedford, MA;Bedford, MA;green
+42.46085,-71.348717;Bedford, MA;Bedford, MA;green
+42.46085,-71.348717;Bedford, MA;Bedford, MA;green
+42.82616,-71.140762;Atkinson, NH;Atkinson, NH;green
+38.137783,-85.795373;Louisville, KY;Louisville, KY;green
+42.324108,-71.661568;Northborough, MA;Northborough, MA;green
+33.890652,-84.448916;Atlanta, GA;Atlanta, GA;green
+38.548538,-92.179326;Jefferson City, MO;Jefferson City, MO;green
+44.822137,-89.708624;Mosinee, WI;Mosinee, WI;green
+33.697205,-117.979763;Fountain Valley, CA;Fountain Valley, CA;green
+34.017643,-84.771949;Dallas, GA;Dallas, GA;green
+34.017643,-84.771949;Dallas, GA;Dallas, GA;green
+34.017643,-84.771949;Dallas, GA;Dallas, GA;green
+34.017643,-84.771949;Dallas, GA;Dallas, GA;green
+34.017643,-84.771949;Dallas, GA;Dallas, GA;green
+27.229374,-80.244104;Jensen Beach, FL;Jensen Beach, FL;green
+27.229374,-80.244104;Jensen Beach, FL;Jensen Beach, FL;green
+40.268825,-75.283225;Hatfield, PA;Hatfield, PA;green
+40.268825,-75.283225;Hatfield, PA;Hatfield, PA;green
+44.674991,-93.186265;Farmington, MN;Farmington, MN;green
+35.025916,-120.494295;Nipomo, CA;Nipomo, CA;green
+45.316332,-93.553436;Elk River, MN;Elk River, MN;green
+40.359338,-86.872933;Lafayette, IN;Lafayette, IN;green
+30.467623,-84.319566;Tallahassee, FL;Tallahassee, FL;green
+39.678925,-74.281219;Mayetta, NJ;Mayetta, NJ;green
+30.516907,-89.159991;Gulfport, MS;Gulfport, MS;green
+30.516907,-89.159991;Gulfport, MS;Gulfport, MS;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+36.781444,-76.140777;Virginia Beach, VA;Virginia Beach, VA;green
+30.492867,-87.878206;Fairhope, AL;Fairhope, AL;green
+40.820231,-73.227116;Hauppauge, NY;Hauppauge, NY;green
+42.929643,-85.476994;Ada, MI;Ada, MI;green
+37.869279,-92.082277;Dixon, MO;Dixon, MO;green
+47.754162,-122.072567;Woodinville, WA;Woodinville, WA;green
+42.538436,-79.177193;Silver Creek, NY;Silver Creek, NY;green
+42.538436,-79.177193;Silver Creek, NY;Silver Creek, NY;green
+41.467167,-71.623581;West Kingston, RI;West Kingston, RI;green
+40.862741,-73.42935;Huntington, NY;Huntington, NY;green
+26.394043,-80.126629;Boca Raton, FL;Boca Raton, FL;green
+34.582702,-86.9612;Decatur, AL;Decatur, AL;green
+34.582702,-86.9612;Decatur, AL;Decatur, AL;green
+41.092558,-85.162832;Fort Wayne, In;Fort Wayne, In;green
+33.827534,-118.318909;Torrance, CA;Torrance, CA;green
+33.827534,-118.318909;Torrance, CA;Torrance, CA;green
+33.827534,-118.318909;Torrance, AL;Torrance, AL;green
+33.39166,-83.899616;Jackson, GA;Jackson, GA;green
+42.347111,-71.565727;Marlboro, MA;Marlboro, MA;green
+42.655505,-93.504669;Dows, IA;Dows, IA;green
+42.655505,-93.504669;Dows, IA;Dows, IA;green
+35.420382,-91.843087;Pangburn, AR;Pangburn, AR;green
+35.891425,-79.075836;Chapel Hill, NC;Chapel Hill, NC;green
+32.18752,-95.513114;Chandler, TX;Chandler, TX;green
+26.439454,-81.78617;Estero, Fl;Estero, Fl;green
+26.439454,-81.78617;Estero, FL;Estero, FL;green
+26.439454,-81.78617;Estero, FL;Estero, FL;green
+39.749507,-85.762876;Greenfield, IN;Greenfield, IN;green
+42.989712,-83.613179;Burton, MI;Burton, MI;green
+42.989712,-83.613179;Burton, MI;Burton, MI;green
+42.989712,-83.613179;Burton, MI;Burton, MI;green
+33.153256,-86.780601;Calera, AL;Calera, AL;green
+41.156551,-73.496277;New Canaan, CT;New Canaan, CT;green
+39.778812,-85.948798;CUMBERLAND, IN;CUMBERLAND, IN;green
+37.646715,-84.22985;berea, KY;berea, KY;green
+40.467589,-76.821007;Halifax, PA;Halifax, PA;green
+33.381616,-82.038832;Augusta, GA;Augusta, GA;green
+40.56488,-74.530609;Bound Brook, nj;Bound Brook, nj;green
+32.387399,-81.292677;Springfield, GA;Springfield, GA;green
+32.387399,-81.292677;Springfield, GA;Springfield, GA;green
+32.387399,-81.292677;Springfield, GA;Springfield, GA;green
+32.387399,-81.292677;Springfield, GA;Springfield, GA;green
+45.789308,-122.56001;Battle Ground, WA;Battle Ground, WA;green
+35.378461,-77.890899;Goldsboro, NC;Goldsboro, NC;green
+34.331179,-78.698649;Whiteville, NC;Whiteville, NC;green
+48.849981,-122.598875;Ferndale, WA;Ferndale, WA;green
+37.653298,-92.70422;lebanon, MO;lebanon, MO;green
+41.078884,-73.636139;Greenwich, CT;Greenwich, CT;green
+42.450443,-71.25145;Lexington, MA;Lexington, MA;green
+42.450443,-71.25145;Lexington, MA;Lexington, MA;green
+47.703958,-116.889887;post falls, ID;post falls, ID;green
+37.64015,-120.930872;Modesto, CA;Modesto, CA;green
+33.010947,-96.985203;Lewisville, TX;Lewisville, TX;green
+33.010947,-96.985203;Lewisville, TX;Lewisville, TX;green
+36.700194,-121.656125;salinas, CA;salinas, CA;green
+35.366938,-81.260259;Lincolnton, NC;Lincolnton, NC;green
+34.043733,-118.430242;Los Angeles, CA;Los Angeles, CA;green
+37.5406,-77.432699;Richmond, VT;Richmond, VT;green
+37.752717,-121.438111;Tracy, CA;Tracy, CA;green
+37.575535,-77.542263;Tracy, VA;Tracy, VA;green
+41.21257,-73.010262;Tracy, FL;Tracy, FL;green
+37.752717,-121.438111;Tracy, CA;Tracy, CA;green
+37.575535,-77.542263;Tracy, VA;Tracy, VA;green
+37.752717,-121.438111;Tracy, CA;Tracy, CA;green
+43.098471,-87.880868;Shorewood, WI;Shorewood, WI;green
+34.576454,-87.027931;Decatur, AL;Decatur, AL;green
+43.138258,-93.197509;Mason City, IA;Mason City, IA;green
+31.501409,-85.865593;New Brockton, AL;New Brockton, AL;green
+36.61547,-79.864209;Ridgeway, Va;Ridgeway, Va;green
+42.7167,-70.973598;Marlboro, Ma;Marlboro, Ma;green
+37.0164,-76.355421;hampton, VA;hampton, VA;green
+33.29995,-111.870184;Chandler, AZ;Chandler, AZ;green
+39.769626,-85.763004;Greenfield, IN;Greenfield, IN;green
+41.828343,-86.202696;Niles, MI;Niles, MI;green
+37.170988,-93.357121;springfield, mo;springfield, mo;green
+44.308308,-71.742035;Littleton, NH;Littleton, NH;green
+28.116527,-81.915709;lakeland, FL;lakeland, FL;green
+42.507331,-88.107869;Trevor, WI;Trevor, WI;green
+42.507331,-88.107869;Trevor, WI;Trevor, WI;green
+32.431047,-81.825492;Statesboro, GA;Statesboro, GA;green
+34.983856,-81.609209;Gaffney, SC;Gaffney, SC;green
+36.07695,-79.786372;Greensboro, NC;Greensboro, NC;green
+42.452686,-71.400658;concord, MA;concord, MA;green
+40.601437,-80.082814;Wexford, PA;Wexford, PA;green
+40.601437,-80.082814;Wexford, PA;Wexford, PA;green
+40.601437,-80.082814;Wexford, PA;Wexford, PA;green
+30.555352,-89.534867;Picayune, MS;Picayune, MS;green
+33.176264,-96.891381;Little Elm, TX;Little Elm, TX;green
+43.13516,-77.597142;Rochester, NY;Rochester, NY;green
+40.01929,-76.370887;Lancaster, PA;Lancaster, PA;green
+34.029515,-83.916325;Dacula, GA;Dacula, GA;green
+29.229787,-81.035003;Holly Hil, FL;Holly Hil, FL;green
+34.922798,-86.709763;Toney, Al;Toney, Al;green
+35.662263,-80.792878;CLEVELAND, NC;CLEVELAND, NC;green
+44.903781,-93.617785;Shorewood, MN;Shorewood, MN;green
+40.007206,-76.755078;York, PA;York, PA;green
+40.007206,-76.755078;York, PA;York, PA;green
+40.457365,-89.06461;Bloomington, IL;Bloomington, IL;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+29.557768,-95.316903;Pearland, TX;Pearland, TX;green
+35.853157,-81.196679;Taylorsville, NC;Taylorsville, NC;green
+41.723392,-71.724915;greene, RI;greene, RI;green
+28.586346,-81.26025;Orlando, FL;Orlando, FL;green
+33.739549,-112.32811;Peoria, AZ;Peoria, AZ;green
+36.871538,-76.26223;norfolk, va;norfolk, va;green
+31.638933,-84.194711;Leesburg, GA;Leesburg, GA;green
+35.335176,-80.788662;Charlotte, NC;Charlotte, NC;green
+34.556362,-87.033918;Decatur, AL;Decatur, AL;green
+34.088743,-83.949437;Buford, Ga;Buford, Ga;green
+39.373185,-84.212911;South Lebanon, OH;South Lebanon, OH;green
+39.373185,-84.212911;South Lebanon, OH;South Lebanon, OH;green
+39.703779,-84.110184;Kettering, OH;Kettering, OH;green
+34.25938,-83.747919;Gainesville, Ga;Gainesville, Ga;green
+34.25938,-83.747919;Gainesville, GA;Gainesville, GA;green
+34.25938,-83.747919;Gainesville, GA;Gainesville, GA;green
+34.25938,-83.747919;Gainesville, GA;Gainesville, GA;green
+34.25938,-83.747919;Gainesville, GA;Gainesville, GA;green
+32.512663,-92.359994;Calhoun, LA;Calhoun, LA;green
+38.795698,-94.93164;Gardner, ks;Gardner, ks;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+38.795698,-94.93164;Gardner, KS;Gardner, KS;green
+42.543754,-96.505392;North Sioux City, SD;North Sioux City, SD;green
+42.74593,-71.467453;NASHUA, nh;NASHUA, nh;green
+40.132328,-74.051773;Manasquan, NJ;Manasquan, NJ;green
+42.0382,-73.278793;Canaan, CT;Canaan, CT;green
+41.296482,-72.2612;Old Lyme, CT;Old Lyme, CT;green
+39.764225,-86.157203;Indianapolis, IN;Indianapolis, IN;green
+42.428551,-71.060333;Malden, MA;Malden, MA;green
+41.929276,-70.730629;Plymouth, MA;Plymouth, MA;green
+26.394618,-80.084965;Boca Raton, FL;Boca Raton, FL;green
+26.394618,-80.084965;Boca Raton, FL;Boca Raton, FL;green
+41.330711,-88.836761;ottawa, IL;ottawa, IL;green
+32.828144,-96.600287;Mesquite, TX;Mesquite, TX;green
+43.297703,-70.829613;Berwick, ME;Berwick, ME;green
+43.297703,-70.829613;Berwick, ME;Berwick, ME;green
+43.297703,-70.829613;Berwick, ME;Berwick, ME;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+39.970848,-76.518696;East Prospect, PA;East Prospect, PA;green
+41.659377,-88.507247;Plano, IL;Plano, IL;green
+35.637447,-78.747861;Fuquay Varina, NC;Fuquay Varina, NC;green
+35.637447,-78.747861;Fuquay Varina, NC;Fuquay Varina, NC;green
+35.637447,-78.747861;Fuquay Varina, NC;Fuquay Varina, NC;green
+35.637447,-78.747861;Fuquay Varina, NC;Fuquay Varina, NC;green
+35.637447,-78.747861;Fuquay Varina, NC;Fuquay Varina, NC;green
+39.66773,-86.109933;Indianapolis, In;Indianapolis, In;green
+33.714486,-83.94352;Conyers, GA;Conyers, GA;green
+40.703102,-111.981383;West Valley City, UT;West Valley City, UT;green
+40.703102,-111.981383;West Valley City, UT;West Valley City, UT;green
+38.552458,-75.125009;Ocean View, DE;Ocean View, DE;green
+41.92178,-73.091454;Winsted, CT;Winsted, CT;green
+41.92178,-73.091454;Winsted, CT;Winsted, CT;green
+41.92178,-73.091454;Winsted, CT;Winsted, CT;green
+47.314548,-122.283499;Federal Way, WA;Federal Way, WA;green
+34.975849,-80.639759;Monroe, NC;Monroe, NC;green
+44.068,-92.510902;Rochester, MN;Rochester, MN;green
+44.215611,-71.910522;Lisbon, NH;Lisbon, NH;green
+34.775442,-84.98009;Dalton, GA;Dalton, GA;green
+34.775442,-84.98009;Dalton, GA;Dalton, GA;green
+40.388014,-80.03943;Pittsburgh, PA;Pittsburgh, PA;green
+33.851328,-112.129948;Anthem, AZ;Anthem, AZ;green
+35.648257,-80.906509;Mooresville, NC;Mooresville, NC;green
+42.794193,-71.509438;Nashua, NH;Nashua, NH;green
+42.794193,-71.509438;Nashua, NH;Nashua, NH;green
+42.466232,-71.319496;Concord, MA;Concord, MA;green
+42.466232,-71.319496;Concord, MA;Concord, MA;green
+36.292186,-86.225741;Lebanon, TN;Lebanon, TN;green
+36.292186,-86.225741;Lebanon, TN;Lebanon, TN;green
+36.292186,-86.225741;Lebanon, TN;Lebanon, TN;green
+36.292186,-86.225741;Lebanon, TN;Lebanon, TN;green
+36.292186,-86.225741;Lebanon, TN;Lebanon, TN;green
+27.227289,-80.86269;Okeechobee, FL;Okeechobee, FL;green
+27.227289,-80.86269;Okeechobee, FL;Okeechobee, FL;green
+42.350899,-71.799606;West Boylston, MA;West Boylston, MA;green
+39.655307,-104.794317;Aurora, CO;Aurora, CO;green
+42.507717,-71.243187;Bedford, MA;Bedford, MA;green
+42.507717,-71.243187;Bedford, MA;Bedford, MA;green
+42.507717,-71.243187;Bedford, MA;Bedford, MA;green
+42.507717,-71.243187;Bedford, MA;Bedford, MA;green
+42.507717,-71.243187;Bedford, MA;Bedford, MA;green
+45.019816,-93.500061;Plymouth, MN;Plymouth, MN;green
+41.28723,-80.697373;Cortland, OH;Cortland, OH;green
+41.28723,-80.697373;Cortland, OH;Cortland, OH;green
+41.28723,-80.697373;Cortland, OH;Cortland, OH;green
+28.773103,-81.32797;Lake Mary, FL;Lake Mary, FL;green
+40.378073,-86.867246;Lafayette, IN;Lafayette, IN;green
+40.378073,-86.867246;Lafayette, IN;Lafayette, IN;green
+35.204041,-94.202279;Greenwood, AR;Greenwood, AR;green
+35.204041,-94.202279;Greenwood, AR;Greenwood, AR;green
+42.714558,-78.856303;Hamburg, NY;Hamburg, NY;green
+41.315008,-74.564055;Westtown, NY;Westtown, NY;green
+41.315008,-74.564055;Westtown, NY;Westtown, NY;green
+41.315008,-74.564055;Westtown, NY;Westtown, NY;green
+41.315008,-74.564055;Westtown, NY;Westtown, NY;green
+41.315008,-74.564055;Westtown, NY;Westtown, NY;green
+30.763988,-88.248088;Semmes, AL;Semmes, AL;green
+39.283905,-94.942628;Leavenworth, KS;Leavenworth, KS;green
+42.135777,-70.904388;Rockland, MA;Rockland, MA;green
+42.107812,-87.925821;Wheeling, IL;Wheeling, IL;green
+38.09674,-85.487823;Louisville, KY;Louisville, KY;green
+36.061942,-79.853653;Greensboro, NC;Greensboro, NC;green
+42.229279,-89.110499;ROCKFORD, IL;ROCKFORD, IL;green
+42.229279,-89.110499;ROCKFORD, IL;ROCKFORD, IL;green
+30.067792,-95.185339;Kingwood, TX;Kingwood, TX;green
+37.371174,-77.437537;Chester, VA;Chester, VA;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+42.956566,-70.862038;Hampton, NH;Hampton, NH;green
+39.918472,-105.15719;Superior, CO;Superior, CO;green
+39.334028,-77.339841;Frederick, MD;Frederick, MD;green
+33.702517,-84.726152;Douglasville, GA;Douglasville, GA;green
+33.702517,-84.726152;Douglasville, GA;Douglasville, GA;green
+33.702517,-84.726152;Douglasville, GA;Douglasville, GA;green
+33.702517,-84.726152;Douglasville, GA;Douglasville, GA;green
+35.293887,-97.642603;Newcastle, OK;Newcastle, OK;green
+40.629958,-79.968851;Gibsonia, PA;Gibsonia, PA;green
+40.629958,-79.968851;Gibsonia, PA;Gibsonia, PA;green
+42.191779,-89.041648;rockford, IL;rockford, IL;green
+42.577169,-83.085228;Sterling Heights, MI;Sterling Heights, MI;green
+42.560619,-72.031639;Templeton, MA;Templeton, MA;green
+42.560619,-72.031639;Templeton, MA;Templeton, MA;green
+42.560619,-72.031639;Templeton, MA;Templeton, MA;green
+42.560619,-72.031639;Templeton, MA;Templeton, MA;green
+43.19096,-73.887648;Porter Corners, NY;Porter Corners, NY;green
+43.19096,-73.887648;Porter Corners, NY;Porter Corners, NY;green
+43.19096,-73.887648;Porter Corners, NY;Porter Corners, NY;green
+43.19096,-73.887648;Porter Corners, NY;Porter Corners, NY;green
+42.189569,-88.363984;Lake in the Hills, IL;Lake in the Hills, IL;green
+36.784002,-76.117053;Virginia Beach, Va;Virginia Beach, Va;green
+36.784002,-76.117053;Virginia Beach, VA;Virginia Beach, VA;green
+36.784002,-76.117053;Virginia Beach, VA;Virginia Beach, VA;green
+37.032831,-83.979345;London, Ky;London, Ky;green
+47.937698,-122.690355;Port Ludlow, WA;Port Ludlow, WA;green
+41.453657,-81.856969;Fairview Park, OH;Fairview Park, OH;green
+33.590395,-86.657363;Birmingham, Al;Birmingham, Al;green
+33.590395,-86.657363;Birmingham, AL;Birmingham, AL;green
+33.590395,-86.657363;Birmingham, AL;Birmingham, AL;green
+35.235354,-89.940667;Memphis, TN;Memphis, TN;green
+42.328899,-122.805168;Medford, OR;Medford, OR;green
+34.188005,-84.817872;cartersville, GA;cartersville, GA;green
+44.929416,-93.195517;Saint Paul, MN;Saint Paul, MN;green
+32.86867,-117.21924;San Diego, CA;San Diego, CA;green
+40.310238,-85.500642;Gaston, IN;Gaston, IN;green
+40.310238,-85.500642;Gaston, IN;Gaston, IN;green
+40.310238,-85.500642;Gaston, IN;Gaston, IN;green
+30.191819,-81.606542;Jacksonville, FL;Jacksonville, FL;green
+34.120656,-84.531941;Woodstock, GA;Woodstock, GA;green
+34.120656,-84.531941;Woodstock, GA;Woodstock, GA;green
+34.120656,-84.531941;Woodstock, GA;Woodstock, GA;green
+38.876105,-77.394927;Fairfax, VA;Fairfax, VA;green
+35.023043,-80.97779;Fort Mill, SC;Fort Mill, SC;green
+35.023043,-80.97779;Fort Mill, SC;Fort Mill, SC;green
+35.853454,-78.632615;Raleigh, NC;Raleigh, NC;green
+35.853454,-78.632615;Raleigh, NC;Raleigh, NC;green
+35.763431,-84.130134;Friendsville, TN;Friendsville, TN;green
+35.844085,-81.413522;Granite Falls, NC;Granite Falls, NC;green
+38.83776,-77.091075;Arlington, VA;Arlington, VA;green
+39.228034,-86.586021;Bloomington, IN;Bloomington, IN;green
+33.741151,-116.303927;Palm Desert, CA;Palm Desert, CA;green
+33.741151,-116.303927;Palm Desert, CA;Palm Desert, CA;green
+41.767438,-74.020598;Highland, NY;Highland, NY;green
+42.780682,-71.074898;haverhill, MA;haverhill, MA;green
+37.562516,-122.02484;fremont, CA;fremont, CA;green
+36.038702,-95.842406;Broken Arrow, OK;Broken Arrow, OK;green
+38.814885,-77.10545;Alexandria, VA;Alexandria, VA;green
+38.814885,-77.10545;Alexandria, VA;Alexandria, VA;green
+37.603709,-77.247792;Mechanicsville, VA;Mechanicsville, VA;green
+36.030028,-80.243941;Winston-salem, NC;Winston-salem, NC;green
+34.922353,-84.945209;Cohutta, GA;Cohutta, GA;green
+41.63485,-81.404986;Willoughby, Oh;Willoughby, Oh;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+41.63485,-81.404986;Willoughby, OH;Willoughby, OH;green
+44.514185,-94.771299;Fairfax, MN;Fairfax, MN;green
+33.74136,-116.273789;Bermuda Dunes, CA;Bermuda Dunes, CA;green
+33.911153,-84.039438;Lawrenceville, GA;Lawrenceville, GA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+37.304013,-121.775116;San Jose, CA;San Jose, CA;green
+42.583622,-73.808052;Glenmont, NY;Glenmont, NY;green
+40.434864,-86.179426;Kokomo, IN;Kokomo, IN;green
+38.823251,-77.271583;Fairfax, VA;Fairfax, VA;green
+39.961454,-82.874812;Whitehall, OH;Whitehall, OH;green
+40.793405,-73.07108;Holbrook, NY;Holbrook, NY;green
+43.047389,-85.522539;Ada, MI;Ada, MI;green
+36.192301,-80.380661;Pfafftown, NC;Pfafftown, NC;green
+43.180473,-78.743618;lockport, ny;lockport, ny;green
+44.99463,-122.983451;Salem, OR;Salem, OR;green
+38.881777,-121.287493;Lincoln, Ca;Lincoln, Ca;green
+31.052955,-97.695245;Killeen, TX;Killeen, TX;green
+35.16371,-80.675853;Mint Hill, NC;Mint Hill, NC;green
+29.460119,-98.583658;San Antonio, TX;San Antonio, TX;green
+36.20236,-80.834466;Jonesville, NC;Jonesville, NC;green
+38.839002,-78.721647;Mount Jackson, VA;Mount Jackson, VA;green
+43.299486,-75.558331;Lee Center, NY;Lee Center, NY;green
+40.923813,-74.270706;Wayne, NJ;Wayne, NJ;green
+42.42828,-71.174103;Bedford, MA;Bedford, MA;green
+46.442316,-93.365864;Bedford, MN;Bedford, MN;green
+34.640477,-86.481984;Owens Cross Roads, AL;Owens Cross Roads, AL;green
+34.640477,-86.481984;Owens Cross Roads, AL;Owens Cross Roads, AL;green
+34.640477,-86.481984;Owens Cross Roads, AL;Owens Cross Roads, AL;green
+41.668155,-86.078078;osceola, IN;osceola, IN;green
+41.656197,-72.606293;South Glastonbury, CT;South Glastonbury, CT;green
+34.085692,-84.090533;suwanee, GA;suwanee, GA;green
+41.709267,-83.635291;Toledo, OH;Toledo, OH;green
+39.035296,-94.674767;Overland Park, KS;Overland Park, KS;green
+27.138973,-80.271915;palm city, FL;palm city, FL;green
+27.138973,-80.271915;palm city, FL;palm city, FL;green
+43.229837,-78.02657;holley, NY;holley, NY;green
+42.330836,-88.299866;McHenry, IL;McHenry, IL;green
+35.080125,-89.678289;Collierville, TN;Collierville, TN;green
+36.778465,-76.168325;Virginia Beach, VA;Virginia Beach, VA;green
+37.705305,-121.897205;Dublin, CA;Dublin, CA;green
+38.157794,-85.776782;Louisville, KY;Louisville, KY;green
+38.157794,-85.776782;Louisville, KY;Louisville, KY;green
+31.471935,-110.249251;Sierra Vista, AZ;Sierra Vista, AZ;green
+41.714059,-85.925282;Elkhart, IN;Elkhart, IN;green
+34.273735,-84.15213;Cumming, GA;Cumming, GA;green
+34.274118,-84.152139;Cumming, GA;Cumming, GA;green
+34.307131,-84.092953;Cumming, GA;Cumming, GA;green
+34.307131,-84.092953;Cumming, GA;Cumming, GA;green
+41.593796,-70.501808;Waquoit, MA;Waquoit, MA;green
+41.593796,-70.501808;Waquoit, MA;Waquoit, MA;green
+43.012411,-78.820219;Amherst, NY;Amherst, NY;green
+32.829058,-96.776716;Dallas, TX;Dallas, TX;green
+42.461408,-89.050156;Rockton, IL;Rockton, IL;green
+40.852207,-74.698692;Flanders, NJ;Flanders, NJ;green
+44.902995,-93.424202;MINNETONKA, MN;MINNETONKA, MN;green
+36.609543,-121.907691;Monterey, CA;Monterey, CA;green
+41.98312,-87.803745;Chicago, IL;Chicago, IL;green
+41.98312,-87.803745;Chicago, IL;Chicago, IL;green
+41.98312,-87.803745;Chicago, IL;Chicago, IL;green
+35.384151,-97.42276;Oklahoma City, OK;Oklahoma City, OK;green
+34.172764,-118.368134;North Hollywood, CA;North Hollywood, CA;green
+36.565328,-79.426524;Danville, VA;Danville, VA;green
+32.726775,-79.912411;Charleston, SC;Charleston, SC;green
+34.311604,-84.074336;Cumming, GA;Cumming, GA;green
+39.96002,-76.696205;York, PA;York, PA;green
+39.96002,-76.696205;York, PA;York, PA;green
+39.96002,-76.696205;York, PA;York, PA;green
+28.879153,-81.155209;Deltona, FL;Deltona, FL;green
+26.304144,-80.257084;Parkland, FL;Parkland, FL;green
+41.683371,-73.926567;Poughkepsie, NY;Poughkepsie, NY;green
+33.867406,-84.359002;Atlanta, GA;Atlanta, GA;green
+29.519738,-98.377317;San Antonio, TX;San Antonio, TX;green
+47.252169,-122.182902;Lake Tapps, WA;Lake Tapps, WA;green
+34.757999,-92.380111;Little Rock, AR;Little Rock, AR;green
+33.629299,-112.190545;Glendale, AZ;Glendale, AZ;green
+44.089622,-92.542871;Rochester, MN;Rochester, MN;green
+37.230246,-121.876674;San Jose, CA;San Jose, CA;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+45.78695,-108.531201;Billings, MT;Billings, MT;green
+37.33823,-78.988358;Concord, VT;Concord, VT;green
+41.98587,-71.278015;North Attleboro, MA;North Attleboro, MA;green
+34.738061,-86.679364;Huntsville, AL;Huntsville, AL;green
+28.011029,-80.655624;Palm Bay, Fl;Palm Bay, Fl;green
+34.00735,-77.908584;Kure Beach, NC;Kure Beach, NC;green
+47.728873,-116.786706;Dalton Gardens, ID;Dalton Gardens, ID;green
+47.61603,-122.166219;Bellevue, WA;Bellevue, WA;green
+46.816474,-100.761949;bismarck, ND;bismarck, ND;green
+32.809139,-97.243947;Richland Hills, TX;Richland Hills, TX;green
+32.809139,-97.243947;Richland Hill, TX;Richland Hill, TX;green
+41.222832,-81.913865;Valley City, Oh;Valley City, Oh;green
+29.866623,-95.66405;Houston, TX;Houston, TX;green
+32.599633,-96.848739;desoto, TX;desoto, TX;green
+32.599633,-96.848739;desoto, TX;desoto, TX;green
+41.718193,-72.524178;Glastonbury, CT;Glastonbury, CT;green
+36.833678,-119.867401;Fresno, CA;Fresno, CA;green
+32.873781,-97.241615;Watauga, TX;Watauga, TX;green
+39.115182,-94.349894;Independence, MO;Independence, MO;green
+41.903671,-87.645586;Chicago, IL;Chicago, IL;green
+30.42144,-97.765063;Austin, TX;Austin, TX;green
+38.322743,-81.511334;Charleston, WV;Charleston, WV;green
+26.429519,-80.150253;delray beach, fl;delray beach, fl;green
+36.882148,-76.412167;Suffolk, VA;Suffolk, VA;green
+42.810699,-83.269199;Oxford, MI;Oxford, MI;green
+40.523544,-74.275948;Perth Amboy, NJ;Perth Amboy, NJ;green
+45.162204,-93.368615;Champlin, MN;Champlin, MN;green
+30.54557,-88.230437;Theodore, AL;Theodore, AL;green
+30.54557,-88.230437;Theodore, AL;Theodore, AL;green
+34.679625,-93.045232;Hot Springs Village, AR;Hot Springs Village, AR;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+41.766731,-72.548218;manchester, CT;manchester, CT;green
+34.135563,-118.013937;Monrovia, CA;Monrovia, CA;green
+38.780645,-121.28127;Roseville, CA;Roseville, CA;green
+37.234423,-121.765844;San Jose, CA;San Jose, CA;red
+45.587832,-122.739075;Portland, OR;Portland, OR;red
+37.037297,-76.43844;Hampton, VA;Hampton, VA;red
+39.294898,-80.257014;Bridgeport, WV;Bridgeport, WV;red
+41.517971,-88.099797;Joliet, il;Joliet, il;red
+41.517971,-88.099797;Joliet, IL;Joliet, IL;red
+41.762217,-87.750107;Bedford Park, IL;Bedford Park, IL;red
+42.358447,-85.254902;battle creek, MI;battle creek, MI;red
+40.78061,-77.807003;State College, PA;State College, PA;red
+40.78061,-77.807003;State College, PA;State College, PA;red
+40.181636,-76.159714;Ephrata, PA;Ephrata, PA;red
+39.789121,-86.039676;Indianapolis, IN;Indianapolis, IN;red
+28.589059,-81.747781;Minneola, FL;Minneola, FL;red
+38.868119,-105.276021;Florissant, CO;Florissant, CO;red
+36.024136,-80.01265;High Point, NC;High Point, NC;red
+42.59947,-73.683669;East Greenbush, NY;East Greenbush, NY;red
+40.691633,-105.015284;Wellington, CO;Wellington, CO;red
+43.2751,-76.210421;Central Square, NY;Central Square, NY;red
+35.793328,-83.548135;Pigeon Forge, TN;Pigeon Forge, TN;red
+39.845591,-86.292236;Indianapolis, IN;Indianapolis, IN;red
+34.643926,-112.332378;Prescott Valley, AZ;Prescott Valley, AZ;red
+39.657265,-86.105699;INDIANAPOLIS, In;INDIANAPOLIS, In;red
+38.619537,-90.322886;St Louis, MO;St Louis, MO;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+34.749242,-86.247881;Trenton, AL;Trenton, AL;red
+39.655368,-86.202593;Indianapolis, In;Indianapolis, In;red
+39.771825,-76.545249;Stewartstown, PA;Stewartstown, PA;red
+43.510513,-70.386658;Old Orchard Beach, ME;Old Orchard Beach, ME;red
+42.715454,-71.534073;Nashua, NH;Nashua, NH;red
+42.715454,-71.534073;Nashua, NH;Nashua, NH;red
+36.991332,-76.594445;Smithfield, VA;Smithfield, VA;red
+40.736749,-73.73831;Bellerose, NY;Bellerose, NY;red
+39.70387,-84.154255;Kettering, OH;Kettering, OH;red
+38.997702,-94.206752;Grain Valley, MO;Grain Valley, MO;red
+38.997702,-94.206752;Grain Valley, MO;Grain Valley, MO;red
+38.997702,-94.206752;Grain Valley, MO;Grain Valley, MO;red
+30.424818,-97.859299;Austin, TX;Austin, TX;red
+39.535413,-75.792132;Ches. City, MD;Ches. City, MD;red
+41.591167,-72.787987;Berlin, CT;Berlin, CT;red
+41.591167,-72.787987;Berlin, CT;Berlin, CT;red
+42.378956,-71.223625;Waltham, MA;Waltham, MA;red
+42.378956,-71.223625;Waltham, MA;Waltham, MA;red
+42.378956,-71.223625;Waltham, MA;Waltham, MA;red
+28.531636,-81.499168;Orlando, FL;Orlando, FL;red
+28.531636,-81.499168;Orlando, FL;Orlando, FL;red
+35.324165,-97.505184;Moore, OK;Moore, OK;red
+34.436705,-86.759475;Somerville, AL;Somerville, AL;red
+34.436705,-86.759475;Somerville, AL;Somerville, AL;red
+40.599281,-112.00988;West Jordah, UT;West Jordah, UT;red
+40.599281,-112.00988;West Jordan, UT;West Jordan, UT;red
+43.265791,-75.266529;holland patent, ny;holland patent, ny;red
+32.099774,-110.770127;Tucson, AZ;Tucson, AZ;red
+39.645346,-86.098261;Indianapolis, IN;Indianapolis, IN;red
+39.645346,-86.098261;Indianapolis, IN;Indianapolis, IN;red
+42.44075,-71.368614;Concord, MA;Concord, MA;red
+42.44075,-71.368614;Concord, MA;Concord, MA;red
+42.44075,-71.368614;Concord, MA;Concord, MA;red
+42.048782,-73.551295;Ancramdale, NY;Ancramdale, NY;red
+41.732449,-71.580322;Hope, RI;Hope, RI;red
+40.002847,-105.247414;Boulder, CO;Boulder, CO;red
+40.002847,-105.247414;Boulder, CO;Boulder, CO;red
+40.073433,-75.185773;Philadelphia, PA;Philadelphia, PA;red
+31.380954,-85.93725;New Brockton, AL;New Brockton, AL;red
+30.8722,-94.989289;livingston, TX;livingston, TX;red
+36.280084,-95.866256;Owasso, OK;Owasso, OK;red
+33.429192,-111.640765;Mesa, AZ;Mesa, AZ;red
+32.161712,-81.911057;Claxton, GA;Claxton, GA;red
+42.060528,-72.683136;Feeding Hills, MA;Feeding Hills, MA;red
+42.50766,-70.951988;Peabody, MA;Peabody, MA;red
+42.546112,-71.311127;Billerica, MA;Billerica, MA;red
+35.254513,-80.671949;Charlotte, NC;Charlotte, NC;red
+30.471758,-88.986904;Biloxi, MS;Biloxi, MS;red
+45.668302,-108.783717;Laurel, MT;Laurel, MT;red
+45.668302,-108.783717;Laurel, MT;Laurel, MT;red
+43.146866,-72.36911;Alstead, NH;Alstead, NH;red
+29.574629,-98.307007;Selma, TX;Selma, TX;red
+29.574629,-98.307007;Selma, TX;Selma, TX;red
+40.631874,-80.571104;East Liverpool, OH;East Liverpool, OH;red
+29.252503,-81.060268;Holly Hill, FL;Holly Hill, FL;red
+41.13776,-73.486244;New Canaan, CT;New Canaan, CT;red
+41.13776,-73.486244;New Canaan, CT;New Canaan, CT;red
+41.13776,-73.486244;New Canaan, CT;New Canaan, CT;red
+37.763655,-120.857709;Oakdale, CA;Oakdale, CA;red
+37.763655,-120.857709;Oakdale, CA;Oakdale, CA;red
+37.763655,-120.857709;Oakdale, CA;Oakdale, CA;red
+37.763655,-120.857709;Oakdale, CA;Oakdale, CA;red
+37.382218,-121.813406;San Jose, CA;San Jose, CA;red
+37.382218,-121.813406;San Jose, CA;San Jose, CA;red
+44.356003,-69.82576;Augusta, ME;Augusta, ME;red
+40.735523,-74.030319;Hoboken, NJ;Hoboken, NJ;red
+41.564632,-87.844109;Tinley Park, IL;Tinley Park, IL;red
+41.94717,-71.881088;Thompson, CT;Thompson, CT;red
+41.94717,-71.881088;Thompson, CT;Thompson, CT;red
+41.94717,-71.881088;Thompson, CT;Thompson, CT;red
+37.429146,-120.789203;Delhi, CA;Delhi, CA;red
+39.876115,-76.229669;Quarryville, PA;Quarryville, PA;red
+30.488513,-88.189133;Irvington, AL;Irvington, AL;red
+30.488513,-88.189133;Irvington, AL;Irvington, AL;red
+36.261048,-86.532671;mt. juliet, tn;mt. juliet, tn;red
+42.429199,-71.4403;maynard, MA;maynard, MA;red
+42.429199,-71.4403;maynard, MA;maynard, MA;red
+42.429199,-71.4403;Maynard, MA;Maynard, MA;red
+47.021785,-122.300086;Graham, WA;Graham, WA;red
+47.021785,-122.300086;Graham, WA;Graham, WA;red
+34.09541,-118.407669;asdfg, MA;asdfg, MA;red
+44.441432,-96.595989;White, SD;White, SD;red
+37.046157,-93.532169;Billings, MO;Billings, MO;red
+37.046157,-93.532169;Billings, MO;Billings, MO;red
+37.83978,-82.438379;Beauty, KY;Beauty, KY;red
+38.595207,-85.316551;Bedford, MA;Bedford, MA;red
+38.595207,-85.316551;Bedford, MA;Bedford, MA;red
+38.595207,-85.316551;Bedford, MA;Bedford, MA;red
+38.595207,-85.316551;Bedford, MA;Bedford, MA;red
+38.595207,-85.316551;Bedford, MA;Bedford, MA;red
+25.821095,-80.285129;Miami, FL;Miami, FL;red
+45.037444,-91.955882;Boyceville, WI;Boyceville, WI;red
+43.553851,-89.007035;Randolph, WI;Randolph, WI;red
+43.553851,-89.007035;Randolph, WI;Randolph, WI;red
+42.062449,-71.718185;somewhere, MA;somewhere, MA;red
+38.71678,-82.959619;South Shore, KY;South Shore, KY;red
+39.28038,-80.338669;Clarksburg, WV;Clarksburg, WV;red
+43.548665,-73.379371;whitehall, NY;whitehall, NY;red
+41.560585,-73.206184;Woodbury, CT;Woodbury, CT;red
+41.521187,-87.960321;New Lenox, IL;New Lenox, IL;red
+38.831549,-78.635747;Edinburg, va;Edinburg, va;red
+40.320998,-85.506809;Gaston, IN;Gaston, IN;red
+40.320998,-85.506809;Gaston, IN;Gaston, IN;red
+34.16581,-118.378974;North Hollywood, CA;North Hollywood, CA;red
+34.16581,-118.378974;North Hollywood, CA;North Hollywood, CA;red
+35.331499,-80.666182;Harrisburg, NC;Harrisburg, NC;red
+37.760039,-81.125639;Beaver, WV;Beaver, WV;red
+44.811174,-73.082836;St. Albans, VT;St. Albans, VT;red
+42.653062,-93.500449;Dows, IA;Dows, IA;red
+42.653062,-93.500449;Dows, IA;Dows, IA;red
+42.361429,-71.363388;Wayland, MA;Wayland, MA;red
+41.964291,-73.44043;Lakeville, CT;Lakeville, CT;red
+41.964291,-73.44043;Lakeville, CT;Lakeville, CT;red
+34.24086,-117.274339;crestline, ca;crestline, ca;red
+43.343206,-70.783306;North Berwick, AL;North Berwick, AL;red
+43.343206,-70.783306;North Berwick, ME;North Berwick, ME;red
+43.343206,-70.783306;North Berwick, ME;North Berwick, ME;red
+40.26235,-106.909259;Oak Creek, CO;Oak Creek, CO;red
+43.730579,-70.70491;LIMINGTON, ME;LIMINGTON, ME;red
+40.991202,-75.235727;Stroudsburg, PA;Stroudsburg, PA;red
+42.788184,-78.820089;Blasdell, NY;Blasdell, NY;red
+42.788184,-78.820089;Blasdell, NY;Blasdell, NY;red
+42.788184,-78.820089;Blasdell, NY;Blasdell, NY;red
+31.043145,-82.752045;homerville, MA;homerville, MA;red
+35.58503,-78.799824;Fuquay Varina, NC;Fuquay Varina, NC;red
+43.109283,-88.147326;Menomonee Falls, WI;Menomonee Falls, WI;red
+43.065584,-88.227587;Pewaukee, WI;Pewaukee, WI;red
