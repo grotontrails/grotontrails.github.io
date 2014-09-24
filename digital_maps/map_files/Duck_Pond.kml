@@ -5,59 +5,56 @@
 <Folder><name>Duck Pond</name>
   <Placemark>
 	<name>Duck Pond Loop</name>
-	<description>A nice hike circling most of Duck Pond with several footbridges and photographic scenic points.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#info-circle</styleUrl>
+	<description>Land off Lost Lake Drive with 2,000 feet of frontage on Duck Pond, a picnic area, and trails.  A nice hike circling most of Duck Pond with several footbridges and photographic scenic points.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.513408,42.593148</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Lost Lake Parking</name>
 	<description>Small off-street parking area.  Space for two or three vehicles.  Trail access to both Duck Pond Loop and Skinner Forest.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.514996,42.595770</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Trail access</name>
 	<description>Trail access for the Duck Pond loop.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.511820,42.589420</coordinates></Point>
   </Placemark>
   <Placemark>
 		<name>Little Hollow Ln. trail access</name>
 		<description>Trail access for the Duck Pond loop.  No off-street parking, but on-street parking on the cul-de-sac is available.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 			<Point><coordinates>-71.51393146393339,42.59099804166039,0</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Footbridge</name>
 	<description>Small footbridge over water</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.515013845637441,42.593612931668758</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Footbridge</name>
 	<description>Longer footbridge over water</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.515751788392663,42.594029596075416</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Footbridge</name>
 	<description>Footbridge over small stream</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.516369953751564,42.595158135518432</coordinates></Point>
   </Placemark>
-	<GroundOverlay>
-		<name>Untitled Image Overlay</name>
+	<ScreenOverlay id="khScreenOverlay756">
+		<name>GTN Logo</name>
+		<description></description>
 		<Icon>
-			<href>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_pictures/GTN_round_logo.jpg</href>
-			<viewBoundScale>0.75</viewBoundScale>
+			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
-		<LatLonBox>
-			<north>42.59515888033744</north>
-			<south>42.59421719114652</south>
-			<east>-71.51311766884427</east>
-			<west>-71.51447610470252</west>
-		</LatLonBox>
-	</GroundOverlay>  
+		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
+		<size x="70" y="70" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay> 
   <Placemark>
 	<name>TRACK 1</name>
 	<description></description>

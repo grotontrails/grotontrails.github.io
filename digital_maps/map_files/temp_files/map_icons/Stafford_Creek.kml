@@ -1,0 +1,298 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name><![CDATA[<b>Stafford Creek trail<br>New trail and part<br>of old trail</b>]]></name>
+  <!--  This is a comment line.  Note the special characters at both ends of the line  -->
+  <!--  
+  You can also have a multi-line block of comments.  
+  You need the special characters at the start and end of your comments.
+  
+  This file is indented with 2 spaces at each level to make it easier to read.
+  
+  There are different ways to write a KML file to produce the same output.
+  This file is meant to be a flexible example that people can copy and edit to suit their needs.
+  But there are also other equally valid ways to put this same info into a KML file.
+  
+  If you use html tags with your text then you must use the CDATA tags as shown below.
+  If you are using text without any html tags, then technically you do not need the CDATA tags.
+  -->
+  
+  <!--  =============================================================================
+            PART 1   Styles for waypoint icons
+        
+        Your map can have any number of different kinds of icons.
+        This section is a list of the icons you plan to use on your map.
+        Nothing bad will happen if you list an icon here and then do not use it.
+        You give each icon a name.  In KML-speak these names are called "Style id".      
+        You also provide the URL to where the icon graphic is hosted online.
+ 
+        This page shows many icons that Google is hosting:
+          http://hohonuuli.blogspot.com/2007/09/list-of-paddle-icons-for-kml-z-letters.html
+        Here is a large collection of 3rd party icons
+          http://code.google.com/p/google-maps-icons/ 
+          
+        Want a hiker icon on your map?  Here ya go:
+          http://google-maps-icons.googlecode.com/files/hiking.png
+  -->      
+   <Style id="Info_1">
+    <IconStyle> 
+      <Icon>
+        <!--  Question mark in a circle  -->
+        <href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+
+
+  <Style id="Info_2">
+    <IconStyle> 
+      <Icon>
+        <!-- Lowercase italic 'i'  -->
+        <href>http://maps.google.com/mapfiles/kml/pal3/icon36.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  
+  <Style id="Pic">
+    <IconStyle> 
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/pal4/icon46.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+    
+  <!--  =============================================================================
+            PART 2   Coordinate locations for waypoint icons
+        
+        This section contains a list of the latitude/longitude where each icon will appear on your map.
+        Also, this is where you specify any text and/or links that will appear in a balloon when the
+        icon is clicked.
+        You pick the icon that will appear at this spot by giving the icon name (i.e. Style id).
+        You do not need to give each of these spots a name like "Foot Bridge" but it will likely help
+        you keep things straight if you do.  These names will appear in the info balloon when the
+        icon is clicked.
+        
+        The first marker uses the "Info_1" icon.
+        The next 2 markers use the "Info_2" icon
+        The next batch of markers uses the "Pic" icon.
+  -->
+  <!--                 This section has coordinates for each "Info" icon    -->
+
+  <Placemark>
+    <name>Important note about the old trail.</name>
+    <styleUrl>#Info_1</styleUrl>
+    <description>
+      <![CDATA[This map shows 2 sections of the old trail in yellow.  As you hike uphill, the first few hundred feet of both sections of old trail are no longer visible.  After that point the careful observer will often be able to see some sign of the old trail.]]>
+    </description>
+    <Point>
+      <coordinates>-120.827208,47.417518</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>How to find the old trail</name>
+    <styleUrl>#Info_2</styleUrl>
+    <description>
+      <![CDATA[At 4,400 ft the trail turns sharply right.  Leave the trail and continue straight past a fire ring and to a small tributary creek.  Cross this small creek, hike another ~50 ft close to the main creek and then look to your right for a shallow trench heading to the right away from the main creek.  There are small trees growing in it and 1-2 person size rocks.  Yes, that’s the old trail.  It climbs in switchbacks parallel to the main creek but far enough into the woods that you do not actually see the creek.  The tread will soon become more apparent.]]>
+    </description>
+    <Point>
+      <coordinates>-120.806053,47.403577</coordinates>
+    </Point>
+  </Placemark>
+ 
+  <Placemark>
+    <name>How to find the old trail</name>
+    <styleUrl>#Info_2</styleUrl>
+    <description>
+      <![CDATA[To find the upper portion of the old trail, start at the junction of the Stafford Creek trail and Standup Creek trail.  Hike up the Stafford Creek trail for about 25 paces.  Look uphill and find a very large diameter snag about 200 feet above the trail.  The old trail heads uphill and to the right and passes below this snag.  Then it does a switchback and passes to the left above this snag.  Caution - there is no visible tread for several hundred feet.  These notes are based on careful observation over several trips.  Eventually the old trail passes by an ancient 2 foot diameter log with a saw cut and soon thereafter rejoins the ‘new’ trail at about 5,540 ft.  It would be much easier to find the upper portion of the original trail by hiking to 5,540 on the ‘new’ trail and then looking downslope 200 feet or so for this very noticeable saw cut.  Then follow the old trail down.]]>
+    </description>
+    <Point>
+      <coordinates>-120.814934,47.409821</coordinates>
+    </Point>
+  </Placemark>
+
+  <!--                 This section has coordinates for each "Pic" icon    -->  
+  <Placemark>
+    <name>Trail junction</name>
+    <styleUrl>#Pic</styleUrl>
+    <description>
+      <![CDATA[
+        <table>
+          <tr>
+            <td>Trail junction<br>at about 5,000'<br><br><br><font color="red">Click the pic<font><br></td>
+            <td width="5px"></td>
+            <td><a href="http://farm3.static.flickr.com/2519/4241732074_2f05842a56_o.jpg"><img src="http://farm3.static.flickr.com/2519/4241732074_2f05842a56_o.jpg" height="100px" "width="133px"></a></td>
+          </tr>
+        </table>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-120.819400,47.409050</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Meadow</name>
+    <styleUrl>#Pic</styleUrl>
+    <description>
+      <![CDATA[
+        <table>
+          <tr>
+            <td>This meadow is wet<br>but there is a dry<br>campsite on the<br>far side.<br><br><font color="red">Click the pic<font><br></td>
+            <td width="5px"></td>
+            <td><a href="http://farm5.static.flickr.com/4055/4240960487_3c6c6d3795_o.jpg"><img src="http://farm5.static.flickr.com/4055/4240960487_3c6c6d3795_o.jpg" height="100px" width="133px"></a></td>
+          </tr>
+        </table>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-120.819183,47.415688</coordinates>
+    </Point> 
+  </Placemark>
+
+  <Placemark>
+    <name>Above timberline</name>
+    <styleUrl>#Pic</styleUrl>
+    <description>
+      <![CDATA[
+        <table>
+          <tr>
+            <td>Sweeping views<br>above timberline<br><br><font color="red">Click the pic<font><br></td>
+            <td width="5px"></td>
+            <td><a href="http://farm3.static.flickr.com/2765/4241731802_7cff0eb35e_o.jpg"><img src="http://farm3.static.flickr.com/2765/4241731802_7cff0eb35e_o.jpg" height="100px" width="133px"></a></td>
+          </tr>
+        </table>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-120.819008,47.418533</coordinates>
+    </Point> 
+  </Placemark>
+
+  <Placemark>
+    <name>Earl Peak</name>
+    <styleUrl>#Pic</styleUrl>
+    <description>
+      <![CDATA[
+        <table>
+          <tr>
+            <td>Stafford Creek trail<br>with Earl Peak in<br>the background.<br><br><font color="red">Click the pic<font><br></td>
+            <td width="5px"></td>
+            <td><a href="http://farm3.static.flickr.com/2631/4241732614_060ac60c11_o.jpg"><img src="http://farm3.static.flickr.com/2631/4241732614_060ac60c11_o.jpg" height="100px" width="133px"></a></td>
+          </tr>
+        </table>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-120.815724,47.419811</coordinates>
+    </Point> 
+  </Placemark>
+
+  <Placemark>
+    <name>Part of the Stuart Range</name>
+    <styleUrl>#Pic</styleUrl>
+    <description>
+      <![CDATA[
+        <table>
+          <tr>
+            <td>Looking north at part of<br>the Stuart Range from<br>Navaho Pass.<br><br><font color="red">Click the pic<font><br></td>
+            <td width="5px"></td>
+            <td><a href="http://farm3.static.flickr.com/2697/4241732918_4de1279541_o.jpg"><img src="http://farm3.static.flickr.com/2697/4241732918_4de1279541_o.jpg" height="100px" width="133px"></a></td>
+          </tr>
+        </table>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-120.817500,47.421280</coordinates>
+    </Point> 
+  </Placemark>
+  <!--  =============================================================================
+            PART 3   Ground overlays
+
+        A ground overlay is (1) a graphic image that is (2) fixed to the ground at a latitude/longitude
+        that you specify.  For a trip report this feature can be used to add text to the map.  For example
+        you could add things like
+          Road numbers
+          Trail numbers
+          "READ ME" next to an icon with important route info 
+
+        Text might look better saved as a png file instead of a jpg.
+        When last tested, Flickr did not object to hosting png files.
+        You certainly do not have to use this feature, but it is there if you want it.
+        
+        I need to refresh my recollection about this feature before providing an example.
+        There's a trick to quickly working with these.
+  -->
+ 
+  <!--  =============================================================================
+            PART 4   Styles for tracks/trails
+            
+        This section contains a list of the various line width-color combos that you plan to
+        use on the map.  Don't worry if you include a particular line width-color combo here and
+        then do not actually use it on the map.
+        You assign a name to each line width-color combo.
+  -->
+            
+  <Style id="Blue_4">
+    <LineStyle>
+      <!-- Reminder - colors defined in this order:  Opacity-Blue-Green-Red 
+        For semi-transparent try starting with 99.  Example: 99FF0000
+        To experiment with colors, Google:  color picker
+      -->
+      <color>FFFF0000</color>
+      <width>4</width>
+    </LineStyle>
+  </Style>
+
+  <Style id="Yellow_4">
+    <LineStyle>
+      <color>FF00FFFF</color>
+      <width>4</width>
+    </LineStyle>
+  </Style>
+
+  <!--  =============================================================================
+            PART 5   Coordinates for tracks/trails
+            
+        This section contains a list of the coordinates that define each track or trail on the map.
+        In KML-speak, each of these is a LineString.
+        For each track/trail you provide a style name.  The line width & color settings for that style
+        will be used to depict that track/trail on your map.
+  -->      
+  <Placemark>
+    <name><![CDATA[<b>Current Trail</b>]]></name>
+    <description>
+    </description>
+    <styleUrl>#Blue_4</styleUrl>
+    <LineString>
+      <!-- The coordinates in the following list are:  longitude,latitude.
+           The altitude value is not needed for Google maps and is ignored if present   -->
+      <coordinates>
+        -120.803450,47.401550 -120.803867,47.402067 -120.804233,47.402600 -120.804650,47.403050 -120.804417,47.403150 -120.804100,47.403200 -120.803683,47.403200 -120.803300,47.403217 -120.803367,47.403933 -120.803533,47.404483 -120.803783,47.404917 -120.804233,47.405367 -120.804633,47.405617 -120.804250,47.405717 -120.804650,47.406050 -120.803983,47.406067 -120.804650,47.406617 -120.805100,47.406817 -120.805750,47.407017 -120.806233,47.407283 -120.805683,47.407383 -120.806383,47.407667 -120.807300,47.407967 -120.808233,47.408183 -120.809717,47.408283 -120.810700,47.408333 -120.811483,47.408433 -120.812500,47.408650 -120.813317,47.408767 -120.814017,47.408733 -120.814883,47.408900 -120.815567,47.409250 -120.816217,47.409683 -120.815483,47.409750 -120.814450,47.409817 -120.813617,47.410017 -120.812900,47.410050 -120.812267,47.410083 -120.811483,47.410117 -120.810700,47.410183 -120.811050,47.410400 -120.811767,47.410467 -120.812500,47.410633 -120.813250,47.410767 -120.813967,47.411150 -120.814500,47.411367 -120.815217,47.411767 -120.815767,47.411800 -120.816450,47.411867 -120.815817,47.412050 -120.814917,47.412067 -120.815367,47.412433 -120.815983,47.412667 -120.816883,47.412867 -120.817667,47.413100 -120.818433,47.413517 -120.819417,47.413750 -120.820133,47.413950 -120.820583,47.414150 -120.820683,47.414417 -120.820633,47.414717 -120.820517,47.415100 -120.820300,47.415367 -120.819817,47.415417 -120.819517,47.415400 -120.819283,47.415583 -120.818783,47.415700 -120.818500,47.415717 -120.818100,47.415800 -120.817950,47.415983 -120.817700,47.415883 -120.817450,47.416050 -120.817400,47.416317 -120.817767,47.416600 -120.818167,47.417200 -120.818517,47.417617 -120.818767,47.418117 -120.819050,47.418550 -120.819433,47.418917 -120.819917,47.419467 -120.820433,47.420000 -120.820183,47.420167 -120.819633,47.420350 -120.819133,47.420450 -120.818767,47.420467 -120.818733,47.420567
+      </coordinates>
+    </LineString>
+  </Placemark>
+
+  <Placemark>
+    <name><![CDATA[<b>Old trail 1</b>]]></name>	  
+    <styleUrl>#Yellow_4</styleUrl>
+    <LineString>
+      <coordinates>
+        -120.804667,47.403067 -120.804767,47.403500 -120.805067,47.403900 -120.805167,47.404067 -120.805217,47.404533 -120.805333,47.405000 -120.806150,47.405217 -120.807200,47.405500 -120.807083,47.405733 -120.807350,47.405767 -120.807367,47.406033 -120.807583,47.406217 -120.808033,47.406200 -120.808567,47.406517 -120.809117,47.406983 -120.809767,47.407433 -120.810083,47.407517 -120.810983,47.407533 -120.811950,47.407583 -120.812867,47.407700 -120.813500,47.407850 -120.814000,47.408067 -120.814350,47.408217 -120.814650,47.408333 -120.814433,47.408467 -120.814017,47.408733
+      </coordinates>
+    </LineString>
+  </Placemark>
+
+  <Placemark>
+    <name><![CDATA[<b>Old trail 2</b>]]></name>	  
+    <styleUrl>#Yellow_4</styleUrl>
+    <LineString>
+      <coordinates>
+        -120.816000,47.409717 -120.815900,47.409867 -120.815733,47.409967 -120.815583,47.410050 -120.816000,47.410283 -120.816767,47.410533 -120.817450,47.410817 -120.818033,47.411083 -120.818217,47.411233 -120.817933,47.411433 -120.818467,47.411583 -120.818683,47.411733 -120.818117,47.411983 -120.817900,47.412100 -120.818067,47.412217 -120.817600,47.412367 -120.818167,47.412817 -120.818700,47.413067 -120.819450,47.413333 -120.820017,47.413533 -120.820383,47.413750 -120.820583,47.414150 
+      </coordinates>
+    </LineString>
+  </Placemark>
+
+  
+</Document>
+</kml>

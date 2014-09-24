@@ -6,31 +6,31 @@
 	<Placemark>
 		<name>Gibbet Hill trail.</name>
 		<description>A very nice hike up over Gibbet Hill and past the remains of the Bancroft Castle.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.552394,42.610102</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Shattuck St. Parking</name>
 		<description>Off-street parking available for several vehicles.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.554649,42.612281</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Lawrence Academy Parking</name>
 		<description>Off-street parking available for several vehicles.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.561301,42.604290</coordinates></Point>
 	</Placemark>
 	    <Placemark>
 		<name>Parking at Gibbet Hill Restaurant</name>
 		<description>Off-street parking available for several vehicles.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.564305,42.605948</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Martins Pond Parking</name>
 		<description>Small off-street parking area.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.547245,42.614848</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -45,7 +45,7 @@
         </table>
       ]]>
 	</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#camera</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#camera</styleUrl>
       <Point><coordinates>-71.559818,42.608523</coordinates></Point>
   </Placemark>
   <Placemark>

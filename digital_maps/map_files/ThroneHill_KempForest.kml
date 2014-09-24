@@ -6,111 +6,118 @@
   <Placemark>
 	<name>Throne Hill and Kemp Forest</name>
 	<description>Over five miles of mostly flat trails through varying landscapes.  There are some areas that can be wet depending on the time of year, but a very nice hiking parcel.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.627009,42.624326</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Castle Dr. Parking</name>
 	<description>Castle Dr. Parking.  Room for several vehicles to park along the cul-de-sac.  Trail entrance on cul-de-sac.  To get to the actual trail, walk up the right side of the driveway, staying between the two houses.  The trailhead is at the top of the driveway between the houses.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.617190837860107,42.625917540863156</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Rockwood Ln. Parking</name>
 	<description>Rockwood Ln. Parking.  Room for several vehicles to park at the end of the cul-de-sac.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.640222,42.629603</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Seasonal stream</name>
 	<description>Seasonal stream.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
       <Point><coordinates>-71.622624406591058,42.627364089712501</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Seasonal stream</name>
 	<description>Seasonal stream.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
       <Point><coordinates>-71.635567573830485,42.631461331620812</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Water area</name>
 	<description>For the next couple of a hundred yards, there are a number of probably season streams and wet areas to cross.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.623384142294526,42.623853832483292</coordinates></Point>
   </Placemark>  
   <Placemark>
-	<name>5</name>
+	<name>Stone foundation</name>
 	<description>Stone foundation of some sort.  Possibly an old root cellar.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.633484587073326,42.62999433092773</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Footbridge</name>
 	<description>Long footbridge (over 100 yds long) over wetland area.  Plants that border the bridge probably grow thick enough in spring to make the bridge difficult to cross.</description>
-      <styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>	
+      <styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
 	  <Point><coordinates>-71.622723983600736,42.618683287873864</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wet area</name>
 	<description>Small wetland with what looks to be an old footbridge across it.  The bridge is useless now.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.6212890855968,42.618792336434126</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wet area</name>
 	<description>Trail ends at a substantial water barrier.  The trail does continue on the far side.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.620840905234218,42.61825455352664</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Private property</name>
-	<description>Trail ends at Private Property signs.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>	
-      <Point><coordinates>-71.621202835813165,42.617017384618521</coordinates></Point>
-  </Placemark>  
-  <Placemark>
 	<name>Kemp St. trail access</name>
 	<description>Trail access to Kemp Forest and Throne Hill via Kemp St.  Sign at entrance says Kemp Forest.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.624892298132181,42.613447029143572</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Private property</name>
-	<description>Trails ends behind private property at an iron gate.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>	
-      <Point><coordinates>-71.623563263565302,42.613722458481789</coordinates></Point>
-  </Placemark>  
-  <Placemark>
-	<name>Private property</name>
-	<description>Trails ends behind private property at an iron gate.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>	
-      <Point><coordinates>-71.638414,42.626621</coordinates></Point>
-  </Placemark>  
-  <Placemark>
-	<name>Private property</name>
-	<description>Trails ends behind private property at an iron gate.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>	
-      <Point><coordinates>-71.641983,42.628094</coordinates></Point>
-  </Placemark>    
-  <Placemark>
 	<name>Stone Wall</name>
 	<description>Stone wall</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.62926740013063,42.620254894718528</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
-	<description>Trail appears to end behind a farm.  Could not find a trail around the farm.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>		
-      <Point><coordinates>-71.627587247639894,42.61734813451767</coordinates></Point>
-  </Placemark>
+	<description>Trail ends at Private Property signs. Please do not use trail beyond this point.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+      <Point><coordinates>-71.621202835813165,42.617017384618521</coordinates></Point>
+  </Placemark>  
   <Placemark>
 	<name>Private property</name>
+	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+      <Point><coordinates>-71.623563263565302,42.613722458481789</coordinates></Point>
+  </Placemark>  
+  <Placemark>
+	<name>Private property</name>
+	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+      <Point><coordinates>-71.638414,42.626621</coordinates></Point>
+  </Placemark>  
+  <Placemark>
+	<name>Private property</name>
+	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+      <Point><coordinates>-71.641983,42.628094</coordinates></Point>
+  </Placemark>    
+  <Placemark>
+	<name>Private property</name>
+	<description>Trail appears to end behind a farm.  Could not find a trail around the farm. Please do not use trail beyond this point.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+      <Point><coordinates>-71.627587247639894,42.61734813451767</coordinates></Point>
+  </Placemark>
+<!--  <Placemark>
+	<name>Private property</name>
 	<description>Trail ends at private property.  Could not find a trail around to the road.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.630322681739926,42.615876104682684</coordinates></Point>
   </Placemark>
+-->  
+	<Placemark>
+		<name>Private property</name>
+		<description>Trail ends at private property. Please do not use trail beyond this point.</description>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+		<Point><coordinates>-71.629710,42.617781</coordinates></Point>
+	</Placemark>
   <Placemark>
 	<name>TRACK 1</name>
 	<description></description>
@@ -171,12 +178,19 @@
 	<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <LineString><coordinates>-71.628970932215452,42.627283120527864 -71.628760043531656,42.627310948446393 -71.628973949700594,42.62728244997561 -71.629179054871202,42.627235259860754 -71.629318362101912,42.627144902944565 -71.629499830305576,42.627037363126874 -71.629670234397054,42.626916412264109 -71.629795962944627,42.626771992072463 -71.629933761432767,42.626724885776639 -71.630106596276164,42.62657686136663 -71.630218829959631,42.626386424526572 -71.630250848829746,42.626201855018735 -71.630254704505205,42.626043017953634 -71.630137609317899,42.625836487859488 -71.630021017044783,42.625707155093551 -71.62989042699337,42.625680668279529 -71.629815073683858,42.625548234209418 -71.629811972379684,42.625424517318606 -71.629712143912911,42.625339273363352 -71.629638131707907,42.625259226188064 -71.629549032077193,42.625158643350005 -71.629419112578034,42.625045487657189 -71.629314254969358,42.624954711645842 -71.629177797585726,42.624824959784746 -71.629206044599414,42.624654304236174 -71.629110323265195,42.62456126511097 -71.629131361842155,42.624459927901626 -71.629156675189734,42.624318776652217 -71.629150807857513,42.624157425016165 -71.629056176170707,42.623982494696975 -71.629138067364693,42.623872188851237 -71.629200177267194,42.623831201344728 -71.629287600517273,42.623740760609508 -71.629426572471857,42.62367881834507 -71.629463285207748,42.623638082295656 -71.629512654617429,42.623553592711687 -71.629532016813755,42.623479580506682 -71.629592701792717,42.623388636857271</coordinates></LineString>
   </Placemark>
-  <Placemark>
+<!--  <Placemark>
 	<name>TRACK 27</name>
 	<description></description>
 	<Style><LineStyle><color>ff00ffff</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <LineString><coordinates>-71.627063294872642,42.621752405539155 -71.627241913229227,42.621625671163201 -71.627373928204179,42.621558364480734 -71.627582218497992,42.621514862403274 -71.627747593447566,42.621466750279069 -71.627792352810502,42.621436323970556 -71.627903496846557,42.621455518528819 -71.628005504608154,42.621356695890427 -71.628008186817169,42.621342446655035 -71.628121174871922,42.621167348697782 -71.628071805462241,42.620979174971581 -71.628027884289622,42.620874401181936 -71.628027549013495,42.620686143636703 -71.628056382760406,42.620527055114508 -71.628058729693294,42.620505010709167 -71.627999385818839,42.620350532233715 -71.628022855147719,42.620221618562937 -71.628136346116662,42.620116425678134 -71.62832192145288,42.620058255270123 -71.628530211746693,42.619959348812699 -71.628646049648523,42.619861699640751 -71.628756690770388,42.619688445702195 -71.628768173977733,42.619609069079161 -71.628766832873225,42.619471019133925 -71.628776807337999,42.619336321949959 -71.628842437639832,42.619290389120579 -71.628837324678898,42.61929189786315 -71.628822069615126,42.619231464341283 -71.628826763480902,42.619222244247794 -71.628832463175058,42.619213107973337 -71.62883841432631,42.619205480441451 -71.628840761259198,42.61920053511858 -71.628953749313951,42.619121409952641 -71.6289840079844,42.619070028886199 -71.629062294960022,42.618909934535623 -71.629109401255846,42.618782110512257 -71.629154747352004,42.618622183799744 -71.629208391532302,42.618528977036476 -71.629341244697571,42.61839578859508 -71.629404360428452,42.618224127218127 -71.629452556371689,42.618023799732327 -71.629553390666842,42.617920953780413 -71.629704516381025,42.617777790874243 -71.629776516929269,42.617657342925668 -71.629839716479182,42.617551060393453 -71.629885733127594,42.617434887215495 -71.629914315417409,42.617336064577103 -71.629898473620415,42.61715903878212 -71.629933174699545,42.617098772898316 -71.629992686212063,42.616968937218189 -71.630044654011726,42.616831054911017 -71.630119336768985,42.616655705496669 -71.630147583782673,42.616605833172798 -71.630219081416726,42.61649158783257 -71.630244227126241,42.616394944489002 -71.630263086408377,42.616230491548777 -71.630236012861133,42.616055309772491 -71.630247915163636,42.615905525162816</coordinates></LineString>
   </Placemark>
+-->
+  <Placemark>
+	<name>TRACK 27</name>
+	<description></description>
+	<Style><LineStyle><color>ff00ffff</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>-71.627063294872642,42.621752405539155 -71.627241913229227,42.621625671163201 -71.627373928204179,42.621558364480734 -71.627582218497992,42.621514862403274 -71.627747593447566,42.621466750279069 -71.627792352810502,42.621436323970556 -71.627903496846557,42.621455518528819 -71.628005504608154,42.621356695890427 -71.628008186817169,42.621342446655035 -71.628121174871922,42.621167348697782 -71.628071805462241,42.620979174971581 -71.628027884289622,42.620874401181936 -71.628027549013495,42.620686143636703 -71.628056382760406,42.620527055114508 -71.628058729693294,42.620505010709167 -71.627999385818839,42.620350532233715 -71.628022855147719,42.620221618562937 -71.628136346116662,42.620116425678134 -71.62832192145288,42.620058255270123 -71.628530211746693,42.619959348812699 -71.628646049648523,42.619861699640751 -71.628756690770388,42.619688445702195 -71.628768173977733,42.619609069079161 -71.628766832873225,42.619471019133925 -71.628776807337999,42.619336321949959 -71.628842437639832,42.619290389120579 -71.628837324678898,42.61929189786315 -71.628822069615126,42.619231464341283 -71.628826763480902,42.619222244247794 -71.628832463175058,42.619213107973337 -71.62883841432631,42.619205480441451 -71.628840761259198,42.61920053511858 -71.628953749313951,42.619121409952641 -71.6289840079844,42.619070028886199 -71.629062294960022,42.618909934535623 -71.629109401255846,42.618782110512257 -71.629154747352004,42.618622183799744 -71.629208391532302,42.618528977036476 -71.629341244697571,42.61839578859508 -71.629404360428452,42.618224127218127 -71.629452556371689,42.618023799732327 -71.629553390666842,42.617920953780413 -71.629704516381025,42.617777790874243</coordinates></LineString>
+  </Placemark> 
   <Placemark>
 	<name>TRACK 28</name>
 	<description></description>
@@ -189,6 +203,13 @@
 	<Style><LineStyle><color>ff00ff00</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <LineString><coordinates>-71.630053538829088,42.628514757379889 -71.630026130005717,42.628573095425963 -71.629997547715902,42.628697901964188 -71.629865448921919,42.628785157576203 -71.629815576598048,42.628811141476035 -71.629787413403392,42.628830671310425 -71.629645423963666,42.629000321030617 -71.629583900794387,42.629178436473012 -71.629478791728616,42.629391672089696 -71.629392961040139,42.629593340680003 -71.629353230819106,42.629681015387177 -71.629332778975368,42.629733569920063 -71.629266897216439,42.629865920171142</coordinates></LineString>
   </Placemark>
+<!--  <Placemark>
+	<name>TRACK 30</name>
+	<description></description>
+	<Style><LineStyle><color>ff00ffff</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>-71.629704516381025,42.617777790874243 -71.629776516929269,42.617657342925668 -71.629776516929269,42.617657342925668 -71.629839716479182,42.617551060393453 -71.629885733127594,42.617434887215495 -71.629914315417409,42.617336064577103 -71.629898473620415,42.61715903878212 -71.629933174699545,42.617098772898316 -71.629992686212063,42.616968937218189 -71.630044654011726,42.616831054911017 -71.630119336768985,42.616655705496669 -71.630147583782673,42.616605833172798 -71.630219081416726,42.61649158783257 -71.630244227126241,42.616394944489002 -71.630263086408377,42.616230491548777 -71.630236012861133,42.616055309772491 -71.630247915163636,42.615905525162816</coordinates></LineString>
+  </Placemark>  
+-->  
   <Placemark>
 	<name>TRACK 3</name>
 	<description></description>

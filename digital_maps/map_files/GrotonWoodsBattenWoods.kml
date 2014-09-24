@@ -6,25 +6,25 @@
   <Placemark>
 	<name>Groton Woods / Batten Woods Parcels</name>
 	<description>Very nice trails through the Groton Woods and Batten Woods parcels.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.511582,42.583534</coordinates></Point>
   </Placemark>
     <Placemark>
 		<name>New Pond Rd. Parking</name>
 		<description>On-street parking New Pond Rd.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.512881,42.580442</coordinates></Point>
 	</Placemark>  
     <Placemark>
 	<name>Duck Pond Rd. Parking</name>
 	<description>Consists of on-street parking at the end of the road.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.512805,42.586979</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Cul-de-sac Parking</name>
 	<description>On-street parking at the end of the cul-de-sac.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.510306,42.579419</coordinates></Point>
   </Placemark>  
 	<Placemark>

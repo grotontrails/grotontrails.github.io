@@ -3,17 +3,21 @@
 <Document>
 <name><![CDATA[<b>Farmers and Mechanics Club</b>]]></name>
 <Folder>
-	<name>Farmers_Mechanics_Club</name>
+  <Placemark>
+	<name>Sidewalk 1</name>
+	<Style><LineStyle><color>ffffff00</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><LineString><coordinates>-71.607620967552066,42.625188985839486 -71.605990268290043,42.6247254665941 -71.603834358975291,42.624287344515324 -71.602229895070195,42.624328415840864 -71.600572038441896,42.624549027532339</coordinates></LineString></MultiGeometry>
+  </Placemark>
   <Placemark>
 	<name>Farmers Mechanics Club</name>
 	<description>A nice hike around the Farmers Mechanics Club property.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.601672,42.619233</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>Trail access east of this point is private property.  Please do not use this trail.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.598891,42.619627</coordinates></Point>
   </Placemark>	
 <Placemark>

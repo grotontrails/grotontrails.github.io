@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1">
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1">
 
   <metadata>
     <link href="http://www.garmin.com">
       <text>Garmin International</text>
     </link>
-    <time>2012-03-13T00:03:53Z</time>
+    <time>2012-11-25T01:37:09Z</time>
     <bounds maxlat="42.621324760839343" maxlon="-71.611056542024016" minlat="42.611071681603789" minlon="-71.61882346495986" />
   </metadata>
 
@@ -15,11 +15,12 @@
     <cmt>10-SEP-11 9:31:25AM</cmt>
     <desc>10-SEP-11 9:31:25AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -32,11 +33,12 @@
     <cmt>10-SEP-11 9:32:26AM</cmt>
     <desc>10-SEP-11 9:32:26AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -49,11 +51,12 @@
     <cmt>10-SEP-11 9:36:52AM</cmt>
     <desc>10-SEP-11 9:36:52AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -66,11 +69,12 @@
     <cmt>10-SEP-11 9:23:46AM</cmt>
     <desc>10-SEP-11 9:23:46AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -83,11 +87,12 @@
     <cmt>10-SEP-11 9:40:58AM</cmt>
     <desc>10-SEP-11 9:40:58AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -100,11 +105,12 @@
     <cmt>10-SEP-11 9:51:01AM</cmt>
     <desc>10-SEP-11 9:51:01AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -117,11 +123,12 @@
     <cmt>10-SEP-11 10:29:31AM</cmt>
     <desc>10-SEP-11 10:29:31AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>Hayes_Parcel</gpxx:Category>
+          <gpxx:Category>Hayes_Parcel.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -131,7 +138,7 @@
     <name>TRACK 1</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGreen</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -304,7 +311,7 @@
     <name>TRACK 2</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGreen</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -387,7 +394,7 @@
     <name>TRACK 3</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGreen</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -443,7 +450,7 @@
     <name>TRACK 4</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGreen</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -589,7 +596,7 @@
     <name>TRACK 5</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGreen</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -632,11 +639,12 @@
     </trkseg>
   </trk>
 
+<!--
   <trk>
     <name>TRACK 6</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkRed</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -716,7 +724,7 @@
     <name>TRACK 7</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkRed</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -838,7 +846,7 @@
     <name>TRACK 8</name>
     <extensions>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkRed</gpxx:DisplayColor>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
@@ -1045,5 +1053,5 @@
       </trkpt>
     </trkseg>
   </trk>
-
+-->
 </gpx>

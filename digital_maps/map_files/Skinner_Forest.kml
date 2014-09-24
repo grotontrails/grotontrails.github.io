@@ -5,89 +5,86 @@
 <Folder><name>Skinner_Forest</name>
 	<Placemark>
 		<name>Skinner Forest Conservation Area</name>
-		<description>This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with some moderatly difficult hills.  Trail conditions are good, though they are rocky as this used to be a logging area.  Some nice scenic areas through wetlands and by Whitney Pond.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#info-circle</styleUrl>
+		<description>Woodlands donated in memory of Joseph Skinner, an early proponent of conservation in Groton. Includes a pond, a large erratic known as “Bull Rock” at the edge of Whitney (Cow) Pond, and a network of trails.  This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with some moderatly difficult hills.  Trail conditions are good, though they are rocky as this used to be a logging area.  Some nice scenic areas through wetlands and by Whitney Pond.</description>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.510553,42.600415</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Lost Lake Dr. parking</name>
 	<description>Parking area off Lost Lake Dr. shared with access to Duck Pond Loop.  Off-road parking available for two or three vehicles.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.515016,42.595621</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Rock Wall</name>
-	<description>Rock wall.  Trail ends at this wall as there is private property on the other side of the wall.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#reddot</styleUrl>
-      <Point><coordinates>-71.507277181372046,42.599219251424074</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Whitney Pond</name>
 	<description>Nice scenic view over Whitney Pond from the South side.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.510339,42.603803</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Wetland area</name>
 	<description>There is a small stream that crosses the path here and will often flood the area.  It is passable, but caution is advised.  There is a significant wetland area immediately East of this point where the stream flows through.  A very scenic area, though caution is advised due to the potential of low area flooding.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.509191,42.604474</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Whitney Well</name>
-	<description>This trail ends here as access to Whitney Well at the bottom of the hill is restricted.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#reddot</styleUrl>	
-      <Point><coordinates>-71.509813,42.605366</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Amanda's Way trail access</name>
 	<description>Access to Skinner Forest off of Amanda's Way.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.504953,42.605051</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Long Cope Rd. trail access</name>
 	<description>Trail access to Skinner Forest off Long Cope Rd.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>		
       <Point><coordinates>-71.511025,42.601465</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Painted Post Rd. easement</name>
 	<description>This is a own easement.  There is no public access to or from Skinner Forest via this location.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.507324,42.601442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rock Wall</name>
+	<description>Rock wall.  Trail ends at this wall as there is private property on the other side of the wall.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+      <Point><coordinates>-71.507277181372046,42.599219251424074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Whitney Well</name>
+	<description>This trail ends here as access to Whitney Well at the bottom of the hill is restricted.</description>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+      <Point><coordinates>-71.509813,42.605366</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Lost Lake Dr. trail access</name>
 	<description>Trail access off Lost Lake Dr.  No off-street parking available.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>		
       <Point><coordinates>-71.514437,42.599791</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Lost Lake Dr. trail access</name>
 	<description>Trail access off Lost Lake Dr.  No off-street parking available.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>		
       <Point><coordinates>-71.514737,42.600439</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Duck Pond trail access</name>
 	<description>Trail access off Duck Pond.  This is right next to the trail access for Flavell Crossing.</description>
-	<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>		
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>		
       <Point><coordinates>-71.509276,42.595005</coordinates></Point>
   </Placemark>
-<GroundOverlay>
-	<name>Untitled Image Overlay</name>
-	<Icon>
-		<href>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_pictures/GTN_round_logo.jpg</href>
-		<viewBoundScale>0.75</viewBoundScale>
-	</Icon>
-	<LatLonBox>
-		<north>42.59732792879796</north>
-		<south>42.59631975908361</south>
-		<east>-71.50695055219747</east>
-		<west>-71.50841068287441</west>
-	</LatLonBox>
-</GroundOverlay>  
+	<ScreenOverlay id="khScreenOverlay756">
+		<name>GTN Logo</name>
+		<description></description>
+		<Icon>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
+		</Icon>
+		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
+		<size x="70" y="70" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
   <Placemark>
 	<name>TRACK 1</name>
 	<description></description>

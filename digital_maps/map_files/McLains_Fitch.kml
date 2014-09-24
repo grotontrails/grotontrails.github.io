@@ -6,37 +6,37 @@
 	<Placemark>
 		<name>McLains/Fitch Area</name>
 		<description>This is a very nice hiking area with several miles worth of trails.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.557723,42.633819</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>McLains Woods Rd. parking</name>
 	<description>Parking on McLains Woods Rd. cul-de-sac.  Parking for a few vehicles.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.555652,42.638877</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>McLains Woods Rd. trail access</name>
 	<description>Trail access via McLains Woods Rd.  No on-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.557903,42.639504</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>McLains Woods Rd. trail access</name>
 	<description>Trail access to a short trail off McLains Woods Rd.  No on-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.556668,42.639429</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Chicopee Row trail access</name>
 	<description>Trail access to a the trail system.  No on-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.561180,42.626516</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Reedy Meadow Rd. trail access</name>
 	<description>Trail access to a the trail system.  No on-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.557230,42.641160</coordinates></Point>
   </Placemark>  
   <Placemark>

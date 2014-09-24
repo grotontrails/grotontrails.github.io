@@ -6,7 +6,7 @@
 	<Placemark>
 		<name>Mason Back 100</name>
 		<description>Extremely valuable as wildlife habitat, the land is mostly wooded, with a long section of Cow Pond Brook on the eastern portion and a dramatic rock outcrop alongside Indian Rock Stream and Gamlin Pond on the western portion. An extensive trail network provides access throughout and connects to abutting protected areas.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.515254,42.642637,0</coordinates>
 		</Point>
@@ -14,7 +14,7 @@
 	<Placemark>
 		<name>Gamlin Chrystal Spring</name>
 		<description>Mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting conservation lands.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.507922,42.632085,0</coordinates>
 		</Point>
@@ -22,7 +22,7 @@
 	<Placemark>
 		<name>Old Dunstable Rd. Parking</name>
 		<description>Old Dunstable Rd. Parking.  Offstreet parking available.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.510172,42.631211,0</coordinates>
 		</Point>
@@ -30,7 +30,7 @@
 	<Placemark>
 		<name>Cow Pond Rd. Parking</name>
 		<description>Cow Pond Rd. Parking.  Plenty of offstreet parking available as well as parking at the nearby Cow Pond Sports fields.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.502662,42.624647,0</coordinates>
 		</Point>
@@ -38,7 +38,7 @@
 	<Placemark>
 		<name>Bridge St. Parking</name>
 		<description>Bridge St. Parking.  Plenty available on the cul-de-sac.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.507441,42.627056,0</coordinates>
 		</Point>
@@ -46,7 +46,7 @@
 	<Placemark>
 		<name>Old Dunstable Rd. trail access</name>
 		<description>Old Dunstable Rd. trail access.  Some on-street parking available.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.509759,42.632574,0</coordinates>
 		</Point>
@@ -54,7 +54,7 @@
 	<Placemark>
 		<name>Old Dunstable Rd. trail access</name>
 		<description>Old Dunstable Rd. trail access.  Some on-street parking available.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.510569,42.630305,0</coordinates>
 		</Point>
@@ -62,7 +62,7 @@
 	<Placemark>
 		<name>Groton St. trail access</name>
 		<description>Groton St. trail access.  Some on-street parking available.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.520310,42.656639,0</coordinates>
 		</Point>
@@ -70,7 +70,7 @@
 	<Placemark>
 		<name>Groton Rd. trail access</name>
 		<description>Groton Rd. trail access.  Some on-street parking available.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.499844,42.640913,0</coordinates>
 		</Point>
@@ -78,7 +78,7 @@
 	<Placemark>
 		<name>Wet area</name>
 		<description>Trail does continue past this point, but water may block the trail during wet season.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<coordinates>-71.521488,42.646799,0</coordinates>
 		</Point>

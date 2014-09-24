@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1">
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1">
 
   <metadata>
     <link href="http://www.garmin.com">
       <text>Garmin International</text>
     </link>
-    <time>2012-03-11T23:45:35Z</time>
+    <time>2013-01-04T13:32:30Z</time>
     <bounds maxlat="42.631706334650517" maxlon="-71.617190837860107" minlat="42.613447029143572" minlon="-71.64197713136673" />
   </metadata>
 
@@ -15,12 +15,12 @@
     <cmt>Seasonal stream.</cmt>
     <desc>Seasonal stream.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -33,12 +33,12 @@
     <cmt>08-JAN-12 12:31:38PM</cmt>
     <desc>08-JAN-12 12:31:38PM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -51,12 +51,12 @@
     <cmt>For the next couple of a hundred yards, there are a number of probably season streams and wet areas to cross.</cmt>
     <desc>For the next couple of a hundred yards, there are a number of probably season streams and wet areas to cross.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -69,12 +69,12 @@
     <cmt>Stone wall.</cmt>
     <desc>Stone wall.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -87,12 +87,12 @@
     <cmt>Stopped at a deadfall across the trail.</cmt>
     <desc>Stopped at a deadfall across the trail.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -105,12 +105,12 @@
     <cmt>Stopped at a deadfall across the trail.</cmt>
     <desc>Stopped at a deadfall across the trail.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -123,12 +123,12 @@
     <cmt>Trail entrance on cul-de-sac.  To get to the actual trail, walk up the right side of the driveway, staying between the two houses.  The trailhead is at the top of the driveway between the houses.</cmt>
     <desc>Trail entrance on cul-de-sac.  To get to the actual trail, walk up the right side of the driveway, staying between the two houses.  The trailhead is at the top of the driveway between the houses.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -141,12 +141,12 @@
     <cmt>Trail ends at Kemp St.  Sign at entrance says Kemp Forest.</cmt>
     <desc>Trail ends at Kemp St.  Sign at entrance says Kemp Forest.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -159,12 +159,12 @@
     <cmt>Trails ends behind private property at an iron gate.</cmt>
     <desc>Trails ends behind private property at an iron gate.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -177,17 +177,18 @@
     <cmt>Trail appears to end behind a farm.  Could not find a trail around the farm.</cmt>
     <desc>Trail appears to end behind a farm.  Could not find a trail around the farm.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
 
+<!--
   <wpt lat="42.615876104682684" lon="-71.630322681739926">
     <ele>98.22265625</ele>
     <time>2012-03-11T22:19:15Z</time>
@@ -195,16 +196,17 @@
     <cmt>Trail ends at private property.  Could not find a trail around to the road.</cmt>
     <desc>Trail ends at private property.  Could not find a trail around to the road.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
+-->
 
   <wpt lat="42.618792336434126" lon="-71.6212890855968">
     <ele>110.6766357421875</ele>
@@ -213,12 +215,12 @@
     <cmt>Small wetland with what looks to be an old footbridge across it.  The bridge is useless now.</cmt>
     <desc>Small wetland with what looks to be an old footbridge across it.  The bridge is useless now.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -231,12 +233,12 @@
     <cmt>Seasonal stream.</cmt>
     <desc>Seasonal stream.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -249,12 +251,12 @@
     <cmt>Trail ends at a substantial water barrier.  On the west side of the barrier, I can see another trail marker, so the trail appears to continue past this point.  However, the water between is pretty much impassible.</cmt>
     <desc>Trail ends at a substantial water barrier.  On the west side of the barrier, I can see another trail marker, so the trail appears to continue past this point.  However, the water between is pretty much impassible.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -267,12 +269,12 @@
     <cmt>Stone foundation of some sort.  Possiblya root cellar.</cmt>
     <desc>Stone foundation of some sort.  Possiblya root cellar.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -285,12 +287,12 @@
     <cmt>Trail ends at Private Property signs.</cmt>
     <desc>Trail ends at Private Property signs.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -303,12 +305,12 @@
     <cmt>08-JAN-12 11:58:20AM</cmt>
     <desc>08-JAN-12 11:58:20AM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -321,12 +323,12 @@
     <cmt>Long footbridge (over 100 yds long) over wetland area.  Plants that border the bridge probably grow thick enough in spring to make the bridge difficult to cross.  Bridge could use some work.</cmt>
     <desc>Long footbridge (over 100 yds long) over wetland area.  Plants that border the bridge probably grow thick enough in spring to make the bridge difficult to cross.  Bridge could use some work.</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -339,12 +341,12 @@
     <cmt>08-JAN-12 12:02:37PM</cmt>
     <desc>08-JAN-12 12:02:37PM</desc>
     <sym>Flag, Blue</sym>
+    <type>user</type>
     <extensions>
       <gpxx:WaypointExtension>
         <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
         <gpxx:Categories>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
-          <gpxx:Category>ThroneHill_KempForest</gpxx:Category>
+          <gpxx:Category>ThroneHill_KempForest.gpx</gpxx:Category>
         </gpxx:Categories>
       </gpxx:WaypointExtension>
     </extensions>
@@ -1949,66 +1951,6 @@
         <ele>115.49560546875</ele>
         <time>2012-01-01T20:24:29Z</time>
       </trkpt>
-      <trkpt lat="42.617657342925668" lon="-71.629776516929269">
-        <ele>115.014892578125</ele>
-        <time>2012-01-01T20:24:44Z</time>
-      </trkpt>
-      <trkpt lat="42.617551060393453" lon="-71.629839716479182">
-        <ele>114.0535888671875</ele>
-        <time>2012-01-01T20:24:58Z</time>
-      </trkpt>
-      <trkpt lat="42.617434887215495" lon="-71.629885733127594">
-        <ele>112.611572265625</ele>
-        <time>2012-01-01T20:25:11Z</time>
-      </trkpt>
-      <trkpt lat="42.617336064577103" lon="-71.629914315417409">
-        <ele>112.1309814453125</ele>
-        <time>2012-01-01T20:25:23Z</time>
-      </trkpt>
-      <trkpt lat="42.61715903878212" lon="-71.629898473620415">
-        <ele>110.6888427734375</ele>
-        <time>2012-01-01T20:25:39Z</time>
-      </trkpt>
-      <trkpt lat="42.617098772898316" lon="-71.629933174699545">
-        <ele>110.208251953125</ele>
-        <time>2012-01-01T20:25:45Z</time>
-      </trkpt>
-      <trkpt lat="42.616968937218189" lon="-71.629992686212063">
-        <ele>108.7662353515625</ele>
-        <time>2012-01-01T20:25:57Z</time>
-      </trkpt>
-      <trkpt lat="42.616831054911017" lon="-71.630044654011726">
-        <ele>105.8824462890625</ele>
-        <time>2012-01-01T20:26:11Z</time>
-      </trkpt>
-      <trkpt lat="42.616655705496669" lon="-71.630119336768985">
-        <ele>103.959716796875</ele>
-        <time>2012-01-01T20:26:28Z</time>
-      </trkpt>
-      <trkpt lat="42.616605833172798" lon="-71.630147583782673">
-        <ele>103.47900390625</ele>
-        <time>2012-01-01T20:26:33Z</time>
-      </trkpt>
-      <trkpt lat="42.61649158783257" lon="-71.630219081416726">
-        <ele>102.037109375</ele>
-        <time>2012-01-01T20:26:43Z</time>
-      </trkpt>
-      <trkpt lat="42.616394944489002" lon="-71.630244227126241">
-        <ele>101.556396484375</ele>
-        <time>2012-01-01T20:26:50Z</time>
-      </trkpt>
-      <trkpt lat="42.616230491548777" lon="-71.630263086408377">
-        <ele>99.153076171875</ele>
-        <time>2012-01-01T20:27:03Z</time>
-      </trkpt>
-      <trkpt lat="42.616055309772491" lon="-71.630236012861133">
-        <ele>97.23046875</ele>
-        <time>2012-01-01T20:27:19Z</time>
-      </trkpt>
-      <trkpt lat="42.615905525162816" lon="-71.630247915163636">
-        <ele>95.7884521484375</ele>
-        <time>2012-01-01T20:27:39Z</time>
-      </trkpt>
     </trkseg>
   </trk>
 
@@ -2656,6 +2598,87 @@
       </trkpt>
     </trkseg>
   </trk>
+
+<!--
+  <trk>    
+	<name>TRACK 30</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="42.617777790874243" lon="-71.629704516381025">
+        <ele>115.49560546875</ele>
+        <time>2012-01-01T20:24:29Z</time>
+      </trkpt>
+      <trkpt lat="42.617657342925668" lon="-71.629776516929269">
+        <ele>115.014892578125</ele>
+        <time>2012-01-01T20:24:44Z</time>
+      </trkpt>
+      <trkpt lat="42.617657342925668" lon="-71.629776516929269">
+        <ele>115.014892578125</ele>
+        <time>2012-01-01T20:24:44Z</time>
+      </trkpt>
+      <trkpt lat="42.617551060393453" lon="-71.629839716479182">
+        <ele>114.0535888671875</ele>
+        <time>2012-01-01T20:24:58Z</time>
+      </trkpt>
+      <trkpt lat="42.617434887215495" lon="-71.629885733127594">
+        <ele>112.611572265625</ele>
+        <time>2012-01-01T20:25:11Z</time>
+      </trkpt>
+      <trkpt lat="42.617336064577103" lon="-71.629914315417409">
+        <ele>112.1309814453125</ele>
+        <time>2012-01-01T20:25:23Z</time>
+      </trkpt>
+      <trkpt lat="42.61715903878212" lon="-71.629898473620415">
+        <ele>110.6888427734375</ele>
+        <time>2012-01-01T20:25:39Z</time>
+      </trkpt>
+      <trkpt lat="42.617098772898316" lon="-71.629933174699545">
+        <ele>110.208251953125</ele>
+        <time>2012-01-01T20:25:45Z</time>
+      </trkpt>
+      <trkpt lat="42.616968937218189" lon="-71.629992686212063">
+        <ele>108.7662353515625</ele>
+        <time>2012-01-01T20:25:57Z</time>
+      </trkpt>
+      <trkpt lat="42.616831054911017" lon="-71.630044654011726">
+        <ele>105.8824462890625</ele>
+        <time>2012-01-01T20:26:11Z</time>
+      </trkpt>
+      <trkpt lat="42.616655705496669" lon="-71.630119336768985">
+        <ele>103.959716796875</ele>
+        <time>2012-01-01T20:26:28Z</time>
+      </trkpt>
+      <trkpt lat="42.616605833172798" lon="-71.630147583782673">
+        <ele>103.47900390625</ele>
+        <time>2012-01-01T20:26:33Z</time>
+      </trkpt>
+      <trkpt lat="42.61649158783257" lon="-71.630219081416726">
+        <ele>102.037109375</ele>
+        <time>2012-01-01T20:26:43Z</time>
+      </trkpt>
+      <trkpt lat="42.616394944489002" lon="-71.630244227126241">
+        <ele>101.556396484375</ele>
+        <time>2012-01-01T20:26:50Z</time>
+      </trkpt>
+      <trkpt lat="42.616230491548777" lon="-71.630263086408377">
+        <ele>99.153076171875</ele>
+        <time>2012-01-01T20:27:03Z</time>
+      </trkpt>
+      <trkpt lat="42.616055309772491" lon="-71.630236012861133">
+        <ele>97.23046875</ele>
+        <time>2012-01-01T20:27:19Z</time>
+      </trkpt>
+      <trkpt lat="42.615905525162816" lon="-71.630247915163636">
+        <ele>95.7884521484375</ele>
+        <time>2012-01-01T20:27:39Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+-->
 
   <trk>
     <name>TRACK 4</name>

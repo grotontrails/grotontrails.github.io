@@ -6,55 +6,55 @@
 	<Placemark>
 		<name>Taisey Conservation Restriction</name>
 		<description>This is a very nice hiking area with with a few miles of trail that go through the Taisey Conservation area and along the Nashua River.  Trail pieces can be "connected" by walking along Fairgrounds and Riverbend</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.597272,42.613184</coordinates></Point>
 	</Placemark>
 	<Placemark>
 		<name>Mill St. parking</name>
 		<description>Parking area off Mill St.  Off-road parking available for several vehicles.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.585921,42.610674</coordinates></Point>
   </Placemark>	
   <Placemark>
 	<name>Jenkins Rd. trail access</name>
 	<description>Access to the parcel via Jenkins Rd.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.590411,42.614150</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Jenkins Rd. trail access</name>
 	<description>Access to the parcel via Jenkins Rd.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.591709,42.614560</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Riverbend Dr. trail access</name>
 	<description>Access to the parcel via Riverbend Dr.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.592353,42.613771</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Riverbend Dr. trail access</name>
 	<description>Access to the parcel via Riverbend Dr.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.599203,42.611858</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Riverbend Dr. trail access</name>
 	<description>Access to the parcel via Riverbend Dr.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.596987,42.610727</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wintergreen Dr. trail access</name>
 	<description>Access to the parcel via Wintergreen Dr.  No off-street parking.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.596666,42.608190</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Long Hill Rd. (Rt. 225) trail access</name>
 	<description>Access to the parcel via Long Hill Rd. (Rt. 225)  Off-street parking available nearby.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.597029,42.605467</coordinates></Point>
   </Placemark>
   <Placemark>

@@ -6,25 +6,25 @@
 	<Placemark>
 		<name>Keyes Woods / Groton School</name>
 		<description>A very nice trail through the Keyes Woods parcel.  The Groton School trail is on private property, but is open to the public at this time.</description>
-		<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.577981,42.592343</coordinates></Point>
 	</Placemark>		
   <Placemark>
 	<name>Peabody St. trail access</name>
 	<description>Trail access off Peabody St.  Some on the road parking available.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.576425,42.596845</coordinates></Point>
   </Placemark>		
   <Placemark>
 	<name>Farmers Row trail access</name>
 	<description>Trail access off Farmers Row.  Some on the road parking available.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.582766,42.588883</coordinates></Point>
   </Placemark>		
   <Placemark>
 	<name>Farmers Row trail access</name>
 	<description>Trail access off Farmers Row.  Some on the road parking available.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.582863,42.588370</coordinates></Point>
   </Placemark>		
 

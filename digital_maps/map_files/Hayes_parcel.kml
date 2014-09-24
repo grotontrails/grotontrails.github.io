@@ -6,55 +6,55 @@
     <Placemark>
 	<name>Hayes Conservation Area</name>
 	<description>Hayes consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel.  All parking locations are located at a parcel entrance.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
             <Point><coordinates>-71.616128,42.616171</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Bridge</name>
 	<description>Small footbridge over a stream near a nature observation area.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.613520653918386,42.619488118216395</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nature Observation Area</name>
 	<description>Area designated for observing wetlands.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.614897632971406,42.618534006178379</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Power Line Access</name>
 	<description>Power line access. DANGER, KEEP OUT</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.614803001284599,42.612638678401709</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Parking</name>
 	<description>A small parking area located just off-street.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.616284670308232,42.618892081081867</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>A small parking area located just off-street.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.618028273805976,42.616523690521717</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nature Observation Area</name>
 	<description>Area designated for observing wetlands.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.616669734939933,42.617309242486954</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Power Line Access</name>
 	<description>Power line access. DANGER, KEEP OUT</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.615400044247508,42.616185899823904</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>Parking area off Maple Avenue large enough for 3-4 cars.</description>
-	<styleUrl>http://www.grotontrails.org/digital_maps/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.612179717049003,42.621324760839343</coordinates></Point>
   </Placemark>
 	<ScreenOverlay id="khScreenOverlay756">
@@ -107,6 +107,7 @@
 	<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <LineString><coordinates>-71.614696215838194,42.616848824545741 -71.614679032936692,42.616904145106673 -71.614601751789451,42.617103382945061 -71.614459343254566,42.617306644096971 -71.614359514787793,42.617419296875596 -71.614264966920018,42.617582576349378 -71.614225069060922,42.617723308503628 -71.61426312290132,42.61791399680078 -71.614276031032205,42.618077360093594 -71.614312659949064,42.61822622269392 -71.614421289414167,42.618325799703598 -71.61456017754972,42.618362093344331</coordinates></LineString>
   </Placemark>
+<!--  
   <Placemark>
 	<name>TRACK 6</name>
 	<description></description>
@@ -125,5 +126,6 @@
 	<Style><LineStyle><color>ff00ff00</color><width>2</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <LineString><coordinates>-71.61775971762836,42.614510525017977 -71.617620661854744,42.614497365429997 -71.617417400702834,42.614425113424659 -71.617281027138233,42.614382449537516 -71.61700333468616,42.614383706822991 -71.616707453504205,42.61437188833952 -71.616654815152287,42.614202238619328 -71.616652049124241,42.614136021584272 -71.616645762696862,42.614110289141536 -71.616588095203042,42.61399956420064 -71.616578288376331,42.613933682441711 -71.616598656401038,42.613837039098144 -71.616599326953292,42.613794459030032 -71.616545850411057,42.613664120435715 -71.616455409675837,42.61353051289916 -71.616372764110565,42.613484412431717 -71.616217950358987,42.613392630591989 -71.616043774411082,42.613245947286487 -71.615945706143975,42.613176628947258 -71.615797514095902,42.613045703619719 -71.615660972893238,42.612990802153945 -71.615466428920627,42.612983509898186 -71.615296276286244,42.612920226529241 -71.615233663469553,42.612873706966639 -71.615125620737672,42.612820733338594 -71.615055296570063,42.612782847136259 -71.614894196391106,42.612681090831757 -71.614653468132019,42.612541364505887 -71.614629914984107,42.61251563206315 -71.614666124805808,42.612431477755308 -71.614615917205811,42.612263672053814 -71.61445515230298,42.612126711755991 -71.614315174520016,42.612065691500902 -71.614185255020857,42.612060746178031 -71.614025412127376,42.611976759508252 -71.613986101001501,42.611955218017101 -71.613816032186151,42.611843151971698 -71.613657027482986,42.611772157251835 -71.613625092431903,42.611762601882219 -71.613480253145099,42.611671574413776 -71.61336156539619,42.611641231924295 -71.61310994066298,42.611697055399418 -71.61307280883193,42.611712561920285 -71.613017404451966,42.611741982400417 -71.612879270687699,42.61185253970325 -71.612755218520761,42.611938370391726 -71.612695790827274,42.612011879682541 -71.612647511065006,42.612054208293557 -71.61252748221159,42.612099554389715 -71.612441232427955,42.612173398956656 -71.612393874675035,42.612202567979693 -71.61233302205801,42.612244393676519 -71.612268732860684,42.612303486093879 -71.612205030396581,42.612350340932608 -71.612072680145502,42.612431729212403 -71.611834717914462,42.612505238503218 -71.611763136461377,42.612513620406389 -71.611488545313478,42.612482104450464 -71.611371366307139,42.61241689324379 -71.611233064904809,42.612245148047805 -71.611218564212322,42.612195694819093 -71.611220994964242,42.612142050638795 -71.611228454858065,42.612119670957327 -71.611202219501138,42.612021854147315 -71.611196771264076,42.611932922154665 -71.611063331365585,42.611912470310926 -71.611056542024016,42.611911715939641</coordinates></LineString>
   </Placemark>
+  -->
 </Folder>
 </Document></kml>

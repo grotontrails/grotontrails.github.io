@@ -7,7 +7,7 @@
 	<Placemark>
 		<name>Flavell Crossing and Groton Woods Conservation Area</name>
 		<description>This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with slight rolling hills.  Scenery is very nice with a couple of streams to cross, a vernal pond, and granit rock.  Wildlife can occasionally be seen.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.50550000000000,42.59956445903426,0</coordinates>
 		</Point>
@@ -15,7 +15,7 @@
 	<Placemark>
 		<name>Painted Post Rd. Parking</name>
 		<description>Painted Post Rd. Parking.  Offstreet parking available for up to a dozen vehicles.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.50419393828597,42.60238141013735,0</coordinates>
 		</Point>
@@ -23,27 +23,23 @@
 	<Placemark>
 		<name>Duck Pond trail access</name>
 		<description>Trail access via Duck Pond cul-de-sac.  No off-street parking.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.510233,42.594146</coordinates>
 		</Point>
 	</Placemark>
-	
-		<Placemark>
+	<Placemark>
 		<name>Trail access off Forest Dr.</name>
 		<description>Trail access vi unfinished cul-de-sac off Forest Dr.  No off-street parking.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.507658,42.587835</coordinates>
 		</Point>
 	</Placemark>
-	
-	
-	
 	<Placemark>
 		<name>Acorn Path Trail access</name>
 		<description>Acorn Path Parking.  No off-street parking available</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.50146096418163,42.58842074147307,0</coordinates>
 		</Point>
@@ -51,7 +47,7 @@
 	<Placemark>
 		<name>Stream Crossing</name>
 		<description>Small stream crossed with stepping stones</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -61,7 +57,7 @@
 	<Placemark>
 		<name>High Dome</name>
 		<description>High dome of granite rock</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -70,7 +66,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Stone Wall Crossing</name>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -80,7 +76,7 @@
 	<Placemark>
 		<name>Seasonal Pond</name>
 		<description>Seasonal pond that can at times overflow the trail.</description>
-		<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<coordinates>-71.5033600473726,42.59537681819793,0</coordinates>
 		</Point>
@@ -88,7 +84,7 @@
 		<Placemark>
 			<name>Westford&apos;s Sportsman&apos;s Club</name>
 			<description>Westford&apos;s Sportsman&apos;s Club.  Live weapons firing.  Danger.  Stay clear of this area and the area directly west of this area when hiking.</description>
-			<styleUrl>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_icons/icon_shared_styles.kml#red_poly</styleUrl>
+			<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#red_poly</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -100,19 +96,16 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>	
-	<GroundOverlay>
-		<name>Groton Trails Committee</name>
+	<ScreenOverlay id="khScreenOverlay756">
+		<name>GTN Logo</name>
+		<description></description>
 		<Icon>
-			<href>http://www.grotontrails.org/GTC_Site_10.08.09/digital_maps/map_pictures/GTN_round_logo.jpg</href>
-			<viewBoundScale>0.75</viewBoundScale>
+			<href>http://www.grotontrails.org/digital_maps/gtn_round_logo.png</href>
 		</Icon>
-		<LatLonBox>
-			<north>42.59288860221009</north>
-			<south>42.59124895100493</south>
-			<east>-71.49948508581242</east>
-			<west>-71.50180544300152</west>
-		</LatLonBox>
-	</GroundOverlay>
+		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
+		<size x="70" y="70" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
 		<name>FlavellCrossingGrotonWoods</name>
 		<open>1</open>
 		<Placemark>

@@ -1,15 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:abp="http://www.garmin.com/xmlschemas/ActivityExtension/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1">
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1">
 
   <metadata>
     <link href="http://www.garmin.com">
       <text>Garmin International</text>
     </link>
-    <time>2012-01-11T19:34:44Z</time>
+    <time>2012-06-20T19:22:34Z</time>
     <bounds maxlat="42.657803473994136" maxlon="-71.534755239263177" minlat="42.64324008487165" minlon="-71.545604187995195" />
   </metadata>
 
   <trk>
     <name>Track</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.65277961269021" lon="-71.536793299019337">
         <ele>71.5625</ele>
@@ -115,6 +120,11 @@
 
   <trk>
     <name>TRACK 1</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.647984158247709" lon="-71.537450440227985" />
       <trkpt lat="42.64798223040998" lon="-71.537408027797937" />
@@ -308,6 +318,11 @@
 
   <trk>
     <name>TRACK 10</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.646973887458444" lon="-71.544429296627641" />
       <trkpt lat="42.646960727870464" lon="-71.544461399316788" />
@@ -350,6 +365,11 @@
 
   <trk>
     <name>TRACK 11</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.648068899288774" lon="-71.542623667046428" />
       <trkpt lat="42.647979045286775" lon="-71.542626349255443" />
@@ -461,6 +481,11 @@
 
   <trk>
     <name>TRACK 12</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.647795230150223" lon="-71.539223296567798">
         <ele>87.2890625</ele>
@@ -569,6 +594,11 @@
 
   <trk>
     <name>TRACK 2</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.65069268643856" lon="-71.538524916395545" />
       <trkpt lat="42.650706768035889" lon="-71.538486694917083" />
@@ -845,6 +875,11 @@
 
   <trk>
     <name>TRACK 3</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.647780980914831" lon="-71.537855286151171" />
       <trkpt lat="42.647766983136535" lon="-71.537864841520786" />
@@ -1007,6 +1042,11 @@
 
   <trk>
     <name>TRACK 4</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.646461836993694" lon="-71.543079139664769" />
       <trkpt lat="42.646476170048118" lon="-71.543123060837388" />
@@ -1039,6 +1079,11 @@
 
   <trk>
     <name>TRACK 5</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.649570601060987" lon="-71.539493277668953" />
       <trkpt lat="42.64954436570406" lon="-71.539541641250253" />
@@ -1067,8 +1112,14 @@
     </trkseg>
   </trk>
 
+<!--
   <trk>
     <name>TRACK 6</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.646221192553639" lon="-71.544649573042989" />
       <trkpt lat="42.64618506655097" lon="-71.544632473960519" />
@@ -1255,9 +1306,15 @@
       <trkpt lat="42.643240923061967" lon="-71.544936485588551" />
     </trkseg>
   </trk>
+-->
 
   <trk>
     <name>TRACK 7</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.652411982417107" lon="-71.540439259260893" />
       <trkpt lat="42.652459172531962" lon="-71.540458286181092" />
@@ -1388,6 +1445,11 @@
 
   <trk>
     <name>TRACK 8</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.648462262004614" lon="-71.540084537118673" />
       <trkpt lat="42.648447928950191" lon="-71.540136588737369" />
@@ -1526,6 +1588,11 @@
 
   <trk>
     <name>TRACK 9</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="42.646844554692507" lon="-71.543996203690767" />
       <trkpt lat="42.646896438673139" lon="-71.544005339965224" />
