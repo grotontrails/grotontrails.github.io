@@ -1,0 +1,47 @@
+<kml>
+<Document>
+	<name>AllGrids</name> 
+		<Region>
+			<LatLonAltBox>
+				<north>42.64861111</north>
+				<south>42.57361111</south>
+				<east>-71.47888889</east>
+				<west>-71.6666667</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>512</minLodPixels>
+			</Lod>
+		</Region>
+  <Placemark>
+    <name>ukraineRegion</name>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+		-71.6666667,42.64861111,0
+		-71.47888889,42.64861111,0
+		-71.47888889,42.57361111,0
+		-71.6666667,42.57361111,0
+		-71.6666667,42.64861111,0
+      </coordinates>
+    </LineString>
+  </Placemark> 
+  <NetworkLink>
+    <name>romania NetworkLink</name>
+    <Region>
+      <LatLonAltBox>
+		<north>42.64861111</north>
+		<south>42.57361111</south>
+		<east>-71.47888889</east>
+		<west>-71.6666667</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>512</minLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>http://www.grotontrails.org/digital_maps/Test_files/Layer2a.kml</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>
