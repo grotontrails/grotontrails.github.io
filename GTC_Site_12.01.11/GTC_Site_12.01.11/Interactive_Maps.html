@@ -5,6 +5,11 @@
 <meta name="iWeb-Build" content="local-build-20120109">
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 <meta name="viewport" content="width=700">
+<head>
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+</head>
+
 <title>Trails</title>
 <link rel="stylesheet" type="text/css" media="screen,print" href="Interactive_Maps_files/Interactive_Maps.css">
 <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Interactive_Maps_files/Interactive_MapsIE.css'/><![endif]-->
@@ -65,9 +70,6 @@
             <div id="id2" style="height: 1263px; left: 20px; position: absolute; top: 12px; width: 640px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
                 <div class="text-content Normal_External_640_1263" style="padding: 0px; ">
                     <div class="Normal">
-                        <p style="padding-top: 0pt; " class="paragraph_style">In addition to the maps included as pdf files on this site, we are pleased to present new trail maps using current GPS and mapping programs.&nbsp; Groton resident, Chris Marsh, has done a yeoman’s job assembling the trail maps accessible at the links below.&nbsp; Chris has taken on this endeavor to assist him in completing his Eagle Scout project and we are all grateful for his work.&nbsp;
-                            <br>
-                        </p>
                         <p class="paragraph_style">
                             <br>
                         </p>
@@ -92,13 +94,7 @@
                         <p class="paragraph_style">
                             <br>
                         </p>
-                        <div class="paragraph paragraph_style">
-                            <div style="height: 332px; width: 630px;  height: 332px; position: relative; width: 630px; " class="tinyText style_SkipStroke_2 inline-block stroke_0">
-                                <a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/Grotontrails_placemarks_map.kml&amp;t=t1" title="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/Grotontrails_placemarks_map.kml&amp;t=t1" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-                                    <img src="Interactive_Maps_files/Groton%20Trails%2012.27.11.jpg" alt="" style="border: none; height: 332px; width: 631px; ">
-                                </a>
-                            </div>
-                            <br>
+                        <div id="map">
                         </div>
                         <p class="paragraph_style">
                             <br>
@@ -172,5 +168,13 @@
         </div>
     </div>
 </div>
+
+<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+<script>
+
+window.onload = function() {
+  cartodb.createVis('map', 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json');
+}
+</script>
 
 </html>
