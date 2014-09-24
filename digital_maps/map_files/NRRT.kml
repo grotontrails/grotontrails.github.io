@@ -6,43 +6,43 @@
   <Placemark>
 	<name>Ayer to Nashua Rail Trail</name>
 	<description>This is a great trail used for many different outdoor activities including bicycling, skating, running, and just a nice walk.  The trail is a well-kept hard surface, generally level with great scenery along the way.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.576775,42.605969</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Ayer Parking</name>
 	<description>Off-street parking in lot</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.590036153793335,42.560398047789931</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Broadmeadow Parking</name>
 	<description>Off-street dirt parking lot</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.571957310661674,42.605180880054832</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Groton School Pond</name>
 	<description>Scenic view of the Groton School Pond on both sides of the trail.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.575682815164328,42.589539075270295</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nashua Parking</name>
 	<description>Large off-street parking lot.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.531877480447292,42.715650089085102</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Pepperell Parking</name>
 	<description>Smaller off-street parking lot.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.53937928378582,42.702488992363214</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Staion Ave. Parking</name>
 	<description>Both on-street and off-street parking along Station Ave.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.573555236682296,42.607434522360563</coordinates></Point>
   </Placemark>
   <Placemark>

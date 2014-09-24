@@ -7,7 +7,7 @@
 	<Placemark>
 		<name>Flavell Crossing and Groton Woods Conservation Area</name>
 		<description>This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with slight rolling hills.  Scenery is very nice with a couple of streams to cross, a vernal pond, and granit rock.  Wildlife can occasionally be seen.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.50550000000000,42.59956445903426,0</coordinates>
 		</Point>
@@ -15,7 +15,7 @@
 	<Placemark>
 		<name>Painted Post Rd. Parking</name>
 		<description>Painted Post Rd. Parking.  Offstreet parking available for up to a dozen vehicles.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.50419393828597,42.60238141013735,0</coordinates>
 		</Point>
@@ -23,7 +23,7 @@
 	<Placemark>
 		<name>Duck Pond trail access</name>
 		<description>Trail access via Duck Pond cul-de-sac.  No off-street parking.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.510233,42.594146</coordinates>
 		</Point>
@@ -31,7 +31,7 @@
 	<Placemark>
 		<name>Trail access off Forest Dr.</name>
 		<description>Trail access vi unfinished cul-de-sac off Forest Dr.  No off-street parking.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.507658,42.587835</coordinates>
 		</Point>
@@ -39,7 +39,7 @@
 	<Placemark>
 		<name>Acorn Path Trail access</name>
 		<description>Acorn Path Parking.  No off-street parking available</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.50146096418163,42.58842074147307,0</coordinates>
 		</Point>
@@ -47,7 +47,7 @@
 	<Placemark>
 		<name>Stream Crossing</name>
 		<description>Small stream crossed with stepping stones</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -57,7 +57,7 @@
 	<Placemark>
 		<name>High Dome</name>
 		<description>High dome of granite rock</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -66,7 +66,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Stone Wall Crossing</name>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -76,7 +76,7 @@
 	<Placemark>
 		<name>Seasonal Pond</name>
 		<description>Seasonal pond that can at times overflow the trail.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<coordinates>-71.5033600473726,42.59537681819793,0</coordinates>
 		</Point>
@@ -84,7 +84,7 @@
 		<Placemark>
 			<name>Westford&apos;s Sportsman&apos;s Club</name>
 			<description>Westford&apos;s Sportsman&apos;s Club.  Live weapons firing.  Danger.  Stay clear of this area and the area directly west of this area when hiking.</description>
-			<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#red_poly</styleUrl>
+			<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#red_poly</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>

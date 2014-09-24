@@ -5,22 +5,22 @@
 	<open>1</open>
 	<NetworkLink>
 		<Link>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_files/Groton_parcel_boundaries_1.kmz</href>
+			<href>http://www.grotontrails.org/digital_maps/map_files/Groton_parcel_boundaries_1.kmz</href>
 		</Link>
 	</NetworkLink>
 	<!--<NetworkLink>
 		<Link>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_files/Groton_parcel_boundaries_2.kmz</href>
+			<href>http://www.grotontrails.org/digital_maps/map_files/Groton_parcel_boundaries_2.kmz</href>
 		</Link>
 	</NetworkLink>-->
 	<NetworkLink>
 		<Link>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_files/Groton_parcel_centerpoints.kmz</href>
+			<href>http://www.grotontrails.org/digital_maps/map_files/Groton_parcel_centerpoints.kmz</href>
 		</Link>
 	</NetworkLink>	
 	<NetworkLink>
 		<Link>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_files/Walker-Cox/Walker-Cox.kml</href>
+			<href>http://www.grotontrails.org/digital_maps/map_files/Walker-Cox/Walker-Cox.kml</href>
 		</Link>
 	</NetworkLink>
 </Folder>

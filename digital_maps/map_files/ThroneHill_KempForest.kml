@@ -6,116 +6,116 @@
   <Placemark>
 	<name>Throne Hill and Kemp Forest</name>
 	<description>Over five miles of mostly flat trails through varying landscapes.  There are some areas that can be wet depending on the time of year, but a very nice hiking parcel.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.627009,42.624326</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Castle Dr. Parking</name>
 	<description>Castle Dr. Parking.  Room for several vehicles to park along the cul-de-sac.  Trail entrance on cul-de-sac.  To get to the actual trail, walk up the right side of the driveway, staying between the two houses.  The trailhead is at the top of the driveway between the houses.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.617190837860107,42.625917540863156</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Rockwood Ln. Parking</name>
 	<description>Rockwood Ln. Parking.  Room for several vehicles to park at the end of the cul-de-sac.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.640222,42.629603</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Seasonal stream</name>
 	<description>Seasonal stream.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
       <Point><coordinates>-71.622624406591058,42.627364089712501</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Seasonal stream</name>
 	<description>Seasonal stream.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
       <Point><coordinates>-71.635567573830485,42.631461331620812</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Water area</name>
 	<description>For the next couple of a hundred yards, there are a number of probably season streams and wet areas to cross.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.623384142294526,42.623853832483292</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Stone foundation</name>
 	<description>Stone foundation of some sort.  Possibly an old root cellar.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.633484587073326,42.62999433092773</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Footbridge</name>
 	<description>Long footbridge (over 100 yds long) over wetland area.  Plants that border the bridge probably grow thick enough in spring to make the bridge difficult to cross.</description>
-      <styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
+      <styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
 	  <Point><coordinates>-71.622723983600736,42.618683287873864</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wet area</name>
 	<description>Small wetland with what looks to be an old footbridge across it.  The bridge is useless now.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.6212890855968,42.618792336434126</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wet area</name>
 	<description>Trail ends at a substantial water barrier.  The trail does continue on the far side.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>	
       <Point><coordinates>-71.620840905234218,42.61825455352664</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Kemp St. trail access</name>
 	<description>Trail access to Kemp Forest and Throne Hill via Kemp St.  Sign at entrance says Kemp Forest.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.624892298132181,42.613447029143572</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Stone Wall</name>
 	<description>Stone wall</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>	
       <Point><coordinates>-71.62926740013063,42.620254894718528</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>Trail ends at Private Property signs. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.621202835813165,42.617017384618521</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.623563263565302,42.613722458481789</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.638414,42.626621</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.641983,42.628094</coordinates></Point>
   </Placemark>    
   <Placemark>
 	<name>Private property</name>
 	<description>Trail appears to end behind a farm.  Could not find a trail around the farm. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.627587247639894,42.61734813451767</coordinates></Point>
   </Placemark>
 <!--  <Placemark>
 	<name>Private property</name>
 	<description>Trail ends at private property.  Could not find a trail around to the road.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.630322681739926,42.615876104682684</coordinates></Point>
   </Placemark>
 -->  
 	<Placemark>
 		<name>Private property</name>
 		<description>Trail ends at private property. Please do not use trail beyond this point.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
 		<Point><coordinates>-71.629710,42.617781</coordinates></Point>
 	</Placemark>
   <Placemark>

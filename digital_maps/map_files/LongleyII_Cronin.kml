@@ -7,7 +7,7 @@
 		<name>GTN Logo</name>
 		<description></description>
 		<Icon>
-			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
@@ -16,31 +16,31 @@
 	<Placemark>
 		<name>Cronin trail</name>
 		<description>A very nice hike.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.573991,42.640056</coordinates></Point>
 	</Placemark>
 	<Placemark>
 		<name>Longley II trail</name>
 		<description>A very nice hike around the Longley II parcel.  There is a loop up around the sand hill as well as connections to the NRRT.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.572838,42.644112</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Saddle Ln. Parking</name>
 		<description>Off-street parking available for several vehicles.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.571540,42.638668</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Drum Hill Rd. Parking</name>
 		<description>Off-street parking available for several vehicles on the cul-de-sac.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.572441,42.641478</coordinates></Point>
 	</Placemark>
 	<Placemark>
 		<name>Trail access</name>
 		<description>Trail access for the Longley II Cronin trails.  No off-street parking.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.570848,42.641782</coordinates></Point>
 	</Placemark>		
   <Placemark>

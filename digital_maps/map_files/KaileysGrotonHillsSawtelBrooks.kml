@@ -6,25 +6,25 @@
 	<Placemark>
 		<name>Kaileys Groton Hills and Sawtell Brooks</name>
 		<description>Nice trail system from Kaileys Way through the Groton Hills and Sawtell Brooks parcels.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 			<Point><coordinates>-71.540368,42.627651</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Chicopee Row Parking</name>
 		<description>Off-street parking by the old Grolex building</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.547352,42.632336</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Sawtell Dr. Parking</name>
 		<description>On-street cul-de-sac parking.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.546016,42.630233</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Kaileys Way Parking</name>
 		<description>On-street cul-de-sac parking.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.540668,42.622425</coordinates></Point>
 	</Placemark>
   <Placemark>

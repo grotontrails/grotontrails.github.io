@@ -6,7 +6,7 @@
 		<name>Trail Legend</name>
 		<description></description>
 		<Icon>
-			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_pictures/trail_legend_dean.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_pictures/trail_legend_dean.png</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
@@ -21,10 +21,10 @@
 		<name>Baddacook</name>
 		<description>A nice hike in and around the Baddacook Pond parcel.  This parcel also connects with other trail networks.<![CDATA[ <br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Baddacook.kml&t=h&ll=42.625006,-71.537279"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Baddacook.kml&t=h&ll=42.625006,-71.537279"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.537279,42.625006</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -93,10 +93,10 @@
 	<name>Bertozzi Conservation Area and Crosswinds Conservation Area</name>
 	<description>No clear line divides the parcels. There are no vehicles, including bicycles, allowed on the properties other than authorized emergency vehicles, etc. A small swimming hole is located approximately 1 mile into the Bertozzi parcel. The parcel combination is large, containing a several miles of trails.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Bertozzi_Crosswinds_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Bertozzi_Crosswinds_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.654083,42.632562</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -265,10 +265,10 @@
 		<name>Brownloaf and Indian Hill</name>
 		<description>Trails accessed via Brownloaf Rd and Indian Hill Rd. that wind around the NEFF area under the high tension lines.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/BrownLoafIndianHill.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/BrownLoafIndianHill.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.541744,42.596632</coordinates></Point>
   </Placemark>  
 <!--  <Placemark>
@@ -415,7 +415,7 @@
 	<Placemark>
 		<name>Deerfield parcel</name>
 		<description>This is a very short trail alon Deerfield Dr.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.514161,42.609656</coordinates></Point>
 	</Placemark>		
   <Placemark>
@@ -446,10 +446,10 @@
 	<name>Duck Pond Loop</name>
 	<description>Land off Lost Lake Drive with 2,000 feet of frontage on Duck Pond, a picnic area, and trails.  A nice hike circling most of Duck Pond with several footbridges and photographic scenic points.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Duck_Pond.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Duck_Pond.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.513408,42.593148</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -480,10 +480,10 @@
 	<name>Farmers Mechanics Club</name>
 	<description>A nice hike around the Farmers Mechanics Club property.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Farmers_Mechanics_Club.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Farmers_Mechanics_Club.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.601672,42.619233</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -543,10 +543,10 @@
 		<name>Flavell Crossing and Groton Woods Conservation Area</name>
 		<description>This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with slight rolling hills.  Scenery is very nice with a couple of streams to cross, a vernal pond, and granit rock.  Wildlife can occasionally be seen.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/FlavellCrossingGrotonWoods.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/FlavellCrossingGrotonWoods.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.50550000000000,42.59956445903426,0</coordinates>
 		</Point>
@@ -646,43 +646,43 @@
 	<Placemark>
 		<name>Floyd Ripley / NEFF parcels</name>
 		<description>Trail system throughout both parcels and along the high tension lines.  Many trails used for ATV access.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 			<Point><coordinates>-71.529255,42.637822</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail west of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.532281,42.635944</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail north of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.534877,42.635849</coordinates></Point>
 	</Placemark>
 	<Placemark>
 		<name>Floyd Ripley / NEFF parcels</name>
 		<description>Trail system throughout both parcels and along the high tension lines.  Many trails used for ATV access.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 			<Point><coordinates>-71.529255,42.637822</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Raddin Rd. trail access</name>
 		<description>Trail access via Raddin Rd.  Some on-street end of road parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.528250,42.641551</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail west of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.532281,42.635944</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail north of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.534877,42.635849</coordinates></Point>
 	</Placemark>
   <!--  Commenting out track on on overall map to avoid duplicate trails with Wharton Plantation.
@@ -745,10 +745,10 @@
 		<name>Mason Back 100</name>
 		<description>Extremely valuable as wildlife habitat, the land is mostly wooded, with a long section of Cow Pond Brook on the eastern portion and a dramatic rock outcrop alongside Indian Rock Stream and Gamlin Pond on the western portion. An extensive trail network provides access throughout and connects to abutting protected areas.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Gamlin_Mason100.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Gamlin_Mason100.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.515254,42.642637,0</coordinates>
 		</Point>
@@ -757,10 +757,10 @@
 		<name>Gamlin Chrystal Spring</name>
 		<description>Mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting conservation lands.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Gamlin_Mason100.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Gamlin_Mason100.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.507922,42.632085,0</coordinates>
 		</Point>
@@ -871,13 +871,13 @@
 	<Placemark>
 		<name>Groton Dunstable Regional High School</name>
 		<description>Lots of trails in and around the high school grounds.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.543226,42.649322</coordinates></Point>
 	</Placemark>		
   <Placemark>
 	<name>Private property</name>
 	<description>There is a trail south of this point on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.544662,42.646298</coordinates></Point>
   </Placemark>
   
@@ -968,10 +968,10 @@
 		<name>Gibbet Hill trail.</name>
 		<description>A very nice hike up over Gibbet Hill and past the remains of the Bancroft Castle.<![CDATA[ <br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/GibbetHill.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/GibbetHill.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.552394,42.610102</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1013,10 +1013,10 @@
 	<name>Groton Woods / Batten Woods Parcels</name>
 	<description>Very nice trails through the Groton Woods and Batten Woods parcels.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/GrotonWoodsBattenWoods.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/GrotonWoodsBattenWoods.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.511582,42.583534</coordinates></Point>
   </Placemark>
 	<Placemark>
@@ -1115,10 +1115,10 @@
 	<name>Groton Place and Sabine Woods</name>
 	<description>Also known as the "Dog Park", this trail network offers several miles of trails that travel through Groton Place, Sabine Woods, and the Groton School property.  A long trail runs along the Nashua River for more than 1,500 feet of river frontage to the Groton School Boathouse.  These trails connect to the GCC Surrenden Farm property.  Notice that dogs do run off-leash on this property.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/GrotonPlaceSabine.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/GrotonPlaceSabine.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.594759,42.597751</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1167,10 +1167,10 @@
 	<name>Harry Rich</name>
 	<description>Harry Rich trail network.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/HarryRich.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/HarryRich.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.580379,42.636162</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1268,10 +1268,10 @@
 	<name>Hayes Conservation Area</name>
 	<description>Hayes consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel.  All parking locations are located at a parcel entrance.<![CDATA[ <br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Hayes_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Hayes_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
             <Point><coordinates>-71.616128,42.616171</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1335,10 +1335,10 @@
 	<name>Hurd Bates Parcel</name>
 	<description>Fields and woods off Old Ayer Road and along James Brook. A trail up Indian Hill affords excellent views towards the west and connects to the Blackman Land. A picnic grove called "The Roadside Piece" was developed with R. Harvey Whitehill Memorial Funds.  Steep climb from James Brook up to the top but the view is well worth it.  Connects to the Hurd CA (CC68) and the Blackman Land (GCT10).<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/HurdBates.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/HurdBates.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.564772,42.594883</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1364,16 +1364,16 @@
 		<name>GSC and Integrity Way Railbed</name>
 		<description>that goes along the Integrity Way Railbed and through the Lawrence Park Conservation and Hemlock Grove areas.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/IntegrityWay_HemlockGrove_LawrencePark_BalcomEstates.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/IntegrityWay_HemlockGrove_LawrencePark_BalcomEstates.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.617610,42.605322</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>The trail south of this point is on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.620219,42.604022</coordinates></Point>
   </Placemark>  
 <!--
@@ -1449,10 +1449,10 @@
 		<name>Johnston Conservation Area</name>
 		<description>A small hiking area just off Maple Avenue. It is moderately to severly overgrown in some areas. Insect protection is advised. This parcel is just down the street from the Hayes Parcel.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Johnston_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Johnston_parcel.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -1500,10 +1500,10 @@
 		<name>Kaileys Groton Hills and Sawtell Brooks</name>
 		<description>Nice trail system from Kaileys Way through the Groton Hills and Sawtell Brooks parcels.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/KaileysGrotonHillsSawtelBrooks.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/KaileysGrotonHillsSawtelBrooks.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 			<Point><coordinates>-71.540368,42.627651</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1559,10 +1559,10 @@
 		<name>Keyes Woods / Groton School</name>
 		<description>A very nice trail through the Keyes Woods parcel.  The Groton School trail is on private property, but is open to the public at this time.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/KeyesWoods_GrotonSchool.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/KeyesWoods_GrotonSchool.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.577981,42.592343</coordinates></Point>
 	</Placemark>		
   <Placemark>
@@ -1634,10 +1634,10 @@
 		<name>Cronin trail</name>
 		<description>A very nice hike.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/LongleyII_Cronin.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/LongleyII_Cronin.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.573991,42.640056</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1687,10 +1687,10 @@
 		<name>McLains/Fitch Area</name>
 		<description>This is a very nice hiking area with several miles worth of trails.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/McLains_Fitch.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/McLains_Fitch.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.557723,42.633819</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1752,10 +1752,10 @@
 		<name>Northwoods</name>
 		<description>A nice hike through the Northwoods Rd. trail network.  This network does encompass some sidewalk access.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Northwoods.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Northwoods.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.563167,42.646699</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1799,10 +1799,10 @@
 	<name>Ayer to Nashua Rail Trail</name>
 	<description>This is a great trail used for many different outdoor activities including bicycling, skating, running, and just a nice walk.  The trail is a well-kept hard surface, generally level with great scenery along the way.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/NRRT.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/NRRT.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.576775,42.605969</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1826,10 +1826,10 @@
 		<name>Rocky Hills</name>
 		<description>A nice hike in and around the Rocky Hills parcel.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Rocky_Hills.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Rocky_Hills.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.537390,42.578252</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -1855,10 +1855,10 @@
 		<name>Shepley Hills</name>
 		<description>Woodlands include drumlins, a former soapstone quarry, and maintained riding trails connecting with neighboring properties and the Nashua River Rail Trail. With this gift, the Ware family gave the GCT its first opportunity to assist with limited development in order to achieve valuable conservation.  2 steep ridges with 4 parallel trails and a mesh of trails on top.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Shepley_Hills.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Shepley_Hills.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.572322,42.630228,0</coordinates>
 		</Point>
@@ -2006,28 +2006,28 @@
 		<name>Skinner Forest Conservation Area</name>
 		<description>Woodlands donated in memory of Joseph Skinner, an early proponent of conservation in Groton. Includes a pond, a large erratic known as “Bull Rock” at the edge of Whitney (Cow) Pond, and a network of trails.  This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with some moderatly difficult hills.  Trail conditions are good, though they are rocky as this used to be a logging area.  Some nice scenic areas through wetlands and by Whitney Pond.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Skinner_Forest.kml&t=h"><font color="red"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Skinner_Forest.kml&t=h"><font color="red"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.510553,42.600415</coordinates></Point>
 	</Placemark>
 	  <Placemark>
 	<name>Painted Post Rd. easement</name>
 	<description>This is a own easement.  There is no public access to or from Skinner Forest via this location.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.507324,42.601442</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Rock Wall</name>
 	<description>Rock wall.  Trail ends at this wall as there is private property on the other side of the wall.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
       <Point><coordinates>-71.507277181372046,42.599219251424074</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Whitney Well</name>
 	<description>This trail ends here as access to Whitney Well at the bottom of the hill is restricted.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.509813,42.605366</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2099,13 +2099,13 @@
 	<Placemark>
 		<name>Skitapet parcel</name>
 		<description>Features hilly woodlands and marsh defined by the area's excellent glacial geologic features. Entrances behind the Lost Lake Fire Station and Mountain Lakes Club field lead to a wide network of trails.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.520563,42.606482</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Private Property</name>
 	<description>There is a trail going north of this location, but it is on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.518420,42.605980</coordinates></Point>
   </Placemark>
   <!--<Placemark>
@@ -2208,10 +2208,10 @@
 		<name>Still Meadow / Wattles Pond</name>
 		<description>A hike through the Still Meadow parcel and around Wattles Pond.  There are also extensive sidewalks through the neighborhood and a number of unmarked trails surrounding this area.
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/StillMeadow_WattlesPond.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/StillMeadow_WattlesPond.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.564822,42.651912</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -2314,10 +2314,10 @@
 		<name>Surrenden Farm</name>
 		<description>Sitting prominently in a 1,500-acre block of contiguous protected open space, 360-acre Surrenden Farm is Groton's highest conservation priority. With 3/4 mile of Nashua River frontage, forest and scenic rolling hayfields, Surrenden Farm is one of the largest remaining unprotected landscapes in town. In 2006, TPL worked with the Town of Groton and the Groton Conservation Trust to assemble the funds required to acquire the property.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/SurrendenFarm.kml&t=h&z=16&ll=42.651915,-71.564889"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/SurrendenFarm.kml&t=h&z=16&ll=42.651915,-71.564889"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.596462,42.588744,0</coordinates>
 		</Point>
@@ -2410,10 +2410,10 @@
 		<name>Taisey Conservation Restriction</name>
 		<description>This is a very nice hiking area with with a few miles of trail that go through the Taisey Conservation area and along the Nashua River.  Trail pieces can be "connected" by walking along Fairgrounds and Riverbend.<![CDATA[<br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Taisey_Conservation_Restriction.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Taisey_Conservation_Restriction.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.597272,42.613184</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -2475,53 +2475,53 @@
 	<name>Throne Hill and Kemp Forest</name>
 	<description>Over five miles of mostly flat trails through varying landscapes.  There are some areas that can be wet depending on the time of year, but a very nice hiking parcel.<![CDATA[ <br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/ThroneHill_KempForest.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/ThroneHill_KempForest.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.627009,42.624326</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>Trail ends at Private Property signs. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.621202835813165,42.617017384618521</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.623563263565302,42.613722458481789</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.638414,42.626621</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>Trails ends behind private property at an iron gate. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>	
       <Point><coordinates>-71.641983,42.628094</coordinates></Point>
   </Placemark>    
   <Placemark>
 	<name>Private property</name>
 	<description>Trail appears to end behind a farm.  Could not find a trail around the farm. Please do not use trail beyond this point.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.627587247639894,42.61734813451767</coordinates></Point>
   </Placemark>
 <!--  <Placemark>
 	<name>Private property</name>
 	<description>Trail ends at private property.  Could not find a trail around to the road.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.630322681739926,42.615876104682684</coordinates></Point>
   </Placemark>
 -->  
 	<Placemark>
 		<name>Private property</name>
 		<description>Trail ends at private property. Please do not use trail beyond this point.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
 		<Point><coordinates>-71.629710,42.617781</coordinates></Point>
 	</Placemark>
   <Placemark>
@@ -2668,10 +2668,10 @@
 		<name>Town Forest</name>
 		<description>This is one of Groton's largest trail systems with over 16 miles in trails.  In addition, the green trail is a marked 6.3 mile (10k) trail.  Something for everyone with lots of varying terrain and scenery in this pleasurable hike.<![CDATA[ <br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/Town_Forest.kml&t=h&ll=42.591480,-71.614600"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Town_Forest.kml&t=h&ll=42.591480,-71.614600"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.614600,42.591480,0</coordinates>
 		</Point>
@@ -3004,10 +3004,10 @@
 	<name>Wharton Plantation</name>
 	<description>Forest, fields, and wetlands.  The forest is managed for timber and wildlife as well as for quiet recreation. This large area of open space provides protection for the Groton municipal water supply.  3.4 miles of trails north of Rocky Hill Rd.  Mostly flat with some very steep and rocky hills.  Some wet areas.  1.8 miles of trails to south of Rocky Hill Rd. and west of Old Dunstable.  Mostly very difficult mountain bike trails but nice hiking.  2.5 miles of trails east of Old Dunstable Rd.  Mostly flat with a few moderate hills.<![CDATA[ <br>]]>
 		For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/WhartonPlantation.kml&t=h&ll=42.628838,-71.518455"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/WhartonPlantation.kml&t=h&ll=42.628838,-71.518455"><br><font color="red">Click here for map<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.518455,42.628838</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -3102,10 +3102,10 @@
 	<name>Williams Brooks / Brooks Orchard</name>
 	<description>A nice hike through two different parcels.<![CDATA[<br>]]>
 	For a detailed map of this trail, <![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/WilliamsBrooksOrchard.kml&t=h&z=15&ll=42.623195,-71.550257"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/WilliamsBrooksOrchard.kml&t=h&z=15&ll=42.623195,-71.550257"><br><font color="red">Click here for map<font><br></a>
 		]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.550257,42.623195</coordinates></Point>
   </Placemark>
     <Placemark>

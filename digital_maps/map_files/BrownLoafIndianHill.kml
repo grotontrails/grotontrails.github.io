@@ -7,40 +7,40 @@
 		<name>Brownloaf and Indian Hill</name>
 		<description>Trails accessed via Brownloaf Rd and Indian Hill Rd. that wind around the NEFF area under the high tension lines.<![CDATA[<br>]]>
 		For an overall map of Groton's trails, <![CDATA[
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/Grotontrails_detail_map.kml&t=h"><font color="blue"> Click here<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Grotontrails_detail_map.kml&t=h"><font color="blue"> Click here<font><br></a>
 		]]>
 		</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.541744,42.596632</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Brownloaf Rd. trail access</name>
 	<description>Trail access via Brownloaf Rd.  Some on-street parking at end of road.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.541635,42.603012</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Indian Hill Rd. trail access</name>
 	<description>Trail access via Indian Hill Rd.  Some on-street parking at end of road.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.553797,42.584992</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Boston Rd. (Rt. 119) / Gay Rd. trail access</name>
 	<description>Trail access via Rt. 119 and Gay Rd.  Some off-street parking in pull off on Rt. 119 and across the street on Gay Rd. and Old Boston Rd.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.542116,42.594284</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Lowell Rd. (Rt. 40) trail access</name>
 	<description>Trail access via Rt. 40.  Some off-street parking in pull off on Rt. 40.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.539670,42.609600</coordinates></Point>
   </Placemark>   
   <Placemark>
 	<name>Sandy Pond Rd. trail access</name>
 	<description>Trail access via Sandy Pond Rd.  Some off-street parking in pull off.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.528324,42.574813</coordinates></Point>
   </Placemark>    
 <!--  <Placemark>
