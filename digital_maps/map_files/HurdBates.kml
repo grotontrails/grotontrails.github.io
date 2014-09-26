@@ -6,25 +6,25 @@
   <Placemark>
 	<name>Hurd Bates Parcel</name>
 	<description>Fields and woods off Old Ayer Road and along James Brook. A trail up Indian Hill affords excellent views towards the west and connects to the Blackman Land. A picnic grove called "The Roadside Piece" was developed with R. Harvey Whitehill Memorial Funds.  Steep climb from James Brook up to the top but the view is well worth it.  Connects to the Hurd CA (CC68) and the Blackman Land (GCT10).</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.564772,42.594883</coordinates></Point>
   </Placemark>
     <Placemark>
 		<name>Old Ayer Rd. Parking</name>
 		<description>Off-street parking for half a dozen vehicles off Old Ayer Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.569483,42.597775</coordinates></Point>
 	</Placemark> 
     <Placemark>
 		<name>Skyfields Dr. Parking</name>
 		<description>Off-street parking for half a dozen vehicles off Rt. 119 at the beginning of Skyfields Dr.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.558965,42.596152</coordinates></Point>
 	</Placemark> 
     <Placemark>
 		<name>Indian Hill Rd. trail access</name>
 		<description>Indian Hill Rd. trail access.  Some on-street parking available. </description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.564184,42.588588</coordinates></Point>
 	</Placemark> 	
   <Placemark>

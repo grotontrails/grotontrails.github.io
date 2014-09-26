@@ -6,19 +6,19 @@
 	<Placemark>
 		<name>Hawtree parcel</name>
 		<description>A nice, short hike through the Hawtree parcel.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.540950,42.639042</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Hawtree Way parking</name>
 	<description>Parking area on Hawtree Way cul-de-sac.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.540467,42.640305</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Raddin Rd. trail access</name>
 	<description>Access to Hawtree parcel via Raddin Rd.  Little on-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.537989,42.642468</coordinates></Point>
   </Placemark>
 	<Placemark>

@@ -7,7 +7,7 @@
 		<name>GTN Logo</name>
 		<description></description>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
@@ -17,7 +17,7 @@
 		<name>BSA Fleur-de-lis</name>
 		<description></description>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/fleurdelis1.jpg</href>
+			<href>http://www.grotontrails.org/digital_maps/map_pictures/fleurdelis1.jpg</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="256" y="0" xunits="pixels" yunits="fraction"/>
@@ -27,10 +27,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Bertozzi and Crosswinds Parcels</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.634012,-71.653914"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.634012,-71.653914"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -41,10 +41,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Hayes Parcel</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.615760,-71.615205"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.615760,-71.615205"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -55,10 +55,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Johnston Parcel</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.619708,-71.608596"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.619708,-71.608596"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -70,10 +70,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Deerfield</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.609637,-71.514163"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.609637,-71.514163"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -83,10 +83,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Duck Pond</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.589430,-71.511947"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.589430,-71.511947"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -96,10 +96,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Farmer's and Mechanics Club</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.619233,-71.601672"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.619233,-71.601672"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -109,10 +109,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Flavell Crossing and Groton Woods Conservation Area</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.599564,-71.505500"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.599564,-71.505500"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -122,10 +122,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Gamlin Crystal Springs and Mason Back 100</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.632085,-71.507922"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.632085,-71.507922"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -135,10 +135,10 @@
 	<Placemark>
 		<name><![CDATA[<b>GDRHS</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.649371,-71.543226"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.649371,-71.543226"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -148,10 +148,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Gibbet Hill</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.610102,-71.552394"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -161,10 +161,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Groton Place / Sabine Woods</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.601120,-71.590627"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.601120,-71.590627"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -174,10 +174,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Groton Woods / Batten Woods</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.583571,-71.511585"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.583571,-71.511585"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -187,10 +187,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Harry Rich</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.636162,-71.580379"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.636162,-71.580379"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -200,10 +200,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Hawtree parcel</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.639036,-71.540943"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.639036,-71.540943"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -213,10 +213,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Hurd Bates</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.594883,-71.564772"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.594883,-71.564772"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -226,10 +226,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Integrity Way/Hemlock Grove/Lawrence Park/Balcom Estates</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.605322,-71.617610"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.605322,-71.617610"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -239,10 +239,10 @@
 		<Placemark>
 		<name><![CDATA[<b>Kaileys Groton Hills and Sawtel Brook</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.627651,-71.540368"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.627651,-71.540368"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -252,10 +252,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Keyes Woods / Groton School</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.592343,-71.577981"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.592343,-71.577981"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -266,10 +266,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Longley II - Cronin</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.644112,-71.572838"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.644112,-71.572838"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -279,10 +279,10 @@
 	<Placemark>
 		<name><![CDATA[<b>McLains Fitch</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.633813,-71.557733"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.633813,-71.557733"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -292,10 +292,10 @@
 	<Placemark>
 		<name><![CDATA[<b>NRRT - Nashua River Rail Trail</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=14&ll=42.605969,-71.576775"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=14&ll=42.605969,-71.576775"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -305,10 +305,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Shepley Hills</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=14&ll=42.630228,-71.572322"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=14&ll=42.630228,-71.572322"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -318,10 +318,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Skinner Forest</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.600415,-71.510553"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.600415,-71.510553"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -331,10 +331,10 @@
 	<Placemark>
 		<name><![CDATA[<b>StillMeadow / Wattles Pond</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.651915,-71.564889"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.651915,-71.564889"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -344,10 +344,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Surrenden Farm</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.588744,-71.596462"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.588744,-71.596462"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -357,10 +357,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Taisey Conservation Restriction</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.613184,-71.597272"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=16&ll=42.613184,-71.597272"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -370,10 +370,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Throne Hill and Kemp Forest</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.624326,-71.627009"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -383,10 +383,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Town Forest</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.591480,-71.614600"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.591480,-71.614600"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -396,10 +396,10 @@
 	<Placemark>
 		<name><![CDATA[<b>Wharton Plantation</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.628838,-71.518455"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.628838,-71.518455"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -409,10 +409,10 @@
 <Placemark>
 		<name><![CDATA[<b>Williams Barn / Brooks Orchard</b>]]></name>
 		<description><![CDATA[ 
-			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://dl.dropbox.com/u/68002325/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.623177,-71.550234"><br><font color="red">Click here for map<font><br></a>
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/All_Trails.kml&t=h&z=15&ll=42.623177,-71.550234"><br><font color="red">Click here for map<font><br></a>
 		]]>
 		</description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -430,31 +430,31 @@
 	<Placemark>
 		<name><![CDATA[<b>Groton Fire Department</b>]]></name>
 		<description><![CDATA[20 Station Ave.<br>Groton, MA  01450<br>(978)-448-6333]]></description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
 		<Point><coordinates>-71.572283,42.607383</coordinates></Point>
 	</Placemark>  
 	<Placemark>
 		<name><![CDATA[<b>Groton Fire Department</b>]]></name>
 		<description><![CDATA[185 Lost Lake Rd.<br>Groton, MA  01450<br>(978)-448-6333]]></description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
 		<Point><coordinates>-71.524422,42.604322</coordinates></Point>
 	</Placemark> 
 	<Placemark>
 		<name><![CDATA[<b>Groton Fire Department</b>]]></name>
 		<description><![CDATA[44 West Main St.<br>West Groton, MA 01472<br>(978)-448-6333]]></description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#firedepartment</styleUrl>
 		<Point><coordinates>-71.624879,42.602019</coordinates></Point>
 	</Placemark>  	
 	<Placemark>
 		<name><![CDATA[<b>Groton Police Department</b>]]></name>
 		<description><![CDATA[99 Pleasant St.<br>Groton, MA  01450<br>(978)-448-5555]]></description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#police</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#police</styleUrl>
 		<Point><coordinates>-71.579987,42.608457</coordinates></Point>
 	</Placemark> 
 	<Placemark>
 		<name><![CDATA[<b>Cow Pond Sports Fields</b>]]></name>
 		<description></description>
-		<styleUrl>http://dl.dropbox.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#sportvenue</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#sportvenue</styleUrl>
 		<Point><coordinates>-71.504438,42.622224</coordinates></Point>
 	</Placemark>
     </Folder>

@@ -6,13 +6,13 @@
   <Placemark>
 	<name>Bertozzi Conservation Area and Crosswinds Conservation Area</name>
 	<description>No clear line divides the parcels. There are no vehicles, including bicycles, allowed on the properties other than authorized emergency vehicles, etc. A small swimming hole is located approximately 1 mile into the Bertozzi parcel. The parcel combination is large, containing a several miles of trails.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.66253646014000,42.635854994755400</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Dangerous River Crossing</name>
 	<description>River has eroded the banks to the point where the bridge no longer reaches both banks. Caution is advised.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
       <Point><coordinates>-71.653035460039973,42.630854984745383</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -22,12 +22,12 @@
           <tr>
             <td>A campground complete with stone benches and a fire ring. Plenty of space for tents. Permit is required for use.<br><font color="red">Click the pic<font><br></td>
             <td width="5px"></td>
-            <td><a href="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Campground.JPG"><img src="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Campground.JPG" height="100px" "width="133px"></a></td>
+            <td><a href="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Campground.JPG"><img src="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Campground.JPG" height="100px" "width="133px"></a></td>
           </tr>
         </table>
       ]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#campground</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#campground</styleUrl>
       <Point><coordinates>-71.657254155725241,42.633623527362943</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -37,12 +37,12 @@
           <tr>
             <td>A concrete water gauging station.<br><font color="red">Click the pic<font><br></td>
             <td width="5px"></td>
-            <td><a href="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Water_Gauging_Station.JPG"><img src="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Water_Gauging_Station.JPG" height="100px" "width="133px"></a></td>
+            <td><a href="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Water_Gauging_Station.JPG"><img src="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Water_Gauging_Station.JPG" height="100px" "width="133px"></a></td>
           </tr>
         </table>
       ]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 	<Point><coordinates>-71.657800991088152,42.634082268923521</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -52,18 +52,18 @@
           <tr>
             <td>A swimming area formed by a beach along part of the river.<br><font color="red">Click the pic<font><br></td>
             <td width="5px"></td>
-            <td><a href="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Swimming_Hole.JPG"><img src="http://dl.dropbox.com/u/68002325/digital_maps/map_pictures/Bertozzi_Swimming_Hole.JPG" height="100px" "width="133px"></a></td>
+            <td><a href="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Swimming_Hole.JPG"><img src="http://www.grotontrails.org/digital_maps/map_pictures/Bertozzi_Swimming_Hole.JPG" height="100px" "width="133px"></a></td>
           </tr>
         </table>
       ]]>
 	</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#swimming</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#swimming</styleUrl>
       <Point><coordinates>-71.657738294452429,42.634591134265065</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Bridge</name>
 	<description>A small bridge across the river.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.65079154074192,42.632779679246783</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -78,19 +78,19 @@
         </table>
       ]]>
 	</description>	
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.65132898837328,42.635764516890049</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>Consists of a large parking lot capable of holding 10+ cars off-street.  Located at the main entrance to Bertozzi.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.650274293497205,42.636351250112057</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Trail Head</name>
 	<description>Trail head access to the parcel</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
       <Point><coordinates>-71.655468810349703,42.638630541041493</coordinates></Point>
   </Placemark> 
   <Placemark>

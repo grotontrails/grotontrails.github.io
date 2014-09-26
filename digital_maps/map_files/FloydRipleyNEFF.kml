@@ -6,25 +6,25 @@
 	<Placemark>
 		<name>Floyd Ripley / NEFF parcels</name>
 		<description>Trail system throughout both parcels and along the high tension lines.  Many trails used for ATV access.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 			<Point><coordinates>-71.529255,42.637822</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Raddin Rd. trail access</name>
 		<description>Trail access via Raddin Rd.  Some on-street end of road parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.528250,42.641551</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail west of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.532281,42.635944</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Private property</name>
 		<description>There is a trail north of this point on private property.  Please do not use.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 		<Point><coordinates>-71.534877,42.635849</coordinates></Point>
 	</Placemark>
   <Placemark>

@@ -6,55 +6,55 @@
     <Placemark>
 	<name>Hayes Conservation Area</name>
 	<description>Hayes consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel.  All parking locations are located at a parcel entrance.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
             <Point><coordinates>-71.616128,42.616171</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Bridge</name>
 	<description>Small footbridge over a stream near a nature observation area.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.613520653918386,42.619488118216395</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nature Observation Area</name>
 	<description>Area designated for observing wetlands.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.614897632971406,42.618534006178379</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Power Line Access</name>
 	<description>Power line access. DANGER, KEEP OUT</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.614803001284599,42.612638678401709</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Parking</name>
 	<description>A small parking area located just off-street.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.616284670308232,42.618892081081867</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>A small parking area located just off-street.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.618028273805976,42.616523690521717</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nature Observation Area</name>
 	<description>Area designated for observing wetlands.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.616669734939933,42.617309242486954</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Power Line Access</name>
 	<description>Power line access. DANGER, KEEP OUT</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.615400044247508,42.616185899823904</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>Parking area off Maple Avenue large enough for 3-4 cars.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.612179717049003,42.621324760839343</coordinates></Point>
   </Placemark>
 	<ScreenOverlay id="khScreenOverlay756">

@@ -6,13 +6,13 @@
 	<Placemark>
 		<name>Northwoods</name>
 		<description>A nice hike through the Northwoods Rd. trail network.  This network does encompass some sidewalk access.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.563167,42.646699</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Nashua Rd. trail access</name>
 	<description>Trail access via Nashua Rd.  Some on-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.560056,42.646193</coordinates></Point>
   </Placemark>
   <Placemark>

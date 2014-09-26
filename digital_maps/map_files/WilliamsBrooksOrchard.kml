@@ -6,26 +6,26 @@
   <Placemark>
 	<name>Williams Brooks / Brooks Orchard</name>
 	<description>A nice hike through two different parcels.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.550234,42.623177</coordinates></Point>
   </Placemark>
     <Placemark>
 		<name>Williams Barn Parking</name>
 		<description>Off-street parking at the Williams Barn off Chicopee Row</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.560920,42.626208</coordinates></Point>
 	</Placemark>  
     <Placemark>
 		<name>Orchard Ln. Parking</name>
 		<description>Off-street parking off Orchard Ln.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.547831,42.615799</coordinates></Point>
 	</Placemark>	
 	<ScreenOverlay id="khScreenOverlay756">
 		<name>GTN Logo</name>
 		<description></description>
 		<Icon>
-			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>

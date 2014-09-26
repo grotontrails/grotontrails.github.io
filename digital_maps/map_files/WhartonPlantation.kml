@@ -6,61 +6,61 @@
   <Placemark>
 	<name>Wharton Plantation</name>
 	<description>Forest, fields, and wetlands.  The forest is managed for timber and wildlife as well as for quiet recreation. This large area of open space provides protection for the Groton municipal water supply.  3.4 miles of trails north of Rocky Hill Rd.  Mostly flat with some very steep and rocky hills.  Some wet areas.  1.8 miles of trails to south of Rocky Hill Rd. and west of Old Dunstable.  Mostly very difficult mountain bike trails but nice hiking.  2.5 miles of trails east of Old Dunstable Rd.  Mostly flat with a few moderate hills.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.518455,42.628838</coordinates></Point>
   </Placemark>
     <Placemark>
 		<name>Raddin Rd. Parking</name>
 		<description>Off-street parking off Raddin Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.529055,42.641570</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Old Dunstable Rd. Parking</name>
 		<description>Off-street parking off Old Dunstable Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.518370,42.624197</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Old Dunstable Rd. Parking</name>
 		<description>Off-street parking off Old Dunstable Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.515226,42.625492</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Martins Pond and Rocky Hill Rd. Parking</name>
 		<description>Off-street parking at intersection of Martins Pond and Rocky Hill Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point><coordinates>-71.523552,42.627766</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Rocky Hill Rd. trail access</name>
 		<description>Trail access on both sides of Rocky Hill Rd.  Limited on street parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.521270,42.626480</coordinates></Point>
 	</Placemark>
     <Placemark>
 		<name>Rocky Hill Rd. trail access</name>
 		<description>Trail access off Rocky Hill Rd.  Limited on street parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.524276,42.627692</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Burntmeadow Rd. trail access</name>
 		<description>Trail access off Burntmeadow Rd.  Limited on street parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.520304,42.612707</coordinates></Point>
 	</Placemark>		
     <Placemark>
 		<name>Burntmeadow Rd. trail access</name>
 		<description>Trail access off Burntmeadow Rd.  Limited on street parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.511330,42.621477</coordinates></Point>
 	</Placemark>	
     <Placemark>
 		<name>Blood Rd. trail access</name>
 		<description>Trail access off Blood Rd.  Limited on street parking available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point><coordinates>-71.511145,42.637287</coordinates></Point>
 	</Placemark>		
   <Placemark>

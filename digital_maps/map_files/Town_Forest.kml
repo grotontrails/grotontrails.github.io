@@ -6,7 +6,7 @@
 	<Placemark>
 		<name>Town Forest</name>
 		<description>This is one of Groton's largest trail systems with over 16 miles in trails.  In addition, the green trail is a marked 6.3 mile (10k) trail.  Something for everyone with lots of varying terrain and scenery in this pleasurable hike.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.614600,42.591480,0</coordinates>
 		</Point>
@@ -14,7 +14,7 @@
 	<Placemark>
 		<name>Town Forest Rd. Parking</name>
 		<description>Town Forest Rd. Parking.  Offstreet parking available for a number of vehicles.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.604848,42.597601,0</coordinates>
 		</Point>
@@ -22,7 +22,7 @@
 	<Placemark>
 		<name>Main St. Parking</name>
 		<description>Parking just off Main St. leading towards the senior center.  Offstreet parking available for a number of vehicles.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.616939,42.601747,0</coordinates>
 		</Point>
@@ -30,7 +30,7 @@
 	<Placemark>
 		<name>Pumphouse</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.617664,42.597048,0</coordinates>
 		</Point>
@@ -38,7 +38,7 @@
 	<Placemark>
 		<name>Kettle hole</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.614973,42.596100,0</coordinates>
 		</Point>
@@ -46,7 +46,7 @@
 	<Placemark>
 		<name>Kettle hole</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.612916,42.595571,0</coordinates>
 		</Point>
@@ -54,7 +54,7 @@
 	<Placemark>
 		<name>Kettle hole</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.611168,42.595790,0</coordinates>
 		</Point>
@@ -62,7 +62,7 @@
 	<Placemark>
 		<name>Kettle hole</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.608930,42.596419,0</coordinates>
 		</Point>
@@ -70,7 +70,7 @@
 	<Placemark>
 		<name>Ames Pond</name>
 		<description>Ames Pond</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.613992,42.597256,0</coordinates>
 		</Point>
@@ -78,7 +78,7 @@
 	<Placemark>
 		<name>Wet area</name>
 		<description>Seasonal wet area that may require jumping over a small stream to cross from the tracks to the forest.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<Point>
 			<coordinates>-71.614874,42.586500,0</coordinates>
 		</Point>
@@ -86,7 +86,7 @@
 	<Placemark>
 		<name>Wellhead</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.615918,42.589106,0</coordinates>
 		</Point>

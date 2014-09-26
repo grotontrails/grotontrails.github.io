@@ -6,43 +6,43 @@
 	<Placemark>
 		<name>GSC and Integrity Way Railbed</name>
 		<description>that goes along the Integrity Way Railbed and through the Lawrence Park Conservation and Hemlock Grove areas.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.617610,42.605322</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>W. Main St. parking</name>
 	<description>Parking area off West Main St.  Off-road parking available for two or three vehicles.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.616966,42.601673</coordinates></Point>
   </Placemark>	
   <Placemark>
 	<name>Senior Center parking</name>
 	<description>Parking area off West Main St. at the Senior Center.  Off-road parking available for two or three vehicles.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.616580,42.603213</coordinates></Point>
   </Placemark>	
   <Placemark>
 	<name>Fox Run trail access</name>
 	<description>Access to Hemlock Grove off of Fox Run.  No off-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.622749,42.606640</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Hill Rd. trail access</name>
 	<description>Access to the Rail trail off of Hill Rd.  Some on-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.612449,42.609199</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Integrity Way trail access</name>
 	<description>Access to the Hemlock Grove area off of Integrity Way.  Cul-de-sac parking available.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.622282,42.607779</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private property</name>
 	<description>The trail south of this point is on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>		
       <Point><coordinates>-71.620219,42.604022</coordinates></Point>
   </Placemark>  
 <!--

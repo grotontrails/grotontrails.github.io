@@ -6,19 +6,19 @@
   <Placemark>
 	<name>Groton Place and Sabine Woods</name>
 	<description>Also known as the "Dog Park", this trail network offers several miles of trails that travel through Groton Place, Sabine Woods, and the Groton School property.  A long trail runs along the Nashua River for more than 1,500 feet of river frontage to the Groton School Boathouse.  These trails connect to the GCC Surrenden Farm property.  Notice that dogs do run off-leash on this property.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.594759,42.597751</coordinates></Point>
   </Placemark>
     <Placemark>
 	<name>Parking</name>
 	<description>Large off-street parking lot at the main entrance to the park.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.595684,42.604776</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Groton School Boathouse</name>
 	<description></description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.599375,42.594683</coordinates></Point>
   </Placemark>  
   <Placemark>
