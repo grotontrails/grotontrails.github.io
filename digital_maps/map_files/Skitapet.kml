@@ -6,31 +6,31 @@
 	<Placemark>
 		<name>Skitapet parcel</name>
 		<description>Features hilly woodlands and marsh defined by the area's excellent glacial geologic features. Entrances behind the Lost Lake Fire Station and Mountain Lakes Club field lead to a wide network of trails.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.520563,42.606482</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Lost Lake FD parking</name>
 	<description>Parking is available behind the Lost Lake fire department building for multiple vehicles.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.524018,42.604605</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Lost Lake Rd. trail access</name>
 	<description>Access to Skitapet parcel via Lost Lake Rd.  Little on-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.522193,42.603323</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Rt. 40 (Lowell Rd.) trail access</name>
 	<description>Access to Skitapet parcel via Rt. 40.  Little on-street parking at the Deerhaven trail entrance.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.516743,42.609941</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Private Property</name>
 	<description>There is a trail going north of this location, but it is on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.518420,42.605980</coordinates></Point>
   </Placemark>
   <!--<Placemark>

@@ -11,7 +11,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/blue-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/blue-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -21,7 +21,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/green-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/green-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -31,7 +31,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/ltblu-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/ltblu-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -41,7 +41,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/pink-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/pink-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -51,7 +51,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/red-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/red-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -61,7 +61,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/yellow-dot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/yellow-dot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -71,7 +71,7 @@
 	<IconStyle>
 		<scale>.5</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/red-point.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/red-point.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -81,7 +81,7 @@
 	<IconStyle>
 		<scale>.5</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/white-point.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/white-point.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -97,7 +97,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/blue-pushpin.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/blue-pushpin.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -107,7 +107,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/green-pushpin.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/green-pushpin.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -117,7 +117,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/ltblu-pushpin.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/ltblu-pushpin.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -127,7 +127,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/red-pushpin.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/red-pushpin.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -137,7 +137,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/yellow-pushpin.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/yellow-pushpin.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -153,7 +153,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/cycling.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/cycling.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -163,7 +163,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/fishing.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/fishing.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -173,7 +173,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/hiker.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/hiker.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -183,7 +183,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/sportvenue.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/sportvenue.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -193,7 +193,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/swimming.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/swimming.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -209,7 +209,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/camera.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/camera.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -219,7 +219,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/campfire.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/campfire.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -229,7 +229,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/campground.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/campground.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -239,7 +239,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/flag.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/flag.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -249,7 +249,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/firedept.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/firedept.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -259,7 +259,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/gaspump.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gaspump.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -269,7 +269,7 @@
 	<IconStyle>
 		<scale>5</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -279,7 +279,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/GTN_Arrow_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/GTN_Arrow_logo.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -289,7 +289,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/hospitals.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/hospitals.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -299,7 +299,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/info_circle.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/info_circle.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -309,7 +309,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/info_circle_small.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/info_circle_small.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -319,7 +319,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/info1.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/info1.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -329,7 +329,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/parkinglot.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/parkinglot.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -339,7 +339,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/police.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/police.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -349,7 +349,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/toilets.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/toilets.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -359,7 +359,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/trailhead.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/trailhead.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -369,7 +369,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/tree.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/tree.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -379,7 +379,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/water.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/water.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>
@@ -389,7 +389,7 @@
 	<IconStyle>
 		<scale>.75</scale>
 		<Icon>
-			<href>http://dl.dropbox.com/u/68002325/digital_maps/map_icons/wheel_chair_accessible.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/wheel_chair_accessible.png</href>
 		</Icon>
 		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 	</IconStyle>

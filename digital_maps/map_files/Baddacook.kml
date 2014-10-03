@@ -6,19 +6,19 @@
 	<Placemark>
 		<name>Baddacook</name>
 		<description>A nice hike in and around the Baddacook Pond parcel.  This parcel also connects with other trail networks.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.537279,42.625006</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Martins Pond Rd. trail access</name>
 	<description>Martins Pond Rd. trail access on both sides of the road.  Some on street parking.  Off-street parking further east up the road.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
       <Point><coordinates>-71.534257,42.622638</coordinates></Point>
   </Placemark>  
 	<Placemark>
 	<name>Martins Pond Rd. trail access</name>
 	<description>Trail access via Martins Pond Rd.  Some off-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.535629,42.622323</coordinates></Point>
   </Placemark>
   <Placemark>

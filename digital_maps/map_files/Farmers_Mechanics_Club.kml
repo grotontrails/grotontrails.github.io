@@ -11,13 +11,13 @@
   <Placemark>
 	<name>Farmers Mechanics Club</name>
 	<description>A nice hike around the Farmers Mechanics Club property.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
       <Point><coordinates>-71.601672,42.619233</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>Trail access east of this point is private property.  Please do not use this trail.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.598891,42.619627</coordinates></Point>
   </Placemark>	
 <Placemark>

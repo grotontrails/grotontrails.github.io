@@ -7,7 +7,7 @@
 	<Placemark>
 		<name>Shepley Hills</name>
 		<description>Woodlands include drumlins, a former soapstone quarry, and maintained riding trails connecting with neighboring properties and the Nashua River Rail Trail. With this gift, the Ware family gave the GCT its first opportunity to assist with limited development in order to achieve valuable conservation.  2 steep ridges with 4 parallel trails and a mesh of trails on top.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.572322,42.630228,0</coordinates>
 		</Point>
@@ -15,7 +15,7 @@
 	<Placemark>
 		<name>Sand Hill Rd. Parking at NRRT</name>
 		<description>Sand Hill R. Parking.  Offstreet parking available for several vehicles at the intersection of Sand Hill Rd. and the rail trail.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.575830,42.632241,0</coordinates>
 		</Point>
@@ -23,7 +23,7 @@
 	<Placemark>
 		<name>Access via the NRRT.</name>
 		<description>Trail access off of the NRRT.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.576216,42.628365,0</coordinates>
 		</Point>
@@ -31,7 +31,7 @@
 	<Placemark>
 		<name>Common St. trail access.</name>
 		<description>Trail access off of Common St.  Some on-street parking is available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.576581,42.625752,0</coordinates>
 		</Point>
@@ -39,7 +39,7 @@
 	<Placemark>
 		<name>Sand Hill Rd. trail access.</name>
 		<description>Trail access off of Sand Hill Rd.  Some on-street parking is available.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.574001,42.634273,0</coordinates>
 		</Point>
@@ -47,7 +47,7 @@
 	<Placemark>
 		<name>Soapstone quarry</name>
 		<description></description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<Point>
 			<coordinates>-71.573001,42.626383,0</coordinates>
 		</Point>

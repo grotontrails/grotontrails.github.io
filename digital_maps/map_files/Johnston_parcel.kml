@@ -4,7 +4,7 @@
 	<Placemark>
 		<name>Johnston Conservation Area</name>
 		<description>A small hiking area just off Maple Avenue. It is moderately to severly overgrown in some areas. Insect protection is advised. This parcel is just down the street from the Hayes Parcel.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<altitudeMode>clampToGround</altitudeMode>
 			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
@@ -13,7 +13,7 @@
 	</Placemark>	
   <Placemark>
 		<name>Stream Crossing</name>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#water</styleUrl>
 		<description>Dangerous crossing, caution advised</description>
 		<Point>
 			<coordinates>-71.608814131468534,42.618485726416111</coordinates>
@@ -21,7 +21,7 @@
   </Placemark>
     <Placemark>
 		<name>Parking</name>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<description>On-street parking located at the main entrance to the parcel.</description>
 		<Point>
 			<coordinates>-71.61143003962934,42.617849623784423</coordinates>
@@ -30,12 +30,12 @@
         <Placemark>
 	<name>Trail Head</name>
 	<description>Trail head access to the parcel</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
       <Point><coordinates>-71.609645700082183,42.623182106763124</coordinates></Point>
   </Placemark>
   <Placemark>
 		<name>Hill Rd. trail access</name>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<description>Some small amount of on-street parking.</description>
 		<Point>
 			<coordinates>-71.612512,42.609356</coordinates>
@@ -43,7 +43,7 @@
   </Placemark>
   <Placemark>
 		<name>Fitchs Bridge</name>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
 		<description>Location of the old Fitchs Bridge which was replaced in 2013 and is now open to foot and bicycle traffic.</description>
 		<Point>
 			<coordinates>-71.609030,42.625473</coordinates>
@@ -53,7 +53,7 @@
 		<name>GTN Logo</name>
 		<description></description>
 		<Icon>
-			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_icons/gtn_round_logo.png</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/gtn_round_logo.png</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="185" y="0" xunits="pixels" yunits="fraction"/>
@@ -63,7 +63,7 @@
 		<name>BSA Fleur-de-lis</name>
 		<description></description>
 		<Icon>
-			<href>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_icons/fleurdelis1.jpg</href>
+			<href>http://www.grotontrails.org/digital_maps/map_icons/fleurdelis1.jpg</href>
 		</Icon>
 		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<screenXY x="256" y="0" xunits="pixels" yunits="fraction"/>

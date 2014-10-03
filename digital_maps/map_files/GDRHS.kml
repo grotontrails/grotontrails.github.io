@@ -7,37 +7,37 @@
 	<Placemark>
 		<name>Groton Dunstable Regional High School</name>
 		<description>Lots of trails in and around the high school grounds.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.543226,42.649322</coordinates></Point>
 	</Placemark>		
   <Placemark>
 	<name>High School parking</name>
 	<description>Parking in the main school parking lot.  Please park away from the building to allow students and staff access from closer parking spots.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.538903,42.651043</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Front High School parking</name>
 	<description>Parking by athletic fields.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 	<Point><coordinates>-71.537948,42.648005</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Reedy Meadow trail access</name>
 	<description>Trail access off Reedy Meadow.  Some on the road parking available.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.544928,42.643192</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Kemp St. trail access</name>
 	<description>Trail access off Kemp St.  Some on the road parking available.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 	<Point><coordinates>-71.542697,42.657822</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Private property</name>
 	<description>There is a trail south of this point on private property.  Please do not use.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
 	<Point><coordinates>-71.544662,42.646298</coordinates></Point>
   </Placemark>
   

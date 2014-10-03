@@ -6,43 +6,43 @@
 	<Placemark>
 		<name>Still Meadow / Wattles Pond</name>
 		<description>A hike through the Still Meadow parcel and around Wattles Pond.  There are also extensive sidewalks through the neighborhood and a number of unmarked trails surrounding this area.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.561942,42.656338</coordinates></Point>
 	</Placemark>
   <Placemark>
 	<name>Nashua Rd. trail access</name>
 	<description>Trail access via Nashua Rd.  Some on-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
       <Point><coordinates>-71.560129,42.650270</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Longley Rd. trail access</name>
 	<description>Trail access via Longley Rd.  Parking not recommended.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
       <Point><coordinates>-71.568771,42.653965</coordinates></Point>
   </Placemark>  
   <Placemark>
 	<name>Longley Rd. trail access</name>
 	<description>Trail access via Longley Rd.  Parking not recommended.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#reddot</styleUrl>
       <Point><coordinates>-71.568862,42.653083</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Groton / Pepperell town line</name>
 	<description>Trail access via Longley Rd.  Parking not recommended.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.564957,42.657427</coordinates></Point>
   </Placemark>   
   <Placemark>
 	<name>Groton / Pepperell town line</name>
 	<description>Trail access via Longley Rd.  Parking not recommended.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.561877,42.658090</coordinates></Point>
   </Placemark>   
   <Placemark>
 	<name>Groton / Pepperell town line</name>
 	<description>Trail access via Longley Rd.  Parking not recommended.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#bluedot</styleUrl>
       <Point><coordinates>-71.559270,42.658666</coordinates></Point>
   </Placemark>     
   <Placemark>

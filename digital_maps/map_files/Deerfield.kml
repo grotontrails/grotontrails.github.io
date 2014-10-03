@@ -6,19 +6,19 @@
 	<Placemark>
 		<name>Deerfield parcel</name>
 		<description>This is a very short trail alon Deerfield Dr.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point><coordinates>-71.514161,42.609656</coordinates></Point>
 	</Placemark>		
   <Placemark>
 	<name>Rt. 40 trail access</name>
 	<description>Access to Deerfield via Rt. 40.  No off-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.514680,42.608861</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Deerfield Dr. trail access</name>
 	<description>Access to Skinner Forest off of Amanda's Way.  No off-street parking.</description>
-	<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
+	<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>	
       <Point><coordinates>-71.514283,42.610395</coordinates></Point>
   </Placemark>  
   <Placemark>

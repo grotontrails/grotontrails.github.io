@@ -6,7 +6,7 @@
 	<Placemark>
 		<name>Surrenden Farm</name>
 		<description>Sitting prominently in a 1,500-acre block of contiguous protected open space, 360-acre Surrenden Farm is Groton's highest conservation priority. With 3/4 mile of Nashua River frontage, forest and scenic rolling hayfields, Surrenden Farm is one of the largest remaining unprotected landscapes in town. In 2006, TPL worked with the Town of Groton and the Groton Conservation Trust to assemble the funds required to acquire the property.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#info-circle</styleUrl>
 		<Point>
 			<coordinates>-71.596462,42.588744,0</coordinates>
 		</Point>
@@ -14,7 +14,7 @@
 	<Placemark>
 		<name>Access Rd. Parking</name>
 		<description>Access Rd. Parking.  Plenty of on-street parking available along the access road to Surrenden Farm.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.585378,42.586992,0</coordinates>
 		</Point>
@@ -22,7 +22,7 @@
 	<Placemark>
 		<name>Shirley Rd. Parking and information kiosk</name>
 		<description>Shirley Rd. Parking.  Trail access and plenty of on-street parking along Shirley Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#parkinglot</styleUrl>
 		<Point>
 			<coordinates>-71.594728,42.586538,0</coordinates>
 		</Point>
@@ -30,7 +30,7 @@
 	<Placemark>
 		<name>Shirley Rd. Parking trail access</name>
 		<description>Shirley Rd. trail access.  Trail access and some on-street parking along Shirley Rd.</description>
-		<styleUrl>https://dl.dropboxusercontent.com/u/68002325/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#greendot</styleUrl>
 		<Point>
 			<coordinates>-71.596538,42.584089,0</coordinates>
 		</Point>
