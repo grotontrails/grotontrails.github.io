@@ -16,6 +16,7 @@
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
 
     <script>
+
       function main() {
 
         // create leaflet map
@@ -33,6 +34,15 @@
         // add cartodb layer
         cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json')
         .addTo(map);
+
+        map.locate({setView: true, maxZoom: 16});
+
+        function onLocationFound(e) {
+          L.marker(e.latlng).addTo(map);
+        }
+
+        map.on('locationfound', onLocationFound);
+
       }
  
       window.onload = main;
