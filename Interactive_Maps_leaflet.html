@@ -44,19 +44,21 @@
           "Satelite" : nokia,
           "Topo" : mapbox
         };
-
-        // add cartodb layer
-        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json').addTo(map);
-
         L.control.layers(baseMaps).addTo(map);
 
+        // add cartodb layer
+        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json')
+          .addTo(map)
+          .on('done', function(layer) {
+            layer.setZIndex(3);
+
+
+          });
 
         map.locate({setView: true, maxZoom: 16});
-
         function onLocationFound(e) {
           L.marker(e.latlng).addTo(map);
         }
-
         map.on('locationfound', onLocationFound);
 
 
