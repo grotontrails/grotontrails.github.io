@@ -57,6 +57,15 @@ div#footer a{
 
 }
 
+#body a{
+  color: #444444;
+  text-decoration: none;
+}
+
+#body a:hover {
+    color: #777777;
+}
+
 .quest {
   font-weight:bold;
   text-align: center;
@@ -70,6 +79,16 @@ div#footer a{
 .pdfMap p{
   margin-bottom:1px;
 
+}
+
+#homepageQuote {
+  padding : 10px;
+  background-color: #D3D3D3;
+}
+
+#homepageQuote p{
+  color: rgb(183, 97, 97);
+  font-size: 15px;
 }
 
 /* `Basic HTML
