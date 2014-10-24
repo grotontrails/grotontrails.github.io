@@ -34,10 +34,11 @@
 
         // create leaflet map
         var map = L.map('map', { 
-          zoomControl: false,
+          zoomControl: true,
           center: [42.608, -71.572],
           zoom: 13,
           layers: [mapbox]
+          
         });
 
         var baseMaps = {
@@ -54,6 +55,8 @@
 
 
           });
+          
+        
 
         map.locate({setView: true, maxZoom: 16});
         function onLocationFound(e) {
