@@ -61,6 +61,17 @@ div#footer a{
   font-weight:bold;
   text-align: center;
 }
+
+.pdfMap {
+  font-weight:bold;
+  text-align : center;
+}
+
+.pdfMap p{
+  margin-bottom:1px;
+
+}
+
 /* `Basic HTML
 ----------------------------------------------------------------------------------------------------*/
 
