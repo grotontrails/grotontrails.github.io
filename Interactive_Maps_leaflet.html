@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Leaflet layer selector with CartoDB layers</title>
+    <title>Groton Trails</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
@@ -31,6 +31,7 @@
 
         var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
             mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
+            mapbox3 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
             esri = L.esri.basemapLayer('Topographic');
 
         // create leaflet map
@@ -38,13 +39,14 @@
           zoomControl: true,
           center: [42.608, -71.572],
           zoom: 13,
-          layers: [mapbox]
+          layers: [mapbox3]
           
         });
 
         var baseMaps = {
           "Mapbox" : mapbox,
           "Satelite" : mapbox2,
+          "Outdoors" : mapbox3,
           "Topographic" : esri
         };
         L.control.layers(baseMaps).addTo(map);
