@@ -24,13 +24,14 @@
 
     <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-
+    <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/0.0.1-beta.5/esri-leaflet.js"></script>
     <script>
 
       function main() {
 
         var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
-            mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: 'Mapbox'})
+            mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
+            esri = L.esri.basemapLayer('Topographic');
 
         // create leaflet map
         var map = L.map('map', { 
@@ -43,7 +44,8 @@
 
         var baseMaps = {
           "Topo" : mapbox,
-          "Satelite" : mapbox2
+          "Satelite" : mapbox2,
+          "Esri" : esri
         };
         L.control.layers(baseMaps).addTo(map);
 
@@ -51,7 +53,7 @@
         cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json')
           .addTo(map)
           .on('done', function(layer) {
-            layer.setZIndex(3);
+            layer.setZIndex(4);
 
 
           });
