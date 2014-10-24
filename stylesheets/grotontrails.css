@@ -5,11 +5,68 @@
   Licensed under GPL and MIT.
 */
 
+#nav {
+  width: 100%;
+  float: left;
+  margin-bottom: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 2px silver solid;
+   }
+
+#nav li {
+  float: left; 
+  padding:4px 4px;
+  font-weight: bold;
+  color: #666666;
+}
+
+#nav li a{
+  color: #444444;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+    color: #777777;
+}
+
+#navLogo {
+    float:right;
+    clear:right;
+    vertical-align:text-top;
+}
+
+div#headerTitle {
+  font: 36px/1.5 'HelveticaNeue-Light', 'Helvetica Neue', 'Arial', sans-serif;
+  color: rgb(121, 121, 121);
+
+}
+
+div#body {
+  line-height: 17px;
+
+}
+
+div#footer {
+  text-align:center;
+}
+
+div#footer a{
+  color: #444444;
+  text-decoration: none;
+
+}
+
+.quest {
+  font-weight:bold;
+  text-align: center;
+}
 /* `Basic HTML
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font: 13px/1.5 'HelveticaNeue-Light', 'Helvetica Neue', 'Arial', sans-serif;
+  color:rgb(81,81,81);
 }
 
 pre,
@@ -28,7 +85,7 @@ hr {
 ----------------------------------------------------------------------------------------------------*/
 
 h1 {
-  font-size: 25px;
+  font-size: 36px;
 }
 
 h2 {
@@ -84,3 +141,4 @@ fieldset,
 figure {
   margin-bottom: 20px;
 }
+
