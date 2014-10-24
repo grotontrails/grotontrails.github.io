@@ -5,11 +5,64 @@
   Licensed under GPL and MIT.
 */
 
+#nav {
+  width: 100%;
+  float: left;
+  margin-bottom: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 2px silver solid;
+   }
+
+#nav li {
+  float: left; 
+  padding:4px 4px;
+  font-weight: bold;
+  color: #666666;
+}
+
+#nav li a{
+  color: #444444;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+    color: #777777;
+}
+
+#navLogo {
+    float:right;
+    clear:right;
+    vertical-align:text-top;
+}
+
+div#headerTitle {
+  font: 36px/1.5 'HelveticaNeue-Light', 'Helvetica Neue', 'Arial', sans-serif;
+  color: rgb(121, 121, 121);
+
+}
+
+div#body {
+  line-height: 17px;
+
+}
+
+div#footer {
+  text-align:center;
+}
+
+div#footer a{
+  color: #444444;
+  text-decoration: none;
+
+}
+
 /* `Basic HTML
 ----------------------------------------------------------------------------------------------------*/
 
 body {
   font: 13px/1.5 'HelveticaNeue-Light', 'Helvetica Neue', 'Arial', sans-serif;
+  color:rgb(81,81,81);
 }
 
 pre,
@@ -85,28 +138,3 @@ figure {
   margin-bottom: 20px;
 }
 
-#nav {
-	width: 100%;
-	float: left;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style: none;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc; 
-	border-top: 1px solid #ccc; }
-
-#nav li {
-	float: left; 
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #666666;
-	border-right: 1px solid #ccc;}
-
-#nav li a{
-	color: #;
-}
-
-#nav li a:hover {
-		color: #444444;
-		background-color: #fff; }
