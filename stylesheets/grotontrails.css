@@ -19,6 +19,7 @@
   padding:4px 4px;
   font-weight: bold;
   color: #666666;
+  margin-left:15px;
 }
 
 #nav li a{
@@ -172,3 +173,8 @@ figure {
   margin-bottom: 20px;
 }
 
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+  display: block;
+}
