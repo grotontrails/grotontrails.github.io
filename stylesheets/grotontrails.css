@@ -48,11 +48,11 @@ div#body {
 
 }
 
-div#footer {
+#footer {
   text-align:center;
 }
 
-div#footer a{
+#footer a{
   color: #444444;
   text-decoration: none;
 
