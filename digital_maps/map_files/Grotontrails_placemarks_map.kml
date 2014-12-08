@@ -58,6 +58,23 @@
 	</Placemark>  
 
 	<Placemark>
+		<name><![CDATA[<b>Cox-Walker</b>]]></name>
+		<description>For a detailed map of this trail, <![CDATA[ 
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Cox-Walker.kml&t=h"><font color="red"> Click here<font><br></a>
+		]]>
+		For an overall map of Groton's trails, <![CDATA[
+			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/Grotontrails_detail_map.kml&t=h&ll=42.613829,-71.575812"><font color="blue"> Click here<font><br></a>
+		]]>
+		</description>
+		<styleUrl>http://www.grotontrails.org/digital_maps/map_files/icon_shared_styles.kml#trailhead</styleUrl>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>-71.554690,42.632735,0</coordinates>
+		</Point>
+	</Placemark>  
+	
+	<Placemark>
 		<name><![CDATA[<b>Brownloaf / Indian Hill</b>]]></name>
 		<description>For a detailed map of this trail, <![CDATA[ 
 			<a href="http://www.mappingsupport.com/p/gmap4.php?q=http://www.grotontrails.org/digital_maps/map_files/BrownLoafIndianHill.kml&t=h"><font color="red"> Click here<font><br></a>
