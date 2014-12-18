@@ -1,0 +1,80 @@
+/** category visualization */
+
+// 1 private
+// 2 campground
+// 3 general POI
+// 4 swimming
+// 5 parking
+// 6 trailhead
+// 7 trail access
+// 8 wet
+// 9 poi, castle
+
+
+// main area label
+#points[symbolid=0] {
+   marker-width: 20;  
+   marker-file: url(http://www.grotontrails.org/digital_maps/map_icons/marker-24.svg);
+   marker-fill-opacity:1;
+   marker-fill: #055D00;
+   marker-line-width: 1.5;
+   marker-line-color: #FFFFFF;
+   marker-line-opacity: 1;
+   marker-placement: point;
+   marker-allow-overlap: true;
+}
+
+// private
+#points[symbolid=1][zoom>14] {
+   marker-width: 13;  
+   marker-fill: #FF0000;  
+   marker-file: url(http://www.grotontrails.org/digital_maps/map_icons/marker-24.svg);
+}
+
+// swimming
+#points[symbolid=4][zoom>14] {
+   marker-width: 25;  
+   marker-fill: #A53ED5;
+   marker-file:
+     url(http://www.grotontrails.org/digital_maps/map_icons/swimming-24.svg);
+}
+
+// wet
+#points[symbolid=5][zoom>14] {
+   marker-width: 35;  
+   marker-fill: #000000;
+   marker-file:
+     url(http://www.grotontrails.org/digital_maps/map_icons/parking-24.svg);
+   //marker-fill: #2E5387;
+}
+
+// trail head
+#points[symbolid=6][zoom>14] {
+   marker-width: 8; 
+}
+
+// trail access
+#points[symbolid=7][zoom>14] {
+   marker-width: 7;  
+}
+
+// private
+#points[symbolid=8][zoom>14] {
+   marker-width: 18;  
+   marker-fill: #5CA2D1;  
+   marker-file: url(http://www.grotontrails.org/digital_maps/map_icons/water-24.svg);
+}
+
+
+// everything else
+#points[symbolid!=0][symbolid!=1][symbolid!=4][symbolid!=5][symbolid!=6][symbolid!=7][symbolid!=8][zoom>14] {
+   marker-fill-opacity: 1;
+   marker-line-width: 1.5;
+   marker-line-opacity: 1;
+   marker-placement: point;
+   marker-type: ellipse;
+   marker-allow-overlap: true;
+   marker-width: 4;  
+}
+
+
