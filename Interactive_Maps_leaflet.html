@@ -193,6 +193,7 @@
           });
 		*/
 		
+		var greenLayer;
         cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
 		 
           var trailSubLayer = layer.createSubLayer({
@@ -211,10 +212,21 @@
         }).addTo(map)
         .on('done', function(layer) {
           layer.setZIndex(5);
+		  greenLayer = layer;
         });		
 		
         // remove leaflet attribution
 	    map.attributionControl.setPrefix('') 
+		
+	    map.on('baselayerchange', function(baselayername) {
+		  if ( baselayername.name == 'Satellite') {
+		    greenLayer.hide();
+		  } else {
+		    greenLayer.show();
+		  }
+		});
+
+       
       }
 	  
 	  
