@@ -153,11 +153,13 @@
     <script>
 
       function main() {
+	  
+	    var mapboxAttrib = '&copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
-        var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
-            mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
-            mapbox3 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: 'Mapbox'}),
-            esri = L.esri.basemapLayer('Topographic');
+        var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
+            mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
+            mapbox3 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
+            esri = L.esri.basemapLayer('Topographic',{attribution: '<a href="http://www.esri.com">ERSI</a>'});
 
         // create leaflet map
         var map = L.map('map', { 
@@ -167,7 +169,7 @@
           layers: [mapbox3]
           
         });
-
+		
         map.addControl(L.control.locate({
           locateOptions: { maxZoom: 15 }
           })
@@ -191,7 +193,7 @@
           });
 		*/
 		
-        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', function(layer) {
+        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
 		 
           var trailSubLayer = layer.createSubLayer({
             sql: 'SELECT * FROM grotontrails_detail_map',
@@ -210,8 +212,12 @@
         .on('done', function(layer) {
           layer.setZIndex(5);
         });		
+		
+        // remove leaflet attribution
+	    map.attributionControl.setPrefix('') 
       }
- 
+	  
+	  
       window.onload = main;
     </script>
 </body>
