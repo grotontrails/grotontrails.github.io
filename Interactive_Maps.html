@@ -19,6 +19,18 @@
       html, body, #map { height:100%; padding:0; margin:0 } 
       .leaflet-control-scale-line {margin-left:80px;}
       .leaflet-top {margin-top:63px;}
+ 	  .info {
+		padding: 6px 8px;
+		font: 14px/16px Arial, Helvetica, sans-serif;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+	  }
+	  .info h4 {
+		margin: 0 0 5px;
+		color: #777;
+	  }
     </style>	
 </head>
 <body>
@@ -155,18 +167,21 @@
       function main() {
 	  
 	    var mapboxAttrib = '&copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+	    var osmAttrib = '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
-        var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
-            mapbox2 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
-            mapbox3 = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib}),
-            esri = L.esri.basemapLayer('Topographic',{attribution: '<a href="http://www.esri.com">ERSI</a>'});
-
+        //var mapbox = L.tileLayer('http://a.tiles.mapbox.com/v3/davidpitkin.map-3v8obosa/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
+        var mapboxSatellite = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
+        var mapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
+        //var esri = L.esri.basemapLayer('Topographic',{attribution: '<a href="http://www.esri.com">ERSI</a>'};
+        //var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution: osmAttrib} );
+        var hikeBikeLayer = L.tileLayer('http://{s}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png',{attribution: osmAttrib} );
+		
         // create leaflet map
         var map = L.map('map', { 
           zoomControl: true,
           center: [42.608, -71.572],
           zoom: 13,
-          layers: [mapbox3]
+          layers: [mapboxOutdoors]
           
         });
 		
@@ -176,23 +191,27 @@
         );
 
         var baseMaps = {
-          "Mapbox" : mapbox,
-          "Satellite" : mapbox2,
-          "Outdoors" : mapbox3,
-          "Topographic" : esri
+          "Topographic" : mapboxOutdoors,
+          "Satellite" : mapboxSatellite,
+		  //"OpenStreetMap" : osmLayer,
+		  "Hike & Bike Map" : hikeBikeLayer
+          //"Topographic" : esri,
+          //"Mapbox" : mapbox,
         };
 		
         L.control.layers(baseMaps).addTo(map);
         L.control.scale().addTo(map);
+		
+		var legend = L.control({position: 'bottomright'});
+        legend.onAdd = function (map) {
+          var div = L.DomUtil.create('div', 'info legend')
+		  div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
+          return div;
+        };
+		
+		legend.addTo(map);
 
         // add cartodb layer
-        /*cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/08dd6f9a-401c-11e4-aecc-0e73339ffa50/viz.json')
-          .addTo(map)
-          .on('done', function(layer) {
-            layer.setZIndex(5);
-          });
-		*/
-		
 		var greenLayer;
         cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
 		 
