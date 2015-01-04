@@ -157,9 +157,16 @@
 	 text-halo-radius: 1;
 	 text-dy: 12;
 	 text-placement: line;
-	}	
+	}		
 	</script>
 
+	<script id="xcLineCSS" type="text/mapcss">
+	#cross_country_skiing{
+	  line-color: #3643FF;
+	  line-width: 2;
+	  line-opacity: 0.7;
+	}
+	</script>	
   
     <!-- include cartodb.js library -->
     <script>
@@ -176,6 +183,7 @@
         //var esri = L.esri.basemapLayer('Topographic',{attribution: '<a href="http://www.esri.com">ERSI</a>'};
         //var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution: osmAttrib} );
         var hikeBikeLayer = L.tileLayer('http://{s}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png',{attribution: hikeBikeMapAttrib} );
+		var xcMapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
 		
         // create leaflet map
         var map = L.map('map', { 
@@ -195,7 +203,8 @@
           "Topographic" : mapboxOutdoors,
           "Satellite" : mapboxSatellite,
 		  //"OpenStreetMap" : osmLayer,
-		  "Hike & Bike Map" : hikeBikeLayer
+		  "Generic" : hikeBikeLayer,
+		  "XC Skiing" : xcMapboxOutdoors,
           //"Topographic" : esri,
           //"Mapbox" : mapbox,
         };
@@ -235,14 +244,43 @@
 		  greenLayer = layer;
         });		
 		
+		var xcLayer;
+        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
+		 
+          var trailSubLayer = layer.createSubLayer({
+            sql: 'SELECT * FROM cross_country_skiing',
+			cartocss: '#cross_country_skiing { line-color: blue; }'
+            });
+		  trailSubLayer.setCartoCSS(document.getElementById("xcLineCSS").innerHTML)
+		     
+          //var poiSubLayer = layer.createSubLayer({
+          //  sql: 'SELECT * FROM points',
+		//	cartocss: '#points { marker-fill: red;marker-type: ellipse; marker-width: 10;}'
+		//	});
+		 // poiSubLayer.setInteraction(true)
+	     // poiSubLayer.setCartoCSS(document.getElementById("pointsCSS").innerHTML)
+		  
+        }).addTo(map)
+        .on('done', function(layer) {
+          layer.setZIndex(5);
+		  layer.hide()
+		  xcLayer = layer;
+        });		
+		
+		
         // remove leaflet attribution
 	    map.attributionControl.setPrefix('') 
 		
 	    map.on('baselayerchange', function(baselayername) {
 		  if ( baselayername.name == 'Satellite') {
 		    greenLayer.hide();
+			xcLayer.hide()
+		  } else if ( baselayername.name == 'XC Skiing') {
+		    greenLayer.hide();
+			xcLayer.show()
 		  } else {
 		    greenLayer.show();
+			xcLayer.hide()
 		  }
 		});
 
