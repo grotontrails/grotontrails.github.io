@@ -252,14 +252,7 @@
 			cartocss: '#cross_country_skiing { line-color: blue; }'
             });
 		  trailSubLayer.setCartoCSS(document.getElementById("xcLineCSS").innerHTML)
-		     
-          //var poiSubLayer = layer.createSubLayer({
-          //  sql: 'SELECT * FROM points',
-		//	cartocss: '#points { marker-fill: red;marker-type: ellipse; marker-width: 10;}'
-		//	});
-		 // poiSubLayer.setInteraction(true)
-	     // poiSubLayer.setCartoCSS(document.getElementById("pointsCSS").innerHTML)
-		  
+		     		  
         }).addTo(map)
         .on('done', function(layer) {
           layer.setZIndex(5);
