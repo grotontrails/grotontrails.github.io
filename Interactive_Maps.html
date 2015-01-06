@@ -4,48 +4,61 @@
 <head>
     <title>Groton Trails - Map</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
     <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/0.0.1-beta.5/esri-leaflet.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
-	
+
     <!--[if lt IE 9]>
       <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css' rel='stylesheet' />
     <![endif]-->
-    <style> 
-      html, body, #map { height:100%; padding:0; margin:0 } 
-      .leaflet-control-scale-line {margin-left:80px;}
-      .leaflet-top {margin-top:60px;}
- 	  .info {
-		padding: 6px 8px;
-		font: 14px/16px Arial, Helvetica, sans-serif;
-		background: white;
-		background: rgba(255,255,255,0.8);
-		box-shadow: 0 0 15px rgba(0,0,0,0.2);
-		border-radius: 5px;
-	  }
-	  .info h4 {
-		margin: 0 0 5px;
-		color: #777;
-	  }
-    </style>	
+    <style>
+    html,
+    body,
+    #map {
+        height: 100%;
+        padding: 0;
+        margin: 0
+    }
+    .leaflet-control-scale-line {
+        margin-left: 80px;
+    }
+    .leaflet-top {
+        margin-top: 60px;
+    }
+    .info {
+        padding: 6px 8px;
+        font: 14px/16px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+    .info h4 {
+        margin: 0 0 5px;
+        color: #777;
+    }
+    </style>
 </head>
+
 <body>
 
-  <div id="map">
-  <div class="cartodb-header" style="display: block;">
-    <div class="content">
-      
-      <div class="description" style="display: block"><p><center>The material posted on this website is for informational purposes only.</center></p>
-      </div>
-      
-    </div>
-  </div> -->
-  </div><!-- end of map -->
+    <div id="map">
+        <div class="cartodb-header" style="display: block;">
+            <div class="content">
 
+                <div class="description" style="display: block">
+                    <p>
+                        <center>The material posted on this website is for informational purposes only.</center>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
   
 	<script id="pointsCSS" type="text/mapcss">
 
@@ -168,111 +181,122 @@
 	}
 	</script>	
   
-    <!-- include cartodb.js library -->
-    <script>
+ <script>
+function main() {
 
-      function main() {
-	  
-	    var mapboxAttrib = '&copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    var mapboxAttrib = '&copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
-        var mapboxSatellite = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
-        var mapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
-		var xcMapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {attribution: mapboxAttrib});
-		
-        // create leaflet map
-        var map = L.map('map', { 
-          zoomControl: true,
-          center: [42.608, -71.572],
-          zoom: 13,
-          layers: [mapboxOutdoors]
-          
+    var mapboxSatellite = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {
+        attribution: mapboxAttrib
+    });
+    var mapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {
+        attribution: mapboxAttrib
+    });
+    var xcMapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {
+        attribution: mapboxAttrib
+    });
+
+    // create leaflet map
+    var map = L.map('map', {
+        zoomControl: true,
+        center: [42.608, -71.572],
+        zoom: 13,
+        layers: [mapboxOutdoors]
+
+    });
+
+    map.addControl(L.control.locate({
+        locateOptions: {
+            maxZoom: 15
+        }
+    }));
+
+    var baseMaps = {
+        "Map": mapboxOutdoors,
+        "Satellite": mapboxSatellite,
+        "XC Skiing": xcMapboxOutdoors,
+    };
+
+    L.control.layers(baseMaps).addTo(map);
+    L.control.scale().addTo(map);
+
+    var legend = L.control({
+        position: 'bottomright'
+    });
+    legend.onAdd = function(map) {
+        var div = L.DomUtil.create('div', 'info legend')
+        div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
+        return div;
+    };
+
+    legend.addTo(map);
+
+    // add cartodb layer
+    var greenLayer;
+    cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', {
+            'cartodb_logo': false
+        }, function(layer) {
+
+            var trailSubLayer = layer.createSubLayer({
+                sql: 'SELECT * FROM grotontrails_detail_map',
+                cartocss: '#grotontrails_detail_map { line-color: blue; }'
+            });
+            trailSubLayer.setCartoCSS(document.getElementById("lineCSS").innerHTML)
+
+            var poiSubLayer = layer.createSubLayer({
+                sql: 'SELECT * FROM points',
+                cartocss: '#points { marker-fill: red;marker-type: ellipse; marker-width: 10;}'
+            });
+            poiSubLayer.setInteraction(true)
+            poiSubLayer.setCartoCSS(document.getElementById("pointsCSS").innerHTML)
+
+        }).addTo(map)
+        .on('done', function(layer) {
+            layer.setZIndex(5);
+            greenLayer = layer;
         });
-		
-        map.addControl(L.control.locate({
-          locateOptions: { maxZoom: 15 }
-          })
-        );
 
-        var baseMaps = {
-          "Map" : mapboxOutdoors,
-          "Satellite" : mapboxSatellite,
-		  "XC Skiing" : xcMapboxOutdoors,
-        };
-		
-        L.control.layers(baseMaps).addTo(map);
-        L.control.scale().addTo(map);
-		
-		var legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
-          var div = L.DomUtil.create('div', 'info legend')
-		  div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
-          return div;
-        };
-		
-		legend.addTo(map);
+    var xcLayer;
+    cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', {
+            'cartodb_logo': false
+        }, function(layer) {
 
-        // add cartodb layer
-		var greenLayer;
-        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
-		 
-          var trailSubLayer = layer.createSubLayer({
-            sql: 'SELECT * FROM grotontrails_detail_map',
-			cartocss: '#grotontrails_detail_map { line-color: blue; }'
+            var trailSubLayer = layer.createSubLayer({
+                sql: 'SELECT * FROM cross_country_skiing',
+                cartocss: '#cross_country_skiing { line-color: blue; }'
             });
-		  trailSubLayer.setCartoCSS(document.getElementById("lineCSS").innerHTML)
-		     
-          var poiSubLayer = layer.createSubLayer({
-            sql: 'SELECT * FROM points',
-			cartocss: '#points { marker-fill: red;marker-type: ellipse; marker-width: 10;}'
-			});
-		  poiSubLayer.setInteraction(true)
-	      poiSubLayer.setCartoCSS(document.getElementById("pointsCSS").innerHTML)
-		  
+            trailSubLayer.setCartoCSS(document.getElementById("xcLineCSS").innerHTML)
+
         }).addTo(map)
         .on('done', function(layer) {
-          layer.setZIndex(5);
-		  greenLayer = layer;
-        });		
-		
-		var xcLayer;
-        cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', { 'cartodb_logo': false },function(layer) {
-		 
-          var trailSubLayer = layer.createSubLayer({
-            sql: 'SELECT * FROM cross_country_skiing',
-			cartocss: '#cross_country_skiing { line-color: blue; }'
-            });
-		  trailSubLayer.setCartoCSS(document.getElementById("xcLineCSS").innerHTML)
-		     		  
-        }).addTo(map)
-        .on('done', function(layer) {
-          layer.setZIndex(5);
-		  layer.hide()
-		  xcLayer = layer;
-        });		
-		
+            layer.setZIndex(5);
+            layer.hide()
+            xcLayer = layer;
+        });
 
-        // remove leaflet attribution
-	    map.attributionControl.setPrefix('') 
-		
-	    map.on('baselayerchange', function(baselayername) {
-		  if ( baselayername.name == 'Satellite') {
-		    greenLayer.hide();
-			xcLayer.hide()
-		  } else if ( baselayername.name == 'XC Skiing') {
-		    greenLayer.hide();
-			xcLayer.show()
-		  } else {
-		    greenLayer.show();
-			xcLayer.hide()
-		  }
-		});
 
-       
-      }
-	  
-	  
-      window.onload = main;
-    </script>
+    // remove leaflet attribution
+    map.attributionControl.setPrefix('')
+
+    map.on('baselayerchange', function(baselayername) {
+        if (baselayername.name == 'Satellite') {
+            greenLayer.hide();
+            xcLayer.hide()
+        } else if (baselayername.name == 'XC Skiing') {
+            greenLayer.hide();
+            xcLayer.show()
+        } else {
+            greenLayer.show();
+            xcLayer.hide()
+        }
+    });
+
+
+}
+
+
+window.onload = main;
+</script>
 </body>
 
 </html>
