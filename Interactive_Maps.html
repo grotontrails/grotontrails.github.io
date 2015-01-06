@@ -45,17 +45,14 @@
 </head>
 
 <body>
-
     <div id="map">
         <div class="cartodb-header" style="display: block;">
             <div class="content">
-
                 <div class="description" style="display: block">
                     <p>
                         <center>The material posted on this website is for informational purposes only.</center>
                     </p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -202,37 +199,18 @@ function main() {
         center: [42.608, -71.572],
         zoom: 13,
         layers: [mapboxOutdoors]
-
     });
 
-    map.addControl(L.control.locate({
-        locateOptions: {
-            maxZoom: 15
-        }
-    }));
 
+    // set basemaps
     var baseMaps = {
         "Map": mapboxOutdoors,
         "Satellite": mapboxSatellite,
         "XC Skiing": xcMapboxOutdoors,
     };
 
-    L.control.layers(baseMaps).addTo(map);
-    L.control.scale().addTo(map);
-
-    var legend = L.control({
-        position: 'bottomright'
-    });
-    legend.onAdd = function(map) {
-        var div = L.DomUtil.create('div', 'info legend')
-        div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
-        return div;
-    };
-
-    legend.addTo(map);
-
-    // add cartodb layer
-    var greenLayer;
+    // add cartodb layers for trails and xc ski 
+    var trailLayer;
     cartodb.createLayer(map, 'http://grotontrails.cartodb.com/api/v2/viz/3807c3ee-893a-11e4-af6e-0e853d047bba/viz.json', {
             'cartodb_logo': false
         }, function(layer) {
@@ -253,7 +231,7 @@ function main() {
         }).addTo(map)
         .on('done', function(layer) {
             layer.setZIndex(5);
-            greenLayer = layer;
+            trailLayer = layer;
         });
 
     var xcLayer;
@@ -274,24 +252,43 @@ function main() {
             xcLayer = layer;
         });
 
+    map.addControl(L.control.locate({
+        locateOptions: {
+            maxZoom: 15
+        }
+    }));
 
-    // remove leaflet attribution
-    map.attributionControl.setPrefix('')
+    L.control.scale().addTo(map);
 
+    L.control.layers(baseMaps).addTo(map);
+
+    // logic to swap out trail and xc ski when changing basemaps and hide both on Satellite view
     map.on('baselayerchange', function(baselayername) {
         if (baselayername.name == 'Satellite') {
-            greenLayer.hide();
+            trailLayer.hide();
             xcLayer.hide()
         } else if (baselayername.name == 'XC Skiing') {
-            greenLayer.hide();
+            trailLayer.hide();
             xcLayer.show()
         } else {
-            greenLayer.show();
+            trailLayer.show();
             xcLayer.hide()
         }
     });
 
+    var legend = L.control({
+        position: 'bottomright'
+    });
+    legend.onAdd = function(map) {
+        var div = L.DomUtil.create('div', 'info legend')
+        div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
+        return div;
+    };
 
+    legend.addTo(map);
+
+    // remove leaflet attribution
+    map.attributionControl.setPrefix('')
 }
 
 
