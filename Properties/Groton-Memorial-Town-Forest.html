@@ -102,20 +102,20 @@
     }
 	
     loadJSON(
-	     'http://www.grotontrails.org/Properties/Groton-Memorial-Town-Forest.geojson',
+	     'Groton-Memorial-Town-Forest.geojson',
 	     function(response) {
-         // Parse JSON string into object
-	     var actual_JSON = JSON.parse(response);
+             // Parse JSON string into object
+	         var actual_JSON = JSON.parse(response);
 	
-	     var myStyle = {
+	         var myStyle = {
              "color": "#000000",
              "weight": 2,
              "fill": 0
-         };
+             };
 	
-	     jsonl = L.geoJson(actual_JSON,{style: myStyle} )
-	     jsonl.addTo(map);
-	     map.fitBounds(jsonl.getBounds());
+	         jsonl = L.geoJson(actual_JSON,{style: myStyle} )
+	         jsonl.addTo(map);
+	         map.fitBounds(jsonl.getBounds());
         });
 		
      map.dragging.disable();
