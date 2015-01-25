@@ -201,8 +201,7 @@ function main() {
         zoom: 13,
         layers: [mapboxOutdoors]
     });
-
-
+		
     // set basemaps
     var baseMaps = {
         "Map": mapboxOutdoors,
@@ -287,7 +286,24 @@ function main() {
     };
 
     legend.addTo(map);
-
+	
+	// when other parts of the site want to zoom into a specific area of the map
+	// they set the cookie defaultmap-lat-lng. If we pick up defaultmap-lat-lng,
+	// it is removed so that if they reload/come back to the page, the 
+	// position will not stick.
+	var ca = document.cookie.split(';');
+	
+    for (i = 0; i < ca.length; i++) { 
+	     if ( ca[i].search('defaultmap-lat-lng') >= 0) {
+	         var latlong = ca[i].split('=')[1];
+		     var xy = latlong.split(',');
+             map.panTo( xy );
+		     map.setZoom(15); 		
+		}
+	}
+	
+	document.cookie = 'defaultmap-lat-lng=; path=/';
+		
     // remove leaflet attribution
     map.attributionControl.setPrefix('')
 }
