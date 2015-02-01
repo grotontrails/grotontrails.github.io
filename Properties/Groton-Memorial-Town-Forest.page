@@ -1,0 +1,39 @@
+name: Groton Memorial Town Forest
+owner: Town Of Groton, Town Forest Committee
+areaKmSq: 2.1205
+gtcTrailLengthKm: 19.358
+otherTrailLengthKm: 2.313
+address: Town Forest Rd, Groton MA
+parking: Off street parking lot at the end of Town Forest Road.
+directionsX: 42.5973
+directionsY: -71.6051
+description: |
+  The Groton Memorial Town Forest was established in 1922 as a memorial to the 
+  men who gave their lives in World War I. It is owned by the town of Groton, and 
+  is managed by the Town Forest Committee. It is one of the more popular places 
+  in Groton to enjoy the outdoors, offering plenty of space to explore, beautiful views 
+  of the Nashua River. The site has a large variety trails that are excellent for leisurely strolls, mounting 
+  biking, horse back riding, dog walking, and nature watching. It is also the 
+  site of the annual Groton Town Forest Race. 
+  <p>The parking lot at the end of town forest road has plenty of space and has a 
+  turning circle for horse trailers.
+
+activities: 
+  - default
+  - Swimming
+  - Fishing
+  
+photos: 
+  - ../images/Groton-Memorial-Town-Forest-Path.jpg
+  - ../images/Groton-Memorial-Town-Forest-Path.jpg
+   
+links:
+  - 
+    - NEMBA Groton Town Forest
+    - "http://www.nemba.org/trails/massachusetts/groton-town-forest"
+  - 
+    - Groton Town Forest Race
+    - "http://www.grotontftr.freeservers.com/"
+  - 
+    - Town Forest Committee
+    - "http://www.townofgroton.org/Town/BoardsCommittees/TownForestCommittee.aspx"
