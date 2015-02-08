@@ -4,9 +4,18 @@ areaKmSq: 2.1205
 gtcTrailLengthKm: 19.358
 otherTrailLengthKm: 2.313
 address: Town Forest Rd, Groton MA
-parking: Off street parking lot at the end of Town Forest Road.
-directionsX: 42.5973
-directionsY: -71.6051
+
+parking: 
+  - 
+    street: Town Forest Road
+    directionsX: 42.5973
+    directionsY: -71.6051
+  - 
+    street: Town Forest Road 2
+    directionsX: 42.5973
+    directionsY: -71.6051
+
+hours: Sunrise to Sunset
 description: |
   The Groton Memorial Town Forest was established in 1922 as a memorial to the 
   men who gave their lives in World War I. It is owned by the town of Groton, and 
@@ -22,6 +31,7 @@ activities:
   - default
   - Swimming
   - Fishing
+  - Getting Lost
   
 photos: 
   - ../images/Groton-Memorial-Town-Forest-Path.jpg

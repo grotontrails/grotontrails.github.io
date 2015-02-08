@@ -48,9 +48,9 @@ for srcFileName in files :
   # default hours, based on owner
   if ( not 'hours' in data ) : 
     if ( data['owner'] == 'Town Of Groton, Conservation Commission') : 
-      data['hours'] = 'Dust To Dawn'
+      data['hours'] = 'Half hour past sunrise to half an hour past sunset'
     else :
-      data['hours'] = 'Dust To Dawn'
+      data['hours'] = 'Sunrise to Sunset'
       
   if ( not 'parking' in data) :
     data['parking'] = ''
@@ -64,6 +64,8 @@ for srcFileName in files :
      data['description'] = ''
     
   data['baseFileName'] = baseFileName;
+  
+  #print(data)
   
      
   buf = StringIO()

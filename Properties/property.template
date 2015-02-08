@@ -67,12 +67,14 @@
 				  
 				  <h3>Prohibited Activities</h3><p>Motorized use is prohibited</p>
 				  <h3>Property Owner</h3><p>${ "<a href=" + ownerUrl + ">" + owner + "</a>" if ownerUrl != "" else owner}
-				  ${ "<h3>Parking</h3><p>" + parking if parking != "" else "" }
-				  ${ "<h3>Directions</h3><address>" + address + "</address>" if address != "" else "" }
-				  % if directionsX != "":
-					<p><a target="_blank" href="https://www.google.com/maps/dir//${directionsX},${directionsY}/@${directionsX},${directionsY},17z">Google Maps</a>,
-					<a target="_blank" href="http://maps.apple.com/?ll=${directionsX},${directionsY}">Apple Maps</a>
-				  % endif
+				  
+				  % for park in parking:
+				    ${ '<h3>Parking</h3>' if loop.first else '' }
+					${ '<p>' + park['street'] + ", Groton MA" if park['street'] != "" else "" }
+                    <br><a target="_blank" href="https://www.google.com/maps/dir//${park['directionsX']},${park['directionsY']}/@${park['directionsX']},${park['directionsY']},17z">Google Maps</a>,
+					<a target="_blank" href="http://maps.apple.com/?ll=${park['directionsX']},${park['directionsY']}">Apple Maps</a>					
+				  % endfor
+
 				  <h3>Hours</h3><p>${hours}
 				  
 			      % for link in links:
