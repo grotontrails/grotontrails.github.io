@@ -48,7 +48,7 @@ for srcFileName in files :
   # default hours, based on owner
   if ( not 'hours' in data ) : 
     if ( data['owner'] == 'Town Of Groton, Conservation Commission') : 
-      data['hours'] = 'Half hour past sunrise to half an hour past sunset'
+      data['hours'] = 'Half an hour past sunrise to half an hour past sunset.'
     else :
       data['hours'] = 'Sunrise to Sunset'
       
