@@ -1,0 +1,12 @@
+name: Longley Estates II Conservation Area
+owner: Town Of Groton, Conservation Commission
+gtcTrailLengthKm: 1.018
+otherTrailLengthKm: 0.000
+areaKmSq: 0.1732
+
+parking:
+  -
+    street: Saddle Lane
+    directionsX: -71.571508498407
+    directionsY: 42.6388777818268
+

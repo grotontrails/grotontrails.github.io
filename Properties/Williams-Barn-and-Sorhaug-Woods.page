@@ -4,3 +4,10 @@ gtcTrailLengthKm: 2.472
 otherTrailLengthKm: 0.000
 areaKmSq: 0.3930
 
+parking:
+  -
+    street: Chicopee Row
+    directionsX: -71.5609126
+    directionsY: 42.6264474
+
+
