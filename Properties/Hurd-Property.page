@@ -7,11 +7,6 @@ areaKmSq: 0.1237
 parking:
   -
     street: Skyfields Drive
-    directionsX: -71.559208
-    directionsY: 42.5962894
-
-  -
-    street: Skyfields Drive
     directionsX: -71.5588674
     directionsY: 42.5960679
 
