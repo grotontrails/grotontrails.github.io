@@ -8,12 +8,8 @@ address: Town Forest Rd, Groton MA
 parking: 
   - 
     street: Town Forest Road
-    directionsX: 42.5973
-    directionsY: -71.6051
-  - 
-    street: Town Forest Road 2
-    directionsX: 42.5973
-    directionsY: -71.6051
+    directionsX: -71.6051
+    directionsY: 42.5973
 
 hours: Sunrise to Sunset
 description: |

@@ -71,8 +71,8 @@
 				  % for park in parking:
 				    ${ '<h3>Parking</h3>' if loop.first else '' }
 					${ '<p>' + park['street'] + ", Groton MA" if park['street'] != "" else "" }
-                    <br><a target="_blank" href="https://www.google.com/maps/dir//${park['directionsX']},${park['directionsY']}/@${park['directionsX']},${park['directionsY']},17z">Google Maps</a>,
-					<a target="_blank" href="http://maps.apple.com/?ll=${park['directionsX']},${park['directionsY']}">Apple Maps</a>					
+                    <br><a target="_blank" href="https://www.google.com/maps/dir//${park['directionsY']},${park['directionsX']}/@${park['directionsY']},${park['directionsX']},17z">Google Maps</a>,
+					<a target="_blank" href="http://maps.apple.com/?ll=${park['directionsY']},${park['directionsX']}">Apple Maps</a>					
 				  % endfor
 
 				  <h3>Hours</h3><p>${hours}
