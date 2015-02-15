@@ -62,7 +62,7 @@
 					${"%0.1f" % ((otherTrailLengthKm+gtcTrailLengthKm) / 1.60934)} miles, 
 					${"%0.1f" % (otherTrailLengthKm+gtcTrailLengthKm)} km 
 				  % for activity in activities:
-				    ${ '<h3>Allowed Activities</h3><p>' if loop.first else '' }
+				    ${ '<h3>Activities</h3><p>' if loop.first else '' }
 				    ${activity}${ '</p>' if  loop.last else ','} 
 				  % endfor
 				  
