@@ -60,7 +60,8 @@ div#body {
 
 #body a{
   color: #444444;
-  text-decoration: none;
+  /*font-weight: bold; */
+  /*text-decoration: none;  */
 }
 
 #body a:hover {

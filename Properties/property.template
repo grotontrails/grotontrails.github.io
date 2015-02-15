@@ -29,6 +29,7 @@
           };
         </script>
         <script src="../javascripts/adapt.min.js"></script>
+        <script src="../javascripts/suncalc.js"></script>
         <link rel="stylesheet" href="../stylesheets/grotontrails.css" />
     </head>
 		
@@ -75,14 +76,21 @@
 					<a target="_blank" href="http://maps.apple.com/?ll=${park['directionsY']},${park['directionsX']}">Apple Maps</a>					
 				  % endfor
 
-				  <h3>Hours</h3><p>${hours}
+				  <h3>Hours</h3>${hours} Sunrise Time <b id="sunrise"></b>, Sunset Time <b id="sunset"></b> 
+				  <script>
+				    var times = SunCalc.getTimes(new Date(), 42.6157,-71.5662);
+					var sunriseStr = times.sunrise.getHours() + ':' + times.sunrise.getMinutes() + " AM";
+					document.getElementById("sunrise").innerHTML = sunriseStr;
+					var sunsetStr = (times.sunset.getHours()-12) + ':' + times.sunset.getMinutes() + " PM";
+					document.getElementById("sunset").innerHTML = sunsetStr;
+				  </script>
 				  
 			      % for link in links:
 				    ${ '<h3>Links</h3>' if loop.first else '' }
 					<a href="${link[1]}">${link[0]}</a>${ '' if  loop.last else ','} 
 				  % endfor
 				  
-				  <h3>Trail Maintenance</h3><p>Groton Trail Committee</p>
+				  <h3>Trail Maintenance</h3>Groton Trail Committee. Please email <a title="mailto:gtc@grotontrails.org" href="mailto:gtc@grotontrails.org">gtc@grotontrails.org</a> to report problems.</p>
 				</div>
 									
 				<div class="grid-70">		

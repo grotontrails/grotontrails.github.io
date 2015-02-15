@@ -29,6 +29,7 @@
           };
         </script>
         <script src="../javascripts/adapt.min.js"></script>
+        <script src="../javascripts/suncalc.js"></script>
         <link rel="stylesheet" href="../stylesheets/grotontrails.css" />
     </head>
 		
@@ -78,14 +79,21 @@
 				    Snowshoeing</p> 
 				  
 				  <h3>Prohibited Activities</h3><p>Motorized use is prohibited</p>
-				  <h3>Property Owner</h3><p><a href=http://www.townofgroton.org/Town/BoardsCommittees/TownForestCommittee.aspx>Town Of Groton, Town Forest Committee</a>
+				  <h3>Property Owner</h3><p><a href=http://www.townofgroton.org/Town/BoardsCommittees/TownForestCommittee.aspx>Groton Town Forest Committee</a>
 				  
 				    <h3>Parking</h3>
 					<p>Town Forest Road, Groton MA
                     <br><a target="_blank" href="https://www.google.com/maps/dir//42.5973,-71.6051/@42.5973,-71.6051,17z">Google Maps</a>,
 					<a target="_blank" href="http://maps.apple.com/?ll=42.5973,-71.6051">Apple Maps</a>					
 
-				  <h3>Hours</h3><p>Sunrise to Sunset
+				  <h3>Hours</h3>Sunrise to Sunset. Sunrise Time <b id="sunrise"></b>, Sunset Time <b id="sunset"></b> 
+				  <script>
+				    var times = SunCalc.getTimes(new Date(), 42.6157,-71.5662);
+					var sunriseStr = times.sunrise.getHours() + ':' + times.sunrise.getMinutes() + " AM";
+					document.getElementById("sunrise").innerHTML = sunriseStr;
+					var sunsetStr = (times.sunset.getHours()-12) + ':' + times.sunset.getMinutes() + " PM";
+					document.getElementById("sunset").innerHTML = sunsetStr;
+				  </script>
 				  
 				    <h3>Links</h3>
 					<a href="http://www.nemba.org/trails/massachusetts/groton-town-forest">NEMBA Groton Town Forest</a>, 
@@ -94,7 +102,7 @@
 				    
 					<a href="http://www.townofgroton.org/Town/BoardsCommittees/TownForestCommittee.aspx">Town Forest Committee</a> 
 				  
-				  <h3>Trail Maintenance</h3><p>Groton Trail Committee</p>
+				  <h3>Trail Maintenance</h3>Groton Trail Committee. Please email <a title="mailto:gtc@grotontrails.org" href="mailto:gtc@grotontrails.org">gtc@grotontrails.org</a> to report problems.</p>
 				</div>
 									
 				<div class="grid-70">		
@@ -103,8 +111,8 @@
 				   The Groton Memorial Town Forest was established in 1922 as a memorial to the 
 men who gave their lives in World War I. It is owned by the town of Groton, and 
 is managed by the Town Forest Committee. It is one of the more popular places 
-in Groton to enjoy the outdoors, offering plenty of space to explore, beautiful views 
-of the Nashua River. The site has a large variety trails that are excellent for leisurely strolls, mounting 
+in Groton to enjoy the outdoors, offering plenty of space to explore and beautiful views 
+of the Nashua River. The site has a large variety of trails that are excellent for leisurely strolls, mounting 
 biking, horse back riding, dog walking, and nature watching. It is also the 
 site of the annual Groton Town Forest Race. 
 <p>The parking lot at the end of town forest road has plenty of space and has a 

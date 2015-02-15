@@ -31,23 +31,23 @@ for srcFileName in files :
   for activity in data['activities'] :
     if ( activity == 'default') :
       data['activities'].remove('default')
-      if ( data['owner'] == 'Town Of Groton, Conservation Commission') :
+      if ( data['owner'] == 'Groton Conservation Commission') :
         data['activities'].extend(['Hiking', 'Mountain Biking', 'Equestrian', 'Cross Country Skiing', 'Snowshoeing', 'Hunting']);
       else :
         data['activities'].extend(['Hiking', 'Mountain Biking', 'Equestrian', 'Cross Country Skiing', 'Snowshoeing']);
   
   # default owner URL from owner.
   if ( not 'ownerUrl' in data ) :
-    if ( data['owner'] == 'Town Of Groton, Town Forest Committee') : 
+    if ( data['owner'] == 'Groton Town Forest Committee') : 
       data['ownerUrl'] = 'http://www.townofgroton.org/Town/BoardsCommittees/TownForestCommittee.aspx'
-    elif ( data['owner'] == 'Town Of Groton, Conservation Commission') : 
+    elif ( data['owner'] == 'Groton Conservation Commission') : 
       data['ownerUrl'] = 'http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission.aspx'
     else :
       data['ownerUrl'] = ''
      
   # default hours, based on owner
   if ( not 'hours' in data ) : 
-    if ( data['owner'] == 'Town Of Groton, Conservation Commission') : 
+    if ( data['owner'] == 'Groton Conservation Commission') : 
       data['hours'] = 'Half an hour past sunrise to half an hour past sunset.'
     else :
       data['hours'] = 'Sunrise to Sunset'
