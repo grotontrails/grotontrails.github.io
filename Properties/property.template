@@ -105,8 +105,8 @@
 			 </div>
 			
             <div class="grid-80 prefix-10">
-			   <center>
-			   % for photo in photos:
+			   <center><hr>
+			   % for photo in photos: 
 			     <img width=200 src="${photo}" alt="Image of ${name}"></img>
 			   % endfor	
 			   % if (len(photos) == 0 ) :
