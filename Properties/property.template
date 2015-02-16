@@ -107,9 +107,11 @@
             <div class="grid-80 prefix-10">
 			   <center>
 			   % for photo in photos:
-			     ${ '<hr><h3>Please send us your photos of the ' + name + '!</h3>' if (loop.first) else '' }
 			     <img width=200 src="${photo}" alt="Image of ${name}"></img>
-			   % endfor		   
+			   % endfor	
+			   % if (len(photos) == 0 ) :
+               <h3>Please send us your photos of the ${name}!</h3> 
+			   % endif
 			   </center>
 			</div>
 						
