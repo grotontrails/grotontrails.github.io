@@ -184,13 +184,13 @@ function main() {
 
     var mapboxAttrib = '&copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
-    var mapboxSatellite = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.k1fka0cj/{z}/{x}/{y}.png', {
+    var mapboxSatellite = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
         attribution: mapboxAttrib
     });
-    var mapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {
+    var mapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
         attribution: mapboxAttrib
     });
-    var xcMapboxOutdoors = L.tileLayer('https://a.tiles.mapbox.com/v3/davidpitkin.kqql4n29/{z}/{x}/{y}.png', {
+    var xcMapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
         attribution: mapboxAttrib
     });
 
