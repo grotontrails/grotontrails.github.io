@@ -56,27 +56,23 @@
             <div class="grid-80 prefix-10 grid-parent" id="body">
 			
 				<div class="grid-30">
-				  <h3>Summary</h3>
-				    <p>
-					${"%0.1f" % (areaKmSq * 247.105381)} Acres, Trails 
-					${"%0.1f" % ((otherTrailLengthKm+gtcTrailLengthKm) / 1.60934)} miles, 
-					${"%0.1f" % (otherTrailLengthKm+gtcTrailLengthKm)} km 
+                  % if (highlights)  : 
+				  <h4>Highlights</h4><p>${highlights}   
+				  % endif
+				
 				  % for activity in activities:
-				    ${ '<h3>Activities</h3><p>' if loop.first else '' }
+				    ${ '<h4>Activities</h4><p>' if loop.first else '' }
 				    ${activity}${ '</p>' if  loop.last else ','} 
+					${ '<p>Please take personal protection measures to reduce your exposure to ticks and mosquito bites.' if loop.last else '' }
 				  % endfor
-				  
-				  <h3>Prohibited Activities</h3><p>Motorized use is prohibited</p>
-				  <h3>Property Owner</h3><p>${ "<a href=" + ownerUrl + ">" + owner + "</a>" if ownerUrl != "" else owner}
-				  
+				  <h4>Prohibited Activities</h4><p>Motorized use is prohibited. Please pick up after your dog and do not feed, approach or touch wildlife, including waterfowl.</p>
 				  % for park in parking:
-				    ${ '<h3>Parking</h3>' if loop.first else '' }
+				    ${ '<h4>Parking</h4>' if loop.first else '' }
 					${ '<p>' + park['street'] + ", Groton MA" if park['street'] != "" else "" }
                     <br><a target="_blank" href="https://www.google.com/maps/dir//${park['directionsY']},${park['directionsX']}/@${park['directionsY']},${park['directionsX']},17z">Google Maps</a>,
 					<a target="_blank" href="http://maps.apple.com/?ll=${park['directionsY']},${park['directionsX']}">Apple Maps</a>					
 				  % endfor
-
-				  <h3>Hours</h3>${hours} Sunrise Time <b id="sunrise"></b>, Sunset Time <b id="sunset"></b> 
+				  <h4>Hours</h4>${hours} Sunrise Time <b id="sunrise"></b>, Sunset Time <b id="sunset"></b> 
 				  <script>
 				    var times = SunCalc.getTimes(new Date(), 42.6157,-71.5662);
 					var sunriseStr = times.sunrise.getHours() + ':' + times.sunrise.getMinutes() + " AM";
@@ -85,21 +81,35 @@
 					document.getElementById("sunset").innerHTML = sunsetStr;
 				  </script>
 				  
+				  <h4>Size</h4>
+				    <p>
+					${"%0.1f" % (areaKmSq * 247.105381)} Acres, Trails 
+					${"%0.1f" % ((otherTrailLengthKm+gtcTrailLengthKm) / 1.60934)} miles, 
+					${"%0.1f" % (otherTrailLengthKm+gtcTrailLengthKm)} km 
+				  
+				  <h4>Property Owner</h4><p>${ "<a href=" + ownerUrl + ">" + owner + "</a>" if ownerUrl != "" else owner}
+				  				  
 			      % for link in links:
-				    ${ '<h3>Links</h3>' if loop.first else '' }
+				    ${ '<h4>Links</h4>' if loop.first else '' }
 					<a href="${link[1]}">${link[0]}</a>${ '' if  loop.last else ','} 
 				  % endfor
 				  
-				  <h3>Trail Maintenance</h3>Groton Trail Committee. Please email <a title="mailto:gtc@grotontrails.org" href="mailto:gtc@grotontrails.org">gtc@grotontrails.org</a> to report problems.</p>
+				  <h4>Trail Maintenance</h4>Countless volunteers and the Groton Trails Committee. Please email <a title="mailto:gtc@grotontrails.org" href="mailto:gtc@grotontrails.org">gtc@grotontrails.org</a> to report problems or offer to help.</p>
 				</div>
 									
 				<div class="grid-70">		
-                  <h3>Description</h3>				
-				  <p class="property-description">  
-				   ${description}
-				   <p>Please take personal protection measures to reduce your exposure to ticks and mosquito bites,
-				   Please pick up after your dog and do not feed, approach or touch wildlife, including waterfowl.
-				  <div class="property-map" id="map" style="width: 460px; height: 460px;"></div>				  
+                  % if (description)  : 
+				  <h4>Description</h4><p>${description}   
+				  % endif
+                  % if (trails)  : 
+				  <h4>Trails</h4><p>${trails}   
+				  % endif 
+                  % if (history)  : 
+				  <h4>History</h4><p>${history}   
+				  % endif
+				  <h4>Map</h4>
+				  <div class="property-map" id="map" style="width: 460px; height: 460px;"></div>	
+                  <p>Click/Press map for detailed view.				  
 				</div>
 				
 			 </div>
@@ -110,7 +120,7 @@
 			     <img width=200 src="${photo}" alt="Image of ${name}"></img>
 			   % endfor	
 			   % if (len(photos) == 0 ) :
-               <h3>Please send us your photos of the ${name}!</h3> 
+               <h4>Please send us your photos of the ${name}!</h4> 
 			   % endif
 			   </center>
 			</div>

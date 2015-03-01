@@ -13,8 +13,7 @@ parking:
 
 hours: Sunrise to Sunset.
 description: |
-  The Groton Memorial Town Forest was established in 1922 as a memorial to the 
-  men who gave their lives in World War I. It is owned by the town of Groton and 
+  The Town Forest is owned by the town of Groton and 
   is managed by the Town Forest Committee. The Town Forest is one of the more popular places 
   in Groton to enjoy the outdoors. It offers plenty of space to explore and beautiful views 
   of the Nashua River. The site has a large variety of trails that are excellent for leisurely strolls, mounting 
@@ -22,7 +21,17 @@ description: |
   site of the annual Groton Town Forest Race. 
   <p>The parking lot at the end of town forest road has ample space as well as a 
   turning circle for horse trailers.
+  
+history: | 
+  The Groton Memorial Town Forest was established in 1922 as a memorial to the 
+  men who gave their lives in World War I. 
 
+trails: | 
+  10 mile loop trail, Dead river Road trail.
+  
+highlights: | 
+  Views of Nashua River, Mountain Biking
+   
 activities: 
   - default
   - Swimming
