@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Groton Trails - Map</title>
+    <title>Groton Trails - Trail Map</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	
@@ -16,19 +16,36 @@
     <!--[if lt IE 9]>
       <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css' rel='stylesheet' />
     <![endif]-->
+	
+    <link rel="stylesheet" href="stylesheets/unsemantic-grid-base.css" />
+    <noscript>
+        <link rel="stylesheet" href="stylesheets/unsemantic-grid-mobile.css" />
+    </noscript>
+    <script>
+    var ADAPT_CONFIG = {
+        path: 'stylesheets/',
+        dynamic: true,
+        range: [
+            '0 to 767px = unsemantic-grid-mobile.css',
+            '767px = unsemantic-grid-desktop.css'
+        ]
+    };
+    </script>
+    <script src="javascripts/adapt.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/grotontrails.css" />
+	
+	
     <style>
-    html,
-    body,
     #map {
-        height: 100%;
+	    height: 90%;
         padding: 0;
         margin: 0
     }
     .leaflet-control-scale-line {
-        margin-left: 80px;
+        margin-left: 20px;
     }
     .leaflet-top {
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .info {
         padding: 6px 8px;
@@ -46,18 +63,32 @@
 </head>
 
 <body>
-    <div id="map">
-        <div class="cartodb-header" style="display: block;">
-            <div class="content">
-                <div class="description" style="display: block">
-                    <p>
-                        <center>The material posted on this website is for informational purposes only.</center>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-  
+	<div class="grid-container">
+		<div class="grid-80 prefix-10">
+			<div class="header">
+				<ul id="nav">
+					<li><a href="./Welcome.html">Welcome</a></li>
+					<li><a href="./PDF_Maps.html">PDF Maps</a></li>
+					<li><a href="./Interactive_Maps.html">Interactive Maps</a></li>
+					<li><a href="./Videos.html">Videos</a></li>
+					<li><a href="./Sign_Up.html">Sign Up</a></li>
+					<li><a href="./Calendar.html">Calendar</a></li>
+				</ul>
+			</div>
+		</div> <!-- end of nav -->
+		
+	</div>
+
+		<div id="map">
+			<div class="cartodb-header" style="display: block;">
+				<div class="content">
+					<div class="description" style="display: block">
+							<center>The material posted on this website is for informational purposes only.</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	
 	<script id="pointsCSS" type="text/mapcss">
 
 	// 1 private
@@ -276,6 +307,7 @@ function main() {
         }
     });
 
+	/*
     var legend = L.control({
         position: 'bottomright'
     });
@@ -284,8 +316,8 @@ function main() {
         div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';
         return div;
     };
-
     legend.addTo(map);
+	*/
 	
 	// when other parts of the site want to zoom into a specific area of the map
 	// they set the cookie defaultmap-lat-lng. If we pick up defaultmap-lat-lng,
