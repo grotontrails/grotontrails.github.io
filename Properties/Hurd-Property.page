@@ -9,4 +9,30 @@ parking:
     street: Skyfields Drive
     directionsX: -71.5588674
     directionsY: 42.5960679
+  -
+    street: Old Ayer Road
+    directionsX: -71.56947
+    directionsY: 42.59768
+  - 
+    street: Indian Hill Road
+    directionsX: -71.56444
+    directionsY: 42.58912
 
+description: |
+  The Hurd Property, Bates Land, and Blackman Land form one trail network. Parking is 
+  available off of Old Ayer Road, Skyfields Drive, and at Indian Hill Road. The
+  Skyfields Drive trail climbs the Indian Hills, passes the former 
+  <a href="http://www.nelsap.org/ma/skyfields.html">Skyfields Ski Area</a>, 
+  with the the summit providing open vistas of western Massachusetts, and 
+  an orchard on Bates Lands. This trail is highly recommended.  
+  
+links:
+  - 
+    - Official Conservation Commission Page
+    - http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission/HurdConservationArea.aspx
+  - 
+    - Ella's Trails, Groton Hurd Property Trail 
+    - http://www.ellastrails.com/groton-hurd-property-trail-groton-ma/
+  - 
+    - Skyfields Ski Area
+    - http://www.nelsap.org/ma/skyfields.html
