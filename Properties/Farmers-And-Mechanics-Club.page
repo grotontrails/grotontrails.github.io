@@ -4,3 +4,30 @@ gtcTrailLengthKm: 1.326
 otherTrailLengthKm: 0.000
 areaKmSq: 0.0807
 
+parking: 
+  - 
+    street: Hazel Grove Park
+    directionsX: -71.5987
+    directionsY: 42.6168
+  - 
+    street: Groton Place
+    directionsX: -71.5961
+    directionsY: 42.6047
+
+
+description: |
+  The Farmers And Mechanics Club property is part of the trail network that follows the east side of the Nashua river starting in Ayer ending at Fitch's Bridge. 
+  Parking is available at <a href="http://hgaa.org/">Hazel Grove Park</a>, and at the Groton Place (aka Dog Park). The trail offers wonderful views of the Nashua river.
+  The trail that directly follows the Nashua river is unmarked, and ends in a dead end on private property, the trail to Fitch's Bridge is marked, and 
+  cuts east away from the river at the south end of the property.
+  
+links:
+  - 
+    - Official Conservation Commission Page
+    - http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission/FarmersandMechanicsClubSite.aspx
+  - 
+    - Groton Herald, Fitch's Bridge
+    - "http://www.grotonherald.com/main.asp?SectionID=8&SubSectionID=34&ArticleID=813"
+  -
+    - Hazel Grove Park
+    - http://hgaa.org/

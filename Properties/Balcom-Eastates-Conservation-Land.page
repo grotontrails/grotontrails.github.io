@@ -4,3 +4,27 @@ gtcTrailLengthKm: 0.247
 otherTrailLengthKm: 0.016
 areaKmSq: 0.0057
 
+parking: 
+  - 
+    street: Senior Center
+    directionsX: -71.6162
+    directionsY: 42.6033
+  -
+    street: Hill Road
+    directionsX: -71.6125
+    directionsY: 42.6091
+
+description: |
+  This property is part of the trail network that follows the abandoned 
+  Brookline and Pepperell railroad. The trail network connects the Squannacook River to 
+  Fitch's Bridge. Park at the Senior Center, walk north, follow Spencer Circle,
+  then pick up the trail at the intersection of Spencer Circle and Hill Road to 
+  Fitch's Bridge. Please avoid the trails to the east since they are private property. 
+ 
+links:
+  -
+    - Official Conservation Commission Page
+    - "http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission/BalcomEstates.aspx"
+  - 
+    - Groton Herald, Fitch's Bridge
+    - "http://www.grotonherald.com/main.asp?SectionID=8&SubSectionID=34&ArticleID=813"

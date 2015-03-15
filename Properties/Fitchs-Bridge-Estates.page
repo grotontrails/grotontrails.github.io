@@ -4,3 +4,18 @@ gtcTrailLengthKm: 0.275
 otherTrailLengthKm: 0.000
 areaKmSq: 0.0038
 
+parking: 
+  - 
+    street: Fitch's Bridge, Pepperell Road
+    directionsX: -71.60949
+    directionsY: 42.62553
+
+description: |
+  This property is part of the trail network that follows the abandoned 
+  Brookline and Pepperell railroad. The trail network connects the Squannacook River to 
+  Fitch's Bridge. Parking is available at Fitch's Bridge off of Pepperell Road.
+ 
+links:
+  - 
+    - Groton Herald, Fitch's Bridge
+    - "http://www.grotonherald.com/main.asp?SectionID=8&SubSectionID=34&ArticleID=813"

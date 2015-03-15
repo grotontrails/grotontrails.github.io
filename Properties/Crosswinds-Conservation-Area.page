@@ -4,7 +4,17 @@ gtcTrailLengthKm: 0.587
 otherTrailLengthKm: 0.000
 areaKmSq: 0.1984
 
+parking:
+  - 
+    street: Townsend Road
+    directionsX: -71.6503
+    directionsY: 42.6362
+
+description: |
+  The Crosswinds Conservation Area does not have an extensive trail network in place. Access is available
+  at the Squannacook River Wildlife Management Area parking lot off of Townsend Road.
+
 links:
   - 
-    - Crosswinds Conservation Area
+    - Official Conservation Commission Page
     - "http://townofgroton.org/Town/BoardsCommittees/ConservationCommission/CrosswindsConservationArea.aspx"

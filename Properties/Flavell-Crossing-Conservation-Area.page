@@ -4,3 +4,14 @@ gtcTrailLengthKm: 1.446
 otherTrailLengthKm: 0.000
 areaKmSq: 0.4323
 
+parking: 
+  - 
+    street: Painted Post Road
+    directionsX: -71.50422
+    directionsY: 42.60237
+
+description: |
+  Flavell Crossing Conservation Area is part of a large network of trails that includes Skinner Forest and 
+  <a href="Groton-Woods-Conservation-Area.html">Groton Woods Conservation Area</a>. Off street parking at 
+  the Painted Post Road trail head.
+

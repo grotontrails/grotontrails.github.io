@@ -54,6 +54,9 @@ for srcFileName in files :
       
   if ( not 'parking' in data) :
     data['parking'] = ''
+
+  if ( not 'directions' in data) :
+    data['directions'] = ''
     
   if ( not 'address' in data ) :
     data['address'] = ''

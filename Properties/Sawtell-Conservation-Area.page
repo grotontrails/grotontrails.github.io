@@ -6,6 +6,6 @@ areaKmSq: 0.1281
 
 parking:
   -
-    street: Chicopee Row
-    directionsX: -71.5473430262992
-    directionsY: 42.632474486776
+    street: Grolex Building, Chicopee Row
+    directionsX: -71.54725
+    directionsY: 42.63230
