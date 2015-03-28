@@ -232,7 +232,7 @@ function main() {
         zoom: 13,
         layers: [mapboxOutdoors]
     });
-		
+			
     // set basemaps
     var baseMaps = {
         "Map": mapboxOutdoors,
@@ -306,7 +306,25 @@ function main() {
             xcLayer.hide()
         }
     });
-
+	
+	function updateURL() {
+	  var pos = map.getCenter();
+      location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)
+	}
+	
+    if ( location && location.hash.indexOf("#map=") == 0 ) {
+	  var url = location.hash.slice(5);
+	  var ll = url.split('/');
+	  map.panTo( [ll[1],ll[2]] );
+	  map.setZoom(ll[0]); 		
+	}
+	else {
+	  updateURL();
+	}
+			
+	map.on('moveend', updateURL );
+    map.on('zoomend', updateURL );
+	
 	/*
     var legend = L.control({
         position: 'bottomright'
@@ -318,30 +336,13 @@ function main() {
     };
     legend.addTo(map);
 	*/
-	
-	// when other parts of the site want to zoom into a specific area of the map
-	// they set the cookie defaultmap-lat-lng. If we pick up defaultmap-lat-lng,
-	// it is removed so that if they reload/come back to the page, the 
-	// position will not stick.
-	var ca = document.cookie.split(';');
-	
-    for (i = 0; i < ca.length; i++) { 
-	     if ( ca[i].search('defaultmap-lat-lng') >= 0) {
-	         var latlong = ca[i].split('=')[1];
-		     var xy = latlong.split(',');
-             map.panTo( xy );
-		     map.setZoom(15); 		
-		}
-	}
-	
-	document.cookie = 'defaultmap-lat-lng=; path=/';
-		
+					
     // remove leaflet attribution
     map.attributionControl.setPrefix('')
 }
 
-
 window.onload = main;
+
 </script>
 </body>
 

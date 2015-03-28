@@ -148,9 +148,7 @@
      if (map.tap) map.tap.disable();
 		
      map.on('click', function(e) {
-	     // stash the clicked location in the session cookie, so main map can scroll to that location.
-         document.cookie = "defaultmap-lat-lng=" + e.latlng.lat + "," + e.latlng.lng + "; path=/";
-	     window.location.href = '../Interactive_Maps.html';	        
+	     window.location.href = '../Interactive_Maps.html#map=15/' + e.latlng.lat.toPrecision(7) + '/' + e.latlng.lng.toPrecision(7);
     });		
 		
     </script>		 
