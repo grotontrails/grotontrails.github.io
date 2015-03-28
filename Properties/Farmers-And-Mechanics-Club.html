@@ -165,7 +165,7 @@ cuts east away from the river at the south end of the property.
      if (map.tap) map.tap.disable();
 		
      map.on('click', function(e) {
-	     window.location.href = '../Interactive_Maps.html#map=15/' + e.latlng.lat.toPrecision(7) + '/' + e.latlng.lng.toPrecision(7);
+	     window.location.href = '../Interactive_Maps.html#map=' + map.getZoom() + '/' + e.latlng.lat.toPrecision(7) + '/' + e.latlng.lng.toPrecision(7);
     });		
 		
     </script>		 

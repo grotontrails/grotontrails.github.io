@@ -309,7 +309,8 @@ function main() {
 	
 	function updateURL() {
 	  var pos = map.getCenter();
-      //window.location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)
+	  var newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
+	  history.replaceState({},'',newFragment);
 	}
 	
     if ( location && location.hash.indexOf("#map=") == 0 ) {
@@ -320,7 +321,8 @@ function main() {
 	}
 	else {
       var pos = map.getCenter();
-      //window.location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)	
+	  var newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
+	  history.replaceState({},'',newFragment);
 	}
 			
 	map.on('moveend', updateURL );
