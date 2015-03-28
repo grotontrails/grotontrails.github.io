@@ -309,7 +309,7 @@ function main() {
 	
 	function updateURL() {
 	  var pos = map.getCenter();
-      location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)
+      //window.location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)
 	}
 	
     if ( location && location.hash.indexOf("#map=") == 0 ) {
@@ -319,7 +319,8 @@ function main() {
 	  map.setZoom(ll[0]); 		
 	}
 	else {
-	  updateURL();
+      var pos = map.getCenter();
+      //window.location.hash = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7)	
 	}
 			
 	map.on('moveend', updateURL );
