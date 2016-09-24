@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Field Walks - Groton Trails</Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Field Walks </H1>
+        <img src="images/GTN.png"/>
+    </section>
+
+<section class="post">
+    <H2>Still Meadow</H2>
+    <section class="text"><p>This parcel’s name is a play on words because there was a prohibition era still on the property (and parts of it can “still” be found).  The meadow, or actually two fields connected by a very short farm road, is home to many pretty wildflowers, birds, and deer.  There is a small parking area across from 292/296 Nashua Rd.  Go through the opening in the wooden fence and park on the left.  If you want to venture beyond the fields, you can take the trail at the southern end of the first field to the Northwoods Pond or the trail at the southern end of the back field to Wattles Pond, a kettle pond created by a hunk of the glacier that broke off as the mile-high glacier over Groton was receding 10,000 years ago. </p>
+</section>
+    <section class="map"> <p>Map</p>
+            <div class="postmap" id="still_meadow"></div></section>
+</section>
+        
+<section class="post">
+    <H2>General Field and Surrenden Farm</H2>
+    <section class="text"><p>The General Field is on the border between Groton and Ayer.  Access is from Farmers Row (Rte. 111).  Take a paved road that is about 0.1 miles south of Joy Ln. to the parking area.  The land slopes down gently from a nice wildflower-decorated park-like area next to the parking and gives you a panoramic view to the south and southwest.  You can stay up on the hill to soak in the views of many towns in the area as well as the stand-out Mt. Wachusetts, or you can take a trail that goes about 2 miles around the field and connects with Surrenden Farm field to the west.  These two fields provide spectacular sunset views when the weather cooperates.
+</p></section>
+    <section class="map"> <p>Map</p>
+            <div class="postmap" id="general_field"></div></section>
+</section>
+    
+<section class="post">
+    <H2>Brooks Orchard and Scarlet Hill</H2>
+    <section class="text"><p>Both of these fields are best appreciated by taking a challenging walk to the top of the drumlins that host them.  Brooks Orchard is located off Orchard Ln., which is off Martins Pond Rd.; you can park on the lane or take the dirt road straight ahead to the field.  Almost immediately to your right, a trail takes off along the edge of the field and then takes a left and climbs to the top along the other edge of the field.  At the top, a trail to the left goes back down steeply to the dirt road you came in on (turn left and return).  Or, if you go right, you can take a walk around the field behind an old barn that is about ¼ mile down the dirt road; this field is on yet another drumlin.</p>
+    <p>There is a trail across Martins Pond Rd. from Orchard Ln. that will take you to Scarlet Hill.  It first goes through a woods and then, after crossing a stream, it goes along the edge of the field that is often used by grazing cows.  When you come to the end of the fence, take a left and follow the fence to the top of the hill.  On your way, you may see horses practicing jumps in the bucolic field.  At the top, views of the Haystack Observatory in Westford and downtown Boston (if you know where to look!) reward those who make the steep climb.  You can also access Scarlet Hill from Shattuck St. where it intersects Martins Pond Rd.  Follow the trail to the left along the edge of the field until you come to the fence line and then follow it to the top as above.</p>
+</section>
+    <section class="map"> <p>Map</p>
+            <div class="postmap" id="brooks_orchard"></div></section>
+</section>
+    
+<footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+    <script>
+      createSimpleMap('still_meadow',[42.650055,-71.56237],16);
+      createSimpleMap('general_field',[42.5870,-71.5920],15);
+      createSimpleMap('brooks_orchard',[42.6200,-71.5504],15);
+    </script>
+    
+    
+    </body>   
+    
+</html>

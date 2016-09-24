@@ -1,40 +1,23 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
-<html>
+<HTML>
 
 <head>
-    <title>Groton Trails Map</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	
-    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <Title>Groton Trails Map </Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+
     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css"  />
 	
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    
     <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
 
     <!--[if lt IE 9]>
       <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css' rel='stylesheet' />
     <![endif]-->
-	
-    <link rel="stylesheet" href="stylesheets/unsemantic-grid-base.css" />
-    <noscript>
-        <link rel="stylesheet" href="stylesheets/unsemantic-grid-mobile.css" />
-    </noscript>
-    <script>
-    var ADAPT_CONFIG = {
-        path: 'stylesheets/',
-        dynamic: true,
-        range: [
-            '0 to 767px = unsemantic-grid-mobile.css',
-            '767px = unsemantic-grid-desktop.css'
-        ]
-    };
-    </script>
-    <script src="javascripts/adapt.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/grotontrails.css" />
-	
-	
+    
     <style>
     #map {
 	    height: 90%;
@@ -59,26 +42,28 @@
         margin: 0 0 5px;
         color: #777;
     }
-    </style>
+    </style>    
+    
+    <link rel="stylesheet" href="style.css" />    
+    
 </head>
 
-<body>
-	<div class="grid-container">
-		<div class="grid-80 prefix-10">
-			<div class="header">
-				<ul id="nav">
-					<li><a href="./Welcome.html">Welcome</a></li>
-					<li><a href="./Calendar.html">Events</a></li>
-					<li><a href="./Interactive_Maps.html">Map</a></li>
-					<li><a href="./PDF_Maps.html">Printable Maps</a></li>
-					<li><a href="./Sign_Up.html">Sign Up</a></li>
-					<li><a href="./Videos.html">Videos</a></li>
-					<li><a href="./Quests.html">Quests</a></li>
-				</ul>
-			</div>
-		</div> <!-- end of nav -->
-		
-	</div>
+<html>
+
+<body> 
+    <div class="page">
+    
+    <header role= "banner"> 
+        <nav>
+                <a href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a class="current" href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printible Maps</a>
+                <a href="about.html"> About Us</a>
+
+        </nav>
+    </header>
+    <div class="container">
 
 		<div id="map">
 			<div class="cartodb-header" style="display: block;">
@@ -258,6 +243,8 @@ function main() {
         });
 
     L.control.scale().addTo(map);
+    
+    L.control.locate().addTo(map);
 
     L.control.layers(baseMaps).addTo(map);
 
@@ -296,10 +283,11 @@ function main() {
 	map.on('moveend', updateURL );
     map.on('zoomend', updateURL );
 	
-	/*
     var legend = L.control({
         position: 'bottomright'
     });
+    
+    /*
     legend.onAdd = function(map) {
         var div = L.DomUtil.create('div', 'info legend')
         div.innerHTML += '<a href="http://www.grotontrails.org/"><img width="60%" src="images/GTN.png"></a>';

@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Mountain Biking - Groton Trails</Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Mountain Biking Trails </H1>
+        <img src="images/GTN.png"/>
+    </section>
+    
+<section class="post">
+    <H2>Groton Town Forest</H2>
+    <section class="text"><p>Smooth flowy trails that are suitable for all abilities. Whether it's
+ the network of cart roads or the 6-8 miles of single track, all routes lead
+ to big smiles. For those looking for a longer route head north to Fitch's
+Bridge, cross over and head south to return.Parking at the end of Town
+ Forest Rd.</p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="town_forest"></div>
+    </section>
+    <section class="links">
+        <a href="http://www.nemba.org/trails/massachusetts/groton-town-forest"> New England Mountain Biking Association</a>
+    </section>
+</section>
+
+<section class="post">
+    <H2>Wharton Plantation</H2>
+    <section class="text"><p>Some of the more challenging trails in town, Wharton's 5-6 miles of
+rocky terrain will test even the most accomplished riders. Extend the ride
+by venturing over to Crystal Spring. Park at the junction of Martin Pond Rd
+and Rocky Hill rd.</p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="wharton_plantation"></div></section>
+</section>
+    
+<section class="post">
+    <H2>Williams Barn</H2>
+    <section class="text"><p>A well marked network of trails for all abilities. Venture across
+ Chicopee Row to Fitch Woods and McLain's Woods makes for 5-6 miles of mostly
+single track trail. Chestnut Hill is a challenging climb that rewards with a
+nice view to the east. Parking at Williams Barn off Chicopee Row.</p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="williams_barn"></div></section>
+</section>
+       
+    <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+    <script>
+      createSimpleMap('town_forest',[42.5906,-71.6073],14);
+      createSimpleMap('wharton_plantation',[42.6300,-71.5199],14);
+      createSimpleMap('williams_barn',[42.6245,-71.5566],15);
+    </script>
+    
+    </body>   
+    
+</html>

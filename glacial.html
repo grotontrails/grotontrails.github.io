@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Glacial Walks - Groton Trails</Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Glacial Walks </H1>
+        <img src="images/GTN.png"/>
+    </section>
+    
+
+<section class="post"><H2>Gamlin Crystal Springs Esker Walk</H2>
+    <section class="text">    
+        <p>The Gamlin Esker Trail traverses a long, high esker, which is a steep-sided ridgeline left by the melting glacier. The hike begins with an ambitious climb up the side of the esker. Once atop, the hike becomes a leisurely trek along the wooded spine of the esker. Hikers traversing the esker ridgeline are afforded fine views of Cow Pond Brook flowing below, another remnant of glacial times. Deer are seen on the Gamlin Esker Trail, and the esker is habitat for nesting turtles and playful otters. Later in the hike, the Gamlin Esker Trail features a prominent wetland area, with constant beaver activity.</p>
+
+    </section>
+    <section class="map">
+        <p>Map</p>
+            <div class="postmap" id="gamlin_springs"></div>
+    </section>
+    <section class="link">
+            <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
+    </section> 
+</section>
+  
+    <section class="post"><H2>Groton Town Forest Kettle Hole Walk</H2>
+        <section class="text">
+            <p>The Groton Town Forest is one of the largest trail networks in Groton. This network of trails is truly very diverse and will suit anyone’s wishes. Whether you want to go for a stroll on a welcoming summer day or tear it up on a mountain bike this property is for you. There is a scenic route that follows the Nashua River as well as an alluring trail that follows the old railroad tracks. A walk in the Groton Town Forest is truly wonderful as you let your worries and obligations fade away and just enjoy the untouched beauty of nature. </p>
+            <p>To enjoy The Groton Town Forest kettle holes it is recommended to take the loop trail.</p>
+        </section>
+        <section class="map"><p>Map</p>
+            <div class="postmap" id="town_forest"></div></section>
+        <section class="link">
+            <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
+        </section> 
+    </section>
+    
+    <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+    <script>
+      createSimpleMap('gamlin_springs',[42.6298,-71.5022],16);
+      createSimpleMap('town_forest',[42.5906,-71.6073],14);
+    </script>
+    
+    
+    </body>   
+    
+</html>

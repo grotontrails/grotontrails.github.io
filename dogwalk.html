@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Dog Walking - Groton Trails</Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a class="current" href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1>Dog Walking</H1>
+        <img src="images/GTN.png"/>
+    </section>
+    
+<section class="post">
+    <H2>Groton Place</H2>
+    <section class="text">I recognize this bridge, over the water lilies and dragonflies so
+excited tail wagging and nose twitching, who will I meet today.
+Freedom bounding through the wildflower meadow, grass twitching my
+fur.  Must sniff the stone dog statue, so real it makes me check
+again. Under the shady trees splashing into the cool clear river, oh
+please throw the stick one more time. Onwards my paws race, through
+the Rhododendron’s, chasing those delicious smells.</section>
+    <section class="map"> <p>Map</p>
+            <div class="postmap" id="groton_place"></div> </section>
+    <section class="links">
+        <a href="http://cfem.newenglandforestry.org/cfem1/findaforest.asp?forest=27">New England Forestry</a> 
+        <a href="https://www.facebook.com/Groton-Place-Dog-Park-117060625027188/"> Facebook </a></section>
+</section>
+    
+ <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+
+    <script>
+      createSimpleMap('groton_place',[42.60397,-71.59670],16);
+    </script>
+    
+    </body>

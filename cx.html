@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Cross Country Skiing - Groton Trails</Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Cross Country Skiing </H1>
+        <img src="images/GTN.png"/>
+    </section>
+ 
+  <p>Almost every parcel in Groton is a good place to XC ski (or snowshoe), but the areas described below are extensive and support long excursions in the white wilderness.
+</p>  
+    
+<section>
+    <H2>Groton Town Forest</H2>
+    <section class="text"><p>The Groton Town Forest has everything for the XC skier.   Over 15 miles of trails to explore from flat (mostly) to hilly (many) to white-knuckle schussing!  The central part of the Town Forest is a flat glacier river delta, but it drops off sharply along rivers on the eastern (Nashua River) and southern (Squannacook River) borders.  There are also a multitude of kettle holes and kettle ponds in the central area that make striking exceptions to the generally flat terrain.  Signs for the Town Forest on W. Main St. (Rte. 225) will guide you to Wharton Row.  When you get to the stop sign at Town Forest Rd., turn right and the parking lot is just inside the woods.  If it isn’t plowed yet, park responsibly on Wharton Row.  </p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="town_forest"></div></section>
+</section>
+    
+<section class="post">
+    <H2>J Harry Rich State Forest</H2>
+    <section class="text"><p>The Rich State Forest is completely flat, but if you want a serene and scenic tour through the woods of a winter paradise and along the crisp white Nashua River on (mostly) wide roads and trails, then this is the place to go.  You can access Rich State Forest at several trailheads along Nod Rd., with parking available around the Common St. entrance.  You can also access Rich State Forest via the Nashua River Rail Trail about 1 mile north of the parking lot on Sand Hill Rd.  By taking the main trail south through Rich State Forest towards the Common St. entrance and then taking the trail to the left that is about 500 feet north of Common St., you can make a 2.5 mile loop.  You can add to that distance by taking any of the trails that go off to the west that will take you along segments of the Nashua River.</p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="harry_rich"></div></section>
+</section>
+    
+<section class="post">
+    <H2>General Field and Surrenden Farm</H2>
+    <section class="text"><p>Because most all of the General Field and half of Surrenden Farm is fields that can be sun-bathed and wind-swept, getting the right conditions for XC skiing can be challenging.  However, when the stars align, this is a superb venue for a family XC tour at sunrise, sunset, or when overcast (if the potential for sticky snow is high).  The land is gently sloped for the most part, and so downhill gliding can be enjoyed while the uphill slogging is not daunting.  You can stay on the trail at the top of the hill (and Shirley Rd. if the snow is fresh and deep) to soak in the views of many towns in the area as well as the stand-out Mt. Wachusetts, or you can take/make a trail for about 2 miles down and around the General Field and connect with the Surrenden Farm field to the west.  The Surrenden Farm field also has a couple of connections to trails that go into the woods.  These trails, being protected from the sun and wind, are apt to have generally better conditions for skiing.  The General Field is on the border between Groton and Ayer.  Access is from Farmers Row (Rte. 111).  Take a paved road that is about 0.1 miles south of Joy Ln. to the parking area. </p>
+</section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="general_field"></div></section>
+</section>
+    
+     
+   <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+
+    <script>
+      createSimpleMap('town_forest',[42.5906,-71.6073],14);
+      createSimpleMap('harry_rich',[42.63863,-71.58189],14);
+      createSimpleMap('general_field',[42.5870,-71.5920],15);
+    </script>
+    
+    </body>   
+    
+</html>
+    

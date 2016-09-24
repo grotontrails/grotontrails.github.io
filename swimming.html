@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <Title>Swimming - Groton Trails </Title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+</head>
+
+<body> 
+    <header> 
+        <nav>
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Swimming Walks </H1>
+        <img src="images/GTN.png"/>
+    </section>
+  
+<section class="post">
+    <H2>Peter E. Bertozzi Conservation Area
+</H2>
+    <section class="text"><p>A gem of a swimming hole on the Squannacook River, complete with rope swing, can be accessed by trail from a parking lot on the west side of Townsend Rd., just north of Cherry Tree Ln.  Turn right at the third trail intersection (the first is the future Squannacook River Rail Trail) and go straight to the bend in the river.  On hot summer days, you may have to wait for your turn on the old-fashioned no-frills rope swing, but it’s well worth the wait.</p>
+</section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="bertozzi"></div></section>
+</section>
+    
+<section class="post">
+    <H2>Groton Town Forest</H2>
+    <section class="text"><p>This very secluded swimming hole in the Nashua River, near the bridge for the (non-active) railroad that goes from West Groton to the Ayer border, has a rope swing.   To get there, start at the parking lot for the Town Forest.  Signs for the Town Forest on Rte. 225 will guide you to Wharton Row.  When you get to the stop sign at Town Forest Rd., turn right and the parking lot is just inside the woods.  The road you come in on is called Wharton Rd. in the Town Forest.  Follow Wharton Rd. all the way to the end, which is nearly 1.5 miles, and you will see the swimming hole on the left before you get to the railroad tracks.</p></section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="town_forest"></div></section>
+</section>
+
+<section class="post">
+    <H2>Harvey P. Sargisson Town Beach
+</H2>
+    <section class="text"><p>This beach has been recently restored and is an excellent family-friendly swimming spot.  Lifeguards are on duty (see link below for more info).  It also has a fishing area.  There are picnic tables and, in one area, BBQ grills.  The parking area is on Whiley Rd., about 0.6 miles from Rte. 119, or you can dock your boat/canoe/kayak near the beach.</p>
+</section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="sargisson_beach"></div></section>
+    <section class="links"> 
+    <a href="http://townofgroton.org/Community/SargissonBeach.aspx ">Sargisson Beach Information</a>
+    </section>
+</section>
+    
+<section class="post">
+    <H2>Lawrence Woods and Taisey Conservation Land
+</H2>
+    <section class="text"><p>Several old-fashioned rope swings of various levels of difficulty/fear can be found along one of the prettiest stretches of the Nashua River in Groton.  In general, these swings are most suitable for athletic young adults, and others are best advised to watch.  If you use these swings, please clean up after yourselves - litter has been a problem at times.  Parking is available at Groton Place, on Rte. 225 just to the east of the Nashua River.  The trail through Lawrence Woods and the Taisey Conservation Land starts across Rte. 225 and follows the Nashua River to the North.</p>
+</section>
+    <section class="map"><p>Map</p>
+            <div class="postmap" id="lawrence"></div></section>
+</section>
+    
+ <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+    <script>
+      createSimpleMap('bertozzi',[42.63413,-71.65809],16);
+      createSimpleMap('town_forest',[42.58172,-71.60851],16);
+      createSimpleMap('sargisson_beach',[42.5864,-71.5208],16);
+      createSimpleMap('lawrence',[42.60735,-71.59747],16);
+    </script>
+    
+    </body>
+</html>
+

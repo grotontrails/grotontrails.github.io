@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<Title>Light Walks - Groton Trails</Title>
+<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="javascripts/trailmap.js"></script>
+    </head>
+
+<body> 
+    <header> 
+        <nav>
+  
+                <a class="current" href="Welcome.html"> Trails</a>
+                <a href="get_involved.html"> Get Involved</a> 
+                <a href="Interactive_Maps.html"> Map</a>
+                <a href="printed_maps.html"> Printable Maps</a>
+                <a href="about.html"> About Us</a>
+ 
+        </nav>
+    </header>
+    
+<section class="title">
+        <H1> Light Walks </H1>
+        <img src="images/GTN.png"/>
+    </section>
+    
+    <section class="post"> <H2>John Tinker Accessible Trail</H2> 
+        <section class="text">
+            <p> The John Tinker Accessible Trail is a beautifully built wheelchair accessible trail. The trail starts off with off street parking that leads to a dignified gravel pathway. This wide pathway follows the Nashua River so anyone on it may observe the wildlife there. All along the pathways are scenic overlooks that include inviting stone benches. The end of the trail stops where Groton's first trading post was built. This trail is family friendly as well as amazing. </p>
+        </section>
+    <section class="map">  <p>Map</p>
+            <div class="postmap" id="john_tinker"></div></section>
+</section> 
+    
+    <section class="post"><H2>The Groton Place</H2>
+        <section class="text">
+            <p> The Groton Place is a beautiful well loved property that follows along the Nashua River. With lots of intertwined loops these trails are optimal for everyone, whether you are an experienced hiker or just beginning. This property has many stunning features that appeal to all. As you first walk into the path from your car there is a charming bridge that leads you straight to the beginning of the trails. There is a path that traverses a field by following the wood line or a trail that is surrounded entirely by rhododendrons. As you navigate the trails you can take a rest on a scenic round bench that doubles as a monument or you can watch the wildlife in and out of the river. The pine needle blanketed trails are radiant as well as wide so bring your family, friends, and pets. </p>
+            <p> Not only is The Groton Place well loved by people, it is well loved by their pets as well! The Groton Place is the favorite area for all of the locals to take their dogs to hang out, many have even taken to calling The Groton Place the dog park. As you take a leisurely stroll around the trials your dog can follow you and smell all of the forest animals. Or your dog can run around and play then take a dip in the river to cool off. Feel free to take your dog’s favorite ball or frisbee and throw it as enjoy the sights. </p>
+            <p> It is suggested to take Sabine River Trail and Rhododendron Trail.</p>
+        </section>
+        <section class="map">  <p>Map</p>
+            <div class="postmap" id="groton_place"></div>
+        </section>
+        <section class="links">
+            <a href="http://cfem.newenglandforestry.org/cfem1/findaforest.asp?forest=27">New England Forestry</a>
+        </section>
+   </section>
+    
+     <footer>
+    <p>
+    'Map &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy;, <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    </footer>
+    <script>
+      createSimpleMap('john_tinker',[42.62968,-71.58364],17);
+      createSimpleMap('groton_place',[42.60397,-71.59670],16);
+    </script>
+
+    </body>   
+    
+</html>
