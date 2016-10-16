@@ -1,8 +1,14 @@
-
+ 
 H1 {
     color:black;
     text-align: right;
-    font-size: 2em
+    font-size: 2em;
+    font-family: 'Neucha', serif;
+}
+
+H2 {
+    font-family: 'Neucha', serif;
+    font-size: 1.7em;
 }
 
 nav {
@@ -10,12 +16,21 @@ nav {
     font-size: 1.3em;
     background-color:#339966;
     border-radius: 0.4em;
-  
+}
+
+nav a{
+    color:whitesmoke;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+   font-family: 'Neucha', serif;
+
 }
 
 body {
     display: block;
     margin: 8px;
+   
 }
 
 .title H1{
@@ -63,18 +78,18 @@ body{
 
 }
  
-nav a{
-    color:whitesmoke;
-    margin-right: 15px;
-    margin-left: 15px;
-    text-decoration: none;
-    
-}
 
+  
 a[class="current"] {
     font-weight: bold;
     text-decoration: underline;
   
+}
+
+.post{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    
 }
 
 aside {
