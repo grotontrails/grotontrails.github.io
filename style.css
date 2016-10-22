@@ -55,8 +55,9 @@ body {
 }
 
 .postmap { 
-    height: 380px; 
-    width: 380px;
+    height: 350px; 
+    width: 350px;
+    display:inline-block;
 }
 
 .container{
@@ -74,11 +75,11 @@ html{
 background: #D4E2C6; 
 }
    
-body{
-
+@media (max-width: 600px) {
+    .photos-map .desktop {
+        display:none;
+    }
 }
- 
-
   
 a[class="current"] {
     font-weight: bold;
