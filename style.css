@@ -80,6 +80,12 @@ background: #D4E2C6;
         display:none;
     }
 }
+
+@media (min-width: 600px) {
+    .photos-map .mobile-only {
+        display:none;
+    }
+}
   
 a[class="current"] {
     font-weight: bold;
