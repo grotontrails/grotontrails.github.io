@@ -1,7 +1,7 @@
 
 
 function createSimpleMap(divid, locationArray, zoom) {
-    var map = L.map(divid, { zoomControl: false });
+    var map = L.map(divid, { attributionControl: false, zoomControl: false });
 
     var mapboxAttrib = "";
 
