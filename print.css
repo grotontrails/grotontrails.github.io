@@ -1,0 +1,89 @@
+ 
+H1 {
+    color:black;
+    text-align: right;
+    font-size: 2em;
+    font-family: 'Neucha', serif;
+}
+
+H2 {
+    font-family: 'Neucha', serif;
+    font-size: 1.7em;
+}
+
+nav {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.links {
+    display: none;
+}
+
+.photos-map img {
+  width:300px;
+  height:300px;
+}
+
+.postmap { 
+    height: 300px; 
+    width: 300px;
+    display:inline-block;
+}
+.title H1{
+    display: inline; 
+    vertical-align: top;
+    margin-right: .3em;
+}
+
+.title img {
+  height:4em;
+  vertical-align: top;
+  float: right;
+}
+
+.title{
+ display: inline-block;
+ float: right;    
+ height:4em;
+ margin-left: 1.5em;
+ margin-bottom: 1.0em;
+  vertical-align: top;
+}
+
+footer {
+    display: none;
+}
+
+.container{
+    margin-right:1em;
+    margin-left:1em;    
+}
+
+html{
+  background:white; 
+}
+
+.photos-map .mobile-only {
+    display:none;
+}
+
+.post{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    page-break-after: always;   
+}
+
+aside {
+    border-style: double;
+    border-color: white;
+    background-color: lightgray;
+    padding: 8px; 
+    float:right;
+    position:relative;
+   
+}
