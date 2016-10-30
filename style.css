@@ -93,6 +93,11 @@ a[class="current"] {
   
 }
 
+a {
+    color: black;
+    text-decoration: underline;
+}
+
 .post{
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
