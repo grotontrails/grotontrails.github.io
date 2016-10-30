@@ -72,6 +72,11 @@ html{
     display:none;
 }
 
+.photos-map .desktop {
+    display:inline-block;
+}
+
+
 .post{
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
