@@ -5,15 +5,22 @@
     <Title>Groton Trails Map </Title>
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
     
-	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-	<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
+    <link rel="stylesheet" href="style.css" >
 
-    <link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/png" href="/images/GTN-32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/GTN-16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/images/GTN-196.png" sizes="196x196">
 
-	<script src="points.js"></script>
-	<script src="photos.js"></script>
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-60.png" >
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-76.png" >
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-152.png">	
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-180.png">	
+
+	<link rel="manifest" href="manifest.json">
 
     <style>	
     #map {		
@@ -26,6 +33,10 @@
 
 <html>
 <body>
+	<script src="points.js"></script>
+	<script src="photos.js"></script>
+	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+	
 	<div class="page">
 		<header role="banner">
 			<nav>
@@ -157,6 +168,10 @@ function main() {
 				map.removeLayer( markerElementData.marker )
 			}
 		}
+
+		if ( zoom > 14) {
+			map.addLayer(  photosLayerGroup)
+		} 
 	}
 		
 	function updateURL() {

@@ -267,9 +267,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Pumphouse",
+                "name": "Pump house",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Pump house"
             }
         },
         {
@@ -494,7 +494,7 @@ var markerData = {
             "properties": {
                 "name": "Stone Wall Crossing",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Stone Wall Crossing"
             }
         },
         {
@@ -929,7 +929,7 @@ var markerData = {
             "properties": {
                 "name": "Groton School Boathouse",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Groton School Boathouse"
             }
         },
         {
@@ -1782,7 +1782,7 @@ var markerData = {
             "properties": {
                 "name": "Limestone quarry.",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Limestone quarry"
             }
         },
         {
@@ -1797,7 +1797,7 @@ var markerData = {
             "properties": {
                 "name": "Wellhead",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Wellhead"
             }
         },
         {
@@ -2468,7 +2468,7 @@ var markerData = {
             "properties": {
                 "name": "Kettle hole",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Kettle hole"
             }
         },
         {
@@ -2483,7 +2483,7 @@ var markerData = {
             "properties": {
                 "name": "Kettle hole",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Kettle hole"
             }
         },
         {
@@ -2498,7 +2498,7 @@ var markerData = {
             "properties": {
                 "name": "Kettle hole",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Kettle hole"
             }
         },
         {
@@ -2513,7 +2513,7 @@ var markerData = {
             "properties": {
                 "name": "Kettle hole",
                 "symbolid": 3,
-                "popupinfo": ""
+                "popupinfo": "Kettle hole"
             }
         },
         {

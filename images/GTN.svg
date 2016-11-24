@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="GTN.svg"
-   inkscape:export-filename="D:\maps\GTN-64.png"
-   inkscape:export-xdpi="32.447289"
-   inkscape:export-ydpi="32.447289">
+   inkscape:export-filename="D:\maps\grotontrails.github.io\images\GTN-192.png"
+   inkscape:export-xdpi="97.540001"
+   inkscape:export-ydpi="97.540001">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -33,13 +33,13 @@
      inkscape:cx="88.582677"
      inkscape:cy="88.582677"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="mm"
-     inkscape:window-width="1115"
-     inkscape:window-height="989"
-     inkscape:window-x="237"
-     inkscape:window-y="51"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -65,11 +65,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="ring"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-875.17788)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-875.17788)">
     <circle
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.35354316;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3336"
@@ -88,12 +87,12 @@
          startOffset="5"
          dx="0 0 0">NETWORK</textPath></text>
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.37125969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.37125969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 21.478689,969.1187 c -0.227334,-2.48159 -0.315608,-4.97482 -0.259257,-7.46622 -0.200973,-30.04424 23.84847,-57.04775 52.554128,-63.68831 24.675836,-6.46042 52.00083,3.58618 67.47401,23.67218 18.30953,21.73005 20.69079,55.4393 4.015,78.96235 -14.42907,22.1082 -42.45127,35.1454 -68.382048,29.6152 -29.827819,-4.3037 -52.95233,-31.57038 -55.401833,-61.0952 z"
        id="path4226"
        inkscape:connector-curvature="0" />
     <ellipse
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.37125969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.37125968;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3336-1"
        cx="88.582672"
        cy="963.76056"
@@ -138,7 +137,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="arrow">
+     inkscape:label="arrow"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.37125981;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect3352"
