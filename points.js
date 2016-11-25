@@ -28,7 +28,7 @@ var markerData = {
             "properties": {
                 "name": "Nature Observation Area",
                 "symbolid": 3,
-                "popupinfo": "Area designated for observing wetlands."
+                "popupinfo": "Nature Observation area designated for observing wetlands."
             }
         },
         {
@@ -42,7 +42,6 @@ var markerData = {
             },
             "properties": {
                 "name": "McLains/Fitch Area",
-                "folderpath": "All Groton Trails/McLains_Fitch/McLains",
                 "symbolid": 0,
                 "popupinfo": "This is a very nice hiking area with several miles worth of trails."
             }
@@ -59,7 +58,7 @@ var markerData = {
             "properties": {
                 "name": "Bertozzi Conservation Area and Crosswinds Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "No clear line divides the parcels. There are no vehicles, including bicycles, allowed on the properties other than authorized emergency vehicles, etc. A small swimming hole is located approximately 1 mile into the Bertozzi parcel. The parcel combination"
+                "popupinfo": "No clear line divides the parcels. There are no vehicles, including bicycles, allowed on the properties other than authorized emergency vehicles, etc. A small swimming hole is located approximately 1 mile into the Bertozzi parcel."
             }
         },
         {
@@ -247,14 +246,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.513408,
-                    42.593148
+                    -71.51543,
+                    42.59208
                 ]
             },
             "properties": {
                 "name": "Duck Pond Loop",
                 "symbolid": 0,
-                "popupinfo": "A nice hike circling most of Duck Pond with several footbridges and photographic scenic points."
+                "popupinfo": "A nice hike circling most of <a href=\"http://www.gctrust.org/archives/1778\">Duck Pond</a> with several footbridges and photographic scenic points."
             }
         },
         {
@@ -359,7 +358,7 @@ var markerData = {
             "properties": {
                 "name": "Hazel Grove Park",
                 "symbolid": 0,
-                "popupinfo": "A nice hike around the Hazel Grove Park property."
+                "popupinfo": "<a href=\"http://hgaa.org/\">Hazel Grove Park</a>, plenty of off street parking and a nice trail along the Nashua river and north to Fitch's bridge."
             }
         },
         {
@@ -554,7 +553,7 @@ var markerData = {
             "properties": {
                 "name": "Gamlin Chrystal Spring",
                 "symbolid": 0,
-                "popupinfo": "Mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting con"
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1782\">Gamlin Chrystal Spring</a> is mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting conservation properties."
             }
         },
         {
@@ -1035,7 +1034,7 @@ var markerData = {
             "properties": {
                 "name": "Hayes Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "The Hayes Conservation Area consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel."
+                "popupinfo": "The <a href=\"http://www.gctrust.org/archives/1788\">Hayes Conservation</a> Area consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel."
             }
         },
         {
@@ -1118,14 +1117,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.564772,
-                    42.594883
+                    -71.56330,
+                    42.59296
                 ]
             },
             "properties": {
-                "name": "Hurd Bates Parcel",
+                "name": "Bates/Blackman/Hurd properties.",
                 "symbolid": 0,
-                "popupinfo": "Hurd Bates parcel trail."
+                "popupinfo": "This area is composed of three parcels, <a href=\"http://www.gctrust.org/archives/1766\">Bates, Blackman</a>, and Hurd. There is off street parking on all three sides, with a lovely western overlook at the intersection of the Bates and Blackman land."
             }
         },
         {
@@ -1178,15 +1177,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.61761,
-                    42.605322
+                    -71.61494,
+                    42.60489
                 ]
             },
             "properties": {
-                "name": "GSC and Integrity Way Railbed",
-                "folderpath": "All Groton Trails/GSC_Integrity_Way_Railbed",
-                "symbolid": 0,
-                "popupinfo": "GSC and Integrity Way Railbed that goes along the Integrity Way Railbed and through the Lawrence Park Conservation and Hemlock Grove areas."
+                "name": "Groton Senior Center and Integrity Way Railbed Trail",
+                "symbolid": 3,
+                "popupinfo": "Groton Senior Center and Integrity Way Railbed that goes along the Integrity Way Railbed and through the Lawrence Park Conservation and Hemlock Grove areas."
             }
         },
         {
@@ -1688,9 +1686,8 @@ var markerData = {
             },
             "properties": {
                 "name": "Shepley Hills",
-                "folderpath": "All Groton Trails/Shepley_Hills",
                 "symbolid": 0,
-                "popupinfo": "A very nice trail system throughout the Shepley Hills parcel."
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1816\">Shepley Hills</a> is very nice trail system with an abaondoned soapstone quarry, Nod Brook, and Drumlins."
             }
         },
         {
@@ -1780,9 +1777,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Limestone quarry.",
+                "name": "Soapstone quarry.",
                 "symbolid": 3,
-                "popupinfo": "Limestone quarry"
+                "popupinfo": "Soapstone quarry"
             }
         },
         {
@@ -1812,7 +1809,7 @@ var markerData = {
             "properties": {
                 "name": "Skinner Forest Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "This is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with some moderatly difficult hills.  Trail conditions are good, though they are rocky as this used to be a logging area.  Some nice scenic areas through wetlan"
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1818\">Skinner Forest Conservation</a> area is a very nice hiking area with several miles worth of trails.  Trail difficulty is easy with some moderatly difficult hills.  Trail conditions are good, though they are rocky as this used to be a logging area."
             }
         },
         {
@@ -2040,7 +2037,7 @@ var markerData = {
             "properties": {
                 "name": "Surrenden Farm",
                 "symbolid": 0,
-                "popupinfo": "Sitting prominently in a 1,500-acre block of contiguous protected open space."
+                "popupinfo": "Surrenden Farm prominently in a 1,500-acre block of contiguous protected open space."
             }
         },
         {
@@ -2053,9 +2050,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Access Rd. Parking",
+                "name": "General Field Parking",
                 "symbolid": 5,
-                "popupinfo": "Access Rd. Parking.  Plenty of on-street parking available along the access road to Surrenden Farm."
+                "popupinfo": "Plenty of on-street parking available on the access road to Surrenden Farm and General Field."
             }
         },
         {
@@ -2078,15 +2075,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.597272,
-                    42.613184
+                    -71.60020,
+                    42.61134
                 ]
             },
             "properties": {
-                "name": "Taisey Conservation Restriction",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
+                "name": "Taisey Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "This is a very nice hiking area with with a few miles of trail that go through the Taisey Conservation area and along the Nashua River.  Trail pieces can be \"connected\" by walking along Fairgrounds and Riverbend"
+                "popupinfo": "The Taisey Conservation area is a very nice hiking area with with a few miles of trail that go along the Nashua River, connecting Fitch's bridge to Groton Place."
             }
         },
         {
@@ -2213,7 +2209,7 @@ var markerData = {
             "properties": {
                 "name": "Throne Hill and Kemp Forest",
                 "symbolid": 0,
-                "popupinfo": "Throne Hill and Kemp Forest.<br>Over five miles of mostly flat trails through varying landscapes.  There are some areas that can be wet depending on the time of year, but a very nice hiking parcel."
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1828\">Throne Hill</a> and Kemp Forest. Over five miles of mostly flat trails through varying landscapes.  There are some areas that can be wet depending on the time of year, but a very nice hiking parcel."
             }
         },
         {
@@ -2423,7 +2419,7 @@ var markerData = {
             "properties": {
                 "name": "Town Forest",
                 "symbolid": 0,
-                "popupinfo": "This is one of Groton's largest trail systems with over 16 miles in trails.  In addition, the green trail is a marked 6.3 mile (10k) trail.  Something for everyone with lots of varying terrain and scenery in this pleasurable hike."
+                "popupinfo": "The Groton Memorial Town Forest is one of Groton's largest trail systems with over 16 miles in trails. A favorite location for <a href=\"/mb.html\">mounting biking</a>, <a href=\"/cx.html\">cross country skiing</a>, <a href=\"/horse.html\">horseback riding</a>, and the annual groton town forest trail race."
             }
         },
         {
@@ -2781,7 +2777,8 @@ var markerData = {
             "properties": {
                 "name": "Groton Place and Sabine Woods",
                 "symbolid": 0,
-                "popupinfo": "Groton Place and Sabine Woods offers several miles of trails that travel through Groton Place, Sabine Woods, and the Groton School property.  A long trail runs along the Nashua River to the Groton School Boathouse."
+                "popupinfo": "<a href=\"/light_walks.html\">Groton Place</a> and <a href=\"http://www.gctrust.org/archives/1814\">Sabine Woods</a> offers several miles of trails. " + 
+                             "Highlights of this popular area include a long trail that runs parallel to the Nashua River to the Groton School Boathouse, the rhododendron trail, and the pine isle trail."
             }
         },
         {
@@ -2826,7 +2823,7 @@ var markerData = {
             "properties": {
                 "name": "Forest Bells",
                 "symbolid": 9,
-                "popupinfo": "Forest Bells, great walk for children."
+                "popupinfo": "<a href=\"http://www.paulmatisse.com/forest-bells/\">Forest Bells</a>, a great walk for children on <a href=\"http://www.gctrust.org/archives/1768\">Blackman Field and Woods</a>."
             }
         },
         {
@@ -2844,5 +2841,65 @@ var markerData = {
                 "popupinfo": "Ample off street parking for the <a href=\"light_walks.html\">John Tinker Accessible Trail</a>."
             }
         },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.52070,
+                    42.60484
+                ]
+            },
+            "properties": {
+                "name": "Skitapet Conservation Area",
+                "symbolid": 0,
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1820\">Skitapet Conservation Area</a>, parking available in the Lost Lake Fire Station, with a dense trail network over many glacial features, such as kettle holes and eskers."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58815,
+                    42.58426,
+                ]
+            },
+            "properties": {
+                "name": "General Field",
+                "symbolid": 0,
+                "popupinfo": "<a href=\"http://www.gctrust.org/wp-content/uploads/2013/02/The-General-Field-Name-History.pdf\">GCT General Field</a>."
+            }
+        },
+       {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.60889,
+                    42.62545
+                ]
+            },
+            "properties": {
+                "name": "Fitch's Bridge",
+                "symbolid": 3,
+                "popupinfo": "Fitch's Pedestrian Bridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.59857,
+                    42.61719
+                ]
+            },
+            "properties": {
+                "name": "Hazel Grove Park Parking",
+                "symbolid": 5,
+                "popupinfo": "Hazel Grove Park has plenty of off street parking."
+            }
+        }        
    ]
 }
