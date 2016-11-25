@@ -70,7 +70,7 @@ function main() {
         zoom: 13        
     });
 
-	var cameraIconObj = L.icon({ iconUrl: 'images/camera-4-16.png', iconSize: [16,16]})
+	var cameraIconObj = L.icon({ iconUrl: 'images/camera-4-16.png', iconSize: [32,32]})
 
 	var photoMarkers = []
 	for (var i = 0; i < photoData.features.length; ++i) {
@@ -99,7 +99,7 @@ function main() {
     mapboxOutdoors.addTo(map);
 	
     //var parkingIconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [16,16] } )
-	var smallDropIconObj = L.icon({ iconUrl: 'images/small-drop-marker.png', iconSize: [16,16]})
+	var smallDropIconObj = L.icon({ iconUrl: 'images/small-drop-marker.png', iconSize: [32,32]})
 
 	for (var i = 0; i < markerData.features.length; ++i) {
 		var markerElementData =  markerData.features[i]
