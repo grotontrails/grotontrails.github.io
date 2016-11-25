@@ -43,7 +43,7 @@ var markerData = {
             "properties": {
                 "name": "McLains/Fitch Area",
                 "symbolid": 0,
-                "popupinfo": "This is a very nice hiking area with several miles worth of trails."
+                "popupinfo": "McLains/Fitch Area is a very nice hiking area with several miles worth of trails."
             }
         },
         {
@@ -118,7 +118,7 @@ var markerData = {
             "properties": {
                 "name": "Harry J. Rich State Forest",
                 "symbolid": 0,
-                "popupinfo": "Harry J. Rich State Forest offers many wonderful walks alongside the Nashua River. Please see <a href=\"river_walks.html\">More</a>."
+                "popupinfo": "Harry J. Rich State Forest offers many wonderful walks <a href=\"/river_walks.html\">alongside the Nashua River</a>."
             }
         },
         {
@@ -207,7 +207,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Deerfield parcel",
-                "symbolid": 0,
+                "symbolid": 3,
                 "popupinfo": "This is a very short trail along Deerfield Dr."
             }
         },
@@ -538,7 +538,7 @@ var markerData = {
             "properties": {
                 "name": "Mason Back 100",
                 "symbolid": 0,
-                "popupinfo": "Extremely valuable as wildlife habitat, the land is mostly wooded, with a long section of Cow Pond Brook on the eastern portion and a dramatic rock outcrop alongside Indian Rock Stream and Gamlin Pond on the western portion. An extensive trail network pr"
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1802\">The Mason Back 100</a> is extremely valuable as wildlife habitat, the land is mostly wooded, with a long section of Cow Pond Brook on the eastern portion and a dramatic rock outcrop alongside Indian Rock Stream and Gamlin Pond on the western portion."
             }
         },
         {
@@ -681,14 +681,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.543226,
-                    42.649322
+                    -71.54129,
+                    42.64693
                 ]
             },
             "properties": {
                 "name": "Groton Dunstable Regional High School",
                 "symbolid": 0,
-                "popupinfo": "Lots of trails in and around the high school grounds."
+                "popupinfo": "The Groton Dunstable Regional High School has many trails in and around the school grounds."
             }
         },
         {
@@ -734,21 +734,6 @@ var markerData = {
                 "name": "Reedy Meadow trail access",
                 "symbolid": 7,
                 "popupinfo": "Trail access off Reedy Meadow.  Some on the road parking available."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.542697,
-                    42.657822
-                ]
-            },
-            "properties": {
-                "name": "Kemp St. trail access",
-                "symbolid": 7,
-                "popupinfo": "Trail access off Kemp St.  Some on the road parking available."
             }
         },
         {
@@ -988,7 +973,7 @@ var markerData = {
             "properties": {
                 "name": "Power Line Access",
                 "symbolid": 3,
-                "popupinfo": "Power line access. DANGER, KEEP OUT"
+                "popupinfo": "Power line access. DANGER, KEEP OUT 1"
             }
         },
         {
@@ -1017,7 +1002,6 @@ var markerData = {
             },
             "properties": {
                 "name": "McLains Woods Rd. parking",
-                "folderpath": "All Groton Trails/McLains_Fitch",
                 "symbolid": 5,
                 "popupinfo": "Parking on McLains Woods Rd. cul-de-sac.  Parking for a few vehicles."
             }
@@ -1034,7 +1018,7 @@ var markerData = {
             "properties": {
                 "name": "Hayes Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "The <a href=\"http://www.gctrust.org/archives/1788\">Hayes Conservation</a> Area consists of a long loop trail with several logging trails extending off of the main loop. There are three areas that can be used to observe the wetlands inside and around the loop. The parcel is just accross the street from the Throne Hill Parcel."
+                "popupinfo": "The <a href=\"http://www.gctrust.org/archives/1788\">Hayes Conservation</a> Area has an <a href=\"http://www.gctrust.org/wp-content/uploads/2015/02/Hayes-Woods-Brochure.pdf\">interpretive nature walk</a> along the loop trail with several logging trails extending off of the main loop."
             }
         },
         {
@@ -1042,14 +1026,14 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.6154,
-                    42.616186
+                    -71.61466,
+                    42.61572
                 ]
             },
             "properties": {
                 "name": "Power Line Access",
                 "symbolid": 3,
-                "popupinfo": "Power line access. DANGER, KEEP OUT"
+                "popupinfo": "Power line access. DANGER, KEEP OUT 3"
             }
         },
         {
@@ -1259,7 +1243,7 @@ var markerData = {
             "properties": {
                 "name": "Johnston Conservation Area",
                 "symbolid": 0,
-                "popupinfo": "A small hiking area just off Maple Avenue. It is moderately to severly overgrown in some areas. Insect protection is advised. This parcel is just down the street from the Hayes Parcel."
+                "popupinfo": "Johnston Conservation Area is a small parcel just off Maple Avenue. It is moderately to severly overgrown in some areas. Insect protection is advised."
             }
         },
         {
@@ -1378,9 +1362,8 @@ var markerData = {
             },
             "properties": {
                 "name": "Keyes Woods / Groton School",
-                "folderpath": "All Groton Trails/KeyesWoods_GrotonSchool/Keyes Woods",
                 "symbolid": 0,
-                "popupinfo": "A very nice trail through the Keyes Woods parcel.  The Groton School trail is on private property, but is open to the public at this time."
+                "popupinfo": "Keyes Woods and Groton School have a very nice trail network. The Groton School trails are on private property, but are open to the public at this time."
             }
         },
         {
@@ -1394,7 +1377,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Peabody St. trail access",
-                "folderpath": "All Groton Trails/KeyesWoods_GrotonSchool",
                 "symbolid": 7,
                 "popupinfo": "Trail access off Peabody St.  Some on the road parking available."
             }
@@ -1410,7 +1392,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Farmers Row trail access",
-                "folderpath": "All Groton Trails/KeyesWoods_GrotonSchool",
                 "symbolid": 7,
                 "popupinfo": "Trail access off Farmers Row.  Some on the road parking available."
             }
@@ -1426,24 +1407,8 @@ var markerData = {
             },
             "properties": {
                 "name": "Farmers Row trail access",
-                "folderpath": "All Groton Trails/KeyesWoods_GrotonSchool",
                 "symbolid": 7,
                 "popupinfo": "Trail access off Farmers Row.  Some on the road parking available."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.573991,
-                    42.640056
-                ]
-            },
-            "properties": {
-                "name": "Cronin trail",
-                "symbolid": 0,
-                "popupinfo": "A very nice hike."
             }
         },
         {
@@ -1458,7 +1423,7 @@ var markerData = {
             "properties": {
                 "name": "Longley II trail",
                 "symbolid": 0,
-                "popupinfo": "A very nice hike around the Longley II parcel.  There is a loop up around the sand hill as well as connections to the NRRT."
+                "popupinfo": "A very nice hike around the Longley II parcel. There is a loop up around the sand hill as well as connections to the Nashua River Rail Trail."
             }
         },
         {
@@ -1517,7 +1482,6 @@ var markerData = {
             },
             "properties": {
                 "name": "McLains Woods Rd. trail access",
-                "folderpath": "All Groton Trails/McLains_Fitch",
                 "symbolid": 7,
                 "popupinfo": "Trail access via McLains Woods Rd.  No on-street parking."
             }
@@ -1533,7 +1497,6 @@ var markerData = {
             },
             "properties": {
                 "name": "McLains Woods Rd. trail access",
-                "folderpath": "All Groton Trails/McLains_Fitch",
                 "symbolid": 7,
                 "popupinfo": "Trail access to a short trail off McLains Woods Rd.  No on-street parking."
             }
@@ -1549,7 +1512,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Chicopee Row trail access",
-                "folderpath": "All Groton Trails/McLains_Fitch",
                 "symbolid": 7,
                 "popupinfo": "Trail access to a the trail system.  No on-street parking."
             }
@@ -1565,7 +1527,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Reedy Meadow Rd. trail access",
-                "folderpath": "All Groton Trails/McLains_Fitch",
                 "symbolid": 7,
                 "popupinfo": "Trail access to a the trail system.  No on-street parking."
             }
@@ -1701,7 +1662,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Sand Hill Rd. Parking",
-                "folderpath": "All Groton Trails/Shepley_Hills",
                 "symbolid": 5,
                 "popupinfo": "Sand Hill R. Parking.  Offstreet parking available for several vehicles at the intersection of Sand Hill Rd. and the rail trail."
             }
@@ -1717,7 +1677,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Access via the NRRT.",
-                "folderpath": "All Groton Trails/Shepley_Hills",
                 "symbolid": 3,
                 "popupinfo": "Trail access off of the NRRT."
             }
@@ -1734,7 +1693,7 @@ var markerData = {
             "properties": {
                 "name": "Wharton Plantation",
                 "symbolid": 0,
-                "popupinfo": "Wharton Plantation trail network."
+                "popupinfo": "Wharton Plantation trail network has the Dan Parker Road trail, a lovely esker trial, and  boombox and sledge hammer trails for technical <a href=\"/mb.html\">mountain biking</a>."
             }
         },
         {
@@ -1988,9 +1947,8 @@ var markerData = {
             },
             "properties": {
                 "name": "Still Meadow / Wattles Pond",
-                "folderpath": "All Groton Trails/StillMeadow_WattlesPond/Still Meadow",
                 "symbolid": 0,
-                "popupinfo": "A nice short hike through the Still Meadow parcel and around Wattles Pond."
+                "popupinfo": "A nice short hike through the <a href=\"/feild.html\">Still Meadow</a> parcel and around Wattles Pond."
             }
         },
         {
@@ -2004,7 +1962,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Nashua Rd. trail access",
-                "folderpath": "All Groton Trails/StillMeadow_WattlesPond",
                 "symbolid": 7,
                 "popupinfo": "Trail access via Nashua Rd.  Some on-street parking."
             }
@@ -2020,7 +1977,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Longley Rd. trail access",
-                "folderpath": "All Groton Trails/StillMeadow_WattlesPond",
                 "symbolid": 1,
                 "popupinfo": "Trail access via Longley Rd.  Parking not recommended."
             }
@@ -2096,7 +2052,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Mill St. parking",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 5,
                 "popupinfo": "Parking area off Mill St.  Off-road parking available for several vehicles."
             }
@@ -2112,7 +2067,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Jenkins Rd. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Jenkins Rd.  No off-street parking."
             }
@@ -2128,7 +2082,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Jenkins Rd. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Jenkins Rd.  No off-street parking."
             }
@@ -2144,7 +2097,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Riverbend Dr. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Riverbend Dr.  No off-street parking."
             }
@@ -2160,7 +2112,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Riverbend Dr. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Riverbend Dr.  No off-street parking."
             }
@@ -2176,7 +2127,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Riverbend Dr. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Riverbend Dr.  No off-street parking."
             }
@@ -2192,7 +2142,6 @@ var markerData = {
             },
             "properties": {
                 "name": "Wintergreen Dr. trail access",
-                "folderpath": "All Groton Trails/Taisey_Conservation_Restriction",
                 "symbolid": 7,
                 "popupinfo": "Access to the parcel via Wintergreen Dr.  No off-street parking."
             }
@@ -2687,9 +2636,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Williams Brooks / Brooks Orchard",
+                "name": "Williams Barn and Brooks Orchard",
                 "symbolid": 0,
-                "popupinfo": "A nice hike through two different parcels."
+                "popupinfo": "Williams Barn and Brooks Orchard trail network features an eastern overlook on Chesnutt hill, a popular cross country skiing area, a challenging switchback trail for mountain biking, and a lovely fields walk through Brooks Orchard."  
             }
         },
         {
@@ -2777,8 +2726,7 @@ var markerData = {
             "properties": {
                 "name": "Groton Place and Sabine Woods",
                 "symbolid": 0,
-                "popupinfo": "<a href=\"/light_walks.html\">Groton Place</a> and <a href=\"http://www.gctrust.org/archives/1814\">Sabine Woods</a> offers several miles of trails. " + 
-                             "Highlights of this popular area include a long trail that runs parallel to the Nashua River to the Groton School Boathouse, the rhododendron trail, and the pine isle trail."
+                "popupinfo": "<a href=\"/light_walks.html\">Groton Place</a> and <a href=\"http://www.gctrust.org/archives/1814\">Sabine Woods</a> offers several miles of trails. Highlights of this popular area include a long trail that runs parallel to the Nashua River to the Groton School Boathouse, the rhododendron trail, and the pine isle trail."
             }
         },
         {
@@ -2868,7 +2816,7 @@ var markerData = {
             "properties": {
                 "name": "General Field",
                 "symbolid": 0,
-                "popupinfo": "<a href=\"http://www.gctrust.org/wp-content/uploads/2013/02/The-General-Field-Name-History.pdf\">GCT General Field</a>."
+                "popupinfo": "Groton Conservation Trusts <a href=\"http://www.gctrust.org/wp-content/uploads/2013/02/The-General-Field-Name-History.pdf\">General Field</a>."
             }
         },
        {
@@ -2900,6 +2848,51 @@ var markerData = {
                 "symbolid": 5,
                 "popupinfo": "Hazel Grove Park has plenty of off street parking."
             }
-        }        
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58385,
+                    42.63028
+                ]
+            },
+            "properties": {
+                "name": "Jonh Tinker Accessible Trail",
+                "symbolid": 0,
+                "popupinfo": "The <a href=\"./light_walks.html\">Jonh Tinker Accessible Trail</a>."
+            }
+        },     
+       {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.52472,
+                    42.63118
+                ]
+            },
+            "properties": {
+                "name": "Esker",
+                "symbolid": 3,
+                "popupinfo": "<a href=\"https://en.wikipedia.org/wiki/Esker\">Esker</a> trail with a nice overlook of the wetlands."
+            }
+        },                
+       {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.50450,
+                    42.62878
+                ]
+            },
+            "properties": {
+                "name": "Esker",
+                "symbolid": 3,
+                "popupinfo": "A steep <a href=\"https://en.wikipedia.org/wiki/Esker\">Esker</a> trail with a nice overlook of the wetlands."
+            }
+        },                
    ]
 }
