@@ -118,7 +118,7 @@ var markerData = {
             "properties": {
                 "name": "Harry J. Rich State Forest",
                 "symbolid": 0,
-                "popupinfo": "Harry J. Rich State Forest offers many wonderful walks <a href=\"/river_walks.html\">alongside the Nashua River</a>."
+                "popupinfo": "Harry J. Rich State Forest offers many wonderful walks <a href=\"/river-walks.html\">alongside the Nashua River</a>."
             }
         },
         {
@@ -1693,7 +1693,7 @@ var markerData = {
             "properties": {
                 "name": "Wharton Plantation",
                 "symbolid": 0,
-                "popupinfo": "Wharton Plantation trail network has the Dan Parker Road trail, a lovely esker trial, and  boombox and sledge hammer trails for technical <a href=\"/mb.html\">mountain biking</a>."
+                "popupinfo": "Wharton Plantation trail network has the Dan Parker Road trail, a lovely esker trial, and  boombox and sledge hammer trails for technical <a href=\"/mountain-biking.html\">mountain biking</a>."
             }
         },
         {
@@ -1948,7 +1948,7 @@ var markerData = {
             "properties": {
                 "name": "Still Meadow / Wattles Pond",
                 "symbolid": 0,
-                "popupinfo": "A nice short hike through the <a href=\"/feild.html\">Still Meadow</a> parcel and around Wattles Pond."
+                "popupinfo": "A nice short hike through the <a href=\"/field-walks.html\">Still Meadow</a> parcel and around Wattles Pond."
             }
         },
         {
@@ -2368,7 +2368,7 @@ var markerData = {
             "properties": {
                 "name": "Town Forest",
                 "symbolid": 0,
-                "popupinfo": "The Groton Memorial Town Forest is one of Groton's largest trail systems with over 16 miles in trails. A favorite location for <a href=\"/mb.html\">mounting biking</a>, <a href=\"/cx.html\">cross country skiing</a>, <a href=\"/horse.html\">horseback riding</a>, and the annual groton town forest trail race."
+                "popupinfo": "The Groton Memorial Town Forest is one of Groton's largest trail systems with over 16 miles in trails. A favorite location for <a href=\"/mountain-biking.html\">mounting biking</a>, <a href=\"/cross-country-skiing.html\">cross country skiing</a>, <a href=\"/horseback-riding.html\">horseback riding</a>, and the annual groton town forest trail race."
             }
         },
         {
@@ -2726,7 +2726,7 @@ var markerData = {
             "properties": {
                 "name": "Groton Place and Sabine Woods",
                 "symbolid": 0,
-                "popupinfo": "<a href=\"/light_walks.html\">Groton Place</a> and <a href=\"http://www.gctrust.org/archives/1814\">Sabine Woods</a> offers several miles of trails. Highlights of this popular area include a long trail that runs parallel to the Nashua River to the Groton School Boathouse, the rhododendron trail, and the pine isle trail."
+                "popupinfo": "<a href=\"/light-walks.html\">Groton Place</a> and <a href=\"http://www.gctrust.org/archives/1814\">Sabine Woods</a> offers several miles of trails. Highlights of this popular area include a long trail that runs parallel to the Nashua River to the Groton School Boathouse, the rhododendron trail, and the pine isle trail."
             }
         },
         {
@@ -2786,7 +2786,7 @@ var markerData = {
             "properties": {
                 "name": "John Tinker Accessible Trail Parking",
                 "symbolid": 5,
-                "popupinfo": "Ample off street parking for the <a href=\"light_walks.html\">John Tinker Accessible Trail</a>."
+                "popupinfo": "Ample off street parking for the <a href=\"light-walks.html\">John Tinker Accessible Trail</a>."
             }
         },
         {
@@ -2861,7 +2861,7 @@ var markerData = {
             "properties": {
                 "name": "Jonh Tinker Accessible Trail",
                 "symbolid": 0,
-                "popupinfo": "The <a href=\"./light_walks.html\">Jonh Tinker Accessible Trail</a>."
+                "popupinfo": "The <a href=\"./light-walks.html\">Jonh Tinker Accessible Trail</a>."
             }
         },     
        {
