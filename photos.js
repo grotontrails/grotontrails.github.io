@@ -260,6 +260,32 @@ var photoData = {
             "properties": {
                 "url": "images/j-harry-rich-state-forest-trail-with-light.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.53965,
+                    42.63865
+                ]
+            },
+            "properties": {
+                "url": "images/tufted-titmouse.jpg",
+            }
+        },
+           {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.5189,
+                    42.6048
+                ]
+            },
+            "properties": {
+                "url": "images/mushroom.jpg",
+            }
         }
     ]
 }
