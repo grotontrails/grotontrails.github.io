@@ -66,11 +66,6 @@ body {
     
 }
 
-.page{
-    
-}
-
-
 html{
 background: #D4E2C6; 
 }
@@ -86,7 +81,7 @@ background: #D4E2C6;
         display:none;
     }
 }
-  
+
 a[class="current"] {
     font-weight: bold;
     text-decoration: underline;
@@ -105,12 +100,16 @@ a {
 }
 
 aside {
-    border-style: double;
     border-color: darkgreen;
     background-color: lightgray;
     padding: 8px; 
     float:right;
-    position:relative;
-   
+    position:relative;   
 }
+
+@media (max-width: 500px) {
+    aside {
+        display:none;
+    }
+}  
 

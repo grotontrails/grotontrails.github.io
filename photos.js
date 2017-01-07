@@ -156,6 +156,110 @@ var photoData = {
             "properties": {
                 "url": "images/scarlet-hill-tree.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56343,
+                    42.59014
+                ]
+            },
+            "properties": {
+                "url": "images/blackman-trail.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.54983,
+                    42.62179
+                ]
+            },
+            "properties": {
+                "url": "images/brooks-orchard-barn.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51352,
+                    42.62910
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-indian-rock-bench-overlook.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51221,
+                    42.63048
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-wetland.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.59158,
+                    42.58283
+                ]
+            },
+            "properties": {
+                "url": "images/general-field-barn.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56045,
+                    42.61021
+                ]
+            },
+            "properties": {
+                "url": "images/gibbet-hill-cow.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56101,
+                    42.59296
+                ]
+            },
+            "properties": {
+                "url": "images/hurd-tree.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58656,
+                    42.63326
+                ]
+            },
+            "properties": {
+                "url": "images/j-harry-rich-state-forest-trail-with-light.jpg",
+            }
         }
     ]
 }
