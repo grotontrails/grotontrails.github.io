@@ -105,10 +105,9 @@
     }       
   }  
 }
-  
-[access != 'customer']
+
 ['gtc:parking' = 'yes']
-[amenity  = 'parking'][zoom >= 15] {
+[amenity  = 'parking'][zoom >= 16] {
   text-name: 'P';
   text-face-name: @sans_bold;
   text-placement: point;        
@@ -119,10 +118,9 @@
   polygon-fill: @parkingColor;
   polygon-opacity: 0.3;
      
-  [zoom >= 15] { text-size: 15; }
-  [zoom >= 16] { text-size: 16; }
-  [zoom >= 17] { text-size: 17; }
-  [zoom >= 18] { text-size: 18; } 
+  [zoom >= 16] { text-size: 18; }
+ 
+ 
 }
-  
+
 }
