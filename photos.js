@@ -260,6 +260,279 @@ var photoData = {
             "properties": {
                 "url": "images/j-harry-rich-state-forest-trail-with-light.jpg",
             }
-        }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.53965,
+                    42.63865
+                ]
+            },
+            "properties": {
+                "url": "images/tufted-titmouse.jpg",
+            }
+        },
+           {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.5189,
+                    42.6048
+                ]
+            },
+            "properties": {
+                "url": "images/mushroom.jpg",
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51662,
+                    42.59322
+                ]
+            },
+            "properties": {
+                "url": "images/duck-pond-beaver-tree.jpg",
+            }
+            },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51461,
+                    42.59136
+                ]
+            },
+            "properties": {
+                "url": "images/skinner-forest-pileated-woodpecker.jpg",
+            }
+            },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.4938,
+                    42.6262
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-pink-ladyslipper.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.60010,
+                    42.58778
+                ]
+            },
+            "properties": {
+                "url": "images/fawn.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.5123,
+                    42.6389
+                ]
+            },
+            "properties": {
+                "url": "images/mason-back-100-birdfoot-violet.jpg",
+            }
+            },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51307,
+                    42.64048
+                ]
+            },
+            "properties": {
+                "url": "images/mason-back-100-beaver.jpg",
+            }
+             },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51388,
+                    42.62917
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-beaver-dam.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.57605,
+                    42.58775
+                ]
+            },
+            "properties": {
+                "url": "images/nashua-river-rail-trail-groton-school-pond.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.57575,
+                    42.58888
+                ]
+            },
+            "properties": {
+                "url": "images/nashua-river-rail-trail-groton-school-pond-overlook.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.57377,
+                    42.59704
+                ]
+            },
+            "properties": {
+                "url": "images/nashua-river-rail-trail-peabody-street-underpass-west-wall-mural.jpg",
+            }
+            },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58028,
+                    42.62272
+                ]
+            },
+            "properties": {
+                "url": "images/nashua-river-rail-trail-leaves.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56121,
+                    42.62621
+                ]
+            },
+            "properties": {
+                "url": "images/williams-barn.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51386,
+                    42.62959
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-log-and-flowers.jpg",
+            }
+            },
+          {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.51191,
+                    42.63050
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-blue-iris.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55014,
+                    42.62182
+                ]
+            },
+            "properties": {
+                "url": "images/brooks-orchard-red-barn-winter.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58685,
+                    42.58675
+                ]
+            },
+            "properties": {
+                "url": "images/general-field-mt-wachusett-view.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56833,
+                    42.62071
+                ]
+            },
+            "properties": {
+                "url": "images/groton-cemetery-fall-leaves.jpg",
+            }
+            },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55317,
+                    42.61165
+                ]
+            },
+            "properties": {
+                "url": "images/scarlet-hill-south-view.jpg",
+            }
+            },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56042,
+                    42.62606
+                ]
+            },
+            "properties": {
+                "url": "images/williams-barn-trail-winter.jpg",
+            }
+            }
     ]
 }
