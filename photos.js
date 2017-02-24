@@ -520,7 +520,7 @@ var photoData = {
             "properties": {
                 "url": "images/scarlet-hill-south-view.jpg",
             }
-            },
+        },
         {
             "type": "Feature",
             "geometry": {
@@ -533,6 +533,110 @@ var photoData = {
             "properties": {
                 "url": "images/williams-barn-trail-winter.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.5628946,
+                    42.6478423
+                ]
+            },
+            "properties": {
+                "url": "images/northwoods-beaver-lodge.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.53100,
+                    42.58100
+                ]
+            },
+            "properties": {
+                "url": "images/rocky-hills-parking.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56957,
+                    42.59765
+                ]
+            },
+            "properties": {
+                "url": "images/bates-parking.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.58602,
+                    42.58709
+                ]
+            },
+            "properties": {
+                "url": "images/general-field-parking.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.50492,
+                    42.62726
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-esker-trailhead.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.50397,
+                    42.62838
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-esker-trail.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.50238,
+                    42.62894
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-red-line-trail.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.50142,
+                    42.63325
+                ]
+            },
+            "properties": {
+                "url": "images/gamlin-crystal-spring-red-line-stone-arch.jpg",
+            }
+        }
     ]
 }

@@ -1631,7 +1631,7 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Staion Ave. Parking",
+                "name": "Station Ave. Parking",
                 "symbolid": 5,
                 "popupinfo": "Both on-street and off-street parking along Station Ave."
             }
