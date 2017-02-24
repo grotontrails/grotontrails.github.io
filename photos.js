@@ -637,6 +637,72 @@ var photoData = {
             "properties": {
                 "url": "images/gamlin-crystal-spring-red-line-stone-arch.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.60336,
+                    42.59702
+                ]
+            },
+            "properties": {
+                "url": "images/groton-town-forest-cross-country-skiing.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.60017,
+                    42.59344
+                ]
+            },
+            "properties": {
+                "url": "images/groton-town-forest-snow-nashua-river.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.65695,
+                    42.63299
+                ]
+            },
+            "properties": {
+                "url": "images/bertozzi-squannacook-river.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.651329,
+                    42.635765
+                ]
+            },
+            "properties": {
+                "url": "images/bertozzi-memorial.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.65679,
+                    42.63465
+                ]
+            },
+            "properties": {
+                "url": "images/bertozzi-turkey-print-snow.jpg",
+            }
         }
+        
     ]
 }
