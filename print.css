@@ -15,6 +15,14 @@ nav {
     display: none;
 }
 
+.leaflet-top div {
+    display: none;
+}
+
+.leaflet-marker-icon {
+    display: none;
+}
+
 body {
     display: block;
     margin: 8px;
