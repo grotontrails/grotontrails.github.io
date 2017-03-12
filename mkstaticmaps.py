@@ -104,32 +104,38 @@ maps = [
     }
 ]
 
-maps = [ maps[0] ]
+#maps = [ maps[0] ]
 
 for mape in maps:
     mapId = "https://api.mapbox.com/v4/jremillard.6095d11a"
     token = "access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg"
-    cmd = 'curl \"{}/{},{}/1200x1200.png?{}\" -o temp.png'.format(mapId,mape['location'],mape['zoom'],token)
+    cmd = 'curl \"{}/{},{}/1200x1200.png?{}\" -o map.png'.format(mapId,mape['location'],mape['zoom'],token)
     os.system(cmd)
 
     magick = "C:\\Program Files\\ImageMagick-7.0.3-Q16\\magick"
 
-    cmd = '{} convert -size 1200x100 xc:white footer.png'.format(magick)
-    subprocess.call( [ magick,'convert','-size','1200x100','xc:white','footer.png']);
+    subprocess.call( [ magick,'convert','-size','1200x100','xc:white','title.png']);
 
     title = '{} Trail Map - www.grotontrails.org'.format( mape['name'])
-    subprocess.call( [ magick,'footer.png','-gravity','South','-pointsize','25','-annotate','+0+50',title,'footer.png'])
+    subprocess.call( [ magick,'title.png','-gravity','South','-fill','#000102ff','-pointsize','40','-annotate','+0+30',title,'title.png'])
+
+    subprocess.call( [ magick,'convert','-size','1200x50','xc:white','footer.png']);
+
+    subprocess.call( [ magick,'title.png','map.png','footer.png','-append','map.png'])    
+    subprocess.call( [ magick,'images/GTN-green-180.png','images/map-legend.png','+append','legend.png'])
+    subprocess.call( [ magick,'map.png','legend.png','-gravity','center','-append','map.png'])
 
     attrib = "Copyright MapBox and OpenStreetMap Contributors"
     subprocess.call( [ magick,'footer.png','-gravity','South','-pointsize','10','-annotate','+0+20',attrib,'footer.png'])
 
-    subprocess.call( [ magick,'temp.png','footer.png','-append','temp.png'])
-    subprocess.call( [ magick,'temp.png','images/GTN-green-180.png','-gravity','center','-append','temp.png'])
+    subprocess.call( [ magick,'map.png','footer.png','-append','map.png'])
 
-    pdfFile =  '{} Trail Map - Groton MA.pdf'.format(mape['name'])
-    subprocess.call( [ magick,'temp.png','-quality','100','-page','1200x1480','-units','PixelsPerInch','-density','150x150',pdfFile])
+    pdfFile =  'media\\{} Trail Map - Groton MA.pdf'.format(mape['name'])
+    subprocess.call( [ magick,'map.png','-quality','100','-page','1200x1580','-units','PixelsPerInch','-density','150x150',pdfFile])
 
-    subprocess.call( [ 'rm','temp.png'])
+    subprocess.call( [ 'rm','map.png'])
     subprocess.call( [ 'rm','footer.png'])
+    subprocess.call( [ 'rm','title.png'])
+    subprocess.call( [ 'rm','legend.png'])
 
 
