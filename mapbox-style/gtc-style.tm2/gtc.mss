@@ -4,7 +4,7 @@
 @trailColor: green;
 @sidwalkColor: gray;
 @publicWidth: 2.5;
-@permissiveWidth: 1.2;
+@permissiveWidth: 1.5;
 @privateWidth: 1;
 @parkingColor: #f1ed82;
 
@@ -16,96 +16,79 @@
 
 // trail, sidewalks, tracks, paths
 #original {  
-  
-  [highway='path'],
-  [highway='footway'],
-  [highway='cycleway'],
-  [highway='track'] {
-    
- // 100% sure this way is public
-  [access = 'yes'],[access = 'public'],
-  [foot = 'yes'],[foot = 'public'],[foot = 'designated'],
-  [operator='Groton Trails Committee'],
-  [operator='Massachusetts Audubon Society'] {     
-    
-    [highway='cycleway'] { 
-      line-color:@bikeColor; 
-      line-width: @publicWidth;
-      [surface != 'paved'][zoom >= 14] {
-        line-dasharray: 4,1;
-      }
-    }
-    
-    [highway='path'][surface!='paved'],
-    [highway='footway'][surface!='paved'] { 
-      line-color:@trailColor; 
-      line-width: @publicWidth*.9; 
-      [zoom >= 14] {
-      line-dasharray: 4,1;
-      }
-    }
-    
-    [highway='track'][surface!='paved'] {
-       line-color:@trailColor; 
-       line-width: @publicWidth;    
-    }      
-    }
 
-  [foot = 'permissive'],
-  [access = 'permissive'],
-  [access = null][foot = null] {
-  [operator!='Groton Trails Committee'][operator!='Massachusetts Audubon Society'] {
-       // probably public, not sure    
-    [highway='cycleway'] { 
-      line-color:@bikeColor; 
-      line-width: @permissiveWidth;
-    }
-    
-    [highway='path'][surface!='paved'],
-    [highway='footway'][surface!='paved'] { 
-      [zoom >= 15]  {
-      line-color:@trailColor; 
-      line-width: @permissiveWidth;    
-      line-dasharray: 3,7;
-      }
-	}
- 
-    [highway='track'][surface!='paved'] { 
-      [zoom >= 14 ] {
-      line-color:@trailColor; 
-      line-width: @permissiveWidth;     
-     }
-    }
-          
-    [highway='path'][surface='paved'], 
-    [highway='footway'][surface='paved'] { 
-      [zoom >= 15] {
-      line-color:@sidwalkColor; 
-      line-width: @publicWidth;     
-      }
-    }
-   }  
+// sidewalks
+[access!='customers'][highway='footway'][surface='paved'] {
+  [zoom >= 15] {
+    line-color:@sidwalkColor; 
+    line-width: @publicWidth;        
+  }    
+}
+  
+// paths not wide.
+[highway='path'][width != "2"]  {   
+  // un- maintained trails
+  [zoom >= 15] {
+    line-color:@trailColor; 
+    line-width: @permissiveWidth;    
+    line-dasharray: 3,7;
   }
-
   
-  // no access
+  // maintained trails
+  [operator!=null] {
+      line-color:@trailColor; 
+      line-width: @publicWidth; 
+      [zoom >= 14] {      
+        line-dasharray: 4,2;
+      }
+   }
+  
+  // private trails, keep off
   [access != 'permissive']
   [access != 'yes']
   [access != 'public']
-  [access != null] {
-     // not public
-          
-    [highway='path'][surface!='paved'],
-    [highway='footway'][surface!='paved'] { 
+  [access != null] 
+  [surface!='paved'] {
+     // not public          
       [zoom >= 15] {
       line-color: red;
       line-width: @privateWidth;
       line-dasharray: 4,8;
       }
-    }       
-  }  
+  }          
 }
 
+// wide paths
+[highway='path'][width = "2"][operator!=null] {
+    line-color:@trailColor; 
+    line-width: @publicWidth;    
+}
+
+// wide paths, marked as tracks.
+[highway='track'] {
+  [access = 'yes'],[access = 'public'],[operator!=null],[foot='yes'] {
+    line-color:@trailColor; 
+    line-width: @publicWidth;    
+  }
+}
+
+// bike trials
+[highway='cycleway'] {
+  // paved biketrails
+  line-color:@bikeColor; 
+  line-width: @publicWidth;
+
+  [surface!='paved'][surface!='gravel'] {
+    [operator=null] {
+      line-dasharray: 3,7;
+      line-width: @privateWidth;
+    }
+    [operator!=null] {
+      line-dasharray: 4,2;
+    }
+  }
+}
+  
 ['gtc:parking' = 'yes']
 [amenity  = 'parking'][zoom >= 16] {
   text-name: 'P';
@@ -118,9 +101,7 @@
   polygon-fill: @parkingColor;
   polygon-opacity: 0.3;
      
-  [zoom >= 16] { text-size: 18; }
- 
- 
+  [zoom >= 16] { text-size: 18; } 
 }
 
 }

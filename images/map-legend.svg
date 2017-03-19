@@ -37,9 +37,9 @@
      units="in"
      inkscape:window-width="1517"
      inkscape:window-height="796"
-     inkscape:window-x="214"
-     inkscape:window-y="156"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="111"
+     inkscape:window-y="110"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3341">
     <rdf:RDF>
@@ -141,7 +141,7 @@
          id="tspan4180-9-9-2"
          x="97.546387"
          y="1047.0082"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Private Trail Closed</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Private Trail Not Public</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -153,7 +153,7 @@
          id="tspan4180-7-8"
          x="97.827148"
          y="957.00818"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Unofficial Trail</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Un-Maintained Trail</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#005000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 9;stroke-dashoffset:0;stroke-opacity:1"
        d="m 15,948.8622 73.999999,0"

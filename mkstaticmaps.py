@@ -48,7 +48,7 @@ maps = [
         "zoom" : 17
     },
     { 
-        "name":"Gamlin Crystal Spring Conservation Area",
+        "name":"Gamlin Crystal Spring Area",
         "location" : "-71.50750,42.62940",
         "zoom" : 17
     },
