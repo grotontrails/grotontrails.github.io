@@ -156,21 +156,6 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.651329,
-                    42.635765
-                ]
-            },
-            "properties": {
-                "name": "Peter Bertozzi Memorial",
-                "symbolid": 3,
-                "popupinfo": "A memorial to Peter M. Bertozzi."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.650274,
                     42.636351
                 ]
@@ -1631,7 +1616,7 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Staion Ave. Parking",
+                "name": "Station Ave. Parking",
                 "symbolid": 5,
                 "popupinfo": "Both on-street and off-street parking along Station Ave."
             }

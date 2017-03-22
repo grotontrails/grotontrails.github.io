@@ -1,0 +1,107 @@
+
+@powerlineColor: #443f3f;
+@bikeColor: blue;
+@trailColor: green;
+@sidwalkColor: gray;
+@publicWidth: 2.5;
+@permissiveWidth: 1.5;
+@privateWidth: 1;
+@parkingColor: #f1ed82;
+
+// power lines
+#original[power='line'] {
+ line-color: @powerlineColor;
+ line-width: .4;
+}
+
+// trail, sidewalks, tracks, paths
+#original {  
+
+// sidewalks
+[access!='customers'][highway='footway'][surface='paved'] {
+  [zoom >= 15] {
+    line-color:@sidwalkColor; 
+    line-width: @publicWidth;        
+  }    
+}
+  
+// paths not wide.
+[highway='path'][width != "2"]  {   
+  // un- maintained trails
+  [zoom >= 15] {
+    line-color:@trailColor; 
+    line-width: @permissiveWidth;    
+    line-dasharray: 3,7;
+  }
+  
+  // maintained trails
+  [operator!=null] {
+      line-color:@trailColor; 
+      line-width: @publicWidth; 
+      [zoom >= 14] {      
+        line-dasharray: 4,2;
+      }
+   }
+  
+  // private trails, keep off
+  [access != 'permissive']
+  [access != 'yes']
+  [access != 'public']
+  [access != null] 
+  [surface!='paved'] {
+     // not public          
+      [zoom >= 15] {
+      line-color: red;
+      line-width: @privateWidth;
+      line-dasharray: 4,8;
+      }
+  }          
+}
+
+// wide paths
+[highway='path'][width = "2"][operator!=null] {
+    line-color:@trailColor; 
+    line-width: @publicWidth;    
+}
+
+// wide paths, marked as tracks.
+[highway='track'] {
+  [access = 'yes'],[access = 'public'],[operator!=null],[foot='yes'] {
+    line-color:@trailColor; 
+    line-width: @publicWidth;    
+  }
+}
+
+// bike trials
+[highway='cycleway'] {
+  // paved biketrails
+  line-color:@bikeColor; 
+  line-width: @publicWidth;
+
+  [surface!='paved'][surface!='gravel'] {
+    [operator=null] {
+      line-dasharray: 3,7;
+      line-width: @privateWidth;
+    }
+    [operator!=null] {
+      line-dasharray: 4,2;
+    }
+  }
+}
+  
+['gtc:parking' = 'yes']
+[amenity  = 'parking'][zoom >= 16] {
+  text-name: 'P';
+  text-face-name: @sans_bold;
+  text-placement: point;        
+  text-fill: black;
+  line-width: 1;
+  line-opacity: 0.5;
+  line-color: #426;
+  polygon-fill: @parkingColor;
+  polygon-opacity: 0.3;
+     
+  [zoom >= 16] { text-size: 18; } 
+}
+
+}
