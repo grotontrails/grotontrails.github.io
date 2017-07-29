@@ -78,7 +78,7 @@ maps = [
         "zoom" : 16
     },
     { 
-        "name":"General Field Surrenden Farm Area",
+        "name":"General Field & Surrenden Farm",
         "location" : "-71.59286,42.58495",
         "zoom" : 16
     },
@@ -93,7 +93,7 @@ maps = [
         "zoom" : 17
     },
     { 
-        "name":"Batton Woods Area",
+        "name":"Batten Woods Area",
         "location" : "-71.51127,42.58183",
         "zoom" : 17
     },
