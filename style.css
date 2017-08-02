@@ -9,6 +9,7 @@ H1 {
 H2 {
     font-family: 'Neucha', serif;
     font-size: 1.7em;
+    white-space: nowrap;
 }
 
 nav {
