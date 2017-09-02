@@ -52,6 +52,7 @@ update original layer in Mapbox.
   way["power"="line"](area.searchArea);
   way["highway"="cycleway"](area.searchArea);
   way["amenity"="parking"](area.searchArea);
+  node["junction"="yes"](area.searchArea);
 );
 // print results
 out body;
