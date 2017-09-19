@@ -88,6 +88,18 @@
     }
   }
 }
+[junction='yes'][zoom >= 15] {
+    text-name : @name;
+    text-face-name: @sans_lt;
+    text-fill: @road_text;
+    text-halo-fill: fadeout(@land,85);
+    text-halo-radius: 2.5;
+    text-halo-rasterizer: fast;
+    //line-color: black;
+    [zoom>=15] { text-size: 10; }
+    [zoom>=16] { text-size: 14; text-face-name: @sans; }
+    [zoom>=17] { text-size: 18; text-face-name: @sans; }
+}
   
 ['gtc:parking' = 'yes']
 [amenity  = 'parking'][zoom >= 16] {
