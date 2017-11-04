@@ -2642,7 +2642,7 @@
 <Style name="original" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2650,24 +2650,24 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke-dasharray="4, 2" stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke-dasharray="4, 2" stroke="#008000" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2675,23 +2675,23 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 2" stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
+    <LineSymbolizer stroke-width="0" stroke-dasharray="4, 2" stroke="#008000" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([operator] != null)</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2699,18 +2699,24 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#443f3f" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2718,13 +2724,24 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2732,17 +2749,23 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#443f3f" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" stroke-opacity="0.5" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -2750,115 +2773,284 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke-dasharray="4, 2" stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke-dasharray="4, 2" stroke="#008000" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null) and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
-    <LineSymbolizer stroke-dasharray="4, 2" stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
+    <LineSymbolizer stroke-width="0" stroke-dasharray="4, 2" stroke="#008000" />
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="2.5" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([operator] != null)</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#443f3f" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+  <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved') and ([power] = 'line')</Filter>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#443f3f" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved')</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved')</Filter>
+    <LineSymbolizer stroke-width="0" stroke="#008000" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != 'designated') and ([access] != null) and ([surface] != 'paved')</Filter>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
+    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
+    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
+    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
+    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([gtc:parking] = 'yes') and ([amenity] = 'parking')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <Filter>([highway] = 'path') and ([width] != '2') and ([access] != 'permissive') and ([access] != 'yes') and ([access] != 'public') and ([access] != null) and ([surface] != 'paved')</Filter>
-    <LineSymbolizer stroke="#ff0000" stroke-width="1" stroke-dasharray="4, 8" />
+    <Filter>([access] != 'customers') and ([access] != 'private') and ([highway] = 'footway') and ([surface] = 'paved')</Filter>
+    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -2967,70 +3159,6 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
-    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
-    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
-    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" stroke-opacity="0.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
-    <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] = '2') and ([operator] != null)</Filter>
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" />
@@ -3051,7 +3179,7 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
@@ -3059,18 +3187,24 @@
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
@@ -3078,8 +3212,14 @@
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -3121,7 +3261,7 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" />
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -3129,18 +3269,18 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[P]]></TextSymbolizer>
     <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" />
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
@@ -3148,13 +3288,13 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
@@ -3223,33 +3363,33 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -3277,26 +3417,26 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" />
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
   <Rule>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([operator] != null)</Filter>
     <TextSymbolizer size="18" fontset-name="fontset-0" placement="point" fill="#000000" ><![CDATA[P]]></TextSymbolizer>
     <LineSymbolizer stroke-width="1" stroke-opacity="0.5" stroke="#442266" />
     <PolygonSymbolizer fill="#f1ed82" fill-opacity="0.3" />
   </Rule>
   <Rule>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([gtc:parking] = 'yes') and ([amenity] = 'parking') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
@@ -3431,66 +3571,6 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([junction] = 'yes')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-    <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <Filter>([access] != 'customers') and ([highway] = 'footway') and ([surface] = 'paved')</Filter>
-    <LineSymbolizer stroke="#808080" stroke-width="2.5" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] = '2') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
@@ -3517,47 +3597,59 @@
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([junction] = 'yes') and ([highway] = 'path') and ([width] != '2')</Filter>
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
@@ -3611,52 +3703,52 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="18" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="14" fontset-name="fontset-2" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
     <TextSymbolizer size="10" fontset-name="fontset-1" fill="#4a4032" halo-fill="rgba(244, 239, 225, 0.15000000000000002)" halo-radius="2.5" halo-rasterizer="fast" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([junction] = 'yes') and ([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
@@ -3735,19 +3827,19 @@
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
-    <MinScaleDenominator>25000</MinScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([highway] = 'path') and ([width] != '2') and ([power] = 'line')</Filter>
     <LineSymbolizer stroke="#443f3f" stroke-width="0.4" />
   </Rule>
   <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([highway] = 'path') and ([width] != '2')</Filter>
-    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="3, 7" />
+    <LineSymbolizer stroke="#008000" stroke-width="1.5" stroke-dasharray="4, 4" />
   </Rule>
   <Rule>
     <Filter>([highway] = 'track') and ([foot] = 'yes')</Filter>
@@ -3758,11 +3850,11 @@
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
-    <Filter>([highway] = 'track') and ([operator] != null)</Filter>
+    <Filter>([highway] = 'track') and ([access] = 'public')</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
-    <Filter>([highway] = 'track') and ([access] = 'public')</Filter>
+    <Filter>([highway] = 'track') and ([operator] != null)</Filter>
     <LineSymbolizer stroke="#008000" stroke-width="2.5" />
   </Rule>
   <Rule>
