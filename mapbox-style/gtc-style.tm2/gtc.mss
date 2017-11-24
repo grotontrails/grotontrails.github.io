@@ -18,7 +18,7 @@
 #original {  
 
 // sidewalks
-[access!='customers'][highway='footway'][surface='paved'] {
+[access!='customers'][access!='private'][highway='footway'][surface='paved'] {
   [zoom >= 15] {
     line-color:@sidwalkColor; 
     line-width: @publicWidth;        
@@ -28,10 +28,10 @@
 // paths not wide.
 [highway='path'][width != "2"]  {   
   // un- maintained trails
-  [zoom >= 15] {
+  [zoom >= 14] {
     line-color:@trailColor; 
     line-width: @permissiveWidth;    
-    line-dasharray: 3,7;
+    line-dasharray: 4,4;
   }
   
   // maintained trails
@@ -47,9 +47,13 @@
   [access != 'permissive']
   [access != 'yes']
   [access != 'public']
+  [access != 'designated']
   [access != null] 
   [surface!='paved'] {
      // not public          
+      [zoom < 15] {
+        line-width: 0;
+      }
       [zoom >= 15] {
       line-color: red;
       line-width: @privateWidth;

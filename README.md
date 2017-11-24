@@ -40,9 +40,27 @@ update original layer in Mapbox.
 
 
 ```
-[timeout:25];
-// fetch area “Groton,ma” to search in
-{{geocodeArea:Groton,MA}}->.searchArea;
+[timeout:60];
+// fetch all towns touching Groton
+(
+  {{geocodeArea:Groton,MA}};
+  {{geocodeArea:Westford,MA}};  
+  {{geocodeArea:Ayer,MA}};  
+  {{geocodeArea:Littleton,MA}};
+  {{geocodeArea:Shirley,MA}};
+  {{geocodeArea:Townsend,MA}};
+  {{geocodeArea:Pepperell,MA}};
+  {{geocodeArea:Dunstable,MA}};
+  {{geocodeArea:Acton,MA}};
+  {{geocodeArea:Harvard,MA}};
+  {{geocodeArea:Acton,MA}};
+  {{geocodeArea:Chelmsford,MA}};
+  {{geocodeArea:Bedford,MA}};
+  {{geocodeArea:Concord,MA}}; 
+  {{geocodeArea:Townsend,MA}}; 
+  {{geocodeArea:Ashby,MA}}; 
+)
+->.searchArea;
 // gather results
 (
   // query part for: “hightway=path”

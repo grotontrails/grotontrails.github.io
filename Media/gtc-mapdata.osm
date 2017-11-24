@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-09-02T14:02:02Z" areas="2017-09-02T13:12:02Z"/>
+<meta osm_base="2017-11-04T19:55:02Z" areas="2017-11-04T18:24:02Z"/>
 
   <node id="1975884631" lat="42.5835189" lon="-71.6063334">
     <tag k="junction" v="yes"/>
@@ -25,6 +25,10 @@
   <node id="1975884693" lat="42.5853740" lon="-71.6091220">
     <tag k="junction" v="yes"/>
     <tag k="name" v="F4"/>
+  </node>
+  <node id="1975884705" lat="42.5856746" lon="-71.6059555">
+    <tag k="junction" v="yes"/>
+    <tag k="name" v="E2"/>
   </node>
   <node id="1975884709" lat="42.5858753" lon="-71.6023700">
     <tag k="junction" v="yes"/>
@@ -102,13 +106,13 @@
     <tag k="junction" v="yes"/>
     <tag k="name" v="C3"/>
   </node>
+  <node id="1975885263" lat="42.5922535" lon="-71.6229927">
+    <tag k="junction" v="yes"/>
+    <tag k="name" v="B8"/>
+  </node>
   <node id="1975885307" lat="42.5927987" lon="-71.6165843">
     <tag k="junction" v="yes"/>
     <tag k="name" v="B7"/>
-  </node>
-  <node id="1975885319" lat="42.5921930" lon="-71.6229681">
-    <tag k="junction" v="yes"/>
-    <tag k="name" v="B8"/>
   </node>
   <node id="1975885376" lat="42.5930142" lon="-71.6094244">
     <tag k="junction" v="yes"/>
@@ -3548,6 +3552,7 @@
     <nd ref="3868242958"/>
     <nd ref="3868242957"/>
     <nd ref="1951364243"/>
+    <nd ref="5203261826"/>
     <nd ref="1951364235"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
@@ -4699,7 +4704,7 @@
     <nd ref="1975885372"/>
     <nd ref="2503379414"/>
     <nd ref="1975885351"/>
-    <nd ref="1975885319"/>
+    <nd ref="1975885263"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -4878,9 +4883,6 @@
     <tag k="trail_visibility" v="good"/>
   </way>
   <way id="186840011">
-    <nd ref="1975885319"/>
-    <nd ref="1975885309"/>
-    <nd ref="1975885273"/>
     <nd ref="1975885263"/>
     <nd ref="1975885252"/>
     <nd ref="1975885254"/>
@@ -5048,20 +5050,6 @@
     <tag k="trail_visibility" v="good"/>
   </way>
   <way id="186840019">
-    <nd ref="1975885441"/>
-    <nd ref="1975885440"/>
-    <nd ref="1975885435"/>
-    <nd ref="1975885428"/>
-    <nd ref="1975885404"/>
-    <nd ref="1975885395"/>
-    <nd ref="1975885409"/>
-    <nd ref="1975885426"/>
-    <nd ref="1975885464"/>
-    <nd ref="1975885466"/>
-    <nd ref="1975885475"/>
-    <nd ref="1975885486"/>
-    <nd ref="1975885492"/>
-    <nd ref="1975885483"/>
     <nd ref="4307710043"/>
     <nd ref="1975885502"/>
     <nd ref="1975885508"/>
@@ -5287,10 +5275,6 @@
     <tag k="trail_visibility" v="good"/>
   </way>
   <way id="186840042">
-    <nd ref="1975884631"/>
-    <nd ref="1975884629"/>
-    <nd ref="1975884633"/>
-    <nd ref="1975884639"/>
     <nd ref="1975884644"/>
     <nd ref="1975884651"/>
     <nd ref="1975884671"/>
@@ -8739,7 +8723,21 @@
     <tag k="surface" v="ground"/>
   </way>
   <way id="187589194">
-    <nd ref="2003796408"/>
+    <nd ref="1982348378"/>
+    <nd ref="5207451375"/>
+    <nd ref="5207451376"/>
+    <nd ref="5207451377"/>
+    <nd ref="5207451378"/>
+    <nd ref="5207451379"/>
+    <nd ref="5207451380"/>
+    <nd ref="5207451381"/>
+    <nd ref="5207451382"/>
+    <nd ref="5207451383"/>
+    <nd ref="5207451384"/>
+    <nd ref="5207451385"/>
+    <nd ref="5207451386"/>
+    <nd ref="5207451387"/>
+    <nd ref="5207451388"/>
     <nd ref="1982348351"/>
     <nd ref="1982348353"/>
     <nd ref="1982348352"/>
@@ -14962,19 +14960,6 @@
     <nd ref="2789324389"/>
     <nd ref="2789324390"/>
     <nd ref="1975884744"/>
-    <nd ref="1975884749"/>
-    <nd ref="2789324391"/>
-    <nd ref="2789324392"/>
-    <nd ref="2789324393"/>
-    <nd ref="2789324394"/>
-    <nd ref="1975884752"/>
-    <nd ref="2789324395"/>
-    <nd ref="1975884759"/>
-    <nd ref="2789324396"/>
-    <nd ref="1975884772"/>
-    <nd ref="2789324397"/>
-    <nd ref="1975884776"/>
-    <nd ref="1975884783"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -15008,12 +14993,6 @@
     <nd ref="1975885747"/>
     <nd ref="1975885744"/>
     <nd ref="1975885724"/>
-    <nd ref="1975885713"/>
-    <nd ref="1975885701"/>
-    <nd ref="1975885680"/>
-    <nd ref="2459913373"/>
-    <nd ref="2477073500"/>
-    <nd ref="1975885657"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="track"/>
     <tag k="horse" v="yes"/>
@@ -15618,8 +15597,12 @@
     <nd ref="2319010968"/>
     <nd ref="2319010969"/>
     <tag k="access" v="customers"/>
+    <tag k="addr:city" v="Groton"/>
+    <tag k="addr:street" v="Robin Hill Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="gtc:parking" v="yes"/>
+    <tag k="name" v="Rocky Hill MAS Trail Head Parking"/>
+    <tag k="parking" v="surface"/>
   </way>
   <way id="223338329">
     <nd ref="1977381823"/>
@@ -16363,7 +16346,6 @@
     <tag k="surface" v="ground"/>
   </way>
   <way id="238134937">
-    <nd ref="1975885477"/>
     <nd ref="5065262108"/>
     <nd ref="1975885491"/>
     <nd ref="1975885493"/>
@@ -16399,10 +16381,6 @@
     <nd ref="1975885521"/>
     <nd ref="1975885525"/>
     <nd ref="1975885514"/>
-    <nd ref="1975885518"/>
-    <nd ref="1975885520"/>
-    <nd ref="1975885529"/>
-    <nd ref="1975885535"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -17033,9 +17011,6 @@
     <tag k="symbol" v="GTC white"/>
   </way>
   <way id="239938338">
-    <nd ref="1975885502"/>
-    <nd ref="1975885534"/>
-    <nd ref="1975885556"/>
     <nd ref="1975885558"/>
     <nd ref="2477135639"/>
     <nd ref="1975885574"/>
@@ -18546,13 +18521,6 @@
     <tag k="snowmobile" v="no"/>
   </way>
   <way id="309150217">
-    <nd ref="1975884874"/>
-    <nd ref="1975884872"/>
-    <nd ref="1975884866"/>
-    <nd ref="1975884873"/>
-    <nd ref="1975884878"/>
-    <nd ref="1975884910"/>
-    <nd ref="1975884978"/>
     <nd ref="1975885016"/>
     <nd ref="2480653937"/>
     <nd ref="1975885025"/>
@@ -18716,7 +18684,6 @@
     <nd ref="1975884738"/>
     <nd ref="1975884743"/>
     <nd ref="1975884744"/>
-    <nd ref="1975884750"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -18899,14 +18866,6 @@
     <nd ref="1975884841"/>
     <nd ref="1975884840"/>
     <nd ref="1975884834"/>
-    <nd ref="1975884818"/>
-    <nd ref="1975884804"/>
-    <nd ref="1975884801"/>
-    <nd ref="1975884802"/>
-    <nd ref="1975884814"/>
-    <nd ref="1975884821"/>
-    <nd ref="1975884839"/>
-    <nd ref="1975884843"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -19071,8 +19030,6 @@
     <nd ref="1975884737"/>
     <nd ref="1975884742"/>
     <nd ref="1975884750"/>
-    <nd ref="1975884762"/>
-    <nd ref="1975884783"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="operator" v="Groton Trails Committee"/>
@@ -22012,14 +21969,8 @@
     <tag k="surface" v="ground"/>
   </way>
   <way id="379838803">
-    <nd ref="1975860567"/>
-    <nd ref="3831795461"/>
-    <nd ref="3831795463"/>
-    <nd ref="3831795464"/>
-    <nd ref="3831795462"/>
-    <nd ref="3831795471"/>
+    <nd ref="2007345616"/>
     <nd ref="3831795472"/>
-    <nd ref="3831795473"/>
     <nd ref="3831795474"/>
     <nd ref="3831795483"/>
     <nd ref="3831795484"/>
@@ -22029,6 +21980,7 @@
     <nd ref="3831795489"/>
     <nd ref="3831795490"/>
     <nd ref="3831795494"/>
+    <nd ref="5203364710"/>
     <nd ref="1975852603"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
@@ -22939,18 +22891,7 @@
     <nd ref="4741761450"/>
     <nd ref="4741761449"/>
     <nd ref="1995906677"/>
-    <nd ref="3522323806"/>
-    <nd ref="3522323807"/>
-    <nd ref="1975716663"/>
-    <nd ref="3522323808"/>
-    <nd ref="1995982069"/>
-    <nd ref="3868242893"/>
-    <nd ref="1975716661"/>
-    <nd ref="1975716660"/>
-    <nd ref="1995982067"/>
-    <nd ref="1995982065"/>
-    <nd ref="1975716659"/>
-    <nd ref="1951363965"/>
+    <tag k="access" v="permissive"/>
     <tag k="highway" v="path"/>
     <tag k="snowmobile" v="no"/>
     <tag k="surface" v="ground"/>
@@ -23169,6 +23110,328 @@
     <tag k="snowmobile" v="no"/>
     <tag k="surface" v="ground"/>
     <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="536168699">
+    <nd ref="1989753553"/>
+    <nd ref="61772890"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+  </way>
+  <way id="537249448">
+    <nd ref="1975885464"/>
+    <nd ref="1975885466"/>
+    <nd ref="1975885475"/>
+    <nd ref="1975885486"/>
+    <nd ref="1975885492"/>
+    <nd ref="1975885483"/>
+    <nd ref="4307710043"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Town Forest Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249449">
+    <nd ref="1975884631"/>
+    <nd ref="1975884629"/>
+    <nd ref="1975884633"/>
+    <nd ref="1975884639"/>
+    <nd ref="1975884644"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Wharton Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="symbol" v="GTC white"/>
+  </way>
+  <way id="537249450">
+    <nd ref="1975884802"/>
+    <nd ref="1975884814"/>
+    <nd ref="1975884821"/>
+    <nd ref="1975884839"/>
+    <nd ref="1975884843"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="symbol" v="GTC white"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+  <way id="537249452">
+    <nd ref="1975884834"/>
+    <nd ref="1975884818"/>
+    <nd ref="1975884804"/>
+    <nd ref="1975884801"/>
+    <nd ref="1975884802"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="symbol" v="GTC white"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+  <way id="537249454">
+    <nd ref="1975884744"/>
+    <nd ref="1975884749"/>
+    <nd ref="2789324391"/>
+    <nd ref="2789324392"/>
+    <nd ref="2789324393"/>
+    <nd ref="2789324394"/>
+    <nd ref="1975884752"/>
+    <nd ref="2789324395"/>
+    <nd ref="1975884759"/>
+    <nd ref="2789324396"/>
+    <nd ref="1975884772"/>
+    <nd ref="2789324397"/>
+    <nd ref="1975884776"/>
+    <nd ref="1975884783"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="symbol" v="GTC white"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+  <way id="537249457">
+    <nd ref="1975884744"/>
+    <nd ref="1975884750"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249458">
+    <nd ref="1975884750"/>
+    <nd ref="1975884762"/>
+    <nd ref="1975884783"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537249459">
+    <nd ref="1975884874"/>
+    <nd ref="1975884872"/>
+    <nd ref="1975884866"/>
+    <nd ref="1975884873"/>
+    <nd ref="1975884878"/>
+    <nd ref="1975884910"/>
+    <nd ref="1975884978"/>
+    <nd ref="1975885016"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Lawrence Lane"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+  </way>
+  <way id="537249461">
+    <nd ref="1975885514"/>
+    <nd ref="1975885518"/>
+    <nd ref="1975885520"/>
+    <nd ref="1975885529"/>
+    <nd ref="1975885535"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249462">
+    <nd ref="1975885477"/>
+    <nd ref="5065262108"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Town Forest Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249463">
+    <nd ref="1975885441"/>
+    <nd ref="1975885440"/>
+    <nd ref="1975885435"/>
+    <nd ref="1975885428"/>
+    <nd ref="1975885404"/>
+    <nd ref="1975885395"/>
+    <nd ref="1975885409"/>
+    <nd ref="1975885426"/>
+    <nd ref="1975885464"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Town Forest Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249464">
+    <nd ref="1975885502"/>
+    <nd ref="1975885534"/>
+    <nd ref="1975885556"/>
+    <nd ref="1975885558"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Loop Trail"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="symbol" v="GTC white"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+  <way id="537249465">
+    <nd ref="1975885724"/>
+    <nd ref="1975885713"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Ames Pond Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537249467">
+    <nd ref="1975885713"/>
+    <nd ref="1975885701"/>
+    <nd ref="1975885680"/>
+    <nd ref="2459913373"/>
+    <nd ref="2477073500"/>
+    <nd ref="1975885657"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Ames Pond Road"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="backcountry"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+  <way id="537279413">
+    <nd ref="1995906677"/>
+    <nd ref="3522323806"/>
+    <nd ref="3522323807"/>
+    <nd ref="1975716663"/>
+    <nd ref="3522323808"/>
+    <nd ref="1995982069"/>
+    <nd ref="3868242893"/>
+    <nd ref="1975716661"/>
+    <nd ref="1975716660"/>
+    <nd ref="1995982067"/>
+    <nd ref="1995982065"/>
+    <nd ref="1975716659"/>
+    <nd ref="1951363965"/>
+    <tag k="highway" v="path"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537279414">
+    <nd ref="5203261711"/>
+    <nd ref="5203261710"/>
+    <nd ref="5203261709"/>
+    <nd ref="5203261708"/>
+    <nd ref="5203261707"/>
+    <nd ref="5203261706"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Stoddart Trail"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537279415">
+    <nd ref="5203261717"/>
+    <nd ref="5203261718"/>
+    <nd ref="5203261719"/>
+    <nd ref="5203261720"/>
+    <nd ref="5203261821"/>
+    <nd ref="5203261822"/>
+    <nd ref="5203261823"/>
+    <nd ref="5203261826"/>
+    <nd ref="5203261825"/>
+    <nd ref="5203261824"/>
+    <nd ref="1999527924"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537279416">
+    <nd ref="4741761450"/>
+    <nd ref="5203261827"/>
+    <nd ref="5203261839"/>
+    <nd ref="5203261838"/>
+    <nd ref="5203261837"/>
+    <nd ref="5203261836"/>
+    <nd ref="5203261835"/>
+    <nd ref="5203261834"/>
+    <nd ref="5203261833"/>
+    <nd ref="5203261832"/>
+    <nd ref="5203261831"/>
+    <nd ref="5203261705"/>
+    <nd ref="5203261830"/>
+    <nd ref="5203261829"/>
+    <nd ref="5203261828"/>
+    <nd ref="4741761461"/>
+    <tag k="access" v="permissive"/>
+    <tag k="highway" v="path"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537851381">
+    <nd ref="5203261715"/>
+    <nd ref="5203261716"/>
+    <nd ref="5203261717"/>
+    <tag k="access" v="permissive"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="537851382">
+    <nd ref="61776167"/>
+    <nd ref="5203261712"/>
+    <nd ref="5203261711"/>
+    <nd ref="5203261713"/>
+    <nd ref="5203261714"/>
+    <nd ref="5203261715"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="operator" v="Groton Trails Committee"/>
+    <tag k="snowmobile" v="no"/>
+    <tag k="surface" v="ground"/>
   </way>
   <node id="64059214" lat="42.5622465" lon="-71.5897498"/>
   <node id="64059255" lat="42.5602420" lon="-71.5896640"/>
@@ -23606,20 +23869,14 @@
   <node id="3723146324" lat="42.5861497" lon="-71.5939485"/>
   <node id="3723152525" lat="42.5862789" lon="-71.5943432"/>
   <node id="3723152528" lat="42.5863963" lon="-71.5945125"/>
-  <node id="3831795461" lat="42.5871017" lon="-71.5953301"/>
-  <node id="3831795462" lat="42.5873162" lon="-71.5950712"/>
-  <node id="3831795463" lat="42.5873280" lon="-71.5952498"/>
-  <node id="3831795464" lat="42.5873366" lon="-71.5952359"/>
   <node id="3831795465" lat="42.5874366" lon="-71.5969004"/>
   <node id="3831795466" lat="42.5874856" lon="-71.5971495"/>
   <node id="3831795467" lat="42.5874957" lon="-71.5976506"/>
-  <node id="3831795471" lat="42.5877886" lon="-71.5948553"/>
-  <node id="3831795472" lat="42.5878003" lon="-71.5948650"/>
-  <node id="3831795473" lat="42.5878293" lon="-71.5950013"/>
-  <node id="3831795474" lat="42.5878410" lon="-71.5950096"/>
-  <node id="3831795481" lat="42.5881273" lon="-71.5946428"/>
-  <node id="3831795482" lat="42.5881417" lon="-71.5946124"/>
-  <node id="3831795483" lat="42.5881748" lon="-71.5948865"/>
+  <node id="3831795472" lat="42.5880906" lon="-71.5961860"/>
+  <node id="3831795474" lat="42.5878765" lon="-71.5950458"/>
+  <node id="3831795481" lat="42.5881431" lon="-71.5947018"/>
+  <node id="3831795482" lat="42.5881851" lon="-71.5946821"/>
+  <node id="3831795483" lat="42.5882034" lon="-71.5949375"/>
   <node id="3831795484" lat="42.5881943" lon="-71.5948542"/>
   <node id="4694114454" lat="42.5866333" lon="-71.5946398"/>
   <node id="4694114455" lat="42.5865508" lon="-71.5946991"/>
@@ -26277,13 +26534,10 @@
   <node id="1975885254" lat="42.5921013" lon="-71.6229626"/>
   <node id="1975885263" lat="42.5922535" lon="-71.6229927"/>
   <node id="1975885267" lat="42.5922871" lon="-71.6202754"/>
-  <node id="1975885273" lat="42.5923402" lon="-71.6228998"/>
   <node id="1975885277" lat="42.5923580" lon="-71.6180620"/>
   <node id="1975885288" lat="42.5923774" lon="-71.6206377"/>
   <node id="1975885297" lat="42.5924653" lon="-71.6201165"/>
-  <node id="1975885309" lat="42.5925516" lon="-71.6228133"/>
   <node id="1975885313" lat="42.5925826" lon="-71.6200998"/>
-  <node id="1975885319" lat="42.5921930" lon="-71.6229681"/>
   <node id="1975885326" lat="42.5926590" lon="-71.6202957"/>
   <node id="1975885343" lat="42.5927790" lon="-71.6186380"/>
   <node id="1975885351" lat="42.5928685" lon="-71.6227261"/>
@@ -27962,7 +28216,7 @@
   <node id="3840097547" lat="42.5942789" lon="-71.5994939"/>
   <node id="3840097548" lat="42.5944317" lon="-71.5995289"/>
   <node id="3840097549" lat="42.5946165" lon="-71.5995359"/>
-  <node id="1975852603" lat="42.5898650" lon="-71.5937016"/>
+  <node id="1975852603" lat="42.5898492" lon="-71.5938625"/>
   <node id="1975852604" lat="42.5899286" lon="-71.5949315"/>
   <node id="1975852607" lat="42.5900511" lon="-71.5949096"/>
   <node id="1975852609" lat="42.5902014" lon="-71.5946649"/>
@@ -28018,10 +28272,10 @@
   <node id="3522323802" lat="42.5911981" lon="-71.5967856"/>
   <node id="3522323803" lat="42.5912182" lon="-71.5970507"/>
   <node id="3522323804" lat="42.5913194" lon="-71.5976325"/>
-  <node id="3831795487" lat="42.5886165" lon="-71.5943912"/>
-  <node id="3831795489" lat="42.5888660" lon="-71.5931912"/>
-  <node id="3831795490" lat="42.5889101" lon="-71.5931540"/>
-  <node id="3831795494" lat="42.5892224" lon="-71.5934172"/>
+  <node id="3831795487" lat="42.5886165" lon="-71.5944770"/>
+  <node id="3831795489" lat="42.5888739" lon="-71.5932100"/>
+  <node id="3831795490" lat="42.5889002" lon="-71.5932050"/>
+  <node id="3831795494" lat="42.5891572" lon="-71.5935138"/>
   <node id="3840097488" lat="42.5891262" lon="-71.5979430"/>
   <node id="3840097489" lat="42.5891744" lon="-71.5975544"/>
   <node id="3840097490" lat="42.5891744" lon="-71.5978558"/>
@@ -28051,6 +28305,7 @@
   <node id="3840097522" lat="42.5919930" lon="-71.5918533"/>
   <node id="3840097523" lat="42.5920866" lon="-71.5935318"/>
   <node id="3840097524" lat="42.5923324" lon="-71.5936692"/>
+  <node id="5203364710" lat="42.5894234" lon="-71.5937537"/>
   <node id="1951364036" lat="42.6004906" lon="-71.5980801"/>
   <node id="1951364042" lat="42.6007932" lon="-71.5981170"/>
   <node id="1951364074" lat="42.6009504" lon="-71.5983177"/>
@@ -28503,6 +28758,19 @@
   <node id="3889774109" lat="42.6078563" lon="-71.5971155"/>
   <node id="3889774110" lat="42.6080253" lon="-71.5925883"/>
   <node id="3889774111" lat="42.6082327" lon="-71.5927984"/>
+  <node id="5203261714" lat="42.6043089" lon="-71.5916750"/>
+  <node id="5203261715" lat="42.6041589" lon="-71.5918896"/>
+  <node id="5203261716" lat="42.6037838" lon="-71.5922490"/>
+  <node id="5203261717" lat="42.6034541" lon="-71.5926594"/>
+  <node id="5203261718" lat="42.6035014" lon="-71.5933004"/>
+  <node id="5203261719" lat="42.6036594" lon="-71.5936169"/>
+  <node id="5203261720" lat="42.6038173" lon="-71.5939951"/>
+  <node id="5203261821" lat="42.6039180" lon="-71.5943894"/>
+  <node id="5203261822" lat="42.6041628" lon="-71.5952826"/>
+  <node id="5203261823" lat="42.6044471" lon="-71.5960524"/>
+  <node id="5203261824" lat="42.6052388" lon="-71.5971279"/>
+  <node id="5203261825" lat="42.6051104" lon="-71.5969402"/>
+  <node id="5203261826" lat="42.6045847" lon="-71.5962792"/>
   <node id="1963491149" lat="42.6097343" lon="-71.5980908"/>
   <node id="1963491151" lat="42.6101395" lon="-71.5987692"/>
   <node id="1963491163" lat="42.6105513" lon="-71.6000415"/>
@@ -28900,47 +29168,48 @@
   <node id="1951363878" lat="42.5964415" lon="-71.5903352"/>
   <node id="1951363881" lat="42.5976949" lon="-71.5904332"/>
   <node id="1951363953" lat="42.5986572" lon="-71.5914134"/>
-  <node id="1951363965" lat="42.5987733" lon="-71.5913137"/>
-  <node id="1975716659" lat="42.5989911" lon="-71.5911778"/>
-  <node id="1975716660" lat="42.5995564" lon="-71.5906044"/>
-  <node id="1975716661" lat="42.5997471" lon="-71.5903232"/>
-  <node id="1975716663" lat="42.5999056" lon="-71.5891454"/>
+  <node id="1951363965" lat="42.5987694" lon="-71.5913137"/>
+  <node id="1975716659" lat="42.5989872" lon="-71.5911778"/>
+  <node id="1975716660" lat="42.5995525" lon="-71.5906044"/>
+  <node id="1975716661" lat="42.5997432" lon="-71.5903232"/>
+  <node id="1975716663" lat="42.5999017" lon="-71.5891454"/>
   <node id="1975895855" lat="42.5984067" lon="-71.5908711"/>
   <node id="1995906599" lat="42.5970809" lon="-71.5903777"/>
   <node id="1995906606" lat="42.5978593" lon="-71.5904546"/>
-  <node id="1995906677" lat="42.5999779" lon="-71.5877249"/>
-  <node id="1995982065" lat="42.5991010" lon="-71.5911090"/>
-  <node id="1995982067" lat="42.5992893" lon="-71.5908793"/>
-  <node id="1995982069" lat="42.5998262" lon="-71.5898781"/>
+  <node id="1995906677" lat="42.5999740" lon="-71.5877249"/>
+  <node id="1995982065" lat="42.5990971" lon="-71.5911090"/>
+  <node id="1995982067" lat="42.5992854" lon="-71.5908793"/>
+  <node id="1995982069" lat="42.5998223" lon="-71.5898781"/>
   <node id="2085035357" lat="42.5951429" lon="-71.5855458"/>
   <node id="2085035358" lat="42.5951710" lon="-71.5869104"/>
   <node id="2085035359" lat="42.5951894" lon="-71.5867412"/>
   <node id="2085035360" lat="42.5952710" lon="-71.5869290"/>
   <node id="2085035361" lat="42.5953110" lon="-71.5867654"/>
-  <node id="3522323806" lat="42.5999493" lon="-71.5878866"/>
-  <node id="3522323807" lat="42.5999400" lon="-71.5879540"/>
-  <node id="3522323808" lat="42.5998815" lon="-71.5894574"/>
+  <node id="3522323806" lat="42.5999454" lon="-71.5878866"/>
+  <node id="3522323807" lat="42.5999361" lon="-71.5879540"/>
+  <node id="3522323808" lat="42.5998776" lon="-71.5894574"/>
   <node id="3522323809" lat="42.5985458" lon="-71.5915199"/>
   <node id="3840099757" lat="42.5967560" lon="-71.5903725"/>
-  <node id="3868242893" lat="42.5998227" lon="-71.5901302"/>
-  <node id="4741761449" lat="42.5999010" lon="-71.5876328"/>
-  <node id="4741761450" lat="42.5993541" lon="-71.5873445"/>
-  <node id="4741761451" lat="42.5987726" lon="-71.5872667"/>
-  <node id="4741761452" lat="42.5979552" lon="-71.5872841"/>
-  <node id="4741761453" lat="42.5976571" lon="-71.5876663"/>
-  <node id="4741761454" lat="42.5975505" lon="-71.5877616"/>
-  <node id="4741761455" lat="42.5973994" lon="-71.5877307"/>
-  <node id="4741761456" lat="42.5969176" lon="-71.5876543"/>
-  <node id="4741761457" lat="42.5965435" lon="-71.5876838"/>
-  <node id="4741761458" lat="42.5964527" lon="-71.5876610"/>
-  <node id="4741761459" lat="42.5964428" lon="-71.5875430"/>
-  <node id="4741761460" lat="42.5964596" lon="-71.5872171"/>
-  <node id="4741761461" lat="42.5965494" lon="-71.5865344"/>
-  <node id="4741761462" lat="42.5963549" lon="-71.5864982"/>
-  <node id="4741761463" lat="42.5962414" lon="-71.5865559"/>
-  <node id="4741761464" lat="42.5960271" lon="-71.5866149"/>
-  <node id="4741761465" lat="42.5959452" lon="-71.5865827"/>
-  <node id="4741761466" lat="42.5955280" lon="-71.5865059"/>
+  <node id="3868242893" lat="42.5998188" lon="-71.5901302"/>
+  <node id="4741761449" lat="42.5998971" lon="-71.5876328"/>
+  <node id="4741761450" lat="42.5993778" lon="-71.5873525"/>
+  <node id="4741761451" lat="42.5987687" lon="-71.5872667"/>
+  <node id="4741761452" lat="42.5979513" lon="-71.5872841"/>
+  <node id="4741761453" lat="42.5976532" lon="-71.5876663"/>
+  <node id="4741761454" lat="42.5975466" lon="-71.5877616"/>
+  <node id="4741761455" lat="42.5973955" lon="-71.5877307"/>
+  <node id="4741761456" lat="42.5969137" lon="-71.5876543"/>
+  <node id="4741761457" lat="42.5965396" lon="-71.5876838"/>
+  <node id="4741761458" lat="42.5964488" lon="-71.5876610"/>
+  <node id="4741761459" lat="42.5964389" lon="-71.5875430"/>
+  <node id="4741761460" lat="42.5964557" lon="-71.5872171"/>
+  <node id="4741761461" lat="42.5965455" lon="-71.5865344"/>
+  <node id="4741761462" lat="42.5963510" lon="-71.5864982"/>
+  <node id="4741761463" lat="42.5962375" lon="-71.5865559"/>
+  <node id="4741761464" lat="42.5960232" lon="-71.5866149"/>
+  <node id="4741761465" lat="42.5959413" lon="-71.5865827"/>
+  <node id="4741761466" lat="42.5955241" lon="-71.5865059"/>
+  <node id="5203261828" lat="42.5966899" lon="-71.5852967"/>
   <node id="61770257" lat="42.6010454" lon="-71.5813228"/>
   <node id="61770838" lat="42.5951810" lon="-71.5817780"/>
   <node id="1686471125" lat="42.5954294" lon="-71.5845286"/>
@@ -28969,6 +29238,19 @@
   <node id="2000784136" lat="42.6009407" lon="-71.5813945"/>
   <node id="2000784137" lat="42.6010835" lon="-71.5812841"/>
   <node id="2000784138" lat="42.6011587" lon="-71.5812425"/>
+  <node id="5203261705" lat="42.5971341" lon="-71.5818822"/>
+  <node id="5203261827" lat="42.6001889" lon="-71.5834667"/>
+  <node id="5203261829" lat="42.5967116" lon="-71.5848783"/>
+  <node id="5203261830" lat="42.5970394" lon="-71.5825072"/>
+  <node id="5203261831" lat="42.5972684" lon="-71.5818232"/>
+  <node id="5203261832" lat="42.5978015" lon="-71.5820190"/>
+  <node id="5203261833" lat="42.5982536" lon="-71.5822953"/>
+  <node id="5203261834" lat="42.5985972" lon="-71.5823436"/>
+  <node id="5203261835" lat="42.5987354" lon="-71.5825313"/>
+  <node id="5203261836" lat="42.5988578" lon="-71.5829068"/>
+  <node id="5203261837" lat="42.5989428" lon="-71.5832502"/>
+  <node id="5203261838" lat="42.5993751" lon="-71.5830946"/>
+  <node id="5203261839" lat="42.5998390" lon="-71.5831750"/>
   <node id="64055662" lat="42.5898640" lon="-71.5755190"/>
   <node id="64055666" lat="42.5916980" lon="-71.5751030"/>
   <node id="64055691" lat="42.5939970" lon="-71.5745250"/>
@@ -29118,6 +29400,7 @@
   <node id="2459924447" lat="42.6004220" lon="-71.5653731"/>
   <node id="2459924467" lat="42.6005990" lon="-71.5654031"/>
   <node id="61774331" lat="42.6048950" lon="-71.5904276"/>
+  <node id="61776167" lat="42.6045820" lon="-71.5904110"/>
   <node id="1975716667" lat="42.6048125" lon="-71.5908589"/>
   <node id="1975716669" lat="42.6048495" lon="-71.5913938"/>
   <node id="1975716671" lat="42.6049355" lon="-71.5914992"/>
@@ -29155,6 +29438,14 @@
   <node id="3889774083" lat="42.6048209" lon="-71.5907078"/>
   <node id="3889774084" lat="42.6048853" lon="-71.5914552"/>
   <node id="3889774086" lat="42.6050209" lon="-71.5915180"/>
+  <node id="5203261706" lat="42.6035153" lon="-71.5894488"/>
+  <node id="5203261707" lat="42.6033988" lon="-71.5898886"/>
+  <node id="5203261708" lat="42.6033869" lon="-71.5906101"/>
+  <node id="5203261709" lat="42.6034304" lon="-71.5908596"/>
+  <node id="5203261710" lat="42.6037403" lon="-71.5908811"/>
+  <node id="5203261711" lat="42.6043995" lon="-71.5907831"/>
+  <node id="5203261712" lat="42.6044214" lon="-71.5903634"/>
+  <node id="5203261713" lat="42.6043898" lon="-71.5909669"/>
   <node id="61768765" lat="42.6045425" lon="-71.5823773"/>
   <node id="61780601" lat="42.6042510" lon="-71.5822310"/>
   <node id="1997054665" lat="42.6042748" lon="-71.5823347"/>
@@ -29324,6 +29615,7 @@
   <node id="61767308" lat="42.6048105" lon="-71.5692807"/>
   <node id="61769857" lat="42.6040869" lon="-71.5678867"/>
   <node id="61772328" lat="42.6028452" lon="-71.5677405"/>
+  <node id="61772890" lat="42.6036939" lon="-71.5677785"/>
   <node id="61776478" lat="42.6075812" lon="-71.5704023"/>
   <node id="61780673" lat="42.6052230" lon="-71.5680030"/>
   <node id="61782279" lat="42.6061908" lon="-71.5687268"/>
@@ -33301,7 +33593,7 @@
   <node id="1982268822" lat="42.6240811" lon="-71.5442938"/>
   <node id="1982268823" lat="42.6244826" lon="-71.5422267"/>
   <node id="1982268824" lat="42.6246145" lon="-71.5441973"/>
-  <node id="1982268825" lat="42.6251615" lon="-71.5403911"/>
+  <node id="1982268825" lat="42.6251615" lon="-71.5403982"/>
   <node id="1982268826" lat="42.6254547" lon="-71.5429527"/>
   <node id="1982268827" lat="42.6253847" lon="-71.5437688"/>
   <node id="1982268828" lat="42.6254962" lon="-71.5430241"/>
@@ -35120,9 +35412,9 @@
   <node id="61773578" lat="42.6480310" lon="-71.5633680"/>
   <node id="61773982" lat="42.6540680" lon="-71.5610900"/>
   <node id="61778762" lat="42.6481279" lon="-71.5614543"/>
-  <node id="1982348351" lat="42.6502862" lon="-71.5601574"/>
+  <node id="1982348351" lat="42.6506492" lon="-71.5608601"/>
   <node id="1982348352" lat="42.6505000" lon="-71.5610007"/>
-  <node id="1982348353" lat="42.6505184" lon="-71.5607922"/>
+  <node id="1982348353" lat="42.6505421" lon="-71.5608780"/>
   <node id="1982348354" lat="42.6505896" lon="-71.5614542"/>
   <node id="1982348355" lat="42.6508312" lon="-71.5620223"/>
   <node id="1982348356" lat="42.6510959" lon="-71.5624557"/>
@@ -35206,7 +35498,6 @@
   <node id="1982355682" lat="42.6509566" lon="-71.5627467"/>
   <node id="1982355683" lat="42.6510589" lon="-71.5628193"/>
   <node id="2003796405" lat="42.6480067" lon="-71.5633676"/>
-  <node id="2003796408" lat="42.6502508" lon="-71.5600428"/>
   <node id="2045336040" lat="42.6477320" lon="-71.5636103"/>
   <node id="2045336043" lat="42.6478218" lon="-71.5635588"/>
   <node id="2088084070" lat="42.6480777" lon="-71.5632519"/>
@@ -35216,6 +35507,20 @@
   <node id="2088084085" lat="42.6482115" lon="-71.5623343"/>
   <node id="2095748399" lat="42.6513125" lon="-71.5627421"/>
   <node id="2366426190" lat="42.6523027" lon="-71.5612043"/>
+  <node id="5207451375" lat="42.6521084" lon="-71.5607786"/>
+  <node id="5207451376" lat="42.6520827" lon="-71.5605238"/>
+  <node id="5207451377" lat="42.6518282" lon="-71.5604460"/>
+  <node id="5207451378" lat="42.6517513" lon="-71.5603521"/>
+  <node id="5207451379" lat="42.6516842" lon="-71.5601724"/>
+  <node id="5207451380" lat="42.6516961" lon="-71.5599820"/>
+  <node id="5207451381" lat="42.6515461" lon="-71.5595126"/>
+  <node id="5207451382" lat="42.6514850" lon="-71.5593570"/>
+  <node id="5207451383" lat="42.6512739" lon="-71.5593249"/>
+  <node id="5207451384" lat="42.6511279" lon="-71.5594000"/>
+  <node id="5207451385" lat="42.6510155" lon="-71.5594885"/>
+  <node id="5207451386" lat="42.6514436" lon="-71.5602261"/>
+  <node id="5207451387" lat="42.6513153" lon="-71.5603763"/>
+  <node id="5207451388" lat="42.6509275" lon="-71.5608314"/>
   <node id="61781562" lat="42.6525170" lon="-71.5584160"/>
   <node id="1982348382" lat="42.6525914" lon="-71.5586065"/>
   <node id="2003796411" lat="42.6525892" lon="-71.5585626"/>
