@@ -101,11 +101,16 @@ a {
 }
 
 aside {
-    border-color: darkgreen;
-    background-color: lightgray;
+    background-color: #b5c1a8;
     padding: 8px; 
     float:right;
     position:relative;   
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 @media (max-width: 500px) {
