@@ -29,12 +29,40 @@
 
 <body> 
     <header>
-        <nav>
-        <a class="current" href="Welcome.html"> Trails</a>
-        <a href="get_involved.html"> Get&nbsp;Involved</a>
-        <a href="Interactive_Maps.html"> Map</a>
-        <a href="printed_maps.html"> Printable&nbsp;Maps</a>
-        <a href="about.html"> About&nbsp;Us</a>
+         <nav>
+             <a href="Welcome.html">Welcome</a>
+        <div class="dropdown">
+        <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+        <div id="DropdownActivities" class="dropdown-content">
+            <a href="light-walks.html">Light&nbsp;Walks</a>
+            <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+            <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+            <a href="river-walks.html">River&nbsp;Walks</a>
+            <a href="dog-walking.html">Dog&nbsp;Walking</a>
+            <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+            <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+            <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+            <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+            <a href="bird-watching.html">Bird&nbsp;Watching</a>
+            <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+            <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+            <a href="field-walks.html">Field&nbsp;Walks</a>
+            <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+            <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+            <a href="Quests.html">Quests</a>
+        </div>
+        </div>
+        <div class="dropdown">
+            <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+            <div id="DropdownProperties" class="dropdown-content">
+                <a href="dog-walking.html">Groton&nbsp;Place</a>
+                <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+        </div>
+        </div>
+            <a href="get_involved.html"> Get&nbsp;Involved</a>
+            <a href="Interactive_Maps.html"> Map</a>
+            <a href="printed_maps.html"> Printable&nbsp;Maps</a>
+            <a href="about.html"> About&nbsp;Us</a>
         </nav>
     </header>
      
@@ -84,6 +112,26 @@
     <section class="quote">
         <p><q>Between every two pines there is a doorway to a new world</q><br/>-John Muir</p>
     </section>
+    
+    <script>
+    function dropdown(id) {
+        document.getElementById(id).classList.toggle("show");
+}
+    
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script> 
     
 <footer>
 <p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
