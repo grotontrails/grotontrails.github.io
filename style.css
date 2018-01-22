@@ -24,8 +24,16 @@ nav a{
     margin-right: 15px;
     margin-left: 15px;
     text-decoration: none;
-   font-family: 'Neucha', serif;
+    font-family: 'Neucha', serif;
 
+}
+
+nav div{
+    color:whitesmoke;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'Neucha', serif;
 }
 
 body {
@@ -47,12 +55,12 @@ body {
 }
 
 .title{
- display: inline-block;
- float: right;    
-  height:4em;
-  margin-left: 1.5em;
-  margin-bottom: 1.0em;
-  vertical-align: top;
+    display: inline-block;
+    float: right;    
+    height:4em;
+    margin-left: 1.5em;
+    margin-bottom: 1.0em;
+    vertical-align: top;
 }
 
 .postmap { 
@@ -86,7 +94,6 @@ background: #D4E2C6;
 a[class="current"] {
     font-weight: bold;
     text-decoration: underline;
-  
 }
 
 a {
@@ -119,3 +126,43 @@ aside {
     }
 }  
 
+.dropbtn {
+    background-color: #0a5b0b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0a5b0b;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a5b0b;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: .9em;
+    z-index: 2000;
+}
+
+.dropdown-content a {
+    color: white;
+    padding-bottom: 3px;
+    display: block;
+    text-align: left;
+    
+}
+
+
+.dropdown a:hover {background-color: #0a5b0b}
+
+.show {display:block;}
