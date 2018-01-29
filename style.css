@@ -145,12 +145,12 @@ aside {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0a5b0b;
+    background-color: #0c680c;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size: .9em;
+    font-size: 1em;
     z-index: 2000;
 }
 

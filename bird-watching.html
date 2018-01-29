@@ -28,50 +28,61 @@
 </head>
 
 <body> 
-    <header>
-         <nav>
-             <a href="Welcome.html">Welcome</a>
-        <div class="dropdown">
-        <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-        <div id="DropdownActivities" class="dropdown-content">
-            <a href="light-walks.html">Light&nbsp;Walks</a>
-            <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-            <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-            <a href="river-walks.html">River&nbsp;Walks</a>
-            <a href="dog-walking.html">Dog&nbsp;Walking</a>
-            <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-            <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-            <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-            <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-            <a href="bird-watching.html">Bird&nbsp;Watching</a>
-            <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-            <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-            <a href="field-walks.html">Field&nbsp;Walks</a>
-            <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-            <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-            <a href="Quests.html">Quests</a>
-        </div>
-        </div>
-        <div class="dropdown">
-            <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-            <div id="DropdownProperties" class="dropdown-content">
-                <a href="dog-walking.html">Groton&nbsp;Place</a>
-                <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-        </div>
-        </div>
-            <a href="get_involved.html"> Get&nbsp;Involved</a>
-            <a href="Interactive_Maps.html"> Map</a>
-            <a href="printed_maps.html"> Printable&nbsp;Maps</a>
-            <a href="about.html"> About&nbsp;Us</a>
-        </nav>
-    </header>
-    
-    
-    <section class="title">
+        <header>
+                <nav>
+                <a href="Welcome.html">Welcome</a>
+        
+                <div class="dropdown">
+                <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+                <div id="DropdownMaps" class="dropdown-content">
+                    <a href="Interactive_Maps.html">Interactive Map</a>
+                    <a href="printed_maps.html"> Printable Maps</a>
+                </div>
+                </div>
+                                
+                <div class="dropdown">
+                <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+                <div id="DropdownActivities" class="dropdown-content">
+                    <a href="light-walks.html">Light&nbsp;Walks</a>
+                    <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+                    <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+                    <a href="river-walks.html">River&nbsp;Walks</a>
+                    <a href="dog-walking.html">Dog&nbsp;Walking</a>
+                    <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+                    <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+                    <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+                    <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+                    <a href="bird-watching.html">Bird&nbsp;Watching</a>
+                    <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+                    <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+                    <a href="field-walks.html">Field&nbsp;Walks</a>
+                    <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+                    <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+                    <a href="Quests.html">Quests</a>
+                </div>
+                </div>
+            
+                <div class="dropdown">
+                <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+                <div id="DropdownProperties" class="dropdown-content">
+                    <a href="dog-walking.html">Groton&nbsp;Place</a>
+                    <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+                </div>
+                </div>
+            
+                 <a href="about.html"> About&nbsp;Us</a>
+                </nav>
+            </header>
+            <section class="title">
         <H1> Bird Watching </H1>
         <img src="images/GTN.png"/>
     </section>
     
+    <section class="quote">
+            <p><q>The earth has music for those who listen</q><br/>-Shakespeare</p>
+         </section>
+     
+
 <section class="post">
     <H2>General Field and Surrenden Farm</H2>
     <section class="text">
@@ -112,14 +123,20 @@
     </section>
 </section> 
     
-    <section class="quote">
-       <p><q>The earth has music for those who listen</q><br/>-Shakespeare</p>
-    </section>
     
     <script>
-    function dropdown(id) {
+    function dropdown(id) {        
+        if ( id != "DropdownProperties") {
+            document.getElementById("DropdownProperties").classList.remove("show")
+        }
+        if ( id != "DropdownActivities") {
+            document.getElementById("DropdownActivities").classList.remove("show")
+        }    
+        if ( id != "DropdownMaps") {
+            document.getElementById("DropdownMaps").classList.remove("show")            
+        }
         document.getElementById(id).classList.toggle("show");
-}
+    }
     
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {

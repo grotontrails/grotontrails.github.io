@@ -30,7 +30,16 @@
 <body> 
     <header>
         <nav>
-            <a href="Welcome.html">Welcome</a>
+        <a href="Welcome.html">Welcome</a>
+
+        <div class="dropdown">
+        <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+        <div id="DropdownMaps" class="dropdown-content">
+            <a href="Interactive_Maps.html">Interactive Map</a>
+            <a href="printed_maps.html"> Printable Maps</a>
+        </div>
+        </div>
+                        
         <div class="dropdown">
         <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
         <div id="DropdownActivities" class="dropdown-content">
@@ -52,36 +61,27 @@
             <a href="Quests.html">Quests</a>
         </div>
         </div>
+    
         <div class="dropdown">
-            <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-            <div id="DropdownProperties" class="dropdown-content">
-                <a href="dog-walking.html">Groton&nbsp;Place</a>
-                <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+        <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+        <div id="DropdownProperties" class="dropdown-content">
+            <a href="dog-walking.html">Groton&nbsp;Place</a>
+            <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
         </div>
         </div>
-            <a href="get_involved.html"> Get&nbsp;Involved</a>
-            <a href="Interactive_Maps.html"> Map</a>
-            <a href="printed_maps.html"> Printable&nbsp;Maps</a>
-            <a href="about.html"> About&nbsp;Us</a>
+    
+         <a href="about.html"> About&nbsp;Us</a>
         </nav>
     </header>
-    
-    
+        
     <section class="title">
 	<H1>Groton Trails Network </H1>
 	<img src="images/GTN.png" />
     </section>
     
     <section class="post">
-        <P>The purpose of this site is to connect and inform people with the vast network of trails in Groton, Massachusetts. With over 100 separate trails totaling more than 100 miles, our town enjoys one of the richest trail networks in the state.</P>
-     
-    <H2>Groton Trails</H2>
-        <aside>
-        <img width="200" src="images/badge-photo.jpg"/>     <br/>
-        <q>In every walk with nature,<br/> one receives far more than <br/> he seeks.</q> -John Muir
-        </aside>
 
-     
+    <p>Walks Organized by Activity</p>
     <ul>
         <li><a href="light-walks.html">Light Walks</a></li>
         <li><a href="kid-friendly-walks.html">Kid Friendly Walks</a></li>
@@ -101,7 +101,8 @@
         <li><a href="Quests.html">Quests</a></li>
     </ul>
      
-    <p>The friends of the Groton Trail Network would like to thank the many landowners that make our wonderful trail network possible.
+    <p>Welcome to our site and explore one of the richest trail networks in the state. 
+       The friends of the Groton Trail Network would like to thank the many landowners that make our wonderful trail network possible.
         <a href="http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission.aspx" >Groton Conservation Commission</a>, 
         <a href="http://www.gctrust.org/">Groton Conservation Trust</a>, 
         <a href="http://newenglandforestry.org/">New England Forestry Foundation</a>,  
@@ -117,27 +118,39 @@
         <a href="http://www.dunstable-ma.gov/Pages/DunstableMA_Bcomm/Conservation/maps" >Dunstable Rural Land Trust</a>, and  
         <a href="https://www.townsend.ma.us/sites/townsendma/files/uploads/townsend_trails_map.pdf" >Townsend Trail Map</a>. </p>
    
-
     <P>If you are unsure of anything regarding the trails, take a look at our <a href="rules.html">Trail Use Guidelines</a>. </P>
     </section>
    
+    <section class="quote">
+      <p><q>In every walk with nature, one receives far more than he seeks</q><br/>-John Muir</p>
+    </section>
+         
 <script>
-    function dropdown(id) {
+    function dropdown(id) {        
+        if ( id != "DropdownProperties") {
+            document.getElementById("DropdownProperties").classList.remove("show")
+        }
+        if ( id != "DropdownActivities") {
+            document.getElementById("DropdownActivities").classList.remove("show")
+        }    
+        if ( id != "DropdownMaps") {
+            document.getElementById("DropdownMaps").classList.remove("show")            
+        }
         document.getElementById(id).classList.toggle("show");
-}
-    
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
     }
-  }
+    
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+        }
+        }
+    }
 }
 </script> 
 </body>   
