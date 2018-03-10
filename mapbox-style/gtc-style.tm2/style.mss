@@ -315,7 +315,7 @@ Map {
   polygon-clip: false;
   polygon-fill: @land * 0.95;
   [zoom>=16] {
-    polygon-geometry-transform: translate(-0.5,-1.2);
+  /*  polygon-geometry-transform: translate(-0.5,-1.2); */
   }
 }
 

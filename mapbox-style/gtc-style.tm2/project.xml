@@ -867,11 +867,6 @@
 
 <Style name="building" filter-mode="first">
   <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <PolygonSymbolizer geometry-transform="translate(-0.5,-1.2)" clip="false" fill="#e8e3d6" />
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>12500</MinScaleDenominator>
     <PolygonSymbolizer clip="false" fill="#e8e3d6" />
   </Rule>
 </Style>
