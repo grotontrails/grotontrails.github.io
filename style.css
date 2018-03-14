@@ -77,6 +77,14 @@ body {
     display:block;
 }
 
+@media (min-width: 1050px) {
+    .postmap-large { 
+        margin-left:1.5em;
+        width: 1000px; 
+        padding-bottom: 1000px;
+    }
+}
+
 
 .container{
     margin-right:1em;
