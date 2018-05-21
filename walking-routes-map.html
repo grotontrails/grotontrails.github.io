@@ -1,0 +1,292 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<html lang="en">
+
+<head>
+    <Title>Groton Long Trails Map</Title>
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
+
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="print.css" media="print"  />
+
+	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+
+	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+	<!--[if lt IE 9]>
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
+	<![endif]-->
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+
+	<script src="javascripts/leaflet.easyPrint.js"></script>   
+
+	<link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
+	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+
+	<link rel="manifest" href="manifest.json">
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style>	
+    #map {		
+		height: 93%;				
+        margin: 0;
+	}
+    </style>    
+
+</head>
+
+<html>
+<body>
+	<script src="points.js"></script>
+	<script src="photos.js"></script>
+	
+	<div class="page">
+
+			<header role="banner">
+					<nav>
+					<a href="Welcome.html">Welcome</a>
+			
+					<div class="dropdown">
+					<div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+					<div id="DropdownMaps" class="dropdown-content">
+						<a href="Interactive_Maps.html">Interactive Map</a>
+						<a href="groton-town-forest-map.html">Town Forest Map</a>						
+						<a href="long-trails-map.html">Long Trails Map</a>						
+						<a href="printed_maps.html"> Printable Maps</a>
+					</div>
+					</div>
+									
+					<div class="dropdown">
+					<div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+					<div id="DropdownActivities" class="dropdown-content">
+						<a href="light-walks.html">Light&nbsp;Walks</a>
+						<a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+						<a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+						<a href="river-walks.html">River&nbsp;Walks</a>
+						<a href="dog-walking.html">Dog&nbsp;Walking</a>
+						<a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+						<a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+						<a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+						<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+						<a href="bird-watching.html">Bird&nbsp;Watching</a>
+						<a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+						<a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+						<a href="field-walks.html">Field&nbsp;Walks</a>
+						<a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+						<a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+					</div>
+					</div>
+				
+					<div class="dropdown">
+					<div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+					<div id="DropdownProperties" class="dropdown-content">
+						<a href="dog-walking.html">Groton&nbsp;Place</a>
+						<a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+					</div>
+					</div>
+				
+					 <a href="about.html"> About&nbsp;Us</a>
+					</nav>
+				</header>
+					
+		<div id="map">
+		</div>
+</body>
+
+<script>
+
+function rgbToHex(rgb) { 
+  var hex = Number(rgb).toString(16);
+  if (hex.length < 2) {
+       hex = "0" + hex;
+  }
+  return hex;
+};
+
+/* accepts parameters
+ * h  Object = {h:x, s:y, v:z}
+ * OR 
+ * h, s, v
+*/
+function HSVtoRGB(h, s, v) {
+    var r, g, b, i, f, p, q, t;
+    if (arguments.length === 1) {
+        s = h.s, v = h.v, h = h.h;
+    }
+    i = Math.floor(h * 6);
+    f = h * 6 - i;
+    p = v * (1 - s);
+    q = v * (1 - f * s);
+    t = v * (1 - (1 - f) * s);
+    switch (i % 6) {
+        case 0: r = v, g = t, b = p; break;
+        case 1: r = q, g = v, b = p; break;
+        case 2: r = p, g = v, b = t; break;
+        case 3: r = p, g = q, b = v; break;
+        case 4: r = t, g = p, b = v; break;
+        case 5: r = v, g = p, b = q; break;
+    }
+    return {
+        r: rgbToHex(Math.round(r * 255)),
+        g: rgbToHex(Math.round(g * 255)),
+        b: rgbToHex(Math.round(b * 255))
+    };
+}
+
+function loadJSON(url, callback) {   
+	let xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+
+	xobj.onreadystatechange = function () {
+			if (xobj.readyState == 4 && xobj.status == "200") {
+				callback(xobj.responseText);
+		}
+	};
+	xobj.open('GET', url, true);
+	xobj.send();  
+}
+
+function main() {
+
+    let mapboxAttrib = 'For informational purposes only.<br> &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+
+    let mapboxSatellite = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
+        attribution: mapboxAttrib
+    });
+    let mapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/jremillard.6095d11a/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
+        attribution: mapboxAttrib
+    });
+    let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: mapboxAttrib });
+ 
+    // create leaflet map
+    var map = L.map('map')
+
+	L.easyPrint({title: 'Print The Map!', position: 'topleft' }).addTo(map);
+
+	var overlaysJSON = [
+	]
+
+	function complete() {
+		
+		let overlays = {
+		}
+
+		let trailCount = 0.0
+
+		function onEachFeature(feature, layer) {
+			// does this feature have a property named popupContent?
+			if (feature.properties ) {
+			
+				trailCount = trailCount + 1.0
+				var rgb = HSVtoRGB(trailCount/10.0,0.9,0.5)
+				var rgbStr = "#" + rgb['r'] + rgb['g'] + rgb['b']
+				//var rgbStr = "#FFFF00"
+
+				var routineStyle = {
+					"color": rgbStr,
+					"weight": 4,
+					'opacity': 0.8,
+					"fill": 0
+					};
+
+				var featureLayer = L.geoJson(feature,{style: routineStyle});
+				overlays[feature.properties.name] = featureLayer;
+				map.addLayer(featureLayer)
+				featureLayer.bindPopup(feature.properties.name)
+			}
+		}
+			
+		json0 = L.geoJson(overlaysJSON,{onEachFeature: onEachFeature} )
+
+		var collapsedV = true;
+		if ( window.innerWidth > 1000) {
+			collapsedV = false
+		}
+
+		var baseMaps = {
+			"Map": mapboxOutdoors,
+			"Satellite": mapboxSatellite,
+			"OSM": osmLayer,
+	    };
+
+		L.control.layers(baseMaps, overlays, {collapsed: collapsedV}).addTo(map);    
+
+		map.fitBounds(json0.getBounds());
+
+		L.control.scale().addTo(map);
+
+		mapboxOutdoors.addTo(map);
+				
+		function updateURL() {
+			let pos = map.getCenter();
+			let newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
+			history.replaceState({},'',newFragment);
+		}
+		
+		if ( location && location.hash.indexOf("#map=") == 0 ) {
+			let url = location.hash.slice(5);
+			let ll = url.split('/');
+			map.panTo( [ll[1],ll[2]] );
+			map.setZoom(ll[0]); 		
+		} else {
+			var pos = map.getCenter();
+			var newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
+			history.replaceState({},'',newFragment);
+		}
+				
+		map.on('moveend', updateURL );
+		map.on('zoomend', updateURL );
+		//map.on('zoomend', updateMarkers);
+								
+		// remove leaflet attribution
+		map.attributionControl.setPrefix('')
+
+		L.control.locate().addTo(map);			                    
+	}
+
+	loadJSON('/geo/walking-routes.geojson', function(response) { overlaysJSON = JSON.parse(response); complete() })
+}
+
+window.onload = main;
+    
+function dropdown(id) {        
+	if ( id != "DropdownProperties") {
+		document.getElementById("DropdownProperties").classList.remove("show")
+	}
+	if ( id != "DropdownActivities") {
+		document.getElementById("DropdownActivities").classList.remove("show")
+	}    
+	if ( id != "DropdownMaps") {
+		document.getElementById("DropdownMaps").classList.remove("show")            
+	}
+	document.getElementById(id).classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+</html>
+
