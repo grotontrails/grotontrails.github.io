@@ -200,9 +200,10 @@ function main() {
 					};
 
 				var featureLayer = L.geoJson(feature,{style: routineStyle});
-				overlays[feature.properties.name] = featureLayer;
+				
+				overlays[feature.properties.name + ' - ' + feature.properties.lengthMiles.toFixed(1) + ' Miles'] = featureLayer;
 				map.addLayer(featureLayer)
-				featureLayer.bindPopup(feature.properties.name)
+				featureLayer.bindPopup(feature.properties.name + ' - ' + feature.properties.lengthMiles.toFixed(1) + ' Miles')
 			}
 		}
 			
@@ -254,7 +255,7 @@ function main() {
 		L.control.locate().addTo(map);			                    
 	}
 
-	loadJSON('/geo/walking-routes.geojson', function(response) { overlaysJSON = JSON.parse(response); complete() })
+	loadJSON('/geo/walkingroute-all.geojson', function(response) { overlaysJSON = JSON.parse(response); complete() })
 }
 
 window.onload = main;

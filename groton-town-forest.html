@@ -217,7 +217,7 @@ function createLargeMap(divid, parkingArray) {
     }
 	
     loadJSON(
-	     '/geo/townForest34.geojson',
+        '/geo/walkingroute-grotontownforestrace34mileloop.geojson',
 	     function(response) {
              // Parse JSON string into object
 	         var actual_JSON = JSON.parse(response);
@@ -231,7 +231,7 @@ function createLargeMap(divid, parkingArray) {
              tf_34JSON = L.geoJson(actual_JSON,{style: myStyle} )
              
              loadJSON(
-                '/geo/townForest95.geojson',
+                '/geo/walkingroute-grotontownforestrace95mileloop.geojson',
                 function(response) {
                     // Parse JSON string into object
                     var actual_JSON = JSON.parse(response);
@@ -245,13 +245,13 @@ function createLargeMap(divid, parkingArray) {
                     tf_95JSON = L.geoJson(actual_JSON,{style: myStyle} )
 
                     loadJSON(
-                    '/geo/townForestLoop.geojson',
+                    '/geo/walkingroute-townforestlooptrail.geojson',
                     function(response) {
                         // Parse JSON string into object
                         var actual_JSON = JSON.parse(response);
                 
                         var myStyle = {
-                        "color": "#0000FF",
+                        "color": "#FFFF00",
                         "weight": 2,
                         "fill": 0
                         };
@@ -260,9 +260,9 @@ function createLargeMap(divid, parkingArray) {
 
                         // Give user a choice of overlays
                         var overlays = {
-                            "Loop Trail - Blue": tf_loopJSON,
-                            "9.5 Run - Red": tf_95JSON,
-                            "3.4 Run - Yellow": tf_34JSON
+                            "Loop Trail - Yellow": tf_loopJSON,
+                            "9 mile Run - Red": tf_95JSON,
+                            "3.5 mile Run - Blue": tf_34JSON
                         }
 
                         collapsedV = true;

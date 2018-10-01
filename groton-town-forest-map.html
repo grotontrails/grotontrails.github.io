@@ -163,10 +163,16 @@ function main() {
 			'opacity': 0.8,
 			"fill": 0
 			};
+		let whiteStyle = {
+			"color": "#FFFFFF",
+			"weight": defaultWeight,
+			'opacity': 0.8,
+			"fill": 0
+			};
 		let blueStyle = {
 			"color": "#0000FF",
 			"weight": defaultWeight,
-			'opacity': 0.8,
+			'opacity': 1,
 			"fill": 0
 			};
 		let blackStyle = {
@@ -176,15 +182,15 @@ function main() {
 			"fill": 0
 			};
 			
-		tf_loopJSON = L.geoJson(overlaysJSON[0],{style: blueStyle} )
+		tf_loopJSON = L.geoJson(overlaysJSON[0],{style: yellowStyle} )
 		tf_95JSON   = L.geoJson(overlaysJSON[1],{style: redStyle} )
-		tf_34JSON   = L.geoJson(overlaysJSON[2],{style: yellowStyle} )
+		tf_34JSON   = L.geoJson(overlaysJSON[2],{style: blueStyle } )
 		boundary   = L.geoJson(overlaysJSON[3],{style: blackStyle} )
 	
 		let overlays = {
-			"Loop Trail - Blue": tf_loopJSON,
-			"9.5 Run - Red": tf_95JSON,
-			"3.4 Run - Yellow": tf_34JSON,
+			"Loop Trail - Yellow": tf_loopJSON,
+			"9 mile - Red": tf_95JSON,
+			"3 mile - Blue": tf_34JSON,
 			"Border - Black":boundary
 		}
 
@@ -234,9 +240,9 @@ function main() {
 		L.control.locate().addTo(map);			                    
 	}
 
-	loadJSON('/geo/townForestLoop.geojson',function(response) { overlaysJSON[0] = JSON.parse(response); complete() })
-	loadJSON('/geo/townForest95.geojson',  function(response) { overlaysJSON[1] = JSON.parse(response); complete() })
-	loadJSON('/geo/townForest34.geojson',  function(response) { overlaysJSON[2] = JSON.parse(response); complete() })
+	loadJSON('/geo/walkingroute-townforestlooptrail.geojson',function(response) { overlaysJSON[0] = JSON.parse(response); complete() })
+	loadJSON('/geo/walkingroute-grotontownforestrace95mileloop.geojson',  function(response) { overlaysJSON[1] = JSON.parse(response); complete() })
+	loadJSON('/geo/walkingroute-grotontownforestrace34mileloop.geojson',  function(response) { overlaysJSON[2] = JSON.parse(response); complete() })
 	loadJSON('/geo/townForest.geojson',    function(response) { overlaysJSON[3] = JSON.parse(response); complete() })		
 }
 
