@@ -1,9 +1,21 @@
 
 
-function createSimpleMap(divid, locationArray, zoom, parkingArray) {
+function createSimpleMap(divid, locationArray, zoom, optionalParams ) {
     var map = L.map(divid, { attributionControl: false, zoomControl: false });
 
     var mapboxAttrib = "";
+
+    var parkingArray = [];
+    if ( optionalParams.parking ) {
+        var pA = optionalParams.parking
+        parkingArray.push(pA);
+    }
+    if ( optionalParams.parking2 ) {
+        var pA = optionalParams.parking2
+        parkingArray.push(pA);
+    }
+
+    var leafArray  = optionalParams.leaf;
 
     var mapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/jremillard.6095d11a/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {attribution: mapboxAttrib});
 
@@ -21,14 +33,20 @@ function createSimpleMap(divid, locationArray, zoom, parkingArray) {
     
     map.setView(locationArray, zoom);
 
-    if ( parkingArray) {
-        var iconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [26, 26] } )
-        var parkingMarker = L.marker(parkingArray,{icon: iconObj}).addTo(map)
+    if ( leafArray) {
+        var iconObj = L.icon({ iconUrl: 'images/fall-leaf.png',iconSize: [26, 26] } )
+        var parkingMarker = L.marker(leafArray,{icon: iconObj}).addTo(map)        
+    }
 
-        var googleURL = "https://maps.google.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
-        var iosURL = "https://maps.apple.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
-        var bingURL = "https://bing.com/maps/default.aspx?rtp=~adr." + parkingArray[0].toString() + "," + parkingArray[1].toString();
-        var osmURL = "https://www.openstreetmap.org/#map=18/" + parkingArray[0].toString() + "/" + parkingArray[1].toString();
+    for ( var pi = 0; pi < parkingArray.length; ++pi) {
+        var iconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [26, 26] } )
+        var latlon = parkingArray[pi];
+        var parkingMarker = L.marker(latlon,{icon: iconObj}).addTo(map)
+
+        var googleURL = "https://maps.google.com/?daddr=" + latlon[0].toString() + "," + latlon[1].toString();
+        var iosURL = "https://maps.apple.com/?daddr=" + latlon[0].toString() + "," + latlon[1].toString();
+        var bingURL = "https://bing.com/maps/default.aspx?rtp=~adr." + latlon[0].toString() + "," + latlon[1].toString();
+        var osmURL = "https://www.openstreetmap.org/#map=18/" + latlon[0].toString() + "/" + latlon[1].toString();
 
         var directionsHTML = 
           "Directions To Parking<br>" + 

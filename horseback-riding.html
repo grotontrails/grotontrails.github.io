@@ -117,6 +117,7 @@
     </section>
         <section class="photos-map">	
             <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-light.jpg">
+            <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-river.jpg">             
             <div class="postmap" id="harryrich_map"></div>
         </section>
         <section class="links">
@@ -156,9 +157,9 @@ window.onclick = function(event) {
 </footer>
 
     <script>
-      createSimpleMap('fairgrounds',[42.61819,-71.59933],16,[42.61689,-71.59853]);
-      createSimpleMap('town_forest',[42.5906,-71.6073],14,[42.59740,-71.60491]);
-      createSimpleMap('harryrich_map',[42.63863,-71.58189],14,[42.62991,-71.57924]);
+      createSimpleMap('fairgrounds',[42.61819,-71.59933],16,{ parking:[42.61689,-71.59853]});
+      createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59740,-71.60491]});
+      createSimpleMap('harryrich_map',[42.63863,-71.58189],14,{ parking:[42.62991,-71.57924]});
     </script>
     
     

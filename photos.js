@@ -45,6 +45,19 @@ var photoData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.54684,
+                    42.61903
+                ]
+            },
+            "properties": {
+                "url": "images/brooks-orchard-grass-path.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.59656,
                     42.60422
                 ]
@@ -149,12 +162,25 @@ var photoData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.54967,
-                    42.61066
+                    -71.54941,
+                    42.61113
                 ]
             },
             "properties": {
                 "url": "images/scarlet-hill-tree.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.54906,
+                    42.61067
+                ]
+            },
+            "properties": {
+                "url": "images/scarlet-hill-steep-path.jpg",
             }
         },
         {
@@ -180,7 +206,20 @@ var photoData = {
                 ]
             },
             "properties": {
-                "url": "images/brooks-orchard-barn.jpg",
+                "url": "images/brooks-orchard-basement.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.54990,
+                    42.62395
+                ]
+            },
+            "properties": {
+                "url": "images/brooks-orchard-sky.jpg",
             }
         },
         {
@@ -220,6 +259,19 @@ var photoData = {
             },
             "properties": {
                 "url": "images/general-field-barn.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.59344,
+                    42.58604 
+                ]
+            },
+            "properties": {
+                "url": "images/general-field-snow-wide.jpg",
             }
         },
         {
@@ -442,7 +494,33 @@ var photoData = {
             "properties": {
                 "url": "images/williams-barn.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55845,
+                    42.62358
+                ]
             },
+            "properties": {
+                "url": "images/williams-barn-beaver-tree.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55436,
+                    42.62127
+                ]
+            },
+            "properties": {
+                "url": "images/chestnut-hill-water-tank.jpg",
+            }
+        },
         {
             "type": "Feature",
             "geometry": {
@@ -467,19 +545,6 @@ var photoData = {
             },
             "properties": {
                 "url": "images/gamlin-crystal-spring-blue-iris.jpg",
-            }
-            },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.55014,
-                    42.62182
-                ]
-            },
-            "properties": {
-                "url": "images/brooks-orchard-red-barn-winter.jpg",
             }
             },
         {

@@ -122,7 +122,10 @@
 
 </section>
     <section class="photos-map">
-        <div class="postmap" id="general_field"></div>
+            <img height="350" width="700" src="images/general-field-snow-wide.jpg" >
+            <img height="350" width="350" src="images/general-field-cross-country-skiing.jpg" class="desktop">
+            <img height="350" width="350" src="images/general-field-barn-snow.jpg" class="desktop">
+            <div class="postmap" id="general_field"></div>
     </section>
     <section class="links">
         <a href="Media/General%20Field%20&%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -163,9 +166,9 @@ window.onclick = function(event) {
 </footer>
 
     <script>
-      createSimpleMap('town_forest',[42.5906,-71.6073],14,[42.59838,-71.60418]);
-      createSimpleMap('harry_rich',[42.63863,-71.58189],14,[42.62992,-71.57921]);
-      createSimpleMap('general_field',[42.5870,-71.5920],15,[42.58703,-71.58579]);
+      createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59838,-71.60418]});
+      createSimpleMap('harry_rich',[42.63863,-71.58189],14,{ parking:[42.62992,-71.57921]});
+      createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58703,-71.58579], parking2:[42.58659,-71.59463]});
     </script>
     
     </body>   

@@ -100,7 +100,9 @@
 		<p>The land slopes down gently from a nice wildflower-decorated park-like area next to the parking and gives you a panoramic view to the south and southwest. You can stay up on the hill to soak in the views of many towns in the area as well as the stand-out Mt. Wachusetts, or you can take a trail that goes about 2 miles around the field and connects with Surrenden Farm field to the west. These two fields provide spectacular sunset views when the weather cooperates. The General Field is on the border between Groton and Ayer. Access is from Farmers Row (Rte. 111). Take a paved road that is about 0.1 miles south of Joy Ln. to the parking area. </p>
 	</section>
 	<section class="photos-map">
-		<div class="postmap" id="general_field"></div>
+            <img height="350" width="350" src="images/general-field-barn.jpg">
+            <img height="350" width="350" src="images/general-field-parking.jpg" class="desktop">
+            <div class="postmap" id="general_field"></div>
 	</section>
     <section class="links">
         <a href="Media/General%20Field%20&%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -117,6 +119,7 @@
 	</section>
 	<section class="photos-map">
         <img height="350" width="350" src="images/brooks-orchard.jpg">
+        <img height="350" width="350" src="images/brooks-orchard-path.jpg" class="desktop">        
 		<div class="postmap" id="brooks_orchard"></div>
     </section>
     <section class="links">
@@ -157,9 +160,9 @@ window.onclick = function(event) {
 </footer>
 
     <script>
-      createSimpleMap('still_meadow',[42.650055,-71.56237],16,[42.65019,-71.56010]);
-      createSimpleMap('general_field',[42.5870,-71.5920],15,[42.58703,-71.58579]);
-      createSimpleMap('brooks_orchard',[42.6200,-71.5504],15,[42.61591,-71.54783]);
+      createSimpleMap('still_meadow',[42.650055,-71.56237],16,{ parking:[42.65019,-71.56010]});
+      createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58703,-71.58579]});
+      createSimpleMap('brooks_orchard',[42.6200,-71.5504],15,{ parking:[42.61591,-71.54783]});
     </script>
     
     
