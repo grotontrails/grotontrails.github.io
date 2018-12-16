@@ -1,5 +1,7 @@
 import subprocess
 import os
+import datetime
+import shutil
 
 maps = [ 
     { 
@@ -113,7 +115,7 @@ for mape in maps:
     os.system(cmd)
 
     magick = "C:\\Program Files\\ImageMagick-7.0.3-Q16\\magick"
-    magick = 'convert'
+    magick = 'convert-im6'
 
     subprocess.call( [ magick,'-size','1200x100','xc:white','title.png']);
 
@@ -123,15 +125,16 @@ for mape in maps:
     subprocess.call( [ magick,'-size','1200x50','xc:white','footer.png']);
 
     subprocess.call( [ magick,'title.png','map.png','footer.png','-append','map.png'])    
-    subprocess.call( [ magick,'images/GTN-green-180.png','images/map-legend.png','+append','legend.png'])
+    subprocess.call( [ magick,'../images/GTN-green-180.png','../images/map-legend.png','+append','legend.png'])
     subprocess.call( [ magick,'map.png','legend.png','-gravity','center','-append','map.png'])
 
-    attrib = "Copyright MapBox and OpenStreetMap Contributors"
+    datem = datetime.datetime.today().strftime("%b %Y")
+    attrib = "Copyright OpenStreetMap Contributors and MapBox - " + datem
     subprocess.call( [ magick,'footer.png','-gravity','South','-pointsize','10','-annotate','+0+20',attrib,'footer.png'])
 
     subprocess.call( [ magick,'map.png','footer.png','-append','map.png'])
 
-    pdfFile =  'Media/{} Trail Map - Groton MA.pdf'.format(mape['name'])
+    pdfFile =  '../Media/{} Trail Map - Groton MA.pdf'.format(mape['name'])
     subprocess.call( [ magick,'map.png','-quality','100','-page','1200x1580','-units','PixelsPerInch','-density','150x150',pdfFile])
 
     subprocess.call( [ 'rm','map.png'])
@@ -139,4 +142,4 @@ for mape in maps:
     subprocess.call( [ 'rm','title.png'])
     subprocess.call( [ 'rm','legend.png'])
 
-
+shutil.copyfile( "../Media/Groton Town Forest Trail Map - Groton MA.pdf","../Media/Town_Forest_(printable PDF).pdf")

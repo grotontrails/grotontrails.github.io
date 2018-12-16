@@ -1,1 +1,1 @@
-var osmDataTime = "2018-10-06 17:47:17"
+var osmDataTime = "2018-12-15 17:57:30"

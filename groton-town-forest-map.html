@@ -149,30 +149,36 @@ function main() {
 			}
 		}
 		
-		let defaultWeight = 4;
+		let defaultWeight = 9;
 
 		let redStyle = {
 			"color": "#FF0000",
 			"weight": defaultWeight,
-			'opacity': 0.8,
+			'opacity': 0.3,
 			"fill": 0
 			};
 		let yellowStyle = {
 			"color": "#FFFF00",
 			"weight": defaultWeight,
-			'opacity': 0.8,
+			'opacity': 0.3,
 			"fill": 0
 			};
 		let whiteStyle = {
 			"color": "#FFFFFF",
 			"weight": defaultWeight,
-			'opacity': 0.8,
+			'opacity': 0.5,
 			"fill": 0
 			};
 		let blueStyle = {
 			"color": "#0000FF",
 			"weight": defaultWeight,
-			'opacity': 1,
+			'opacity': 0.3,
+			"fill": 0
+			};
+		let greenStyle = {
+			"color": "#009900",
+			"weight": defaultWeight,
+			'opacity': 0.3,
 			"fill": 0
 			};
 		let blackStyle = {
@@ -183,15 +189,14 @@ function main() {
 			};
 			
 		tf_loopJSON = L.geoJson(overlaysJSON[0],{style: yellowStyle} )
-		tf_95JSON   = L.geoJson(overlaysJSON[1],{style: redStyle} )
+		tf_95JSON   = L.geoJson(overlaysJSON[1],{style: greenStyle} )
 		tf_34JSON   = L.geoJson(overlaysJSON[2],{style: blueStyle } )
 		boundary   = L.geoJson(overlaysJSON[3],{style: blackStyle} )
 	
 		let overlays = {
 			"Loop Trail - Yellow": tf_loopJSON,
-			"9 mile - Red": tf_95JSON,
-			"3 mile - Blue": tf_34JSON,
-			"Border - Black":boundary
+			"9.5 miles - White": tf_95JSON,
+			"3.4 miles - Blue": tf_34JSON,
 		}
 
 		collapsedV = true;

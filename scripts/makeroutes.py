@@ -32,12 +32,14 @@ class WalkingRouteHandler(osmium.SimpleHandler):
         if ( self.isWalkingRoute(r)):
             osmId = r.id
 
-            ways = {}
+            waysHash = {}
+            waysList = []
 
             for member in r.members:
-                ways[member.ref] = 1
+                waysHash[member.ref] = True
+                waysList.append(member.ref)
 
-            newRoute = { 'name':r.tags['name'], 'wayids':ways, 'shape':[]}
+            newRoute = { 'name':r.tags['name'], 'wayids':waysHash,'wayList':waysList,'shapes':{}}
             self.routes.append(newRoute )
 
 justLettersNumbersRe = re.compile(r'[\W]') # \W [^a-zA-Z0-9_]., but for unicode
@@ -58,7 +60,7 @@ class WalkingRouteHandlerFindWays(osmium.SimpleHandler):
             if ( o.id in route['wayids']):
                 wkt = wktfab.create_linestring(o)
                 shape = shapely.wkt.loads(wkt)         
-                route['shape'].append(shape )
+                route['shapes'][o.id] = shape 
  
 
 wrh = WalkingRouteHandler()
@@ -70,7 +72,15 @@ wrhfw.apply_file("massachusetts-latest.osm.pbf", locations=True, idx='sparse_mem
 features =[]
 
 for route in wrhfw.routes:
-    shape = shapely.geometry.MultiLineString( route['shape'])
+
+    # Ways may appear twice in the route, need to list them twice to get the correct
+    # length.
+    shapeList = []
+    for id in route['wayList']:
+        # some day, reverse ways.
+        shapeList.append( route['shapes'][id] )
+
+    shape = shapely.geometry.MultiLineString( shapeList)
 
     if ( shape.is_valid == False):
         print("Route {} Has bad toplogy".format(route['name']))
@@ -87,6 +97,7 @@ for route in wrhfw.routes:
     routeFile = geojson.dumps(feature)
     features.append(feature)
 
+    print(route['name'])
     filename = normalizeName( route['name'])
     with open("../geo/walkingroute-{}.geojson".format(filename),"wt") as outputFile:
         outputFile.write(routeFile)
