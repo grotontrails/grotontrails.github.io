@@ -91,20 +91,7 @@
       line-dasharray: 4,2;
     }
   }
-}
-[junction='yes'][zoom >= 15] {
-    text-name : @name;
-    text-face-name: @sans_lt;
-    text-fill: @road_text;
-    text-halo-fill: fadeout(@land,85);
-    text-halo-radius: 2.5;
-    text-halo-rasterizer: fast;
-    //line-color: black;
-    [zoom>=15] { text-size: 10; }
-    [zoom>=16] { text-size: 14; text-face-name: @sans; }
-    [zoom>=17] { text-size: 18; text-face-name: @sans; }
-}
-  
+}  
 ['gtc:parking' = 'yes']
 [amenity  = 'parking'][zoom >= 16] {
   text-name: 'P';
@@ -120,4 +107,37 @@
   [zoom >= 16] { text-size: 18; } 
 }
 
+
+[junction='yes'] {
+    text-name : @name;
+    text-face-name: @sans_lt;
+    text-fill: @road_text;
+    text-halo-fill: fadeout(@land,85);
+    text-halo-radius: 2.5;
+    text-halo-rasterizer: fast;
+    text-placement: point;
+    //line-color: black;
+    [zoom>=15] { text-size: 10; }
+    [zoom>=16] { text-size: 14; text-face-name: @sans; }
+    [zoom>=17] { text-size: 16; text-face-name: @sans; }
+}
+
+[highway !='footway'][junction!='yes'] {
+  text-avoid-edges: true;
+  text-name: @name;
+  text-placement: line;
+  text-face-name: @sans;
+  text-fill: #666;
+  text-size: 10;
+  text-halo-fill: fadeout(@land,60);
+  text-halo-radius: 0;
+  text-halo-rasterizer: fast;
+  text-dy: 3;
+  //text-min-distance: 200; // only for labels with the same name
+  [zoom>=14] { text-size: 12; }
+  [zoom>=16] { text-size: 14; }
+  [zoom>=18] { text-size: 18; }
+}
+
+  
 }

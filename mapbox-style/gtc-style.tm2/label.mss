@@ -614,6 +614,7 @@
 [class!='motorway']
 [class!='main']
 [class!='street']
+[class!='path']
 [class!='street_limited'] {
   text-avoid-edges: true;
   text-name: @name;
