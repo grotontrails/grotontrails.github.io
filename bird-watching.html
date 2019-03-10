@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html lang="en">
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- this section from pages/header.tmpl -->
 <head>
-<Title>Bird Watching - Groton Trails</Title>
+    <title>Bird Watching - Groton Trails</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
@@ -9,104 +11,112 @@
     <link rel="stylesheet" href="print.css" media="print"  />
     
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
-   
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
     <script src="javascripts/trailmap.js"></script>
     
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
-	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
-	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
-	<link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
 </head>
+        
 
 <body> 
-        <header>
-                <nav>
-                <a href="Welcome.html">Welcome</a>
-        
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
-                <div id="DropdownMaps" class="dropdown-content">
-                    <a href="Interactive_Maps.html">Interactive Map</a>
-                    <a href="groton-town-forest-map.html">Town Forest Map</a>   
-                    <a href="long-trails-map.html">Long Trails Map</a>						                    
-                    <a href="printed_maps.html"> Printable Maps</a>
-                </div>
-                </div>
-                                
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-                <div id="DropdownActivities" class="dropdown-content">
-                    <a href="light-walks.html">Light&nbsp;Walks</a>
-                    <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-                    <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-                    <a href="river-walks.html">River&nbsp;Walks</a>
-                    <a href="dog-walking.html">Dog&nbsp;Walking</a>
-                    <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-                    <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-                    <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-                    <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-                    <a href="bird-watching.html">Bird&nbsp;Watching</a>
-                    <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-                    <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-                    <a href="field-walks.html">Field&nbsp;Walks</a>
-                    <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-                    <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-                </div>
-                </div>
-            
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-                <div id="DropdownProperties" class="dropdown-content">
-                    <a href="dog-walking.html">Groton&nbsp;Place</a>
-                    <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-                </div>
-                </div>
-            
-                 <a href="about.html"> About&nbsp;Us</a>
-                </nav>
-            </header>
-            <section class="title">
-        <H1> Bird Watching </H1>
-        <img src="images/GTN.png"/>
-    </section>
-    
-    <section class="quote">
-            <p><q>The earth has music for those who listen</q><br/>-Shakespeare</p>
-         </section>
-     
 
+<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
+                    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
+        
+<section class="title">
+<h1>Bird Watching</h1>
+<img src="images/GTN.png"/>
+</section>
+
+<page title="Bird Watching">
+
+<section class="quote">
+    <p><q>The earth has music for those who listen</q><br/>-Shakespeare</p>
+</section>
+     
 <section class="post">
     <H2>General Field and Surrenden Farm</H2>
     <section class="text">
         <p>These are great places to view field birds like bob o links and redwing blackbirds, with Mt. Monadnock in the background.</p> 
-        <p> Parking is easiest off Farmers Row (Rt 110) heading to Ayer. It is the first right after Joy Lane. Proceed straight to large paved area. There are two large fields bordered by woods. These are great places to view field birds like bob o links and redwing blackbirds with Mt. Monadnock framing the view. One can loop one or both fields using Shirley Road.</p>
+        <p> Parking is easiest off Farmers Row (Rt 110) heading to Ayer. It is the first right after Joy Lane. 
+         Proceed straight to large paved area. There are two large fields bordered by woods. These are great places 
+         to view field birds like bob o links and redwing blackbirds with Mt. Monadnock framing the view. One can 
+         loop one or both fields using Shirley Road.</p>
     </section>
     <section class="photos-map">	
-        <img height="350" width="350" src="images/general-field-mt-wachusett-view.jpg" class="desktop">        
-        <div class="postmap" id="general_field"></div>
+        <img class="desktop" height="350" src="images/general-field-mt-wachusett-view.jpg" width="350"/>        
+        <div class="postmap" id="general_field"/>
     </section>
     <section class="links">
-        <a href="Media/General%20Field%20&%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+        <a href="Media/General%20Field%20%28%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
     </section>
 </section>
     
 <section class="post">
     <H2>Hawtree Conservation Area</H2>
     <section class="text">
-        <p>Parking is best at Hawtree Way cul de sac.  Eagle Scout, Alex Platt has built a lovely viewing platform overlooking the wetlands so many water birds can be seen. Trail is well marked.</p>
+        <p>Parking is best at Hawtree Way cul de sac.  Eagle Scout, Alex Platt has built a lovely viewing platform 
+        overlooking the wetlands so many water birds can be seen. Trail is well marked.</p>
     </section>
     <section class="photos-map">	
-        <img height="350" width="350" src="images/tufted-titmouse.jpg">
-        <div class="postmap" id="hawtree"></div>
+        <img height="350" src="images/tufted-titmouse.jpg" width="350"/>
+        <div class="postmap" id="hawtree"/>
     </section>
     <section class="links">
         <a href="Media/Hawtree%20Conservation%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -116,55 +126,64 @@
 <section class="post">
     <H2>Groton Hills Conservation Area</H2>
     <section class="text">
-        <p>This is a good place to view forest birds, like warblers. Parking is best at Kailey's Way cul de sac and there are five other abutting conservation parcels, so plenty of area to explore with well marked trails.</p>
+        <p>This is a good place to view forest birds, like warblers. Parking is best at Kailey's Way cul de 
+        sac and there are five other abutting conservation parcels, so plenty of area to explore with 
+        well marked trails.</p>
     </section>
     <section class="photos-map">	
-        <div class="postmap" id="groton_hills"></div>
+        <div class="postmap" id="groton_hills"/>
     </section>
     <section class="links">
     </section>
 </section> 
-    
-    
-    <script>
-    function dropdown(id) {        
-        if ( id != "DropdownProperties") {
-            document.getElementById("DropdownProperties").classList.remove("show")
-        }
-        if ( id != "DropdownActivities") {
-            document.getElementById("DropdownActivities").classList.remove("show")
-        }    
-        if ( id != "DropdownMaps") {
-            document.getElementById("DropdownMaps").classList.remove("show")            
-        }
-        document.getElementById(id).classList.toggle("show");
-    }
-    
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+<script>
+    createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58688,-71.58581],parking2:[42.58659,-71.59463]});
+    createSimpleMap('hawtree',[42.63843,-71.54001],16,{ parking:[42.64018,-71.54048]});
+    createSimpleMap('groton_hills',[42.6273,-71.5414],15,{ parking:[42.63243,-71.54729]});
+</script>
+
+</page>
+
+<!-- this section from pages/menuscript.tmpl -->
+<script>
+        function dropdown(id) {        
+            if ( id != "DropdownProperties") {
+                document.getElementById("DropdownProperties").classList.remove("show")
+            }
+            if ( id != "DropdownActivities") {
+                document.getElementById("DropdownActivities").classList.remove("show")
+            }    
+            if ( id != "DropdownMaps") {
+                document.getElementById("DropdownMaps").classList.remove("show")            
+            }
+            document.getElementById(id).classList.toggle("show");
+        }
+            
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
 </script> 
+        
     
 <footer>
 <p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
 </footer>
 
-    <script>
-      createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58688,-71.58581],parking2:[42.58659,-71.59463]});
-      createSimpleMap('hawtree',[42.63843,-71.54001],16,{ parking:[42.64018,-71.54048]});
-      createSimpleMap('groton_hills',[42.6273,-71.5414],15,{ parking:[42.63243,-71.54729]});
-    </script>
-    
-    </body>
+<script>
+
+</script>
+
+</body>
     
 </html>

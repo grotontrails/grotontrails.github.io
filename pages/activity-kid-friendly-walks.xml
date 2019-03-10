@@ -1,0 +1,41 @@
+<page title="Kid Friendly Walks">
+
+<section class="quote">
+<p><q>Today is your day! Your mountain is waiting. So... get on your way!</q><br/>-Dr. Seuss</p>
+</section>
+
+<section class="post"> <H2>John Tinker Accessible Trail</H2> 
+        <section class="text">
+            <p>The John Tinker Accessible Trail is a stunning wheelchair accessible and stroller friendly route through the woods. The trail begins with an off street parking lot that leads to a smooth gravel pathway. This wide pathway follows the Nashua River, so any trail users may observe the wildlife in and out of the river. Along the trail are scenic overlooks that exhibit inviting stone benches. This trail is short and family friendly, so even the smallest legs can walk to the end. Speaking of the end, the trail's end leads to where Groton's first trading post, built by John Tinker himself, was located.</p>
+        </section>
+    <section class="photos-map">
+        <img height="350" width="350" src="images/john-tinker-trail.jpg"/>
+        <img height="350" width="350" src="images/john-tinker-trail-bench-river.jpg" class="desktop"/>
+        <div class="postmap" id="john_tinker"></div>
+    </section>
+    <section class="Links">
+        <a href="Media/J.%20Harry%20Rich%20State%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://www.townofgroton.org/Town/GrotonHistory.aspx">History of the John Tinker Trading Post</a>
+    </section>
+</section>
+     
+    
+    <section class="post"><H2>The Forest Bells</H2>
+        <section class="text">
+            <p>The Forest Bells is an interactive walk for the whole family. There is on street parking at the end of Indian Hill Road. Then it is a short walk to Paul Matisse's Forest Bells that rest on the top of a slight hill. Make sure to ring the bells and listen to them bounce through the forest. And definitly make sure to bring the entire family, so you can compose music with the different bell's notes. This walk is rooty and bumpy. </p>
+        </section>
+        <section class="photos-map">
+            <div class="postmap" id="forest_bells"></div>
+        </section>
+        <section class="links">
+            <a href="http://www.paulmatisse.com/forest-bells/">Paul Matisse's Forest Bells</a>
+        </section>
+         
+   </section>
+
+    <script>
+      createSimpleMap('john_tinker',[42.62968,-71.58364],17,{ parking:[42.62855,-71.58397]});
+      createSimpleMap('forest_bells',[42.58626,-71.54750],15,{ parking:[42.58500,-71.55371]});
+    </script>
+</page>

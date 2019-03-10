@@ -1,50 +1,54 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <html lang="en">
 
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- this section from pages/header-full-map.tmpl -->
 <head>
-    <Title>Groton Long Trails Map</Title>
+    <title>Groton Long Trails Map</title>
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
 
-	<link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="print.css" media="print"  />
 
-	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
 
-	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
-	<!--[if lt IE 9]>
-	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
-	<![endif]-->
-	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+    <!--[if lt IE 9]>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
+    <![endif]-->
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
 
-	<script src="javascripts/leaflet.easyPrint.js"></script>   
+    <script src="javascripts/leaflet.easyPrint.js"></script>   
 
-	<link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
-	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
-	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+    <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
-	<link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <style>	
-    #map {		
-		height: 93%;				
+        #map {		
+        height: 93%;				
         margin: 0;
-	}
+        }
     </style>    
 
 </head>
+        
 
+		
 <html>
 <body>
 	<script src="points.js"></script>
@@ -52,59 +56,58 @@
 	
 	<div class="page">
 
-			<header role="banner">
-					<nav>
-					<a href="Welcome.html">Welcome</a>
-			
-					<div class="dropdown">
-					<div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
-					<div id="DropdownMaps" class="dropdown-content">
-						<a href="Interactive_Maps.html">Interactive Map</a>
-						<a href="groton-town-forest-map.html">Town Forest Map</a>						
-						<a href="long-trails-map.html">Long Trails Map</a>						
-						<a href="printed_maps.html"> Printable Maps</a>
-					</div>
-					</div>
-									
-					<div class="dropdown">
-					<div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-					<div id="DropdownActivities" class="dropdown-content">
-						<a href="light-walks.html">Light&nbsp;Walks</a>
-						<a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-						<a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-						<a href="river-walks.html">River&nbsp;Walks</a>
-						<a href="dog-walking.html">Dog&nbsp;Walking</a>
-						<a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-						<a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-						<a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-						<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-						<a href="bird-watching.html">Bird&nbsp;Watching</a>
-						<a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-						<a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-						<a href="field-walks.html">Field&nbsp;Walks</a>
-						<a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-						<a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-					</div>
-					</div>
+	<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
+                    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
 				
-					<div class="dropdown">
-					<div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-					<div id="DropdownProperties" class="dropdown-content">
-						<a href="dog-walking.html">Groton&nbsp;Place</a>
-						<a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-					</div>
-					</div>
-				
-					 <a href="about.html"> About&nbsp;Us</a>
-					</nav>
-				</header>
-					
-		<div id="map">
-		</div>
+	<div id="map">
+	</div>
 </body>
 
 <script>
-
 function loadJSON(url, callback) {   
 	let xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
@@ -259,35 +262,39 @@ function main() {
 }
 
 window.onload = main;
-    
-function dropdown(id) {        
-	if ( id != "DropdownProperties") {
-		document.getElementById("DropdownProperties").classList.remove("show")
-	}
-	if ( id != "DropdownActivities") {
-		document.getElementById("DropdownActivities").classList.remove("show")
-	}    
-	if ( id != "DropdownMaps") {
-		document.getElementById("DropdownMaps").classList.remove("show")            
-	}
-	document.getElementById(id).classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 
 </script>
+
+<!-- this section from pages/menuscript.tmpl -->
+<script>
+        function dropdown(id) {        
+            if ( id != "DropdownProperties") {
+                document.getElementById("DropdownProperties").classList.remove("show")
+            }
+            if ( id != "DropdownActivities") {
+                document.getElementById("DropdownActivities").classList.remove("show")
+            }    
+            if ( id != "DropdownMaps") {
+                document.getElementById("DropdownMaps").classList.remove("show")            
+            }
+            document.getElementById(id).classList.toggle("show");
+        }
+            
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+</script> 
+        
 
 </html>
 

@@ -1,0 +1,83 @@
+<page title="Leaf Peeping">
+
+<section class="quote">
+<p><q>Nature’s first green is gold</q><br/>-Robert Frost</p>
+</section>
+ 
+<section class="post">
+	<H2>Brooks Orchard</H2>
+	<section class="text">
+        <p>Brooks Orchard has an open field on a hill providing dramatic views in all directions. Below the 
+            hill are working fields and a large beaver pond. Of the three walks this is the longest. 
+            The recommended walk is to park at Williams barn and take the Bruce Clements trail to the 
+            old foundation, then take a left up the grassy hill. It will take around 30 minutes to reach the hill.
+            There is also a small amount of off road parking on Orchard Lane which 
+            is about a 15 minute walk to the hill.
+        </p>
+                
+	</section>
+	<section class="photos-map">        
+            <img height="350" width="350" src="images/brooks-orchard-sky.jpg" class="desktop"/>
+            <img height="350" width="350" src="images/brooks-orchard-overlook.jpg"/>
+            <img height="350" width="350" src="images/brooks-orchard-path.jpg" class="desktop"/>
+            <div class="postmap" id="orchard"></div>
+	</section>
+</section>
+
+<section class="post">
+    <H2>Scarlet Hill</H2>
+    <section class="text">
+        <p>The Scarlet Hill walk starts out in a gorgeous field with views of grazing horses. The field opens up into 
+        rolling hillsides with a speckling of trees. Take your time and examine the uncut grass to observe 
+        the many gorgeous wildflowers. There is a quick but steep path up Scarlet Hill that leads to an amazing overlook. 
+        This Eastward overlook has a view of the MIT Haystack Observatory and miles of trees. The view of trees 
+        framed by the faint outline of blue mountains coupled with a picturesque view of the stables, makes for a gorgeous walk. 
+        </p>
+        <p>The Scarlet Hill is a quick 10 minute hike. Park at the end of Shattuck Street and wear 
+        boots because some parts of the trail may be wet. 
+        </p>
+    </section>
+    <section class="photos-map">        
+        <img height="350" width="350" src="images/scarlet-hill-barn.jpg" class="mobile-only"/>
+        <img height="350" width="700" src="images/scarlet-hill-barn-wide.jpg" class="desktop"/>
+        <img height="350" width="350" src="images/scarlet-hill-tree.jpg" class="desktop"/>
+        <div class="postmap" id="scarlet"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Scarlet%20Hill%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+    </section>
+</section>
+    
+<section class="post">
+	<H2>Gibbet Hill</H2>
+	<section class="text">
+		<p>The Gibbet Hill walk is short, but steep. The walk up the hill takes less than 10 minutes and it has wonderful views at the top past the castle. </p>
+        <p>This is an enchanting walk up to a castle of stone and views that stretch for miles. After a quick climb up the hill an old 
+            burned down castle emerges. The castle is framed by seemingly ancient trees and a grassy hilltop. The castle is a wonderful 
+            place to have a picnic and watch the sunset because there are places to sit and lots of shade. Shortly after the 
+            castle is a captivating westward view. The view looks across the lush green fields that fade into a forest of 
+            green in the spring and a fiery arramy in the fall. This view captivates the onlooker as houses, that seem to be 
+            painted on, peek through the trees. The truly picturesque lookout point on top of Gibbet Hill can truly be appreciated by all. </p>
+        <p>There is very limited street parking. Please consider other locations during peak weekends in November or if visiting 
+            before 4:00 pm, park at the back of the Gibbet Hill Restaurant parking lot.</p>
+	</section>
+	<section class="photos-map">        
+		<img height="350" width="350" src="images/gibbet-hill-overlook.jpg" class="mobile-only"/>
+        <img height="350" width="700" src="images/gibbet-hill-overlook-wide.jpg" class="desktop"/>
+        <img height="350" width="350" src="images/gibbet-hill-castle.jpg" class="desktop"/>
+		<div class="postmap" id="gibbet"></div>
+	</section>
+	<section class="links">
+		<a href="http://www.gibbethillgrill.com/wp-content/uploads/2016/03/gibbet-hill-history3.24.16.pdf"> Gibbet Hill History and Trail Map</a> <br/>
+        <a href="https://www.youtube.com/watch?v=QonKbX3-A2g">Top 10 Videos - Gibbet Hill</a>
+	</section>
+</section>    
+
+<script>
+createSimpleMap('gibbet',[42.60793,-71.56050],16,{ parking: [42.60654,-71.55991],parking2:[42.60721,-71.56408],leaf:[42.60946,-71.56022]});
+createSimpleMap('scarlet',[42.61130,-71.55120],16,{ parking:[42.61233,-71.55449],leaf:[42.61021,-71.54860]});
+createSimpleMap('orchard',[42.62099,-71.55411],15,{ parking:[42.62623,-71.56078],parking2:[42.61592,-71.54786],leaf:[42.62396,-71.54991]}); 
+</script>
+
+
+</page>

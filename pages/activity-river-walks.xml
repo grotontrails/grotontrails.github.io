@@ -1,0 +1,59 @@
+<page title="River Walks">
+
+<section class="post"><H2>Groton Place</H2>
+    <section class="text">
+        <p>The Groton Place is a well loved property that follows along the Nashua River. With lots of intertwined loops these trails are optimal for everyone, whether you are an experienced hiker or just beginning. This property has many stunning features away from and including the river. There is a charming bridge, a boat house, and riverside views. By the Nashua River there is a scenic round bench that doubles as a dog monument. From this monument you can watch the wildlife going in and out of the river. The wildlife of the Nashua River is numerous and fascinating to watch. The pine needle blanketed trails are radiant so bring your family, friends, and pets. </p> 
+    </section>
+    
+    <section class="photos-map">	
+        <img height="350" width="350" src="images/groton-place-peabody-path.jpg"/>
+        <img height="350" width="350" src="images/groton-place-dumaine-memorial.jpg" class="desktop"/>
+        <div class="postmap" id="groton_place_map"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Groton%20Place%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://www.nashuariverwatershed.org/"> Nashua River Water Shed</a>
+    </section>
+</section>
+
+<section class="post"><H2>J. Harry Rich State Forest</H2>
+    <section class="text">
+        <p>J. Harry Rich State Forest is a well worn path through the woods that follows the Nashua River. While walking this path, bird song floats through the air and the river trickles by. The Nashua river quietly drifts along with the trail as wildlife slips in and out. Taking a walk in this state forest is peaceful and enlightening.</p>
+    </section>
+    <section class="photos-map">	
+        <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-light.jpg" class="desktop"/> 
+        <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-river.jpg"/> 
+        <div class="postmap" id="harryrich_map"></div>
+    </section>
+    <section class="links">
+        <a href="Media/J.%20Harry%20Rich%20State%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://www.mass.gov/eea/agencies/dcr/"> Department of Conservation and Recreation</a>
+    </section>  
+</section>
+
+<section class="post"><H2>Bertozzi Conservation Area</H2>
+    <section class="text">
+        <p>This beautiful riverside property includes wide dirt trails through the forest and a well loved swimming hole. This swimming hole has a patch of sand and a rope swing. For those less swimming inclined, less than 20 feet away is the shallower part of the river so feel free to splash around. Bring your family, friends, and pets to enjoy this charming swimming spot.</p>
+    </section> 
+    <section class="photos-map">	
+        <img height="350" width="350" src="images/bertozzi-squannacook-river.jpg"/>
+        <div class="postmap" id="bertozzi_map"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Bertozzi%20Conservation%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission/PeterEBertozziWildlifeManagementArea.aspx">Groton Conservation Commission Propery Page</a> 
+            <br/>
+        <a href="https://www.youtube.com/watch?v=GTvxErVs3wI">Top 10 Trail Videos - Bertozzi</a>
+    </section>
+</section>
+
+<script>
+    createSimpleMap('groton_place_map',[42.60397,-71.59670],16,{ parking:[42.60471,-71.59606]});
+    createSimpleMap('harryrich_map',[42.63863,-71.58189],14,{ parking:[42.62991,-71.57924]});
+    createSimpleMap('bertozzi_map',[42.63508,-71.65212],15,{ parking:[42.63644,-71.64981]});
+</script>
+
+</page>

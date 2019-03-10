@@ -1,0 +1,61 @@
+<page title="Bird Watching">
+
+<section class="quote">
+    <p><q>The earth has music for those who listen</q><br/>-Shakespeare</p>
+</section>
+     
+<section class="post">
+    <H2>General Field and Surrenden Farm</H2>
+    <section class="text">
+        <p>These are great places to view field birds like bob o links and redwing blackbirds, with Mt. Monadnock in the background.</p> 
+        <p> Parking is easiest off Farmers Row (Rt 110) heading to Ayer. It is the first right after Joy Lane. 
+         Proceed straight to large paved area. There are two large fields bordered by woods. These are great places 
+         to view field birds like bob o links and redwing blackbirds with Mt. Monadnock framing the view. One can 
+         loop one or both fields using Shirley Road.</p>
+    </section>
+    <section class="photos-map">	
+        <img height="350" width="350" src="images/general-field-mt-wachusett-view.jpg" class="desktop" />        
+        <div class="postmap" id="general_field"></div>
+    </section>
+    <section class="links">
+        <a href="Media/General%20Field%20%28%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+    </section>
+</section>
+    
+<section class="post">
+    <H2>Hawtree Conservation Area</H2>
+    <section class="text">
+        <p>Parking is best at Hawtree Way cul de sac.  Eagle Scout, Alex Platt has built a lovely viewing platform 
+        overlooking the wetlands so many water birds can be seen. Trail is well marked.</p>
+    </section>
+    <section class="photos-map">	
+        <img height="350" width="350" src="images/tufted-titmouse.jpg" />
+        <div class="postmap" id="hawtree"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Hawtree%20Conservation%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+    </section>
+</section>
+    
+<section class="post">
+    <H2>Groton Hills Conservation Area</H2>
+    <section class="text">
+        <p>This is a good place to view forest birds, like warblers. Parking is best at Kailey's Way cul de 
+        sac and there are five other abutting conservation parcels, so plenty of area to explore with 
+        well marked trails.</p>
+    </section>
+    <section class="photos-map">	
+        <div class="postmap" id="groton_hills"></div>
+    </section>
+    <section class="links">
+    </section>
+</section> 
+
+<script>
+    createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58688,-71.58581],parking2:[42.58659,-71.59463]});
+    createSimpleMap('hawtree',[42.63843,-71.54001],16,{ parking:[42.64018,-71.54048]});
+    createSimpleMap('groton_hills',[42.6273,-71.5414],15,{ parking:[42.63243,-71.54729]});
+</script>
+
+</page>
+

@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html lang="en">
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- this section from pages/header.tmpl -->
 <head>
-<Title>Swimming - Groton Trails </Title>
+    <title>Swimming - Groton Trails</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
@@ -9,85 +11,88 @@
     <link rel="stylesheet" href="print.css" media="print"  />
     
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
-   
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
     <script src="javascripts/trailmap.js"></script>
     
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
-	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
-	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
-	<link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
 </head>
+        
 
 <body> 
-    <header>
-        <nav>
-        <a href="Welcome.html">Welcome</a>
 
-        <div class="dropdown">
-        <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
-        <div id="DropdownMaps" class="dropdown-content">
-            <a href="Interactive_Maps.html">Interactive Map</a>
-            <a href="groton-town-forest-map.html">Town Forest Map</a>            
-            <a href="long-trails-map.html">Long Trails Map</a>						            
-            <a href="printed_maps.html"> Printable Maps</a>
-        </div>
-        </div>
-                        
-        <div class="dropdown">
-        <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-        <div id="DropdownActivities" class="dropdown-content">
-            <a href="light-walks.html">Light&nbsp;Walks</a>
-            <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-            <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-            <a href="river-walks.html">River&nbsp;Walks</a>
-            <a href="dog-walking.html">Dog&nbsp;Walking</a>
-            <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-            <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-            <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-            <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-            <a href="bird-watching.html">Bird&nbsp;Watching</a>
-            <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-            <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-            <a href="field-walks.html">Field&nbsp;Walks</a>
-            <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-            <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-        </div>
-        </div>
-    
-        <div class="dropdown">
-        <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-        <div id="DropdownProperties" class="dropdown-content">
-            <a href="dog-walking.html">Groton&nbsp;Place</a>
-            <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-        </div>
-        </div>
-    
-            <a href="about.html"> About&nbsp;Us</a>
-        </nav>
-    </header>
+<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
                     
-    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
+        
 <section class="title">
-        <H1> Swimming Walks </H1>
-        <img src="images/GTN.png"/>
-    </section>
-  
+<h1>Swimming</h1>
+<img src="images/GTN.png"/>
+</section>
+
+<page title="Swimming">
+
 <section class="post">
     <H2>Peter E. Bertozzi Conservation Area </H2>
     <section class="text">
         <p>A gem of a swimming hole on the Squannacook River, complete with a rope swing, can be accessed by a trail from a parking lot on the west side of Townsend Road, just north of Cherry Tree Lane. Turn right at the third trail intersection (the first is the future Squannacook River Rail Trail) and go straight to the bend in the river. On hot summer days, you may have to wait for your turn on the old-fashioned no-frills rope swing, but it is well worth the wait. </p>
     </section>
     <section class="photos-map">
-            <div class="postmap" id="bertozzi"></div>
+            <div class="postmap" id="bertozzi"/>
     </section>
     <section class="links">
         <a href="Media/Bertozzi%20Conservation%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -104,7 +109,7 @@
         <p>This very secluded swimming hole in the Nashua River, near the bridge for the (non-active) railroad that goes from West Groton to the Ayer border, has a rope swing. To get there, start at the parking lot for the Town Forest. Signs for the Town Forest on Rte. 225 will guide you to Wharton Row. When you get to the stop sign at Town Forest Rd., turn right and the parking lot is just inside the woods. The road you come in on is called Wharton Road in the Town Forest.  Follow Wharton Road all the way to the end, which is nearly 1.5 miles, and you will see the swimming hole on the left before you get to the railroad tracks.</p>
     </section>
     <section class="photos-map">
-            <div class="postmap" id="town_forest"></div>
+            <div class="postmap" id="town_forest"/>
     </section>
     <section class="links">
         <a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -117,7 +122,7 @@
         <p>This beach has been recently restored and it is an excellent, family-friendly swimming spot.  Lifeguards are on duty (see below) and it has a fishing area. There are picnic tables and, in one area, BBQ grills. The parking area is on Whiley Road, about 0.6 miles from Route 119, or you can dock your boat/canoe/kayak near the beach.</p>
 </section>
     <section class="photos-map">
-            <div class="postmap" id="sargisson_beach"></div></section>
+            <div class="postmap" id="sargisson_beach"/></section>
     <section class="links"> 
     <a href="http://townofgroton.org/Community/SargissonBeach.aspx ">Sargisson Beach Information</a>
     </section>
@@ -129,54 +134,62 @@
         <p>Several old-fashioned rope swings of various levels of difficulty/fear can be found along one of best stretches of the Nashua River in Groton. In general, these swings are most suitable for athletic young adults, and others are best advised to watch. If you use these swings, please clean up after yourselves - litter has been a problem at times. Parking is available at Groton Place, on Route 225 just to the east of the Nashua River. The trail through Lawrence Woods and the Taisey Conservation Land starts across Route 225 and follows the Nashua River to the North.</p>
 </section>
     <section class="map">
-        <div class="postmap" id="lawrence"></div>
+        <div class="postmap" id="lawrence"/>
     </section>
 </section>
     
-    <section class="quote">
-       <p><q>In every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth.</q><br/>-Rachel Carson</p>
-    </section>
+<section class="quote">
+    <p><q>In every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth.</q><br/>-Rachel Carson</p>
+</section>
 
 <script>
-    function dropdown(id) {        
-        if ( id != "DropdownProperties") {
-            document.getElementById("DropdownProperties").classList.remove("show")
-        }
-        if ( id != "DropdownActivities") {
-            document.getElementById("DropdownActivities").classList.remove("show")
-        }    
-        if ( id != "DropdownMaps") {
-            document.getElementById("DropdownMaps").classList.remove("show")            
-        }
-        document.getElementById(id).classList.toggle("show");
-    }
-    
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+createSimpleMap('bertozzi',[42.63413,-71.65809],16,{});
+createSimpleMap('town_forest',[42.58172,-71.60851],16,{});
+createSimpleMap('sargisson_beach',[42.5864,-71.5208],16,{ parking:[42.58604,-71.51885]});
+createSimpleMap('lawrence',[42.60735,-71.59747],16,{ parking:[42.60476,-71.59604]});
+</script>
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+</page>
+
+<!-- this section from pages/menuscript.tmpl -->
+<script>
+        function dropdown(id) {        
+            if ( id != "DropdownProperties") {
+                document.getElementById("DropdownProperties").classList.remove("show")
+            }
+            if ( id != "DropdownActivities") {
+                document.getElementById("DropdownActivities").classList.remove("show")
+            }    
+            if ( id != "DropdownMaps") {
+                document.getElementById("DropdownMaps").classList.remove("show")            
+            }
+            document.getElementById(id).classList.toggle("show");
+        }
+            
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
 </script> 
-
+        
+    
 <footer>
 <p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
 </footer>
-    
-    <script>
-      createSimpleMap('bertozzi',[42.63413,-71.65809],16,{});
-      createSimpleMap('town_forest',[42.58172,-71.60851],16,{});
-      createSimpleMap('sargisson_beach',[42.5864,-71.5208],16,{ parking:[42.58604,-71.51885]});
-      createSimpleMap('lawrence',[42.60735,-71.59747],16,{ parking:[42.60476,-71.59604]});
-    </script>
-        
-    </body>
-</html>
 
+<script>
+
+</script>
+
+</body>
+    
+</html>

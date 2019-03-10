@@ -1,0 +1,55 @@
+<page title="Horseback Riding">
+
+<section class="post">
+    <H2>Hazel Grove Park</H2>
+    <section class="text"> 
+        <p>Not far from Rt 119 Jenkins road is accessed via Mill Street. It is a long dead end road that leads into Hazel Grove Park.  All size rigs can be accommodated but a yearly ($50) parking sticker (see website below) is required. There is great access to all the trails on the river. Thanks to Fitches bridge, West Groton Throne trails and Groton Memorial Town Forest can be reached from here and also Surrenden Farm area. If routed properly there are more than 20 miles of trails. The trails to Surrenden Farm are marked and there is about a five mile loop. The race track is private, but the inner track is open to the public. Be prepared to see sulky's on the race track and around the barns. </p>
+    </section>
+    <section class="photos-map">
+            <div class="postmap" id="fairgrounds"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Hazel%20Grove%20Park%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://hgaa.org/">Hazel Grove Park Agricultural Association</a> 
+            <br/>
+        <a href="http://grotonponyclub.org/">Groton Pony Club</a> 
+    </section>
+</section>
+    
+<section class="post">
+    <H2>The Groton Town Forest</H2>
+    <section class="text">
+        <p>Parking off Rt 225 turn on Wharton Row and follow signs to junction of Town Forest Road, at stop sign turn onto single lane dirt road. Room to accommodate three two horse rigs. Does require backing. There are over ten miles of recreational trails offering tremendous variety of terrain. Some of prettiest trails along the river but good conditioning hills toward railroad tracks.</p> 
+    </section>
+	<section class="photos-map">
+		<img height="350" width="350" src="images/groton-town-forest-single-track.jpg"/>
+		<div class="postmap" id="town_forest"></div>
+	</section>
+	<section class="links">
+        <a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+	</section>
+</section>
+    
+<section class="post">
+    <H2>J. Harry Rich State Forest</H2>
+    <section class="text">
+        <p>There is parking on Sand Hill Road/Nod Road near the entrance gate. You can ride loops along the river or loop out to Nashua River Rail Trail and Shepley Hill. The main trail in J. Harry Rich is a wide flat dirt road. Shepley Hill, as its name indicates, is very hilly with wide and narrow trails.  Nashua River Rail Trail goes from Ayer to Nashua, NH. The Groton section is well maintained, but Pepperell rough going. A map is recommended.</p>
+    </section>
+        <section class="photos-map">	
+            <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-light.jpg"/>
+            <img height="350" width="350" src="images/j-harry-rich-state-forest-trail-with-river.jpg"/>             
+            <div class="postmap" id="harryrich_map"></div>
+        </section>
+        <section class="links">
+            <a href="Media/J.%20Harry%20Rich%20State%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+        </section>  
+</section>
+
+<script>
+createSimpleMap('fairgrounds',[42.61819,-71.59933],16,{ parking:[42.61689,-71.59853]});
+createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59740,-71.60491]});
+createSimpleMap('harryrich_map',[42.63863,-71.58189],14,{ parking:[42.62991,-71.57924]});
+</script>
+
+</page>

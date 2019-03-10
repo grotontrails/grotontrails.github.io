@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html lang="en">
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- this section from pages/header.tmpl -->
 <head>
-<Title>Cross Country Skiing - Groton Trails</Title>
+    <title>Cross Country Skiing - Groton Trails</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
@@ -9,88 +11,92 @@
     <link rel="stylesheet" href="print.css" media="print"  />
     
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
-   
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
     <script src="javascripts/trailmap.js"></script>
     
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
-	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
-	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
-	<link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
 </head>
+        
 
 <body> 
-        <header>
-                <nav>
-                <a href="Welcome.html">Welcome</a>
+
+<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
+                    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
         
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
-                <div id="DropdownMaps" class="dropdown-content">
-                    <a href="Interactive_Maps.html">Interactive Map</a>
-                    <a href="groton-town-forest-map.html">Town Forest Map</a>  
-                    <a href="long-trails-map.html">Long Trails Map</a>						                    
-                    <a href="printed_maps.html"> Printable Maps</a>
-                </div>
-                </div>
-                                
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-                <div id="DropdownActivities" class="dropdown-content">
-                    <a href="light-walks.html">Light&nbsp;Walks</a>
-                    <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-                    <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-                    <a href="river-walks.html">River&nbsp;Walks</a>
-                    <a href="dog-walking.html">Dog&nbsp;Walking</a>
-                    <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-                    <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-                    <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-                    <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-                    <a href="bird-watching.html">Bird&nbsp;Watching</a>
-                    <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-                    <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-                    <a href="field-walks.html">Field&nbsp;Walks</a>
-                    <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-                    <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-                </div>
-                </div>
-            
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-                <div id="DropdownProperties" class="dropdown-content">
-                    <a href="dog-walking.html">Groton&nbsp;Place</a>
-                    <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-                </div>
-                </div>
-            
-                 <a href="about.html"> About&nbsp;Us</a>
-                </nav>
-            </header>
-        <section class="title">
-        <H1> Cross Country Skiing </H1>
-        <img src="images/GTN.png"/>
-        
-    </section>
- 
+<section class="title">
+<h1>Cross Country Skiing</h1>
+<img src="images/GTN.png"/>
+</section>
+
+<page title="Cross Country Skiing">
+
 <section class="post">
     <p>Almost every parcel in Groton is a good place to cross country ski (or snowshoe), but the areas described below are extensive and support long excursions into the white wilderness. </p>
     
-<H2>Groton Town Forest</H2>
+    <H2>Groton Town Forest</H2>
     <section class="text">
         <p>The Groton Town Forest has everything for the Cross Country skier. There are over 15 miles of trails to explore from some white-knuckle schussing, to mostly flat. There are many hills and adventures for those who are brave enough, but there are also easy going flat loops. The central part of the Town Forest is a flat glacier river delta, but it drops off sharply along rivers on the Eastern (Nashua River) and Southern (Squannacook River) borders. There are also a multitude of kettle holes and kettle ponds in the central area that make striking exceptions to the generally flat terrain. </p>
         <p> Signs for the Town Forest on West Main Street (Rte. 225) will guide you to Wharton Row.  When you get to the stop sign at Town Forest Road, turn right and the parking lot is just inside the woods.  If it is not plowed yet, park responsibly on Wharton Row. Have an amazing time on this wonderful property.</p>
     </section>
     <section class="photos-map">
-        <img height="350" width="350" src="images/groton-town-forest-cross-country-skiing.jpg">
-        <img height="350" width="350" src="images/groton-town-forest-snow-nashua-river.jpg" class="desktop">
+        <img height="350" src="images/groton-town-forest-cross-country-skiing.jpg" width="350"/>
+        <img class="desktop" height="350" src="images/groton-town-forest-snow-nashua-river.jpg" width="350"/>
         <div class="postmap" id="town_forest"> </div>
     </section>
     <section class="links">
@@ -105,9 +111,9 @@
         <p>You can access the J Harry Rich Rich State Forest at several trailheads along Nod Road, with parking available around the Common Street entrance. You can also access Rich State Forest via the Nashua River Rail Trail about one mile north of the parking lot on Sand Hill Road. Take the main trail South through Rich State Forest towards the Common Street entrance and then take the trail to the left that is about 500 feet north of Common Street, you can make a 2.5 mile loop. You can add to that distance by taking any of the trails that go off to the West, that will take you along segments of the Nashua River. </p>
     </section>
     <section class="photos-map">
-        <img height="350" width="350" src="images/j-harry-rich-state-forest-skiing.jpg" class="mobile-only">
-        <img height="350" width="700" src="images/j-harry-rich-state-forest-skiing-wide.jpg" class="desktop">
-        <div class="postmap" id="harry_rich"></div>
+        <img class="mobile-only" height="350" src="images/j-harry-rich-state-forest-skiing.jpg" width="350"/>
+        <img class="desktop" height="350" src="images/j-harry-rich-state-forest-skiing-wide.jpg" width="700"/>
+        <div class="postmap" id="harry_rich"/>
     </section>
     <section class="links">
         <a href="Media/J.%20Harry%20Rich%20State%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
@@ -122,56 +128,63 @@
 
 </section>
     <section class="photos-map">
-            <img height="350" width="700" src="images/general-field-snow-wide.jpg" >
-            <img height="350" width="350" src="images/general-field-cross-country-skiing.jpg" class="desktop">
-            <img height="350" width="350" src="images/general-field-barn-snow.jpg" class="desktop">
-            <div class="postmap" id="general_field"></div>
+            <img height="350" src="images/general-field-snow-wide.jpg" width="700"/>
+            <img class="desktop" height="350" src="images/general-field-cross-country-skiing.jpg" width="350"/>
+            <img class="desktop" height="350" src="images/general-field-barn-snow.jpg" width="350"/>
+            <div class="postmap" id="general_field"/>
     </section>
     <section class="links">
-        <a href="Media/General%20Field%20&%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+        <a href="Media/General%20Field%20%28%20Surrenden%20Farm%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
     </section>
 </section>
- 
-    <script>
-    function dropdown(id) {        
-        if ( id != "DropdownProperties") {
-            document.getElementById("DropdownProperties").classList.remove("show")
-        }
-        if ( id != "DropdownActivities") {
-            document.getElementById("DropdownActivities").classList.remove("show")
-        }    
-        if ( id != "DropdownMaps") {
-            document.getElementById("DropdownMaps").classList.remove("show")            
-        }
-        document.getElementById(id).classList.toggle("show");
-    }
-    
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+<script>
+createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59838,-71.60418]});
+createSimpleMap('harry_rich',[42.63863,-71.58189],14,{ parking:[42.62992,-71.57921]});
+createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58703,-71.58579], parking2:[42.58659,-71.59463]});
+</script>
+
+</page>
+
+<!-- this section from pages/menuscript.tmpl -->
+<script>
+        function dropdown(id) {        
+            if ( id != "DropdownProperties") {
+                document.getElementById("DropdownProperties").classList.remove("show")
+            }
+            if ( id != "DropdownActivities") {
+                document.getElementById("DropdownActivities").classList.remove("show")
+            }    
+            if ( id != "DropdownMaps") {
+                document.getElementById("DropdownMaps").classList.remove("show")            
+            }
+            document.getElementById(id).classList.toggle("show");
+        }
+            
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
 </script> 
-     
+        
+    
 <footer>
 <p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
 </footer>
 
-    <script>
-      createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59838,-71.60418]});
-      createSimpleMap('harry_rich',[42.63863,-71.58189],14,{ parking:[42.62992,-71.57921]});
-      createSimpleMap('general_field',[42.5870,-71.5920],15,{ parking:[42.58703,-71.58579], parking2:[42.58659,-71.59463]});
-    </script>
-    
-    </body>   
+<script>
+
+</script>
+
+</body>
     
 </html>
-    

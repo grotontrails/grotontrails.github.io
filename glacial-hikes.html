@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html lang="en">
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- this section from pages/header.tmpl -->
 <head>
-<Title>Glacial Hikes - Groton Trails</Title>
+    <title>Glacial Hikes - Groton Trails</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
@@ -9,85 +11,94 @@
     <link rel="stylesheet" href="print.css" media="print"  />
     
     <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
-   
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
     <script src="javascripts/trailmap.js"></script>
     
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
-	<link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
-	<link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
-	<link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
 </head>
+        
 
 <body> 
-        <header>
-                <nav>
-                <a href="Welcome.html">Welcome</a>
+
+<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
+                    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
         
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
-                <div id="DropdownMaps" class="dropdown-content">
-                    <a href="Interactive_Maps.html">Interactive Map</a>
-                    <a href="groton-town-forest-map.html">Town Forest Map</a>
-                    <a href="long-trails-map.html">Long Trails Map</a>						                    
-                    <a href="printed_maps.html"> Printable Maps</a>
-                </div>
-                </div>
-                                
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
-                <div id="DropdownActivities" class="dropdown-content">
-                    <a href="light-walks.html">Light&nbsp;Walks</a>
-                    <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-                    <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-                    <a href="river-walks.html">River&nbsp;Walks</a>
-                    <a href="dog-walking.html">Dog&nbsp;Walking</a>
-                    <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-                    <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-                    <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-                    <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
-                    <a href="bird-watching.html">Bird&nbsp;Watching</a>
-                    <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-                    <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
-                    <a href="field-walks.html">Field&nbsp;Walks</a>
-                    <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
-                    <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
-                </div>
-                </div>
-            
-                <div class="dropdown">
-                <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
-                <div id="DropdownProperties" class="dropdown-content">
-                    <a href="dog-walking.html">Groton&nbsp;Place</a>
-                    <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
-                </div>
-                </div>
-            
-                 <a href="about.html"> About&nbsp;Us</a>
-                </nav>
-            </header>
-        <section class="title">
-        <H1> Glacial Hikes </H1>
-        <img src="images/GTN.png"/>
-    </section>
-    
+<section class="title">
+<h1>Glacial Hikes</h1>
+<img src="images/GTN.png"/>
+</section>
+
+<page title="Glacial Hikes">
 
 <section class="post"><H2>Gamlin Crystal Springs</H2>
     <section class="text">    
-        <p>The Gamlin Esker Trail traverses a long, high esker, which is a steep-sided ridgeline left by a melting glacier. The hike begins with an adventurous climb up the side of the esker. Once atop, the hike becomes a leisurely trek along the wooded spine of the esker. Hikers traversing the esker ridgeline are afforded fine views of Cow Pond Brook flowing below, another remnant from the time of the glaciers. The Gamlin Esker Trail is a habitat for nesting turtles, deer, and playful otters. Later in the hike, there is a prominent wetland area, that has constant beaver activity.</p>
-
+        <p>The Gamlin Esker Trail traverses a long, high esker, which is a steep-sided ridgeline 
+        left by a melting glacier. The hike begins with an adventurous climb up the side of 
+        the esker. Once atop, the hike becomes a leisurely trek along the wooded spine of the 
+        esker. Hikers traversing the esker ridgeline are afforded fine views of Cow Pond Brook 
+        flowing below, another remnant from the time of the glaciers. The Gamlin Esker Trail is a 
+        habitat for nesting turtles, deer, and playful otters. Later in the hike, there is a 
+        prominent wetland area, that has constant beaver activity.</p>
     </section>
     <section class="photos-map">
-        <img height="350" width="350" src="images/gamlin-crystal-spring-esker-trail.jpg">        
-        <div class="postmap" id="gamlin_springs"></div>
+        <img height="350" src="images/gamlin-crystal-spring-esker-trail.jpg" width="350"/>        
+        <div class="postmap" id="gamlin_springs"/>
     </section>
     <section class="link">
         <a href="Media/Gamlin%20Crystal%20Spring%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a> 
@@ -98,57 +109,71 @@
     </section> 
 </section>
   
-    <section class="post"><H2>Groton Town Forest Kettle Hole Walk</H2>
-        <section class="text">
-            <p>The Groton Town Forest is one of the largest trail networks in Groton. This network of trails is truly diverse and will suit the wishes of anyone. Whether you want to go for a stroll on a welcoming day or tear it up on a mountain bike, this property is for you. There is a scenic route that follows the Nashua River, as well as an alluring trail that follows the old railroad tracks. A walk in the Groton Town Forest is wonderful. As you let your worries and obligations fade away, just enjoy the untouched beauty of nature. </p>
-            <p>To enjoy The Groton Town Forest kettle holes it is recommended to take The Loop Trail.</p>
-        </section>
-        <section class="photos-map">        
-            <div class="postmap" id="town_forest"></div></section>
-        <section class="link">
-            <a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
-                <br/>
-            <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
-        </section> 
+<section class="post"><H2>Groton Town Forest Kettle Hole Walk</H2>
+    <section class="text">
+        <p>The Groton Town Forest is one of the largest trail networks in Groton. This 
+        network of trails is truly diverse and will suit the wishes of anyone. Whether 
+        you want to go for a stroll on a welcoming day or tear it up on a mountain bike, 
+        this property is for you. There is a scenic route that follows the Nashua River, 
+        as well as an alluring trail that follows the old railroad tracks. A walk in the 
+        Groton Town Forest is wonderful. As you let your worries and obligations fade 
+        away, just enjoy the untouched beauty of nature. </p>
+        <p>To enjoy The Groton Town Forest kettle holes it is recommended to take The Loop Trail.</p>
     </section>
-<script>
-    function dropdown(id) {        
-        if ( id != "DropdownProperties") {
-            document.getElementById("DropdownProperties").classList.remove("show")
-        }
-        if ( id != "DropdownActivities") {
-            document.getElementById("DropdownActivities").classList.remove("show")
-        }    
-        if ( id != "DropdownMaps") {
-            document.getElementById("DropdownMaps").classList.remove("show")            
-        }
-        document.getElementById(id).classList.toggle("show");
-    }
-    
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+    <section class="photos-map">        
+        <div class="postmap" id="town_forest"/></section>
+    <section class="link">
+        <a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a><br/>
+        <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
+    </section> 
+</section>
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+<script>
+    createSimpleMap('gamlin_springs',[42.6298,-71.5022],15,{ parking:[42.62489,-71.50248]});
+    createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59723,-71.60502]});
+</script>
+
+</page>
+
+<!-- this section from pages/menuscript.tmpl -->
+<script>
+        function dropdown(id) {        
+            if ( id != "DropdownProperties") {
+                document.getElementById("DropdownProperties").classList.remove("show")
+            }
+            if ( id != "DropdownActivities") {
+                document.getElementById("DropdownActivities").classList.remove("show")
+            }    
+            if ( id != "DropdownMaps") {
+                document.getElementById("DropdownMaps").classList.remove("show")            
+            }
+            document.getElementById(id).classList.toggle("show");
+        }
+            
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
 </script> 
+        
+    
 <footer>
 <p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
 </footer>
-    
-    <script>
-      createSimpleMap('gamlin_springs',[42.6298,-71.5022],15,{ parking:[42.62489,-71.50248]});
-      createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59723,-71.60502]});
-    </script>
-    
-    
-    </body>   
+
+<script>
+
+</script>
+
+</body>
     
 </html>

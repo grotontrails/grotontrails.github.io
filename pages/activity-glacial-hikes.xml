@@ -1,0 +1,50 @@
+<page title="Glacial Hikes">
+
+<section class="post"><H2>Gamlin Crystal Springs</H2>
+    <section class="text">    
+        <p>The Gamlin Esker Trail traverses a long, high esker, which is a steep-sided ridgeline 
+        left by a melting glacier. The hike begins with an adventurous climb up the side of 
+        the esker. Once atop, the hike becomes a leisurely trek along the wooded spine of the 
+        esker. Hikers traversing the esker ridgeline are afforded fine views of Cow Pond Brook 
+        flowing below, another remnant from the time of the glaciers. The Gamlin Esker Trail is a 
+        habitat for nesting turtles, deer, and playful otters. Later in the hike, there is a 
+        prominent wetland area, that has constant beaver activity.</p>
+    </section>
+    <section class="photos-map">
+        <img height="350" width="350" src="images/gamlin-crystal-spring-esker-trail.jpg"/>        
+        <div class="postmap" id="gamlin_springs"></div>
+    </section>
+    <section class="link">
+        <a href="Media/Gamlin%20Crystal%20Spring%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a> 
+            <br/>
+        <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
+            <br/>
+        <a href="http://www.gctrust.org/archives/1782">Groton Conservation Trust Page</a> 
+    </section> 
+</section>
+  
+<section class="post"><H2>Groton Town Forest Kettle Hole Walk</H2>
+    <section class="text">
+        <p>The Groton Town Forest is one of the largest trail networks in Groton. This 
+        network of trails is truly diverse and will suit the wishes of anyone. Whether 
+        you want to go for a stroll on a welcoming day or tear it up on a mountain bike, 
+        this property is for you. There is a scenic route that follows the Nashua River, 
+        as well as an alluring trail that follows the old railroad tracks. A walk in the 
+        Groton Town Forest is wonderful. As you let your worries and obligations fade 
+        away, just enjoy the untouched beauty of nature. </p>
+        <p>To enjoy The Groton Town Forest kettle holes it is recommended to take The Loop Trail.</p>
+    </section>
+    <section class="photos-map">        
+        <div class="postmap" id="town_forest"></div></section>
+    <section class="link">
+        <a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a><br/>
+        <a href="https://vimeo.com/129594586">Gift of the Glaciers Video</a>
+    </section> 
+</section>
+
+<script>
+    createSimpleMap('gamlin_springs',[42.6298,-71.5022],15,{ parking:[42.62489,-71.50248]});
+    createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59723,-71.60502]});
+</script>
+
+</page>

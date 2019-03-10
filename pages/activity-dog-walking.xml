@@ -1,0 +1,31 @@
+<page title="Dog Walking">
+
+<section class="quote">
+    <p><q>Some of our greatest historical and artistic treasures we place in museums; others, we take for walks</q><br/>-Roger Caras</p>
+</section>
+        
+<section class="post">
+    <H2>Groton Place</H2>
+    <section class="text">
+        <p>I recognize this bridge, over the water lilies and dragonflies, I am so excited, tail wagging and nose twitching.
+            Who will I meet today? Freedom is bounding through the wildflower meadow, grass twitching at my fur. I must
+            sniff the stone, dog statue, it’s so real it makes me check again. Under the shady trees I splash into the
+            cool clear river, oh please throw my stick <em>one more time</em>. Onwards my paws race, through the Rhododendron’s,
+            chasing those delicious smells, onward I run - free.</p>
+    </section>
+    <section class="photos-map">
+        <img height="350" width="350" src="images/groton-place-dumaine-memorial.jpg"/>            
+        <div class="postmap" id="groton_place"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Groton%20Place%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+        <br/>
+        <a href="https://www.youtube.com/watch?v=Vp1z9bva4jw">Top 10 Trail Videos - Groton Place</a>
+    </section>
+</section>
+
+<script>
+    createSimpleMap('groton_place', [42.60397, -71.59670], 16, { parking:[42.60472, -71.59607]});
+</script>
+
+</page>

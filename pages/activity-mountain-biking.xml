@@ -1,0 +1,66 @@
+<page title="Mountain Biking">
+
+<section class="quote">
+    <p><q>All good things are wild, and free</q><br/>-Henry David Thoreau</p>
+</section>
+        
+<section class="post">
+	<H2>Groton Town Forest</H2>
+	<section class="text">
+		<p>The Groton Town Forest has smooth flowing trails that are suitable for all abilities. 
+        Whether it is a network of cart roads or the 8 miles of single track, all routes lead to 
+        big smiles. For those looking for a longer route head north to Fitch's Bridge, cross over 
+        and head south to return. Parking is at the end of Town Forest Road.</p>
+	</section>
+	<section class="photos-map">
+		<img height="350" width="350" src="images/groton-town-forest-single-track.jpg"/>
+		<div class="postmap" id="town_forest"></div>
+	</section>
+	<section class="links">
+		<a href="Media/Groton%20Town%20Forest%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+            <br/>
+        <a href="http://www.nemba.org/trails/massachusetts/groton-town-forest"> New England Mountain Biking Association</a>
+	</section>
+</section>
+
+<section class="post">
+	<H2>Wharton Plantation</H2>
+	<section class="text">
+		<p>Wharton Plantation has some of the more challenging trails in Groton, Wharton's 5-6 
+        miles of rocky terrain will test even the most accomplished riders. If you are up for more, 
+        extend the ride by venturing over to Crystal Spring. Park at the junction of Martin Pond 
+        Road and Rocky Hill Road.</p>
+	</section>
+	<section class="photos-map">
+		<div class="postmap" id="wharton_plantation"></div>
+	</section>
+    <section class="links">
+        <a href="Media/Wharton%20Plantation%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+    </section>
+</section>    
+
+<section class="post">
+	<H2>Williams Barn</H2>
+	<section class="text">
+		<p>Williams Barn has a well marked network of trails for all abilities. If Williams Barn is 
+        too short, venture across Chicopee Row to Fitch Woods and McLain's Woods. This makes for 5-6 
+        miles of mostly single track trail. Chestnut Hill is a challenging climb that rewards with a 
+        nice view to the east. Parking at Williams Barn off of Chicopee Row.</p>
+	</section>
+	<section class="photos-map">
+        <img height="350" width="350" src="images/williams-barn-start.jpg"/>        
+		<div class="postmap" id="williams_barn"></div>
+	</section>
+    <section class="links">
+        <a href="Media/Williams%20Barn%20Area%20Trail%20Map%20-%20Groton%20MA.pdf">Printable Map</a>
+    </section>
+</section>     
+
+<script>
+    createSimpleMap('town_forest',[42.5906,-71.6073],14,{ parking:[42.59740,-71.60491]});
+    createSimpleMap('wharton_plantation',[42.6300,-71.5199],14,{ parking:[42.62784,-71.52358]});
+    createSimpleMap('williams_barn',[42.6245,-71.5566],15,{ parking:[42.62627,-71.56103]});
+</script>
+
+
+</page>

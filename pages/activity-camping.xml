@@ -1,0 +1,27 @@
+<page title="Places To Camp">
+
+<section class="post"><H2>Bertozzi Conservation Area</H2> 
+    <section class="text">
+        <p>This is a beautiful riverside property that includes wide dirt trails through 
+        the forest and a well loved swimming hole. A camping area on the river near 
+        a swimming hole. Please see the Groton Conservation Commission 
+        link below for more details about obtaining a permit.</p>
+    </section>
+    <section class="photos-map">
+        <img height="350" width="350" src="images/bertozzi-squannacook-river.jpg"/>            
+        <div class="postmap" id="bertozzi_map"></div>
+    </section>
+    <section class="links">
+        <a href="Media/Bertozzi%20Conservation%20Area%20Trail%20Map%20-%20Groton%20MA.pdf"> Printable Map</a> 
+            <br/>
+        <a href="http://www.townofgroton.org/Town/BoardsCommittees/ConservationCommission/PeterEBertozziWildlifeManagementArea.aspx">Groton Conservation Commission Propery Page</a> <br/>
+        <a href="http://www.townofgroton.org//DesktopModules/Bring2mind/DMX/Download.aspx?PortalId=0&amp;EntryId=13520">Link To Permit</a>
+    </section>
+</section>
+
+
+<script>
+    createSimpleMap('bertozzi_map',[42.63508,-71.65212],15,{ parking:[42.63644,-71.64981]});
+</script>
+
+</page>

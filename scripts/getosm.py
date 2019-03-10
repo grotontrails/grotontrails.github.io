@@ -20,9 +20,6 @@ with urllib.request.urlopen("https://download.geofabrik.de/north-america/us/mass
     print("{} update time: {}".format(filename,modifiedTime) )
     os.utime(filename, times=(modifiedTimeStamp,modifiedTimeStamp))
 
-    with open("../scripts/modifiedtime.js","wt") as outputFile:
-
-        print("var osmDataTime = \"{}\"".format(modifiedTime),file=outputFile)
 
 
 
