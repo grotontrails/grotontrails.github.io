@@ -1,9 +1,8 @@
  
 H1 {
     color:black;
-    text-align: right;
-    font-size: 2em;
-    font-family: 'Neucha', serif;
+    font-size: 2.2em;
+    font-family: 'Neucha', serif;    
 }
 
 H2 {
@@ -42,25 +41,17 @@ body {
    
 }
 
-.title H1{
-    display: inline; 
-    vertical-align: top;
-    margin-right: .3em;
-}
+.title H1{   
+    text-align: center;
+ }
 
 .title img {
-  height:4em;
-  vertical-align: top;
-  float: right;
+    
+    padding: 0.1em 25% 0.1em;
 }
 
 .title{
-    display: inline-block;
-    float: right;    
-    height:4em;
-    margin-left: 1.5em;
-    margin-bottom: 1.0em;
-    vertical-align: top;
+    text-align: center;
 }
 
 .postmap { 
@@ -133,7 +124,7 @@ aside {
 
 .quote {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.0em;
     font-style: italic;
 }
 

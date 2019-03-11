@@ -14,6 +14,14 @@ import pyproj
 import osmium
 import rtree 
 
+justLettersNumbersRe = re.compile(r'[\W]') # \W [^a-zA-Z0-9_]., but for unicode
+
+def normalizeName(name) :
+    return justLettersNumbersRe.sub('',name).lower()
+    
+projectionToMeters = functools.partial(pyproj.transform, pyproj.Proj(init='epsg:4326'),pyproj.Proj(init='epsg:3410'))
+wktfab = osmium.geom.WKTFactory()
+
 class WalkingRouteHandler(osmium.SimpleHandler):
     def __init__(self):
         osmium.SimpleHandler.__init__(self)
@@ -42,13 +50,6 @@ class WalkingRouteHandler(osmium.SimpleHandler):
             newRoute = { 'name':r.tags['name'], 'wayids':waysHash,'wayList':waysList,'shapes':{}}
             self.routes.append(newRoute )
 
-justLettersNumbersRe = re.compile(r'[\W]') # \W [^a-zA-Z0-9_]., but for unicode
-
-def normalizeName(name) :
-    return justLettersNumbersRe.sub('',name).lower()
-projectionToMeters = functools.partial(pyproj.transform, pyproj.Proj(init='epsg:4326'),pyproj.Proj(init='epsg:3410'))
-wktfab = osmium.geom.WKTFactory()
-
 class WalkingRouteHandlerFindWays(osmium.SimpleHandler):
 
     def __init__(self, routes):
@@ -72,6 +73,7 @@ wrhfw.apply_file("massachusetts-latest.osm.pbf", locations=True, idx='sparse_mem
 features =[]
 
 for route in wrhfw.routes:
+    print(route['name'])
 
     # Ways may appear twice in the route, need to list them twice to get the correct
     # length.
@@ -97,7 +99,6 @@ for route in wrhfw.routes:
     routeFile = geojson.dumps(feature)
     features.append(feature)
 
-    print(route['name'])
     filename = normalizeName( route['name'])
     with open("../geo/walkingroute-{}.geojson".format(filename),"wt") as outputFile:
         outputFile.write(routeFile)

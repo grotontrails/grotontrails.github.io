@@ -1,5 +1,9 @@
 <page title="Swimming">
 
+<section class="quote">
+    <p><q>In every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth.</q><br/>-Rachel Carson</p>
+</section>
+
 <section class="post">
     <H2>Peter E. Bertozzi Conservation Area </H2>
     <section class="text">
@@ -52,9 +56,6 @@
     </section>
 </section>
     
-<section class="quote">
-    <p><q>In every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth.</q><br/>-Rachel Carson</p>
-</section>
 
 <script>
 createSimpleMap('bertozzi',[42.63413,-71.65809],16,{});
