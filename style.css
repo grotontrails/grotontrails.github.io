@@ -76,6 +76,31 @@ body {
     }
 }
 
+.welcomemap { 
+    height: 350px; 
+    width: 350px;
+    display: block;
+}
+
+@media (min-width: 1050px) {
+    .welcomemap { 
+        height: 900px; 
+        width: 100%;
+     }
+}
+
+.welcomeimage {
+    margin-left: auto;
+    margin-right: auto;  
+    display: block;
+}
+
+@media (max-width: 1050px) {
+    .welcomeimage { 
+        height: 350px; 
+        width: 350px;
+    }
+}
 
 .container{
     margin-right:1em;

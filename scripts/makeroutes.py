@@ -47,7 +47,11 @@ class WalkingRouteHandler(osmium.SimpleHandler):
                 waysHash[member.ref] = True
                 waysList.append(member.ref)
 
-            newRoute = { 'name':r.tags['name'], 'wayids':waysHash,'wayList':waysList,'shapes':{}}
+            description = ''
+            if ( 'description' in r.tags):
+                description = r.tags['description']
+
+            newRoute = { 'timestamp':r.timestamp,'name':r.tags['name'],'description':description,'osmId':osmId, 'wayids':waysHash,'wayList':waysList,'shapes':{}}
             self.routes.append(newRoute )
 
 class WalkingRouteHandlerFindWays(osmium.SimpleHandler):
@@ -72,8 +76,10 @@ wrhfw.apply_file("massachusetts-latest.osm.pbf", locations=True, idx='sparse_mem
 
 features =[]
 
+wrhfw.routes = sorted(wrhfw.routes, key=lambda item: item['timestamp'])
+
 for route in wrhfw.routes:
-    print(route['name'])
+    print(str(route['osmId']) + " - " + route['timestamp'].strftime("%Y-%b-%d") + " : " + route['name'] + " - " + route['description'])
 
     # Ways may appear twice in the route, need to list them twice to get the correct
     # length.
@@ -94,7 +100,7 @@ for route in wrhfw.routes:
     lengthInMiles = lengthInMeters * 0.00062137
     
 
-    tags = {'name': route['name'],'lengthMiles':lengthInMiles,'lengthKm':lengthInKm}
+    tags = {'name': route['name'],'lengthMiles':lengthInMiles,'lengthKm':lengthInKm,'description':route['description']}
     feature = geojson.Feature(geometry=shape, properties=tags)
     routeFile = geojson.dumps(feature)
     features.append(feature)
