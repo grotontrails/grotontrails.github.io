@@ -32,32 +32,6 @@ var photoData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.55006,
-                    42.61854
-                ]
-            },
-            "properties": {
-                "url": "images/brooks-orchard.jpg",
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.54684,
-                    42.61903
-                ]
-            },
-            "properties": {
-                "url": "images/brooks-orchard-grass-path.jpg",
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.59656,
                     42.60422
                 ]
@@ -194,32 +168,6 @@ var photoData = {
             },
             "properties": {
                 "url": "images/blackman-trail.jpg",
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.54983,
-                    42.62179
-                ]
-            },
-            "properties": {
-                "url": "images/brooks-orchard-basement.jpg",
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.54990,
-                    42.62395
-                ]
-            },
-            "properties": {
-                "url": "images/brooks-orchard-sky.jpg",
             }
         },
         {
@@ -506,19 +454,6 @@ var photoData = {
             },
             "properties": {
                 "url": "images/williams-barn-beaver-tree.jpg",
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.55436,
-                    42.62127
-                ]
-            },
-            "properties": {
-                "url": "images/chestnut-hill-water-tank.jpg",
             }
         },
         {

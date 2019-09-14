@@ -141,8 +141,8 @@ function main() {
 	var overlaysJSON = [
 		null,
 		null,
-		null,
 		null
+		//null
 	]
 
 	function complete() {
@@ -188,24 +188,24 @@ function main() {
 		json0 = L.geoJson(overlaysJSON[0],{style: blueStyle} )
 		json1 = L.geoJson(overlaysJSON[1],{style: redStyle} )
 		json2 = L.geoJson(overlaysJSON[2],{style: yellowStyle} )
-		json3 = L.geoJson(overlaysJSON[3],{style: greenStyle} )
+		//json3 = L.geoJson(overlaysJSON[3],{style: greenStyle} )
 
 		json0Name = overlaysJSON[0].properties.name + " - " + overlaysJSON[0].properties.lengthMiles.toFixed(1) + " Miles - Blue";
 		json1Name = overlaysJSON[1].properties.name + " - " + overlaysJSON[1].properties.lengthMiles.toFixed(1) + " Miles - Red";
 		json2Name = overlaysJSON[2].properties.name + " - " + overlaysJSON[2].properties.lengthMiles.toFixed(1) + " Miles - Yellow";
-		json3Name = overlaysJSON[3].properties.name + " - " + overlaysJSON[3].properties.lengthMiles.toFixed(1) + " Miles - Green";
+		//json3Name = overlaysJSON[3].properties.name + " - " + overlaysJSON[3].properties.lengthMiles.toFixed(1) + " Miles - Green";
 
 		let overlays = {
 			[json0Name] : json0,
 			[json1Name] : json1,
 			[json2Name] : json2,
-			[json3Name] : json3,
+			//[json3Name] : json3,
 		}
 
 		map.addLayer(json0)
 		map.addLayer(json1)
 		map.addLayer(json2)
-		map.addLayer(json3)
+		//map.addLayer(json3)
 
 		collapsedV = false;
 		/*
@@ -255,10 +255,10 @@ function main() {
 		L.control.locate().addTo(map);			                    
 	}
 
-	loadJSON('/geo/walkingroute-grotontour.geojson',     function(response) { overlaysJSON[0] = JSON.parse(response); complete() })		
-	loadJSON('/geo/walkingroute-southgrotontour.geojson',function(response) { overlaysJSON[1] = JSON.parse(response); complete() })
-	loadJSON('/geo/walkingroute-eastgrotontour.geojson', function(response) { overlaysJSON[2] = JSON.parse(response); complete() })		
-	loadJSON('/geo/walkingroute-westgrotontour.geojson', function(response) { overlaysJSON[3] = JSON.parse(response); complete() })
+	//loadJSON('/geo/walkingroute-grotontour.geojson',     function(response) { overlaysJSON[0] = JSON.parse(response); complete() })		
+	loadJSON('/geo/walkingroute-southgrotontour.geojson',function(response) { overlaysJSON[0] = JSON.parse(response); complete() })
+	loadJSON('/geo/walkingroute-eastgrotontour.geojson', function(response) { overlaysJSON[1] = JSON.parse(response); complete() })		
+	loadJSON('/geo/walkingroute-westgrotontour.geojson', function(response) { overlaysJSON[2] = JSON.parse(response); complete() })
 }
 
 window.onload = main;

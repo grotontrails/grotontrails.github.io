@@ -2616,21 +2616,6 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.550234,
-                    42.623177
-                ]
-            },
-            "properties": {
-                "name": "Williams Barn and Brooks Orchard",
-                "symbolid": 0,
-                "popupinfo": "Williams Barn and Brooks Orchard trail network features an eastern overlook on Chesnutt hill, a popular cross country skiing area, a challenging switchback trail for mountain biking, and a lovely fields walk through Brooks Orchard."  
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -71.56092,
                     42.626208
                 ]
@@ -2639,21 +2624,6 @@ var markerData = {
                 "name": "Williams Barn Parking",
                 "symbolid": 5,
                 "popupinfo": "Off-street parking at the Williams Barn off Chicopee Row"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -71.547831,
-                    42.615799
-                ]
-            },
-            "properties": {
-                "name": "Orchard Ln. Parking",
-                "symbolid": 5,
-                "popupinfo": "Off-street parking off Orchard Ln."
             }
         },
         {

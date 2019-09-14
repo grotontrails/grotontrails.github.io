@@ -5,26 +5,6 @@
 </section>
  
 <section class="post">
-	<H2>Brooks Orchard</H2>
-	<section class="text">
-        <p>Brooks Orchard has an open field on a hill providing dramatic views in all directions. Below the 
-            hill are working fields and a large beaver pond. Of the three walks this is the longest. 
-            The recommended walk is to park at Williams barn and take the Bruce Clements trail to the 
-            old foundation, then take a left up the grassy hill. It will take around 30 minutes to reach the hill.
-            There is also a small amount of off road parking on Orchard Lane which 
-            is about a 15 minute walk to the hill.
-        </p>
-                
-	</section>
-	<section class="photos-map">        
-            <img height="350" width="350" src="images/brooks-orchard-sky.jpg" class="desktop"/>
-            <img height="350" width="350" src="images/brooks-orchard-overlook.jpg"/>
-            <img height="350" width="350" src="images/brooks-orchard-path.jpg" class="desktop"/>
-            <div class="postmap" id="orchard"></div>
-	</section>
-</section>
-
-<section class="post">
     <H2>Scarlet Hill</H2>
     <section class="text">
         <p>The Scarlet Hill walk starts out in a gorgeous field with views of grazing horses. The field opens up into 
@@ -76,7 +56,6 @@
 <script>
 createSimpleMap('gibbet',[42.60793,-71.56050],16,{ parking: [42.60654,-71.55991],parking2:[42.60721,-71.56408],leaf:[42.60946,-71.56022]});
 createSimpleMap('scarlet',[42.61130,-71.55120],16,{ parking:[42.61233,-71.55449],leaf:[42.61021,-71.54860]});
-createSimpleMap('orchard',[42.62099,-71.55411],15,{ parking:[42.62623,-71.56078],parking2:[42.61592,-71.54786],leaf:[42.62396,-71.54991]}); 
 </script>
 
 
