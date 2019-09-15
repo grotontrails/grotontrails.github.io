@@ -106,8 +106,6 @@ maps = [
     }
 ]
 
-#maps = [ maps[0] ]
-
 for mape in maps:
     mapId = "https://api.mapbox.com/v4/jremillard.6095d11a"
     token = "access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg"
@@ -117,17 +115,17 @@ for mape in maps:
     magick = "C:\\Program Files\\ImageMagick-7.0.3-Q16\\magick"
     magick = 'convert-im6'
 
-    subprocess.call( [ magick,'-size','1200x100','xc:white','title.png']);
+    subprocess.call( [ magick,'-size','1200x100','xc:white','title.png'])
 
     title = '{} Trail Map - www.grotontrails.org'.format( mape['name'])
     subprocess.call( [ magick,'title.png','-gravity','South','-fill','#000102ff','-pointsize','40','-annotate','+0+30',title,'title.png'])
-
-    subprocess.call( [ magick,'-size','1200x50','xc:white','footer.png']);
-
+ 
+    subprocess.call( [ magick,'-size','1200x50','xc:white','footer.png'])
+ 
     subprocess.call( [ magick,'title.png','map.png','footer.png','-append','map.png'])    
     subprocess.call( [ magick,'../images/GTN-green-180.png','../images/map-legend.png','+append','legend.png'])
     subprocess.call( [ magick,'map.png','legend.png','-gravity','center','-append','map.png'])
-
+ 
     datem = datetime.datetime.today().strftime("%b %Y")
     attrib = "Copyright OpenStreetMap Contributors and MapBox - " + datem
     subprocess.call( [ magick,'footer.png','-gravity','South','-pointsize','10','-annotate','+0+20',attrib,'footer.png'])
