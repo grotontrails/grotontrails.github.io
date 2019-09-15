@@ -61,7 +61,7 @@ maps = [
     },
     { 
         "name":"Williams Barn Area",
-        "location" : "-71.55311,42.62271",
+        "location" : "-71.55433,42.63080",  
         "zoom" : 16
     },
     { 
@@ -105,6 +105,8 @@ maps = [
         "zoom" : 16
     }
 ]
+
+maps = [
 
 for mape in maps:
     mapId = "https://api.mapbox.com/v4/jremillard.6095d11a"
