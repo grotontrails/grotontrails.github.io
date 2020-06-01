@@ -17,7 +17,11 @@ function createSimpleMap(divid, locationArray, zoom, optionalParams ) {
 
     var leafArray  = optionalParams.leaf;
 
-    var mapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/jremillard.6095d11a/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {attribution: mapboxAttrib});
+    var mapboxOutdoors = L.tileLayer('https://gtctiles.blob.core.windows.net/gtctiles/tiles/{z}/{x}/{y}.png', {
+        attribution: mapboxAttrib,
+		minZoom: 13,	
+        maxZoom: 17		
+    });
 
     mapboxOutdoors.addTo(map);
 

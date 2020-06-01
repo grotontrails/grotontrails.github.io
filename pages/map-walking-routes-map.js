@@ -54,10 +54,13 @@ function rgbToHex(rgb) {
       let mapboxAttrib = 'For informational purposes only.<br> &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
   
       let mapboxSatellite = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
-          attribution: mapboxAttrib
+          attribution: mapboxAttrib,
+          maxZoom: 17
       });
-      let mapboxOutdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/jremillard.6095d11a/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
-          attribution: mapboxAttrib
+      let mapboxOutdoors = L.tileLayer('https://gtctiles.blob.core.windows.net/gtctiles/tiles/{z}/{x}/{y}.png', {
+          attribution: mapboxAttrib,
+          minZoom: 13,	
+          maxZoom: 17		  
       });
       let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: mapboxAttrib });
    
