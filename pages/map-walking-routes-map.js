@@ -51,18 +51,30 @@ function rgbToHex(rgb) {
   
   function main() {
   
-      let mapboxAttrib = 'For informational purposes only.<br> &copy; <a href="http://www.mapbox.com/">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-  
-      let mapboxSatellite = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
-          attribution: mapboxAttrib,
-          maxZoom: 17
-      });
-      let mapboxOutdoors = L.tileLayer('https://gtctiles.blob.core.windows.net/gtctiles/tiles/{z}/{x}/{y}.png', {
-          attribution: mapboxAttrib,
-          minZoom: 13,	
-          maxZoom: 17		  
-      });
-      let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: mapboxAttrib });
+	var forInfoOnly = "For informational purposes only.<br>"
+    var osmAttrib = forInfoOnly + '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+	var mapboxAttrib = forInfoOnly + "&copy; <a href=\'https://www.mapbox.com/about/maps/\'>Mapbox</a> © <a href=\'http://www.openstreetmap.org/copyright\'>OpenStreetMap</a> <strong><a href=\'https://www.mapbox.com/map-feedback/\' target=\'_blank\'>Improve this map</a></strong>"
+	
+    var mapboxSatellite = L.layerGroup()
+
+    var mapboxSatelliteRaw = L.tileLayer('https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg', {
+        maxZoom: 18,
+        minZoom: 13,
+        attribution: ''
+    }).addTo( mapboxSatellite)
+
+    var satLayerRoad = L.tileLayer('https://gtctiles.blob.core.windows.net/gtctiles/satellite/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        minZoom: 13,
+        attribution: mapboxAttrib
+    }).addTo(mapboxSatellite )
+
+    var gtcTrails = L.tileLayer('https://gtctiles.blob.core.windows.net/gtctiles/tiles/{z}/{x}/{y}.png', {
+		attribution: osmAttrib,
+		minZoom: 13,	
+        maxZoom: 17		
+    });
+    var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: osmAttrib });
    
       // create leaflet map
       var map = L.map('map')
