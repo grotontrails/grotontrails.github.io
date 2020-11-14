@@ -123,7 +123,7 @@ function rgbToHex(rgb) {
           }
   
           var baseMaps = {
-              "Map": mapboxOutdoors,
+              "Map": gtcTrails,
               "Satellite": mapboxSatellite,
               "OSM": osmLayer,
           };
@@ -134,7 +134,7 @@ function rgbToHex(rgb) {
   
           L.control.scale().addTo(map);
   
-          mapboxOutdoors.addTo(map);
+          gtcTrails.addTo(map);
                   
           function updateURL() {
               let pos = map.getCenter();
