@@ -9,20 +9,18 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
 
-    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
-    <link rel="stylesheet" href="style.css" >
+     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="print.css" media="print"  />
 
-    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
-    <!--[if lt IE 9]>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
-    <![endif]-->
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>   
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 
     <script src="javascripts/leaflet.easyPrint.js"></script>   
+	<script src="javascripts/privatepaths.js"></script>   
 
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
     <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
@@ -120,7 +118,7 @@ function loadJSON(url, callback) {
 	xobj.open('GET', url, true);
 	xobj.send();  
 }
-
+var map;
 function main() {
 
 	var forInfoOnly = "For informational purposes only.<br>"
@@ -147,11 +145,24 @@ function main() {
         maxZoom: 17		
     });
     var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: osmAttrib });
- 
-    // create leaflet map
-    var map = L.map('map')
+    var newMapBox = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: osmAttrib,
+        tileSize: 512,
+        maxZoom: 18,
+        zoomOffset: -1,
+        id: 'mapbox/outdoors-v11',
+        accessToken: 'pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg'
+        });
 
-	L.easyPrint({title: 'Print The Map!', position: 'topleft' }).addTo(map);
+    // create leaflet map
+     map = L.map('map', {
+        tap: false,
+        zoomControl: true,
+        center: [42.60578,-71.56074],
+        zoom: 13        
+    });
+
+  	L.easyPrint({title: 'Print The Map!', position: 'topleft' }).addTo(map);
 
 	var overlaysJSON = [
 		null,
@@ -230,7 +241,8 @@ function main() {
 		}*/
 
 		var baseMaps = {
-			"Map": gtcTrails,
+			"Mapbox Outdoors": newMapBox,
+			"Old Map": gtcTrails,
 			"Satellite": mapboxSatellite,
 			"OSM": osmLayer
 	    };
@@ -241,8 +253,10 @@ function main() {
 
 		L.control.scale().addTo(map);
 
-		gtcTrails.addTo(map);
+		newMapBox.addTo(map);
 				
+		if (typeof loadPrivatePaths === 'function') loadPrivatePaths();
+
 		function updateURL() {
 			let pos = map.getCenter();
 			let newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
@@ -267,7 +281,7 @@ function main() {
 		// remove leaflet attribution
 		map.attributionControl.setPrefix('')
 
-		L.control.locate().addTo(map);			                    
+		L.control.locate({cacheLocation:false,showCompass:true,locateOptions:{enableHighAccuracy:true,maxZoom:17}}).addTo(map);
 	}
 
 	//loadJSON('/geo/walkingroute-grotontour.geojson',     function(response) { overlaysJSON[0] = JSON.parse(response); complete() })		

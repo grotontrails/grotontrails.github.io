@@ -9,20 +9,18 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
 
-    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' >
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="print.css" media="print"  />
 
-    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
-    <!--[if lt IE 9]>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
-    <![endif]-->
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>   
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 
     <script src="javascripts/leaflet.easyPrint.js"></script>   
+	<script src="javascripts/privatepaths.js"></script>   
 
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
     <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
@@ -36,14 +34,12 @@
 
     <link rel="manifest" href="manifest.json">
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
     <style>	
         #map {		
         height: 93%;				
         margin: 0;
         }
-    </style>    
+     </style>    
 
 </head>
         
@@ -99,7 +95,14 @@
     </div>
 
         <a href="about.html"> About&nbsp;Us</a>
-    </nav>
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownSettings')" class="dropbtn current">Settings</div>
+    <div id="DropdownSettings" class="dropdown-content">
+       <a href="#" style="font-size:16px" onclick="toggleMotionDetection();"><span id="motioncheck">&#10003</span> Motion Detection</a>
+       <a href="#" style="font-size:16px" onclick="toggleAccuracy();"><span id="accuracycheck">&#10003</span> High Accuracy</a>
+    </div>
+    </div>
+   </nav>
 </header>
 
 				
@@ -108,8 +111,25 @@
 </body>
 
 <script>
-function main() {
-
+	var lc;
+	var map;
+    function toggleMotionDetection() {
+     	lc.options.showCompass = !lc.options.showCompass;
+   		check('motioncheck',lc.options.showCompass);
+    }
+    function toggleAccuracy() {
+   		lc.options.locateOptions.enableHighAccuracy = !lc.options.locateOptions.enableHighAccuracy;
+   		check('accuracycheck',lc.options.locateOptions.enableHighAccuracy);
+    }
+    function check(eid,show) {
+    	var e = document.getElementById(eid);
+    	if (e) {
+    	if (show) e.style.display = "inline";
+    	else e.style.display = "none";
+    	}
+    }
+  	function main() {
+     
 	var forInfoOnly = "For informational purposes only.<br>"
     var osmAttrib = forInfoOnly + '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 	var mapboxAttrib = forInfoOnly + "&copy; <a href=\'https://www.mapbox.com/about/maps/\'>Mapbox</a> © <a href=\'http://www.openstreetmap.org/copyright\'>OpenStreetMap</a> <strong><a href=\'https://www.mapbox.com/map-feedback/\' target=\'_blank\'>Improve this map</a></strong>"
@@ -135,8 +155,18 @@ function main() {
     });
     var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: osmAttrib });
  
+    var newMapBox = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: osmAttrib,
+        tileSize: 512,
+        maxZoom: 18,
+        zoomOffset: -1,
+        id: 'mapbox/outdoors-v11',
+        accessToken: 'pk.eyJ1IjoianJlbWlsbGFyZCIsImEiOiJzX2dhaXN3In0.qWyAnddfUVfs61ojApFvsg'
+        });
+ 
     // create leaflet map
-    var map = L.map('map', {
+    map = L.map('map', {
+        tap: false,
         zoomControl: true,
         center: [42.608, -71.572],
         zoom: 13        
@@ -150,7 +180,7 @@ function main() {
 	for (var i = 0; i < photoData.features.length; ++i) {
 		var markerElementData =  photoData.features[i]
 		var marker = L.marker(markerElementData.geometry.coordinates.reverse(),{icon: cameraIconObj })
-		marker.bindPopup("<a href=\"" +  markerElementData.properties.url + "\"> <img width=\"175\" height=\"175\" src=\"" + markerElementData.properties.url + "\" > </a>");
+		marker.bindPopup("<a href=\"" +  markerElementData.properties.url + "\"> <img width=\"250\" height=\"250\" src=\"" + markerElementData.properties.url + "\" > </a>");
 		photoMarkers.push( marker)
 	}
 
@@ -158,10 +188,11 @@ function main() {
 			
     // set basemaps
     var baseMaps = {
-        "Map": gtcTrails,
+       "Mapbox Outdoors": newMapBox,
+    	"OSM": osmLayer,
+        "Old Map": gtcTrails,
         "Satellite": mapboxSatellite,
-		"OSM": osmLayer
-    };
+     };
 	var layerOptions = { 
 		"Photos" : photosLayerGroup
 	};
@@ -170,7 +201,7 @@ function main() {
 
     L.control.scale().addTo(map);
 
-    gtcTrails.addTo(map);
+    newMapBox.addTo(map);
 	
     //var parkingIconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [16,16] } )
 	var smallDropIconObj = L.icon({ iconUrl: 'images/small-drop-marker.png', iconSize: [32,32]})
@@ -224,6 +255,8 @@ function main() {
 			marker.bindPopup(markerElementData.properties.popupinfo)
 		}
 	}
+    
+	if (typeof loadPrivatePaths === 'function') loadPrivatePaths();
 
 	function updateMarkers() {
 		var zoom = map.getZoom()
@@ -253,6 +286,9 @@ function main() {
 	  var newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
 	  history.replaceState({},'',newFragment);
 	}
+	function onLocationFound(e) {
+	    console.log('Location',e);
+	}
 	
     if ( location && location.hash.indexOf("#map=") == 0 ) {
 	  var url = location.hash.slice(5);
@@ -268,13 +304,29 @@ function main() {
 	map.on('moveend', updateURL );
     map.on('zoomend', updateURL );
 	map.on('zoomend', updateMarkers);
+	map.on('locationfound', onLocationFound);
 
 	updateMarkers();
 	    					
     // remove leaflet attribution
     map.attributionControl.setPrefix('')
+	lc = L.control.locate({cacheLocation:false,showCompass:true,locateOptions:{enableHighAccuracy:true,maxZoom:17}});
+	lc.addTo(map);
+  	check('motioncheck',lc.options.showCompass);
+   	check('accuracycheck',lc.options.locateOptions.enableHighAccuracy);
+ 	
+	map.addEventListener('mousemove', function(ev) {lat = ev.latlng.lat; lng = ev.latlng.lng;});
 
-	L.control.locate().addTo(map);	
+	document.getElementById("map").addEventListener("contextmenu", function (event) {
+    	// Prevent the browser's context menu from appearing
+    	event.preventDefault();
+
+    // Add marker
+    // L.marker([lat, lng], ....).addTo(map);
+    	alert('lat: '+lat + '\nlng:' + lng);
+
+    	return false; // To disable default popup.
+	});	
 }
 
 window.onload = main;
