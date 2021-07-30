@@ -103,9 +103,9 @@
         var legend = L.control({position: 'topright'});
         legend.onAdd = function (map) {
             var div = L.DomUtil.create('div', 'info legend');
-            var categories = ['Trails','Trail','Private Trail','Road','Unmaintained Road'];
-            var backgrounds = ['repeating-linear-gradient(to right,#fff, #fff 20%,#D4BB3A 30%);','#fff','#C0C0C0','#fff','#fff'];
-            var borders = ['#D4BB3A','#8094F4','#D4BB3A','#E6E4E0','#D4BB3A'];
+            var categories = ['Trails','Trail','Road','Unmaintained road','Closed to public'];
+            var backgrounds = ['repeating-linear-gradient(to right,#fff, #fff 20%,#D4BB3A 30%);','#fff','#fff','#fff','#C0C0C0'];
+            var borders = ['#D4BB3A','#8094F4','#E6E4E0','#D4BB3A','#D4BB3A'];
             var labelstyles = ['width:155px;position:relative;top:10px;','width:155px;visibility: hidden;','width:155px;','width:155px;','width:155px;'];
             var html = '<div class="infoDiv"><img src="images/help.png" class="leaflet-control-layers-toggle"/></div><ul class="hide">';
             for (var i = 0; i < categories.length; i++) {
