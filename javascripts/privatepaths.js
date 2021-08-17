@@ -109,7 +109,7 @@
             var labelstyles = ['width:155px;position:relative;top:10px;','width:155px;visibility: hidden;','width:155px;','width:155px;','width:155px;'];
             var html = '<div class="infoDiv"><img src="images/help.png" style="background-image:none" class="leaflet-control-layers-toggle"/></div><ul class="hide">';
             for (var i = 0; i < categories.length; i++) {
-                html += '<li style="box-sizing:content-box;"><span style="background:'+backgrounds[i]+';border: 2px solid '+borders[i]+'"></span><div style="'+labelstyles[i]+'">'+categories[i]+'</div></li>'
+                html += '<li><span style="box-sizing:content-box;background:'+backgrounds[i]+';border: 2px solid '+borders[i]+'"></span><div style="'+labelstyles[i]+'">'+categories[i]+'</div></li>'
             }
             html += '</ul>';
             div.innerHTML  = html;
