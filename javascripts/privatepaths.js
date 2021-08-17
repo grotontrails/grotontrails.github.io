@@ -107,7 +107,7 @@
             var backgrounds = ['repeating-linear-gradient(to right,#fff, #fff 20%,#D4BB3A 30%);','#fff','#fff','#fff','#C0C0C0'];
             var borders = ['#D4BB3A','#8094F4','#E6E4E0','#D4BB3A','#D4BB3A'];
             var labelstyles = ['width:155px;position:relative;top:10px;','width:155px;visibility: hidden;','width:155px;','width:155px;','width:155px;'];
-            var html = '<div style="backgroud-size:0px;" lass="infoDiv"><img src="images/help.png" class="leaflet-control-layers-toggle"/></div><ul class="hide">';
+            var html = '<div class="infoDiv"><img src="images/help.png" class="leaflet-control-layers-toggle"/></div><ul class="hide">';
             for (var i = 0; i < categories.length; i++) {
                 html += '<li><span style="background:'+backgrounds[i]+';border: 2px solid '+borders[i]+'"></span><div style="'+labelstyles[i]+'">'+categories[i]+'</div></li>'
             }
