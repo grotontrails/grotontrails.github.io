@@ -20,7 +20,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 
     <script src="javascripts/leaflet.easyPrint.js"></script>   
-	<script src="javascripts/privatepaths.js"></script>   
+	<script src="javascripts/privatepaths.js"></script>
+	<script src="javascripts/nordicPaths.js"></script>
+	<script src="javascripts/trailreport.js"></script>   
 
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
     <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
@@ -70,20 +72,20 @@
     <div class="dropdown">
     <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
     <div id="DropdownActivities" class="dropdown-content">
-        <a href="light-walks.html">Light&nbsp;Walks</a>
-        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-        <a href="river-walks.html">River&nbsp;Walks</a>
         <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
         <a href="bird-watching.html">Bird&nbsp;Watching</a>
-        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+       	<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
         <a href="field-walks.html">Field&nbsp;Walks</a>
-        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+       	<a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
         <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
     </div>
     </div>
 
@@ -113,6 +115,7 @@
 <script>
 	var lc;
 	var map;
+
     function toggleMotionDetection() {
      	lc.options.showCompass = !lc.options.showCompass;
    		check('motioncheck',lc.options.showCompass);
@@ -165,11 +168,21 @@
         });
  
     // create leaflet map
+    var clat = 42.608;
+    var clng = -71.572;
+    var czoom = 14;
+    if ( location && location.hash.indexOf("#map=") == 0 ) {
+  	  var url = location.hash.slice(5);
+  	  var ll = url.split('/');
+   	  czoom = Number(ll[0]);
+  	  clat = Number(ll[1]);
+  	  clng = Number(ll[2]);
+    }
     map = L.map('map', {
         tap: false,
         zoomControl: true,
-        center: [42.608, -71.572],
-        zoom: 14        
+        center: [clat, clng],
+        zoom: czoom        
     });
 
 	L.easyPrint({title: 'Print The Map!', position: 'topleft' }).addTo(map);
@@ -257,7 +270,8 @@
 	}
     
 	if (typeof loadPrivatePaths === 'function') loadPrivatePaths();
-
+	if (typeof loadNordicPaths === 'function') loadNordicPaths();
+   
 	function updateMarkers() {
 		var zoom = map.getZoom()
 
@@ -289,12 +303,15 @@
 	function onLocationFound(e) {
 	    console.log('Location',e);
 	}
-	
+			
     if ( location && location.hash.indexOf("#map=") == 0 ) {
 	  var url = location.hash.slice(5);
 	  var ll = url.split('/');
 	  map.panTo( [ll[1],ll[2]] );
-	  map.setZoom(ll[0]); 		
+	  map.setZoom(ll[0]);
+	  if (ll.length > 3) {
+	      var marker = L.marker([ll[1],ll[2]]).addTo(map);
+	  }
 	} else {
       var pos = map.getCenter();
 	  var newFragment = "#map=" + map.getZoom() + "/" + pos.lat.toPrecision(7) + "/" + pos.lng.toPrecision(7);
@@ -307,7 +324,15 @@
 	map.on('locationfound', onLocationFound);
 
 	updateMarkers();
-	    					
+
+    var legend = L.control({position: 'topleft'});
+    legend.onAdd = function (map) {
+        var div = L.DomUtil.create('div', 'info legend');
+        div.innerHTML  = '<div class="leaflet-touch"><div class="leaflet-bar"><a class="leaflet-bar-part leaflet-bar-part-single" title="Send a trail status email" href="javascript:confirmTrailReport();" style="outline: currentcolor none medium;"><img src="images/email.jpg"></a></div></div>';
+        return div;
+    };
+    legend.addTo(map);
+
     // remove leaflet attribution
     map.attributionControl.setPrefix('')
 	lc = L.control.locate({cacheLocation:false,showCompass:true,locateOptions:{enableHighAccuracy:true,maxZoom:17}});

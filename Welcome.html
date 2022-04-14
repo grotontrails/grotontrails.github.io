@@ -58,20 +58,20 @@
     <div class="dropdown">
     <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
     <div id="DropdownActivities" class="dropdown-content">
-        <a href="light-walks.html">Light&nbsp;Walks</a>
-        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
-        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
-        <a href="river-walks.html">River&nbsp;Walks</a>
         <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
-        <a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
-        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
-        <a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
         <a href="bird-watching.html">Bird&nbsp;Watching</a>
-        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
-        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+       	<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
         <a href="field-walks.html">Field&nbsp;Walks</a>
-        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+       	<a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
         <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
     </div>
     </div>
 
@@ -99,10 +99,24 @@
     <section class="post">
 
     <p>Welcome and explore the Groton trail system. Groton has over 10 square miles of conservation land with 
-        over a 100 miles of maintained trails. Explore lakes, eskers, oxbo's, drumlins, kettle holes, rivers, streams, vernal pools, 
-    fields, hills, working farms, swimming holes, a historic barn, beaver dams, kinetic art, bike trails, and of course 
-    wildlife. The navigation bar has an interactive map of the trails and suggested list of fun trail activities. To 
-    contact us see our <a href="about.html">About Us</a> Page.</p>
+        over a 100 miles of maintained trails. Explore 
+        <a href="swimming.html#lakes">lakes</a>, 
+        <a href="glacial-hikes.html">eskers</a>, 
+        <a href="river-walks.html#rich">oxbo's</a>, 
+        <a href="drumlins.html">drumlins</a>, 
+        <a href="glacial-hikes.html#kettle">kettle holes</a>, 
+        <a href="river-walks.html">rivers & streams</a>, 
+        <a href="vernal-pools.html">vernal pools</a>, 
+	    <a href="field-walks.html">fields</a>, 
+	    <a href="leaf-peeping.html">hills</a>, 
+	    <a href="field-walks.html#farm">working farms</a>, 
+	    <a href="swimming.html">swimming holes</a>, 
+	    <a href="mountain-biking.html#barn">a historic barn</a>, 
+	    <a href="beaver-pond.html">beaver dams</a>, 
+	    <a href="kid-friendly-walks.html#kinetic_art">kinetic art</a>, 
+	    <a href="mountain-biking.html">bike trails</a>, 
+	    and of course wildlife. The navigation bar has an interactive map of the trails and suggested list of fun trail activities. To 
+	    contact us see our <a href="about.html">About Us</a> Page.</p>
     
     <a id="imageroll-a" href=""><img class="welcomeimage" id="imageroll-img" src="images/williams-barn-trail-winter.jpg"/></a>
     <div id="walkoftheweek">
@@ -268,7 +282,7 @@ if ( 1 || dateNow.getMonth() < 3 || dateNow.getMonth() == 11 ) {
         var a = document.getElementById("imageroll-a")
         lng = photoData['features'][i]['geometry']['coordinates'][0]
         lat = photoData['features'][i]['geometry']['coordinates'][1]
-        a.href = 'Interactive_Maps.html#map=17/' + lat.toPrecision(7) + '/' + lng.toPrecision(7);
+        a.href = 'Interactive_Maps.html#map=16/' + lat.toPrecision(7) + '/' + lng.toPrecision(7);
     }    
 
     displayImage()

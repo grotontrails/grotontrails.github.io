@@ -226,3 +226,11 @@ div.info.legend ul li span {
     margin-right: 5px;
     margin-left: 0;
 }
+div.info.email {
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+    font-size: 36px;
+    color:gray;
+    background-color: white;
+}

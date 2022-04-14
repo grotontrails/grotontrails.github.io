@@ -1048,7 +1048,7 @@ var markerData = {
             "properties": {
                 "name": "Hawtree parcel",
                 "symbolid": 0,
-                "popupinfo": "A nice, short hike through the Hawtree parcel."
+                "popupinfo": "A nice, short hike through the Hawtree parcel. There is a observation deck overlooking the Unkety Brook wetlands."
             }
         },
         {
@@ -2849,5 +2849,20 @@ var markerData = {
                 "popupinfo": "A steep <a href=\"https://en.wikipedia.org/wiki/Esker\">Esker</a> trail with a nice overlook of the wetlands."
             }
         },                
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.56193,
+                    42.61730
+                ]
+            },
+            "properties": {
+                "name": "Priest Trail access",
+                "symbolid": 7,
+                "popupinfo": "Park here and walk up driveway to access Priest Trail"
+            }
+        },
    ]
 }
