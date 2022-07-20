@@ -87,7 +87,7 @@ var markerData = {
             },
             "properties": {
                 "name": "High Dome",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "High dome of granite rock"
             }
         },
@@ -192,7 +192,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Deerfield parcel",
-                "symbolid": 3,
+                "symbolid": 0,
                 "popupinfo": "This is a very short trail along Deerfield Dr."
             }
         },
@@ -897,7 +897,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Groton School Boathouse",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Groton School Boathouse"
             }
         },
@@ -1152,7 +1152,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Groton Senior Center and Integrity Way Railbed Trail",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Groton Senior Center and Integrity Way Railbed that goes along the Integrity Way Railbed and through the Lawrence Park Conservation and Hemlock Grove areas."
             }
         },
@@ -1572,7 +1572,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Groton School Pond",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Scenic view of the Groton School Pond on both sides of the trail."
             }
         },
@@ -1722,7 +1722,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Soapstone quarry.",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Soapstone quarry"
             }
         },
@@ -1797,7 +1797,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Whitney Pond",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Nice scenic view over Whitney Pond from the South side."
             }
         },
@@ -2457,7 +2457,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Ames Pond",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Ames Pond"
             }
         },
@@ -2785,7 +2785,7 @@ var markerData = {
             },
             "properties": {
                 "name": "Fitch's Bridge",
-                "symbolid": 3,
+                "symbolid": 9,
                 "popupinfo": "Fitch's Pedestrian Bridge"
             }
         },
@@ -2862,6 +2862,36 @@ var markerData = {
                 "name": "Priest Trail access",
                 "symbolid": 7,
                 "popupinfo": "Park here and walk up driveway to access Priest Trail"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.54865,
+                    42.60999
+                ]
+            },
+            "properties": {
+                "name": "Scarlett Hill",
+                "symbolid": 9,
+                "popupinfo": "Scarlett Hill"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55906,
+                    42.62358
+                ]
+            },
+            "properties": {
+                "name": "Williams Barn and Sorhaug Woods",
+                "symbolid": 9,
+                "popupinfo": "Williams Barn and Sorhaug Woods"
             }
         },
    ]

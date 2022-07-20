@@ -41,6 +41,70 @@
         height: 93%;				
         margin: 0;
         }
+		#pac-container {
+		    border: 2px solid #ccc!important;
+		    border-radius: 0.4em;
+		    margin:auto;
+		    position: relative;
+		    background-color: #fff;
+			display: inline-block;
+			height: 24px;
+		}
+		#pac-input {
+		  background-color: #fff;
+		  font-size: 15px;
+		  font-weight: 300;
+		  padding: 0;
+		  text-overflow: ellipsis;
+		  width: 250px;
+		  border:0;outline:0;
+		}
+
+		#pac-input:focus {
+		   outline:none!important;
+		}
+		.fa-search {
+			color:lightgray;
+			display: inline-block;
+			margin-right: 4px;
+		}
+		div.settings {
+			display:none;
+		}
+		.modal {
+		  display: none; /* Hidden by default */
+		  position: fixed; /* Stay in place */
+		  z-index: 1000; /* Sit on top */
+		  left: 0;
+		  top: 0;
+		  width: 100%; /* Full width */
+		  height: 100%; /* Full height */
+		  overflow: auto; /* Enable scroll if needed */
+		  background-color: rgb(0,0,0); /* Fallback color */
+		  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+		.modal-content {
+		  background-color: #fefefe;
+		  margin: 15% auto; 
+		  padding: 0 20px 20px 20px;
+		  border: 1px solid #888;
+		  width: 80%; /* Could be more or less, depending on screen size */
+		  border: 2px solid #ccc!important;
+		  border-radius: 0.4em;
+		  max-width: 300px;
+		}
+		.modal-close {
+		  color: #aaa;
+		  float: right;
+		  font-size: 28px;
+		  font-weight: bold;
+		}
+		.modal-close:hover,
+		.modal-close:focus {
+		  color: black;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
      </style>    
 
 </head>
@@ -96,21 +160,34 @@
     </div>
     </div>
 
+    <div style="cursor: pointer;" id="searchBtn" class="dropdown">Search</div>
+
         <a href="about.html"> About&nbsp;Us</a>
     <div class="dropdown">
-    <div onclick="dropdown('DropdownSettings')" class="dropbtn current">Settings</div>
+    <div onclick="dropdown('DropdownSettings')" class="dropbtn current settings">Settings</div>
     <div id="DropdownSettings" class="dropdown-content">
        <a href="#" style="font-size:16px" onclick="toggleMotionDetection();"><span id="motioncheck">&#10003</span> Motion Detection</a>
        <a href="#" style="font-size:16px" onclick="toggleAccuracy();"><span id="accuracycheck">&#10003</span> High Accuracy</a>
     </div>
     </div>
+    
    </nav>
 </header>
 
 				
 	<div id="map">
 	</div>
-</body>
+	<div id="searchModal" class="modal">
+	  <div class="modal-content">
+	    <span id="closeModal" class="modal-close">&times;</span>
+	  	<h4>Search For Properties/Points of Interest</h4>
+	     <div id="pac-container" >
+			<input list="points" name="pac-input" id="pac-input" placeholder="Enter a property or place name" oninput="poiinput(this);"/>
+			<datalist id="points"></datalist>
+	     </div>
+	  </div>
+	</div>
+</div></body>
 
 <script>
 	var lc;
@@ -131,6 +208,42 @@
     	else e.style.display = "none";
     	}
     }
+
+ 	var searchmodal = document.getElementById("searchModal");
+	var searchbtn = document.getElementById("searchBtn");
+	var searchclose = document.getElementById("closeModal");
+	searchbtn.onclick = function() {searchmodal.style.display = "block";};
+	searchclose.onclick = function() {searchmodal.style.display = "none";};
+	var points = document.getElementById('points');
+	var poinames = [];
+	var poilocations = [];
+	for (var i = 0; i < markerData.features.length; ++i) {
+		var markerElementData =  markerData.features[i]
+		if ( markerElementData.properties.symbolid == 0 || markerElementData.properties.symbolid == 9) {
+			poinames.push(markerElementData.properties.name);
+		    poilocations[markerElementData.properties.name] = markerElementData.geometry.coordinates;
+		}
+	}
+	poinames.sort();
+	for (i=0; i < poinames.length; i++) {
+	    var option = document.createElement("option");
+		option.value = poinames[i];
+		points.appendChild(option);
+	}
+	function poiinput(ele) {
+	    var value = poilocations[ele.value];
+	    if (Array.isArray(value)) {
+	        searchmodal.style.display = "none";
+	        var plat = value[0];
+	        var plng = value[1];
+	        //console.log('location',plat,plng);
+	        // add a marker and set view
+	        var marker = L.marker([plat, plng],{}).addTo(map);
+	        map.setView([plat, plng], 16);
+	        ele.value = '';
+	    }
+	}
+
   	function main() {
      
 	var forInfoOnly = "For informational purposes only.<br>"
@@ -352,6 +465,12 @@
 
     	return false; // To disable default popup.
 	});	
+	
+	// dismiss the modal
+	window.onclick = function(event) {
+		if (event.target == searchmodal)
+		    searchmodal.style.display = "none";
+	}
 }
 
 window.onload = main;
