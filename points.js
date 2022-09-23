@@ -536,9 +536,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Gamlin Chrystal Spring",
+                "name": "Gamlin hrystal Spring",
                 "symbolid": 0,
-                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1782\">Gamlin Chrystal Spring</a> is mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting conservation properties."
+                "popupinfo": "<a href=\"http://www.gctrust.org/archives/1782\">Gamlin Crystal Spring</a> is mostly wooded, the valuable wildlife habitat features an old bog, meadows, historic cart paths, and stone cellar holes. A 14-acre portion of the property extends into Dunstable. Access provided by Blood Road, and numerous trails connect with abutting conservation properties."
             }
         },
         {
