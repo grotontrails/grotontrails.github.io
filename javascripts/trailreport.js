@@ -1,4 +1,4 @@
-    var reportemail = 'trails@grotonma.gov';
+    var reportemail = 'Groton.Trails.Network@gmail.com';
     
     function confirmTrailReport () {
         if (confirm("Report trail issues such as downed trees, damaged bridges, missing trail markers, flooded trails to the Groton Trails Committee?  The email will include your GPS location.") == true) {
