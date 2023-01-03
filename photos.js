@@ -702,7 +702,32 @@ var photoData = {
             "properties": {
                 "url": "images/bertozzi-turkey-print-snow.jpg",
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.53830707,
+                    42.64113758
+                ]
+            },
+            "properties": {
+                "url": "images/platform.jpg",
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.562082,
+                    42.6365737
+                ]
+            },
+            "properties": {
+                "url": "images/rock.jpg",
+            }
         }
-        
     ]
 }
