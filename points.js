@@ -1056,6 +1056,21 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.53830707,
+                    42.6415
+                ]
+            },
+            "properties": {
+                "name": "Wildlife Observation Deck",
+                "symbolid": 0,
+                "popupinfo": "Wildlife observation deck overlooking the Unkety Brook wetlands."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.540467,
                     42.640305
                 ]
