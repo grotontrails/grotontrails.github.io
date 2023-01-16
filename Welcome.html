@@ -90,7 +90,7 @@
     <section class="title">
         <p></p><img src="images/GTN.png" width="64px" height="64px"/>
         <H1>Groton Trails Network </H1>
-        <button type="button" style="font-size:2em;" onclick="window.location.href='Interactive_Maps.html'">Open Interactive Map</button>
+        <button class="onlymobile" type="button" style="font-size:2em;" onclick="window.location.href='Interactive_Maps.html?locate'">Open Interactive Map</button>
     </section>
     
     <section class="quote">
@@ -151,6 +151,7 @@
             
     <!-- this section from pages/menuscript.tmpl -->
 <script>
+		// const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
         function dropdown(id) {        
             if ( id != "DropdownProperties") {
                 document.getElementById("DropdownProperties").classList.remove("show")

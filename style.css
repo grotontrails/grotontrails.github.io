@@ -234,3 +234,11 @@ div.info.email {
     color:gray;
     background-color: white;
 }
+
+.onlymobile {
+    display:none;
+}
+@media only screen and (hover: none) and (pointer: coarse){
+.onlymobile {
+    display:inline-block;
+}
