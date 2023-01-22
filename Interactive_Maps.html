@@ -238,7 +238,7 @@
 	        var plng = value[1];
 	        //console.log('location',plat,plng);
 	        // add a marker and set view
-	        var marker = L.marker([plat, plng],{}).addTo(map);
+	        var marker = L.marker([plat, plng],{title: 'Inital Position'}).addTo(map);
 	        map.setView([plat, plng], 16);
 	        ele.value = '';
 	    }
@@ -423,7 +423,7 @@
 	  map.panTo( [ll[1],ll[2]] );
 	  map.setZoom(ll[0]);
 	  if (ll.length > 3) {
-	      var marker = L.marker([ll[1],ll[2]]).addTo(map);
+	      var marker = L.marker([ll[1],ll[2]],{title: 'Inital Position'}).addTo(map);
 	  }
 	} else {
       var pos = map.getCenter();
