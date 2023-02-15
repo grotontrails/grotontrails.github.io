@@ -36,6 +36,51 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
     <link rel="manifest" href="manifest.json">
+	<style>
+	.modal {
+	    display: none;
+	    margin: auto;
+	    z-index: 1; 
+	    padding-top: 20px; 
+		position: absolute;
+	    height: 485px; 
+	    overflow: auto; 
+	    background-color: rgb(0,0,0); 
+	    background-color: rgba(0,0,0,0.9); 
+	}
+	
+	.modal-content {
+	    margin: auto;
+	    overflow: auto; 
+	    display: block;
+	    width: 90%;
+	    max-width: 450px;
+	}
+	
+	.close {
+	    position: absolute;
+	    top: 15px;
+	    right: 35px;
+	    color: #111111;
+	    font-size: 40px;
+	    font-weight: bold;
+	    transition: 0.3s;
+	}
+	
+	.close:hover,
+	.close:focus {
+	    color: #bbb;
+	    text-decoration: none;
+	    cursor: pointer;
+	}
+	
+	
+	@media only screen and (max-width: 700px){
+	    .modal-content {
+	        width: 100%;
+	    }
+	}
+	</style>
 </head>
         
             
@@ -86,9 +131,12 @@
     </nav>
 </header>
 
-    
+	<div id="markersmodel" class="modal">
+		<span class="close" onclick="document.getElementById('markersmodel').style.display='none'">&times;</span>
+		<img class="modal-content" id="markersimg" src="images/markers.jpg">
+	</div>    
     <section class="title">
-        <p></p><img src="images/GTN.png" width="64px" height="64px"/>
+        <p></p><img id="marker" src="images/GTN.png" width="64px" height="64px"/>
         <H1>Groton Trails Network </H1>
         <button class="onlymobile" type="button" style="font-size:2em;" onclick="openInteractiveMap();">Open Interactive Map</button>
     </section>
@@ -196,6 +244,29 @@
     	}
         function mapShowPosition (position) {
         	window.location.href='Interactive_Maps.html'+'#map=15/'+position.coords.latitude.toString()+'/'+position.coords.longitude.toString()+"/mark";
+        }
+        
+        // trail markers modal
+        var modal = document.getElementById('markersmodel');
+        var img = document.getElementById('marker');
+        img.onclick = function(){
+            modal.style.display = "block";
+           var Mwidth = 426;
+            var Mheight = 505;
+            var Wwidth = window.innerWidth;
+            var Wheight = window.innerHeight;
+            
+            console.log (Mwidth,Mheight,Wwidth,Wheight);
+
+            modal.style.position = "absolute";
+            var t = ((Wheight - Mheight ) / 2 +window.pageYOffset );
+            var l = ((Wwidth - Mwidth) / 2 +window.pageXOffset );
+            if (t > 0) modal.style.top = t + "px";
+            if (l > 0) modal.style.left = l + "px";
+        }
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() {
+          modal.style.display = "none";
         }
 </script> 
         
