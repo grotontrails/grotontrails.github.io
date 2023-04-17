@@ -238,7 +238,7 @@
 	        var plng = value[1];
 	        //console.log('location',plat,plng);
 	        // add a marker and set view
-	        var marker = L.marker([plat, plng],{title: 'Inital Position'}).addTo(map);
+	        var marker = L.marker([plat, plng],{title: 'Marked Location'}).addTo(map);
 	        map.setView([plat, plng], 16);
 	        ele.value = '';
 	    }
@@ -423,7 +423,9 @@
 	  map.panTo( [ll[1],ll[2]] );
 	  map.setZoom(ll[0]);
 	  if (ll.length > 3) {
-	      var marker = L.marker([ll[1],ll[2]],{title: 'Inital Position'}).addTo(map);
+	      var title = (ll.length > 4) ? decodeURI(ll[4]) : 'Marked Location'; 
+	      console.log(title);
+	      var marker = L.marker([ll[1],ll[2]],{title: title}).addTo(map);
 	  }
 	} else {
       var pos = map.getCenter();

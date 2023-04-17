@@ -2829,9 +2829,9 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Jonh Tinker Accessible Trail",
+                "name": "John Tinker Accessible Trail",
                 "symbolid": 0,
-                "popupinfo": "The <a href=\"./light-walks.html\">Jonh Tinker Accessible Trail</a>."
+                "popupinfo": "The <a href=\"./light-walks.html\">John Tinker Accessible Trail</a>."
             }
         },     
        {

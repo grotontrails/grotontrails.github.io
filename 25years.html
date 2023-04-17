@@ -1,0 +1,288 @@
+<!DOCTYPE html> 
+<html lang="en">
+<!-- WARNING - this file is generated from scripts/gensite.py, please don't edit directly. Edit the xml files in pages/ -->
+<!-- Generated from scripts/gensite.py, please don't edit directly. Edit the source file in the pages directory. -->
+<!-- This section is from pages/header.tmpl  -->
+<head>
+    <title>GTC 25 Years</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="stylesheet" href="style.css" />  
+    <link rel="stylesheet" href="print.css" media="print"  />
+    
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+     
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+
+    <script src="javascripts/trailmap.js"></script>
+    
+    <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
+    <link rel="icon" sizes="32x32"   type="image/png" href="/images/GTN-green-32.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="/images/GTN-green-16.png" >
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/GTN-green-180.png">	
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/GTN-green-152.png">	
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/GTN-green-120.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/GTN-green-60.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
+
+    <link rel="manifest" href="manifest.json">
+</head>
+        
+
+<body> 
+
+<!-- this section from pages/nav.tmpl -->
+<header role="banner">
+    <nav>
+    <a href="Welcome.html">Welcome</a>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownMaps')" class="dropbtn current">Maps</div>
+    <div id="DropdownMaps" class="dropdown-content">
+        <a href="Interactive_Maps.html">Interactive Map</a>
+        <a href="groton-town-forest-map.html">Town Forest Map</a>   
+        <a href="long-trails-map.html">Long Trails Map</a>						                    
+        <a href="printed_maps.html"> Printable Maps</a>
+    </div>
+    </div>
+                    
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
+    <div id="DropdownActivities" class="dropdown-content">
+        <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
+        <a href="bird-watching.html">Bird&nbsp;Watching</a>
+       	<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
+        <a href="field-walks.html">Field&nbsp;Walks</a>
+       	<a href="glacial-hikes.html">Glacial&nbsp;Hikes</a>
+        <a href="horseback-riding.html">Horseback&nbsp;Riding</a>
+        <a href="kid-friendly-walks.html">Kid&nbsp;Friendly&nbsp;Walks</a>
+        <a href="leaf-peeping.html">Leaf&nbsp;Peeping</a>
+        <a href="light-walks.html">Light&nbsp;Walks</a>
+        <a href="mountain-biking.html">Mountain&nbsp;Biking&nbsp;Trails</a>
+        <a href="camping.html">Places&nbsp;To&nbsp;Camp</a>
+        <a href="places-to-get-lost.html">Places&nbsp;To&nbsp;Get&nbsp;Lost&nbsp;In</a>
+        <a href="swimming.html">Places&nbsp;to&nbsp;Swim</a>
+        <a href="river-walks.html">River&nbsp;Walks</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <div onclick="dropdown('DropdownProperties')" class="dropbtn current">Properties</div>
+    <div id="DropdownProperties" class="dropdown-content">
+        <a href="groton-town-forest.html">Groton&nbsp;Town&nbsp;Forest</a>
+    </div>
+    </div>
+
+        <a href="about.html"> About&nbsp;Us</a>
+    </nav>
+</header>
+
+        
+<section class="title">
+    <h1>Celebrate GTC 25 Years</h1>
+ </section>
+ <section class="post">
+    	<p style="max-width: 800px;">
+  		<img align="left" src="images/patch.png" width="128px" height="128px" style="margin-right:20px;" title="GTC 25 Years Commemorative Patch">
+   		Help us celebrate 25 years of the GTC by completing the quest for 25 locations.<br/>
+   		Visit the 25 location in the Groton tail system listed below, send us an email at <a href="mailto: Groton.Trails.Network@gmail.com">Groton.Trails.Network@gmail.com</a> and pickup your 25 year commemorative patch (shown on the left) at Groton Fest this fall.
+    	Supplies are limited.
+   	</p>
+</section>
+<br/>
+<br/>
+<section class="post">
+<ol type="1" id="questlist">
+</ol>
+</section>
+
+
+<br/><br/><br/>
+<footer>
+<p>Map &copy; <a href="https://www.mapbox.com">Mapbox</a>, <a href="https://openstreetmap.org">OpenStreetMap</a>, <a href="http://leafletjs.com">Leaflet</a>
+</footer>
+
+<script >
+function dropdown(id) {
+    if (id != "DropdownProperties") {
+        document.getElementById("DropdownProperties").classList.remove("show")
+    }
+    if (id != "DropdownActivities") {
+        document.getElementById("DropdownActivities").classList.remove("show")
+    }
+    if (id != "DropdownMaps") {
+        document.getElementById("DropdownMaps").classList.remove("show")
+    }
+    document.getElementById(id).classList.toggle("show");
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+var quest = [
+    {
+        "name": "Ames Pond",
+        "lng": -71.613992,
+        "lat": 42.597256
+    },
+    {
+        "name": "Baddacook Pond",
+        "lat": 42.620372349572264,
+        "lng":-71.53258323669435
+    },
+    {
+        "name": "Bancroft Castle and Gibbet Hill",
+        "photo": "images/gibbet-hill-cow.jpg",
+        "lng": -71.559818,
+        "lat": 42.608523
+    },
+    {
+        "name": "Bates Land",
+        "lng": -71.56330,
+        "lat": 42.59296
+    },
+   	{
+        "name": "Duck Pond Loop",
+        "lng": -71.51543,
+        "lat": 42.59208
+   	},
+   	{
+        "name": "Gamlin Crystal Spring",
+        "lng": -71.50450,
+        "lat": 42.62878
+   	},
+    {
+        "name": "General Field",
+        "lng": -71.58815,
+        "lat": 42.58426,
+    },
+    {
+        "name": "Groton Hills",
+        "lat": 42.62765853493052,
+        "lng":-71.54035091400148
+    },
+  	{
+        "name": "Groton Place and Groton School Boathouse",
+        "lng": -71.59630,
+        "lat": 42.60154
+   	},
+    {
+        "name": "High Dome",
+        "lng": -71.500885,
+        "lat": 42.600543
+    },
+   	{
+        "name": "Indian Rock",
+        "lng": -71.51352,
+        "lat": 42.62910
+   	},
+    {
+        "name": "John Tinker Accessible Trail",
+        "lng": -71.58385,
+        "lat": 42.63028
+    },
+    {
+        "name": "Nashua River Ox Bow",
+        "lng": -71.58656,
+        "lat": 42.63326
+    },
+    {
+        "name": "Perry Land Boulder",
+        "lat": 42.63657723609199,
+        "lng": -71.56206071376802
+    },
+    {
+        "name": "Rocky Hill Wildlife Sanctuary",
+        "lng": -71.53611,
+        "lat": 42.57841
+    },
+    {
+        "name": "Scarlett Hill",
+        "lng": -71.54865,
+        "lat": 42.60999
+    },
+    {
+        "name": "Shepley Hills",
+        "lng": -71.572322,
+        "lat": 42.630228
+    },
+   	{
+        "name": "Skinner Forest",
+        "lng": -71.510553,
+        "lat": 42.600415
+   	},
+   	{
+        "name": "Skitapet Conservation Area",
+        "lng": -71.52070,
+        "lat": 42.60484
+   	},   	
+    {
+        "name": "Soapstone Quarry.",
+        "lng": -71.573001,
+        "lat": 42.626383
+    },
+    {
+        "name": "Squannacook River Swimming Hole",
+        "lng": -71.657738,
+        "lat": 42.634591
+    },
+    {
+        "name": "Still Meadow / Wattles Pond",
+        "lng": -71.564822,
+        "lat": 42.651912
+    },
+    {
+        "name": "Throne Hill",
+        "lng": -71.627009,
+        "lat": 42.624326
+    },
+    {
+        "name": "Unkety Brook Wildlife Observation Deck",
+        "lng": -71.53830707,
+        "lat": 42.6415
+    },
+   	{
+        "name": "Wharton Plantation",
+        "lng": -71.52472,
+        "lat": 42.63118
+   	},
+];
+var ul = document.getElementById("questlist");
+for (var i = 0; i < quest.length; ++i) {
+    var li = document.createElement("li");
+    var inp = document.createElement("input");
+    inp.setAttribute("type", "checkbox")
+    //li.appendChild(inp);
+    //var img = document.createElement("img");
+    //img.setAttribute("src", "images/gibbet-hill-cow.jpg");
+    //img.setAttribute("width","100");
+    //li.appendChild(img);
+    var a = document.createElement("a");
+    a.setAttribute("href", "Interactive_Maps.html#map=16/" + quest[i].lat + "/" + quest[i].lng + "/marker/"+quest[i].name)
+    a.appendChild(document.createTextNode(quest[i].name));
+    li.appendChild(a);
+    ul.appendChild(li);
+}
+</script>
+
+</body>
+    
+</html>
