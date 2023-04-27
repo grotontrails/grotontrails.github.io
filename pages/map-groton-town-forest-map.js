@@ -13,7 +13,7 @@ function loadJSON(url, callback) {
 
 function main() {
 
-	var forInfoOnly = "For informational purposes only.<br>"
+	var forInfoOnly = "For general guidance purposes only.<br>Please respect private property.<br>"
     var osmAttrib = forInfoOnly + '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 	var mapboxAttrib = forInfoOnly + "&copy; <a href=\'https://www.mapbox.com/about/maps/\'>Mapbox</a> © <a href=\'http://www.openstreetmap.org/copyright\'>OpenStreetMap</a> <strong><a href=\'https://www.mapbox.com/map-feedback/\' target=\'_blank\'>Improve this map</a></strong>"
 	
