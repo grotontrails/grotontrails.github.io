@@ -34,6 +34,13 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/images/GTN-green-76.png" >
 
     <link rel="manifest" href="manifest.json">
+    <style>
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+    </style>
 </head>
         
 
@@ -57,6 +64,7 @@
     <div class="dropdown">
     <div onclick="dropdown('DropdownActivities')" class="dropbtn current">Activities</div>
     <div id="DropdownActivities" class="dropdown-content">
+        <a href="25years.html">25&nbsp;Places&nbsp;of&nbsp;Special&nbsp;Interest</a>
         <a href="accessible-trail-walks.html">Accessible&nbsp;Trail&nbsp;Walks</a>
         <a href="bird-watching.html">Bird&nbsp;Watching</a>
        	<a href="cross-country-skiing.html">Cross&nbsp;Country&nbsp;Skiing</a>
@@ -87,21 +95,11 @@
 
         
 <section class="title">
-    <h1>Celebrate the Groton Trails Committee’s 25th Year!</h1>
+	<p></p>
+  	<img src="images/patch.png" width="128px" height="128px" title="GTC 25 Years">
+    <h1>Top 25 Places of Special Interest in Groton</h1>
  </section>
- <section class="post">
-    	<p style="max-width: 800px;">
-  		<img align="left" src="images/patch.png" width="128px" height="128px" style="margin-right:20px;" title="GTC 25 Years Commemorative Patch">
-   		Help us celebrate by completing the quest for 25 locations along our trails.<br/>
-   		Visit the 25 locations in the Groton Trails Network listed below.  Then, send us an email at <a href="mailto: Groton.Trails.Network@gmail.com">Groton.Trails.Network@gmail.com</a> 
-   		and pickup your 25 year commemorative patch (shown on the left) at Groton Fest this September or at one of our meetings (the 3rd Tuesday of every 
-    	month). Check the Groton Town web site for meeting times and locations.
-    	Supplies are limited.
-   	</p>
-</section>
-<br/>
-<br/>
-<section class="post">
+<section class="post" style="margin-top:40px">
 <ol type="1" id="questlist">
 </ol>
 </section>
@@ -140,132 +138,132 @@ window.onclick = function(event) {
     }
 }
 var quest = [
+   	{
+        "name": "Duck Pond’s kettle pond at Buckingham Point",
+        "lng": -71.51543,
+        "lat": 42.59208
+   	},
     {
-        "name": "Ames Pond in Groton Town Forest",
-        "lng": -71.613992,
-        "lat": 42.597256
+        "name": "Sorhaug Woods’ Williams Barn & Bruce Clements memorial",
+        "lng": -71.55985593795778,
+        "lat": 42.62590130082693
     },
     {
-        "name": "Baddacook Pond Shoreline and Shattuck Homestead",
+        "name": "Hawtree Conservation Area’s Unkety Brook observation deck",
+        "lng": -71.53830707,
+        "lat": 42.6415
+    },
+   	{
+        "name": "Gamlin Crystal Spring’s Indian Rock Trail overlook",
+        "lng": -71.51352,
+        "lat": 42.62910
+   	},
+    {
+        "name": "Shattuck Homestead’s Baddacook Pond views",
         "lat": 42.620372349572264,
         "lng":-71.53258323669435
     },
     {
-        "name": "Bancroft Castle and Gibbet Hill",
+        "name": "Gibbet Hill’s summit - Grand Monadnock view, \"Bancroft Castle\"",
         "photo": "images/gibbet-hill-cow.jpg",
         "lng": -71.559818,
         "lat": 42.608523
     },
     {
-        "name": "Bates-Blackman Land Overlook",
-        "lng": -71.5641474723816,
-        "lat": 42.59202100285563
+        "name": "Scarlett Hill’s summit – Grand Monadnock, horse farm, & Boston towers views",
+        "lng": -71.54865,
+        "lat": 42.60999
+    },
+    {
+        "name": "Shepley Hill’s Soapstone Quarry",
+        "lng": -71.573001,
+        "lat": 42.626383
     },
    	{
-        "name": "Dead River in Groton Town Forest",
-        "lng": -71.60333991050722,
-        "lat": 42.58976245237535
+        "name": "Town Forest’s “triple point” for boundaries of Towns of Groton, Shirley, and Ayer at confluence of Nashua and Squannacook Rivers",
+        "lng": -71.6093534231186,
+        "lat": 42.581551042320996
    	},
    	{
-        "name": "Duck Pond",
-        "lng": -71.51543,
-        "lat": 42.59208
-   	},
-    {
-        "name": "Fitch’s Bridge",
-        "lng": -71.60890817642213,
-        "lat": 42.625472426597014
+        "name": "Town Forest’s Ames Pond",
+        "lng": -71.613992,
+        "lat": 42.597256
     },
    	{
-        "name": "Gamlin Crystal Spring Esker Trail",
-        "lng": -71.50450,
-        "lat": 42.62878
-   	},
-    {
-        "name": "General Field",
-        "lng": -71.58815,
-        "lat": 42.58426,
+        "name": "Town Forest‘s many kettle holes.",
+        "lng": -71.61292076110841,
+        "lat": 42.59562364698922
     },
     {
-        "name": "Hemlock Forest in the Baddacook Parcel",
-        "lat": 42.62904226700341,
-        "lng":-71.53959989547731
-    },
-  	{
-        "name": "Groton Place and Groton School Boathouse",
-        "lng": -71.59630,
-        "lat": 42.60154
-   	},
-    {
-        "name": "High Dome a Granite Outcrop in Flavell Crossing",
-        "lng": -71.500885,
-        "lat": 42.600543
-    },
-   	{
-        "name": "Indian Rock in Gamlin Crystal Spring",
-        "lng": -71.51352,
-        "lat": 42.62910
-   	},
-    {
-        "name": "John Tinker Accessible Trail",
+        "name": "Harry Rich State Forest’s John Tinker Accessible Trail",
         "lng": -71.58385,
         "lat": 42.63028
     },
     {
-        "name": "Nashua River Ox Bow",
-        "lng": -71.58656,
-        "lat": 42.63326
+        "name": "Fitch’s Bridge over the Nashua River at end of Ice Line Trail",
+        "lng": -71.60890817642213,
+        "lat": 42.625472426597014
     },
     {
-        "name": "Perry Land Monolith",
-        "lat": 42.63657723609199,
-        "lng": -71.56206071376802
-    },
-    {
-        "name": "Rocky Hill Wildlife Sanctuary Shelter Ledge	",
-        "lng": -71.5412735939026,
-        "lat": 42.574957729655914
-    },
-    {
-        "name": "Sand Dune in Cronin Parcel",
-        "lng": -71.57584190368654,
-        "lat": 42.64665803634225
-    },
-    {
-        "name": "Scarlet Hill",
-        "lng": -71.54865,
-        "lat": 42.60999
-    },
-   	{
-        "name": "Skitapet Kettle Holes",
-        "lng": -71.52070,
-        "lat": 42.60484
-   	},   	
-    {
-        "name": "Soapstone Quarry at Shepley Hill",
-        "lng": -71.573001,
-        "lat": 42.626383
-    },
-    {
-        "name": "Squannacook River Swimming Hole",
+        "name": "Bertozzi Conservation Area’s rapids and swimming hole on Squannacook River",
         "lng": -71.657738,
         "lat": 42.634591
     },
     {
-        "name": "Still Meadow and Wattles Pond",
-        "lng": -71.564822,
-        "lat": 42.651912
+        "name": "Groton School Pond along Nashua River Rail Trail",
+        "lng": -71.57568097114564,
+        "lat": 42.58954952362377
     },
     {
-        "name": "Unkety Brook Wildlife Observation Deck",
-        "lng": -71.53830707,
-        "lat": 42.6415
+        "name": "Bates-Blackman Land overlook of Groton Hill Music Center and Mt. Watatic",
+        "lng": -71.5641474723816,
+        "lat": 42.59202100285563
+    },
+    {
+        "name": "Perry Land’s Monolith",
+        "lat": 42.63657723609199,
+        "lng": -71.56206071376802
+    },
+    {
+        "name": "Rocky Hill Wildlife Sanctuary‘s owl nests",
+        "lng": -71.5412735939026,
+        "lat": 42.574957729655914
+    },
+    {
+        "name": "Cronin Conservation Area’s sand dune",
+        "lng": -71.57584190368654,
+        "lat": 42.64665803634225
+    },
+    {
+        "name": "Skinner Forest‘s esker (glacial feature) on Whitney Pond",
+        "lng": -71.51061058044435,
+        "lat": 42.600330448299005
     },
    	{
-        "name": "Wharton Plantation Heron Rookery",
+        "name": "Gamlin Crystal Spring’s Esker Trail",
+        "lng": -71.50450,
+        "lat": 42.62878
+   	},
+   	{
+        "name": "Wharton Plantation‘s Great Blue Heron rookery",
         "lng": -71.5267383,
         "lat": 42.6321976
    	},
+    {
+        "name": "Groton Place’s Bucky Dumaine & his horse Pat Rooney memorials",
+        "lat": 42.601784259837785,
+        "lng":-71.598978638649
+    },
+    {
+        "name": "Blackman Woods and Field – Matisse’s Forest Bells",
+        "lng": -71.54745340347291,
+        "lat": 42.58672078117004
+    },
+    {
+        "name": "General Field – view of Mt. Wachusett; working farm; sunset views",
+        "lng": -71.58815,
+        "lat": 42.58426,
+    },
 ];
 var ul = document.getElementById("questlist");
 for (var i = 0; i < quest.length; ++i) {
