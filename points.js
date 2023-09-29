@@ -1971,6 +1971,36 @@ var markerData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -71.55860066413881,
+                    42.651828381169395
+                ]
+            },
+            "properties": {
+                "name": "Nashua Rd. trail access",
+                "symbolid": 7,
+                "popupinfo": "Small off-street parking lot."
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.55475974082948,
+                    42.650961194163884
+                ]
+            },
+            "properties": {
+                "name": "Casella Preserve",
+                "symbolid": 0,
+                "popupinfo": "From Nashua Road, the trail follows an esker skirting Reedy Meadow.  Provides access to trails around the High School."
+            }
+        },
+       {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -71.568778,
                     42.653861
                 ]
