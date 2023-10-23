@@ -1976,7 +1976,7 @@ var markerData = {
                 ]
             },
             "properties": {
-                "name": "Nashua Rd. trail access",
+                "name": "Casella Preserve Nashua Rd. trail access",
                 "symbolid": 7,
                 "popupinfo": "Small off-street parking lot."
             }
