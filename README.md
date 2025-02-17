@@ -7,9 +7,8 @@ This is the website for the [ Groton Trails Network at www.grotontrails.org](htt
 The site is 100% static and is very easy to change. 
 1. Make a local clone using git or github. [Github has lots of documentation](https://docs.github.com/en/get-started/start-your-journey/hello-world) on how to do this. 
 2. Run a local webserver. Many web servers will work.
-	1. For Windows the [MiniWeb HTTP server](https://sourceforge.net/projects/miniweb/) 
-	2. Run the following command "miniweb.exe -r ..\grotontrails.github.io"
-  3. For Mac/Linux/Windows, `python -m http.server` or `python3 -m http.server 9000` 
+	- For Windows the [MiniWeb HTTP server](https://sourceforge.net/projects/miniweb/), work nicely. Run the following command `miniweb.exe -r ..\grotontrails.github.io`- You can use Python's built-in HTTP on Mac/Linux/Windows `python -m http.server` or `python3 -m http.server 9000`
+
 3. Create a new git branch `git checkout -b feature-update-etc`
 4. Commit and submit a pull request.
 
