@@ -437,6 +437,7 @@
 	map.on('moveend', updateURL );
     map.on('zoomend', updateURL );
 	map.on('zoomend', updateMarkers);
+	map.on('zoomend', updatePrivatePaths);
 	map.on('locationfound', onLocationFound);
 
 	updateMarkers();
