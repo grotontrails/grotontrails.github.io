@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="print.css" media="print"  />
 
     <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css" crossorigin=""/>
-	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>   
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>   
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"/>
 	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 
     <script src="javascripts/leaflet.easyPrint.js"></script>   
 	<script src="javascripts/privatepaths.js"></script>
-	<script src="javascripts/nordicPaths.js"></script>
+	<script src="javascripts/nordicpaths.js"></script>
 	<script src="javascripts/trailreport.js"></script>   
 
     <link rel="icon" sizes="196x196" type="image/png" href="/images/GTN-green-196.png" >
@@ -445,7 +445,7 @@
     var legend = L.control({position: 'topleft'});
     legend.onAdd = function (map) {
         var div = L.DomUtil.create('div', 'info legend');
-        div.innerHTML  = '<div class="leaflet-touch"><div class="leaflet-bar"><a class="leaflet-bar-part leaflet-bar-part-single" title="Send a trail status email" href="javascript:confirmTrailReport();" style="outline: currentcolor none medium;"><img src="images/email.jpg"></a></div></div>';
+        div.innerHTML  = '<div class="leaflet-touch"><div class="leaflet-bar"><a class="leaflet-bar-part leaflet-bar-part-single" title="Send a trail status email" href="javascript:confirmTrailReport();" style="outline: currentcolor none medium;"><i class="fa fa-envelope" style="font-size: 16px; line-height: 26px;"></i></a></div></div>';
         return div;
     };
     legend.addTo(map);
@@ -457,7 +457,7 @@
   	check('motioncheck',lc.options.showCompass);
    	check('accuracycheck',lc.options.locateOptions.enableHighAccuracy);
  	
-	map.addEventListener('mousemove', function(ev) {lat = ev.latlng.lat; lng = ev.latlng.lng;});
+	map.addEventListener('pointermove', function(ev) {lat = ev.latlng.lat; lng = ev.latlng.lng;});
 
 	document.getElementById("map").addEventListener("contextmenu", function (event) {
     	// Prevent the browser's context menu from appearing
