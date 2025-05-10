@@ -114,6 +114,7 @@
 <html>
 <body>
 	<script src="points.js"></script>
+	<script src="javascripts/points.js"></script>
 	<script src="photos.js"></script>
 	
 	<div class="page">
@@ -329,8 +330,10 @@
     L.control.scale().addTo(map);
 
     newMapBox.addTo(map);
-	
-    //var parkingIconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [16,16] } )
+
+    var parkingIconObj = L.icon({ iconUrl: 'images/parking.png',iconSize: [16,16] } )
+	var trailHeadIconObj = L.icon({ iconUrl: 'images/trainhead.svg', iconSize: [16,16]})
+
 	var smallDropIconObj = L.icon({ iconUrl: 'images/small-drop-marker.png', iconSize: [32,32]})
 
 	for (var i = 0; i < markerData.features.length; ++i) {
@@ -351,38 +354,47 @@
 		// 9 poi, castle
 
 		if ( markerElementData.properties.symbolid == 5 || markerElementData.properties.symbolid == 7) {
-
-			var parkingArray = markerElementData.geometry.coordinates;
-
-			var googleURL = "https://maps.google.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
-			var iosURL = "https://maps.apple.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
-			var bingURL = "https://bing.com/maps/default.aspx?rtp=~adr." + parkingArray[0].toString() + "," + parkingArray[1].toString();
-			var osmURL = "https://www.openstreetmap.org/#map=18/" + parkingArray[0].toString() + "/" + parkingArray[1].toString();
-
-			var directionsHTML = 
-			"<br>Directions: " + 
-			"<a href=\"" + googleURL + "\">Google</a>, " +
-			"<a href=\"" + iosURL + "\">Apple</a>, " +
-			"<a href=\"" + bingURL + "\">Bing</a>, " + 
-			"<a href=\"" + osmURL + "\">OSM</a>";
-
-			var iOS = ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0;			
-			if ( iOS) {
-				directionsHTML = "<br><a href=\"" + iosURL + "\">Directions to Here</a>"
-			}
-			var android = ['Android'].indexOf(navigator.platform) >= 0;
-			if ( android) {
-				directionsHTML = "<br><a href=\"" + googleURL + "\">Directions to Here</a>"
-			}
-
-			markerElementData.properties.popupinfo += directionsHTML; 
+			continue;  // use new marker data for parking and trail access
 		}
 
 		if ( markerElementData.properties.popupinfo.length > 0 ) {
 			marker.bindPopup(markerElementData.properties.popupinfo)
 		}
 	}
-    
+	for (var i = 0; i < newMarkerData.features.length; ++i) {
+		var markerElementData =  newMarkerData.features[i]
+		var marker;
+		if (markerElementData.properties.symbolid == 5)
+			marker = L.marker(markerElementData.geometry.coordinates.reverse(),{title: markerElementData.properties.name, icon: parkingIconObj })
+		else if (markerElementData.properties.symbolid == 7)
+			marker = L.marker(markerElementData.geometry.coordinates.reverse(),{title: markerElementData.properties.name, icon: trailHeadIconObj })
+		else
+			continue;
+		markerElementData.marker = marker
+		var parkingArray = markerElementData.geometry.coordinates;
+
+		var googleURL = "https://maps.google.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
+		var iosURL = "https://maps.apple.com/?daddr=" + parkingArray[0].toString() + "," + parkingArray[1].toString();
+		var bingURL = "https://bing.com/maps/default.aspx?rtp=~adr." + parkingArray[0].toString() + "," + parkingArray[1].toString();
+		var osmURL = "https://www.openstreetmap.org/#map=18/" + parkingArray[0].toString() + "/" + parkingArray[1].toString();
+
+		var directionsHTML = 
+		"<br><a href=\"" + googleURL + "\">Directions to Here</a>";
+
+		var iOS = ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0;			
+		if ( iOS) {
+			directionsHTML = "<br><a href=\"" + iosURL + "\">Directions to Here</a>"
+		}
+		var android = ['Android'].indexOf(navigator.platform) >= 0;
+		if ( android) {
+			directionsHTML = "<br><a href=\"" + googleURL + "\">Directions to Here</a>"
+		}
+		markerElementData.properties.popupinfo += directionsHTML; 
+		if ( markerElementData.properties.popupinfo.length > 0 ) {
+			marker.bindPopup(markerElementData.properties.popupinfo)
+		}
+	}
+   
 	if (typeof loadPrivatePaths === 'function') loadPrivatePaths();
 	if (typeof loadNordicPaths === 'function') loadNordicPaths();
    
@@ -392,6 +404,26 @@
 		for (var i = 0; i < markerData.features.length; ++i) {
 			var markerElementData =  markerData.features[i]
 			var minZoom = 14;
+			if ( markerElementData.properties.symbolid == 5 || markerElementData.properties.symbolid == 7) {
+				continue;  // use new marker data for parking and trail access
+			}
+
+			if ( markerElementData.properties.symbolid == 0) {
+				minZoom = 10;
+			}
+
+			if ( zoom > minZoom ) {
+				map.addLayer( markerElementData.marker)
+			} else {
+				map.removeLayer( markerElementData.marker )
+			}
+		}
+		for (var i = 0; i < newMarkerData.features.length; ++i) {
+			var markerElementData =  newMarkerData.features[i]
+			var minZoom = 14;
+			if ( markerElementData.properties.symbolid != 5 && markerElementData.properties.symbolid != 7) {
+				continue;  // use new marker data for parking and trail access
+			}
 
 			if ( markerElementData.properties.symbolid == 0) {
 				minZoom = 10;
